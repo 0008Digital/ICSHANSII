@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   turbopack: {
     rules: {
-      "*.css": {
+      // Only the application entry uses Tailwind. Upstream CSS stays on Next's native path.
+      "src/app/globals.css": {
         loaders: ["@tailwindcss/turbopack"],
         as: "*.css",
       },

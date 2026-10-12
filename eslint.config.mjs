@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Keep verified third-party output untouched by application lint rules.
+    "src/vendor/open-glass-ui/dist/**",
   ]),
 ]);
 

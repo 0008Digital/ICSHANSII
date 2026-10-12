@@ -1,0 +1,2 @@
+# Preserve verified upstream bytes on both Windows and Linux checkouts.
+src/vendor/open-glass-ui/** -text
