@@ -1,0 +1,11 @@
+# Demo role, chat, and monitoring boundaries
+
+The role preview stored in this browser is a navigation and presentation aid. It is not identity, authentication, permission enforcement, or a source of trusted centre assignments. Hiding a route or disabling a control in React does not secure a record. Before institutional data is loaded, route handlers and database policies must verify the authenticated user's role, centre membership, and resource scope on every operation.
+
+Chat defaults deny role access. Demo conversations, permission changes, report status, messages, and moderation review are in-memory fictional previews. The rule checks are intentionally small examples; they cannot reliably classify abuse, context, harassment, sexual content, threats, hate speech, or spam and must never punish a user. A production design needs message validation and rate limits on the server, explicit room membership, batch assignment checks, moderation provider configuration, human review and appeal, and immutable audit events for hides, membership changes, and role grants.
+
+Student send/read permissions and room overrides must be enforced server-side, including direct reads and API requests. Sender identity must come from the authenticated profile joined to its authorized student record; user-entered names are not identity. Teachers may review incidents only for verified assigned batches. Centre Admin and Manager permissions require centre grants. Platform Owner receives technical alert metadata only by default; viewing message content requires a centre-authorized, time-bounded support grant and an auditable access event.
+
+The monitoring adapter is provider-neutral and currently configured as `null`. No client or server errors are submitted. A future ingestion service needs authenticated, rate-limited ingestion; sensitive-value redaction before storage; deduplication; retention limits; access audit; and no passwords, tokens, payment credentials, student records, or page contents. Service health remains `Not configured` or `Unknown` until verified by a trusted service check.
+
+Bug reports currently create a local preview only. Optional screenshot selection reads metadata only and does not upload or persist the file. The reporter sees no server ticket ID because no backend submission exists.

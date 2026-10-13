@@ -1,0 +1,29 @@
+{
+  "sourceCommit": "4943bbfd5611fe211cccf4b50c384345468d635b",
+  "sourcePaths": [
+    "apps/showcase/src/landing-page.tsx",
+    "apps/showcase/src/landing-page.css",
+    "apps/showcase/public/assets/"
+  ],
+  "sha256": {
+    "architectural-contrast.jpg": "b3f1b39baf120a005e2009a92d8da5416ec12089d4e6dfeffc834869a2f743f2",
+    "motion-source.mp4": "9e1720340fffa35996fff6bc81d8c4116275c00c4e04585d10ba4b431afbfadc",
+    "motion-poster.png": "946c5f315b755a9bbfd138bef1a6b18cb82d8b8dcaa033aee9b6fe1d760dd70f"
+  },
+  "license": "LICENSE.txt",
+  "note": "Selected showcase assets and scoped CSS; UI distribution remains unchanged.",
+  "derivedAssets": {
+    "motion-poster.png": {
+      "source": "motion-source.mp4",
+      "frame": "first decoded frame at 00:00:00.000",
+      "dimensions": "960x540",
+      "extraction": "Windows Presentation Foundation MediaElement and RenderTargetBitmap"
+    }
+  },
+  "sourceSha256": {
+    "apps/showcase/src/landing-page.css": "6d318746d8cd1ca94c5e46a7157b6bebe2d6d3c87d1f5c2fce35154e00355e72",
+    "apps/showcase/src/landing-page.tsx": "df0d0b368869c587a5568d6bdc61862f244c2f7be82e77fea9c7b835bc344614",
+    "LICENSE": "2d376a7fe88c7f5860a5ecdc72aad9153ed0b1d53ac90e357680a91a59dcf457",
+    "CREDITS.md": "a41e78959cc577fac0d091295c455ca858ee768517b9595ba95157774c614033"
+  }
+}

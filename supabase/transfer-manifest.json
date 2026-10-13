@@ -1,0 +1,108 @@
+{
+  "sourceDirectory": "C:\\Projects\\icshansi",
+  "sourceGitHead": "4bc8667a9cb0948a74ba7698b633922d5587a7df",
+  "sourceGitNote": "The approved supabase directory was untracked at inspection; per-file hashes identify this snapshot.",
+  "hashAlgorithm": "SHA-256",
+  "files": [
+    {
+      "path": "supabase/migrations/202610100001_identity_foundation.sql",
+      "sourceSha256": "E9D1A49032BF016CEED75065E2835CB399E90DF46A36737343EF4C534423BB40",
+      "destinationSha256AtCopy": "E9D1A49032BF016CEED75065E2835CB399E90DF46A36737343EF4C534423BB40",
+      "copyVerified": true,
+      "finalDestinationSha256": "E9D1A49032BF016CEED75065E2835CB399E90DF46A36737343EF4C534423BB40",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/migrations/202610100002_integrity_guards.sql",
+      "sourceSha256": "33C79B346938563A1089548D0F5D0D460E7A7A3076D30F24DAF5A731B5BC7E47",
+      "destinationSha256AtCopy": "33C79B346938563A1089548D0F5D0D460E7A7A3076D30F24DAF5A731B5BC7E47",
+      "copyVerified": true,
+      "finalDestinationSha256": "33C79B346938563A1089548D0F5D0D460E7A7A3076D30F24DAF5A731B5BC7E47",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/migrations/202610120003_centre_batch_foundation.sql",
+      "sourceSha256": "AC5B3604C1FC5A74FF5D778492FFAC0BD08041403A24389383A8EF763FC231B4",
+      "destinationSha256AtCopy": "AC5B3604C1FC5A74FF5D778492FFAC0BD08041403A24389383A8EF763FC231B4",
+      "copyVerified": true,
+      "finalDestinationSha256": "AC5B3604C1FC5A74FF5D778492FFAC0BD08041403A24389383A8EF763FC231B4",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/migrations/202610120004_private_allocation.sql",
+      "sourceSha256": "6D4F4DE67B1742DE9DC67D050BC5914481094C653ED92F8BC515C0432DD15141",
+      "destinationSha256AtCopy": "6D4F4DE67B1742DE9DC67D050BC5914481094C653ED92F8BC515C0432DD15141",
+      "copyVerified": true,
+      "finalDestinationSha256": "6D4F4DE67B1742DE9DC67D050BC5914481094C653ED92F8BC515C0432DD15141",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/migrations/202610120005_direct_write_guards.sql",
+      "sourceSha256": "7ACA5EE4EE2EEEBE9F67E9CBD8FD488D5A8E29BB38F9A72DA403917D193AB7C4",
+      "destinationSha256AtCopy": "7ACA5EE4EE2EEEBE9F67E9CBD8FD488D5A8E29BB38F9A72DA403917D193AB7C4",
+      "copyVerified": true,
+      "finalDestinationSha256": "7ACA5EE4EE2EEEBE9F67E9CBD8FD488D5A8E29BB38F9A72DA403917D193AB7C4",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/tests/foundation.sql",
+      "sourceSha256": "7DCF904DB186959117A428DDD3A3720CD4EF30228CCD7A22D91A23C517BB2D71",
+      "destinationSha256AtCopy": "7DCF904DB186959117A428DDD3A3720CD4EF30228CCD7A22D91A23C517BB2D71",
+      "copyVerified": true,
+      "finalDestinationSha256": "7DCF904DB186959117A428DDD3A3720CD4EF30228CCD7A22D91A23C517BB2D71",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/tests/local-auth-shim.sql",
+      "sourceSha256": "A68C03DE4E7EBE9953A469664E54A4E4DAE829299800755B38E3FBEF536DB274",
+      "destinationSha256AtCopy": "A68C03DE4E7EBE9953A469664E54A4E4DAE829299800755B38E3FBEF536DB274",
+      "copyVerified": true,
+      "finalDestinationSha256": "A68C03DE4E7EBE9953A469664E54A4E4DAE829299800755B38E3FBEF536DB274",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/tests/run_disposable.py",
+      "sourceSha256": "3DCED6AF2825955AA0681259CD5D38CDBDD9AAC4B3685A50514C63CEEA4C71EB",
+      "destinationSha256AtCopy": "3DCED6AF2825955AA0681259CD5D38CDBDD9AAC4B3685A50514C63CEEA4C71EB",
+      "copyVerified": true,
+      "finalDestinationSha256": "3DCED6AF2825955AA0681259CD5D38CDBDD9AAC4B3685A50514C63CEEA4C71EB",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/tests/allocation-review.md",
+      "sourceSha256": "EA70570CB34D650897D8D60109F926F714AFAC11F4477B56843F5855BA386303",
+      "destinationSha256AtCopy": "EA70570CB34D650897D8D60109F926F714AFAC11F4477B56843F5855BA386303",
+      "copyVerified": true,
+      "finalDestinationSha256": "EA70570CB34D650897D8D60109F926F714AFAC11F4477B56843F5855BA386303",
+      "intentionallyUpdatedAfterCopy": false
+    },
+    {
+      "path": "supabase/README.md",
+      "sourceSha256": "9BCFC2205199F8BEDA3D1187684FA9022C68AB6298422413EFCA0962CF2B0843",
+      "destinationSha256AtCopy": "9BCFC2205199F8BEDA3D1187684FA9022C68AB6298422413EFCA0962CF2B0843",
+      "copyVerified": true,
+      "finalDestinationSha256": "EE8EBF7FDC1D0EF90C4256C15FA47B052F09A91B5799B75B98FFFE588A7EF28C",
+      "intentionallyUpdatedAfterCopy": true
+    }
+  ],
+  "validation": {
+    "runner": "supabase/tests/run_disposable.py",
+    "python": "3.12.0",
+    "postgresql": "18.6",
+    "assertionGroupsPassed": 52,
+    "exitCode": 0,
+    "clusterStopped": true,
+    "sequence": [
+      "202610100001_identity_foundation.sql",
+      "202610100002_integrity_guards.sql",
+      "tests/foundation.sql (rollback-only)",
+      "tests/local-auth-shim.sql (disposable only)",
+      "202610120003_centre_batch_foundation.sql",
+      "202610120004_private_allocation.sql",
+      "202610120005_direct_write_guards.sql",
+      "final behavior/security/concurrency assertions"
+    ],
+    "log": ".next/supabase-foundation-test.log",
+    "limitations": "Local PostgreSQL with Auth shim only; no real Supabase Auth/JWT/PostgREST or production policies verified."
+  }
+}

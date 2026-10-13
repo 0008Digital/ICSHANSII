@@ -1,0 +1,17 @@
+{"stage":"audit","path":"/students/DEMO-001","doc":310,"overflows":[{"cls":"","right":795,"tag":"TABLE","x":35},{"cls":"","right":795,"tag":"THEAD","x":35},{"cls":"","right":795,"tag":"TR","x":35},{"cls":"","right":430,"tag":"TH","x":206},{"cls":"","right":557,"tag":"TH","x":430},{"cls":"","right":701,"tag":"TH","x":557},{"cls":"","right":795,"tag":"TH","x":701},{"cls":"","right":795,"tag":"TBODY","x":35}],"title":"Aarav Example","width":320}
+{"stage":"audit","path":"/students/DEMO-001/edit","doc":310,"overflows":[],"title":"Edit student details","width":320}
+{"stage":"audit","path":"/batches","doc":310,"overflows":[],"title":"Batches","width":320}
+{"stage":"audit","path":"/fees","doc":310,"overflows":[{"cls":"","right":407,"tag":"BUTTON","x":287},{"cls":"","right":351,"tag":"SMALL","x":299}],"title":"Fees","width":320}
+{"stage":"audit","path":"/attendance","doc":310,"overflows":[],"title":"Attendance","width":320}
+{"stage":"audit","path":"/staff","doc":310,"overflows":[],"title":"Staff","width":320}
+{"stage":"audit","path":"/tests-results","doc":310,"overflows":[],"title":"Tests & Results","width":320}
+{"stage":"audit","path":"/homework","doc":310,"overflows":[],"title":"Homework","width":320}
+{"stage":"audit","path":"/ics-updates","doc":310,"overflows":[],"title":"ICS Updates","width":320}
+{"stage":"audit","path":"/audit-logs","doc":310,"overflows":[],"title":"Audit Logs","width":320}
+{"stage":"audit","path":"/ledger","doc":310,"overflows":[],"title":"Ledger","width":320}
+{"stage":"audit","path":"/chatrooms","doc":310,"overflows":[{"cls":"chat-room-option","right":416,"tag":"BUTTON","x":291},{"cls":"","right":406,"tag":"STRONG","x":301},{"cls":"","right":406,"tag":"SMALL","x":301},{"cls":"chat-room-option","right":547,"tag":"BUTTON","x":422},{"cls":"","right":537,"tag":"STRONG","x":432},{"cls":"","right":537,"tag":"SMALL","x":432}],"title":"Chatrooms","width":320}
+{"stage":"audit","path":"/settings","doc":310,"overflows":[{"cls":"landing-backdrop__glow landing-backdrop__glow--b","right":299,"tag":"SPAN","x":-6},{"cls":"landing-backdrop__contours","right":372,"tag":"SPAN","x":-62}],"title":"Settings","width":320}
+{"stage":"audit","path":"/teacher-dashboard","doc":310,"overflows":[],"title":"Teacher Dashboard","width":320}
+{"stage":"audit","path":"/student-portal","doc":310,"overflows":[{"cls":"","right":376,"tag":"A","x":327},{"cls":"","right":441,"tag":"A","x":384},{"cls":"","right":528,"tag":"A","x":449},{"cls":"","right":622,"tag":"A","x":536},{"cls":"","right":710,"tag":"A","x":630},{"cls":"","right":819,"tag":"A","x":718}],"title":"Student Home","width":320}
+{"stage":"after","path":"/student-portal","active":["Home"],"client":310,"doc":310,"overflow":false,"source":"motion","theme":"light","title":"Student Home","width":320}
+{"stage":"after","path":"/developer","active":["Developer Console"],"client":310,"doc":310,"overflow":false,"source":"motion","theme":"light","title":"Developer Console","width":320}

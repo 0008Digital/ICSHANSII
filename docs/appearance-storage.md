@@ -1,0 +1,13 @@
+# Local appearance and wallpapers
+
+The existing canonical appearance store holds only small, validated JSON in localStorage. Uploaded bytes never go into localStorage and are never sent to a server. Custom settings contain a generated media ID, type, three hex gradient colors, animation speed, dimming, blur, cover/contain fit and vertical position.
+
+IndexedDB `ics-hansi-wallpaper`, version 1, store `media`, holds Blob records under generated IDs. Apply writes and commits a new Blob before publishing its reference. Metadata is committed last in the preference write sequence. A failed settings write rolls back the draft and removes the newly written Blob; the previous saved record is retained. Only a successful Apply prunes older records. Remove clears the reference and deletes stored records, restoring the default gradient; cleanup errors remain visible and Remove can be retried. Reset previews defaults without changing the applied background.
+
+The provider restores one shared object URL and revokes it on replacement/unmount. Draft URLs are separately owned and revoked on replacement, Apply, Reset, Remove and unmount. Missing, corrupt, blocked or evicted media falls back to a gradient and provides recovery feedback in Appearance. Database opens/transactions have bounded timeouts and abort on failure. Browser/profile clearing, quota restrictions and eviction can remove locally saved media; storage is origin-specific and is not a backup.
+
+Validation checks MIME type, file signature, byte size and browser decoding. JPG/PNG/WebP: at most 20 MiB and 24 megapixels. MP4/WebM: at most 60 MiB, Full HD pixel count and ten minutes. Codec support depends on the browser. SVG/HTML, external URLs and executable color strings are not accepted. Videos are muted. Scene Motion, reduced-motion preferences and hidden-document video pausing apply to custom scenes. Blur is bounded to 20px and speed to 0.25–2×. Readable management panels retain their existing solid materials.
+
+Browser QA reproduced JPG, PNG, WebP and MP4 upload/apply/refresh; gradient editing/apply/refresh; corrupt/invalid files; reset/removal; actual video and gradient pause; Light/Dark and responsive layouts. WebM signatures are unit-tested, but a real WebM codec fixture was not available for browser QA. Quota/denied-storage branches are tested through injected failures rather than filling browser storage. Physical mobile Safari, OS reduced-motion switching and storage eviction were not emulated.
+
+Run `node --test scripts/*.test.mjs`, TypeScript, ESLint, the production build and `node scripts/verify-openglass.mjs` for validation. No backend dependency or vendor changes are required.

@@ -2,8 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  devIndicators: false,
+  // Request-time appearance cookies personalize the shell; do not prerender a default shell.
+  cacheComponents: false,
   turbopack: {
     rules: {
       // Only the application entry uses Tailwind. Upstream CSS stays on Next's native path.

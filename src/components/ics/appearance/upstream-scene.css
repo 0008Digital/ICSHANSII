@@ -1,0 +1,299 @@
+/* Adapted from OpenGlass landing-page.css. Copyright (c) 2026 Moe Luker; MIT. See public/open-glass-scenes/LICENSE.txt. */
+.appearance-scene .landing-backdrop,
+.appearance-scene .landing-backdrop::after {
+  position: absolute;
+  inset: 0;
+}
+
+.appearance-scene .landing-backdrop {
+  overflow: hidden;
+  background: #11191a;
+}
+
+.appearance-scene .landing-backdrop::after {
+  background:
+    linear-gradient(120deg, rgb(5 7 8 / 0.35), transparent 45%, rgb(5 7 8 / 0.18)),
+    radial-gradient(circle at 50% 110%, transparent, rgb(3 4 5 / 0.62));
+  content: "";
+}
+
+.appearance-scene .landing-backdrop img,
+.appearance-scene .landing-backdrop__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(calc(0.78 + var(--landing-intensity, 0.78) * 0.42))
+    contrast(calc(0.92 + var(--landing-intensity, 0.78) * 0.17));
+  transform: scale(1.035);
+}
+
+.appearance-scene .landing-backdrop--photo img {
+  object-position: 60% 50%;
+}
+
+.appearance-scene .landing-backdrop--topography {
+  background:
+    repeating-radial-gradient(
+      ellipse at 68% 40%,
+      transparent 0 22px,
+      rgb(241 240 230 / 0.12) 23px 24px,
+      transparent 25px 42px
+    ),
+    radial-gradient(ellipse at 68% 40%, #377e82, #182326 37%, #0c0f10 70%);
+}
+
+.appearance-scene .landing-backdrop--chroma {
+  background:
+    radial-gradient(ellipse at 72% 42%, rgb(255 117 84 / 0.92), transparent 26%),
+    radial-gradient(ellipse at 48% 62%, rgb(49 179 188 / 0.86), transparent 32%),
+    linear-gradient(135deg, #20272b, #090b0c 72%);
+}
+
+.appearance-scene .landing-backdrop__grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.055) 1px, transparent 1px);
+  background-size: 3rem 3rem;
+  opacity: 0.45;
+  mask-image: linear-gradient(to bottom, rgb(0 0 0 / 0.65), transparent 88%);
+}
+
+.appearance-scene .landing-backdrop__glow {
+  position: absolute;
+  width: 14rem;
+  height: 19rem;
+  border-radius: 58% 42% 66% 34% / 43% 58% 42% 57%;
+  filter: blur(30px);
+  mix-blend-mode: screen;
+  opacity: calc(0.18 + var(--landing-intensity, 0.78) * 0.28);
+}
+
+.appearance-scene .landing-backdrop__glow--a {
+  top: 5%;
+  right: 4%;
+  background: #ff6547;
+  transform: rotate(-24deg);
+}
+
+.appearance-scene .landing-backdrop__glow--b {
+  bottom: -8%;
+  left: 8%;
+  background: #2fb5bd;
+  transform: rotate(31deg);
+}
+
+.appearance-scene .landing-backdrop__contours {
+  position: absolute;
+  inset: -10%;
+  border-radius: 50%;
+  background: repeating-radial-gradient(
+    ellipse at 62% 47%,
+    transparent 0 17px,
+    rgb(255 255 255 / 0.095) 18px 19px,
+    transparent 20px 37px
+  );
+  opacity: 0;
+  transform: rotate(-14deg) scale(1.25);
+}
+
+.appearance-scene .landing-backdrop--topography .appearance-scene .landing-backdrop__contours {
+  opacity: 1;
+}
+
+.appearance-scene .landing-shape {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  margin: 0;
+  padding: 0;
+  appearance: none;
+  color: inherit;
+  cursor: pointer;
+  opacity: calc(0.88 + var(--blob-energy, 0) * 0.12);
+  outline: 0;
+  --blob-energy: 0;
+  scale: 1;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease,
+    opacity 180ms ease,
+    scale 180ms ease;
+}
+
+.appearance-scene .landing-shape:hover,
+.appearance-scene .landing-shape:focus-visible {
+  z-index: 5;
+  filter: brightness(1.1) saturate(1.22);
+  scale: 1.045;
+  --blob-energy: 0.65;
+}
+
+.appearance-scene .landing-shape[aria-pressed="true"] {
+  z-index: 5;
+  filter: brightness(1.13) saturate(1.32);
+  scale: 1.065;
+  --blob-energy: 1;
+}
+
+.appearance-scene .landing-shape:focus-visible {
+  outline: 2px solid rgb(255 255 255 / 0.85);
+  outline-offset: 5px;
+}
+
+.appearance-scene .landing-shape:hover,
+.appearance-scene .landing-shape[aria-pressed="true"] {
+  animation-duration: 6.5s;
+}
+
+.appearance-scene .landing-shape--spectral {
+  top: 7%;
+  right: 8%;
+  width: 15rem;
+  height: 12rem;
+  border: 1px solid rgb(255 255 255 / 0.34);
+  border-radius: 44% 56% 69% 31% / 57% 38% 62% 43%;
+  background:
+    linear-gradient(135deg, rgb(255 255 255 / 0.18), rgb(255 255 255 / 0.015)),
+    radial-gradient(circle at 29% 30%, rgb(255 126 88 / 0.5), transparent 44%),
+    radial-gradient(circle at 73% 70%, rgb(35 174 184 / 0.5), transparent 50%);
+  box-shadow:
+    inset 0 0 26px rgb(255 255 255 / 0.12),
+    inset 16px 12px 30px rgb(242 91 61 / 0.13),
+    inset -15px -12px 30px rgb(46 179 184 / 0.12),
+    0 18px 55px rgb(3 5 6 / 0.22);
+  backdrop-filter: blur(12px) saturate(145%);
+  animation: landing-morph-b 11s cubic-bezier(0.45, 0, 0.25, 1) infinite alternate;
+}
+
+.appearance-scene .landing-shape--spectral::before,
+.appearance-scene .landing-shape--spectral::after {
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  content: "";
+  opacity: 0.55;
+  mix-blend-mode: screen;
+}
+
+.appearance-scene .landing-shape--spectral::before {
+  border-left: 2px solid rgb(255 96 70 / 0.85);
+  transform: translateX(-3px);
+}
+
+.appearance-scene .landing-shape--spectral::after {
+  border-right: 2px solid rgb(53 196 204 / 0.8);
+  transform: translateX(3px);
+}
+
+.appearance-scene .landing-shape--spectral i {
+  position: absolute;
+  top: 18%;
+  left: 23%;
+  width: 33%;
+  height: 12%;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.36);
+  filter: blur(7px);
+  transform: rotate(-16deg);
+}
+
+.appearance-scene .landing-shape--clear {
+  right: 10%;
+  bottom: 10%;
+  width: 11rem;
+  height: 16rem;
+  border: 1px solid rgb(255 255 255 / 0.27);
+  border-radius: 63% 37% 48% 52% / 34% 64% 36% 66%;
+  background:
+    radial-gradient(ellipse at 25% 20%, rgb(255 255 255 / 0.16), transparent 38%),
+    radial-gradient(ellipse at 76% 79%, rgb(56 187 192 / 0.055), transparent 42%),
+    linear-gradient(150deg, rgb(255 255 255 / 0.19), rgb(255 255 255 / 0.025));
+  box-shadow:
+    inset 12px 14px 24px rgb(255 255 255 / 0.1),
+    inset -13px -16px 22px rgb(0 0 0 / 0.12);
+  backdrop-filter: blur(15px) saturate(140%);
+  animation: landing-morph-b 13s cubic-bezier(0.45, 0, 0.25, 1) infinite alternate;
+  transform: rotate(21deg);
+}
+
+.appearance-scene .landing-shape--clear i {
+  position: absolute;
+  top: 9%;
+  right: 10%;
+  width: 58%;
+  height: 25%;
+  border-radius: 66% 34% 58% 42% / 52% 64% 36% 48%;
+  background: radial-gradient(
+    ellipse at 46% 48%,
+    rgb(255 255 255 / 0.58) 0,
+    rgb(255 255 255 / 0.25) 22%,
+    rgb(255 255 255 / 0.08) 46%,
+    transparent 72%
+  );
+  filter: blur(4.5px);
+  mix-blend-mode: screen;
+  opacity: 0.82;
+  transform: rotate(-18deg);
+}
+
+.appearance-scene .landing-shape--clear i::before,
+.appearance-scene .landing-shape--clear i::after {
+  position: absolute;
+  border-radius: 999px;
+  content: "";
+}
+
+.appearance-scene .landing-shape--clear i::before {
+  top: 4%;
+  left: 12%;
+  width: 58%;
+  height: 58%;
+  background: radial-gradient(
+    ellipse,
+    rgb(255 255 255 / 0.68),
+    rgb(255 255 255 / 0.2) 34%,
+    transparent 72%
+  );
+  filter: blur(2.5px);
+}
+
+.appearance-scene .landing-shape--clear i::after {
+  top: 29%;
+  right: 13%;
+  width: 0.45rem;
+  height: 0.24rem;
+  background: rgb(255 255 255 / 0.72);
+  box-shadow: 0 0 10px rgb(255 255 255 / 0.58);
+  filter: blur(0.8px);
+}
+
+@keyframes landing-morph-a {
+  0% {
+    border-radius: 44% 56% 69% 31% / 57% 38% 62% 43%;
+    transform: rotate(-8deg) scale(0.985);
+  }
+  46% {
+    border-radius: 62% 38% 43% 57% / 34% 63% 37% 66%;
+    transform: rotate(3deg) scale(1.025);
+  }
+  100% {
+    border-radius: 37% 63% 55% 45% / 65% 42% 58% 35%;
+    transform: rotate(9deg) scale(0.995);
+  }
+}
+
+@keyframes landing-morph-b {
+  0% {
+    border-radius: 63% 37% 48% 52% / 34% 64% 36% 66%;
+  }
+  52% {
+    border-radius: 45% 55% 67% 33% / 58% 36% 64% 42%;
+  }
+  100% {
+    border-radius: 56% 44% 36% 64% / 41% 61% 39% 59%;
+  }
+}
+

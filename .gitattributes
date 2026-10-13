@@ -1,2 +1,5 @@
 # Preserve verified upstream bytes on both Windows and Linux checkouts.
 src/vendor/open-glass-ui/** -text
+# Preserve the transferred SQL baseline and regression fixtures byte-for-byte.
+supabase/migrations/** -text
+supabase/tests/** -text
