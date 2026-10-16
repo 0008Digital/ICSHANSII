@@ -1,0 +1,280 @@
+[
+  {
+    "name": "studentB/320: destination /student-portal",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#batch",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "/student-portal#batch"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1078.333251953125,
+      "target": {
+        "bottom": 286.1197814941406,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 190.1302032470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 190.1302032470703
+      },
+      "url": "http://localhost:3000/student-portal#batch",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#attendance",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "/student-portal#attendance"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1184.1666259765625,
+      "target": {
+        "bottom": 286.2760314941406,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 190.2864532470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 190.2864532470703
+      },
+      "url": "http://localhost:3000/student-portal#attendance",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#results",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#profile",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 322.57810974121094,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 226.58853149414065,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 226.58853149414065
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#homework",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 428.5677032470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 332.578125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 332.578125
+      },
+      "url": "http://localhost:3000/student-portal#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#fees",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#fees"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1396.6666259765625,
+      "target": {
+        "bottom": 285.7552032470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.765625,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.765625
+      },
+      "url": "http://localhost:3000/student-portal#fees",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /student-portal#updates",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#updates"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 534.5572662353516,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 438.5676879882813,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 438.5676879882813
+      },
+      "url": "http://localhost:3000/student-portal#updates",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /chatrooms",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/chatrooms"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/chatrooms",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: destination /settings",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=navigation[name=\"More student sections\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=navigation[name=\\\"More student sections\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "studentB-320-destination-settings.jpg"
+  }
+]

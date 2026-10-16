@@ -1,0 +1,1956 @@
+{
+  "rows": [
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Admissions trend",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 765.6119384765625
+        },
+        {
+          "text": "Financial overview",
+          "top": 912.2135009765624
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1098.4244384765625
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 317.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 958.2551879882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 555.8333129882812,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Admissions trend",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 765.6119384765625
+        },
+        {
+          "text": "Financial overview",
+          "top": 912.2135009765624
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1098.4244384765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Dashboard",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 324.1666564941406
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 958.2551879882812
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 555,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Daily admissions",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Renewal queue preview",
+          "top": 788.0989379882812
+        },
+        {
+          "text": "Recent Activity",
+          "top": 945.859375
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 234.16665649414065
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 214.99998474121097,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Daily admissions",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Renewal queue preview",
+          "top": 788.0989379882812
+        },
+        {
+          "text": "Recent Activity",
+          "top": 945.859375
+        }
+      ],
+      "theme": "dark",
+      "title": "Dashboard",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 234.16665649414065
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 204.99998474121097,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "SIMULATED Sample reports only. Live monitoring and centres are not connected.",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample reports · changes are not saved.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Changes are not saved.",
+        "Error collection is not connected.",
+        "No errors are being collected.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Service status is unavailable.",
+        "Local changelog preview.",
+        "Interface preview · no deployment is connected.",
+        "Internal notes are not published to users.",
+        "No submissions connected.",
+        "No feedback available.",
+        "Moderation is not connected.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Notification service not connected."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 83.984375
+        },
+        {
+          "text": "Reports by severity",
+          "top": 318.5025939941406
+        },
+        {
+          "text": "Bug Reports",
+          "top": 680.5078125
+        },
+        {
+          "text": "Application Errors",
+          "top": 1525.0260009765625
+        },
+        {
+          "text": "System Health",
+          "top": 1891.6796875
+        },
+        {
+          "text": "Release Updates",
+          "top": 2254.8046875
+        },
+        {
+          "text": "Feedback",
+          "top": 2441.536376953125
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 2555.65087890625
+        },
+        {
+          "text": "Centre Overview",
+          "top": 2705.755126953125
+        },
+        {
+          "text": "Developer Settings",
+          "top": 3032.434814453125
+        }
+      ],
+      "theme": "light",
+      "title": "Developer Console",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1381.6666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.16665649414065,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "SIMULATED Sample reports only. Live monitoring and centres are not connected.",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample reports · changes are not saved.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Changes are not saved.",
+        "Error collection is not connected.",
+        "No errors are being collected.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Service status is unavailable.",
+        "Local changelog preview.",
+        "Interface preview · no deployment is connected.",
+        "Internal notes are not published to users.",
+        "No submissions connected.",
+        "No feedback available.",
+        "Moderation is not connected.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Notification service not connected."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 83.984375
+        },
+        {
+          "text": "Reports by severity",
+          "top": 318.5025939941406
+        },
+        {
+          "text": "Bug Reports",
+          "top": 680.5078125
+        },
+        {
+          "text": "Application Errors",
+          "top": 1525.0260009765625
+        },
+        {
+          "text": "System Health",
+          "top": 1891.6796875
+        },
+        {
+          "text": "Release Updates",
+          "top": 2254.8046875
+        },
+        {
+          "text": "Feedback",
+          "top": 2441.536376953125
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 2555.65087890625
+        },
+        {
+          "text": "Centre Overview",
+          "top": 2705.755126953125
+        },
+        {
+          "text": "Developer Settings",
+          "top": 3032.434814453125
+        }
+      ],
+      "theme": "dark",
+      "title": "Developer Console",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1301.6666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.16665649414065,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/teacher-dashboard",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "TEACHER PREVIEW Assignments and rosters are not connected.",
+        "No verified assignments",
+        "Roster unavailable",
+        "No register connected",
+        "No assignments connected",
+        "No assessments connected",
+        "No assigned-batch incidents"
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Teacher Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Assigned Batches",
+          "top": 242.1875
+        },
+        {
+          "text": "Students",
+          "top": 319.1796875
+        },
+        {
+          "text": "Attendance",
+          "top": 396.171875
+        },
+        {
+          "text": "Homework",
+          "top": 473.1640625
+        },
+        {
+          "text": "Tests & Results",
+          "top": 550.15625
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 627.1484375
+        }
+      ],
+      "theme": "light",
+      "title": "Teacher Dashboard",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 36.23697853088379,
+              "height": 28.0859375,
+              "left": 15.989583015441896,
+              "right": 218.94530200958252,
+              "top": 8.151041030883789,
+              "width": 202.95571899414065,
+              "x": 15.989583015441896,
+              "y": 8.151041030883789
+            },
+            "text": "Teacher Dashboard"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 75.83332824707031
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.16665649414065,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/teacher-dashboard",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "TEACHER PREVIEW Assignments and rosters are not connected.",
+        "No verified assignments",
+        "Roster unavailable",
+        "No register connected",
+        "No assignments connected",
+        "No assessments connected",
+        "No assigned-batch incidents"
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Teacher Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Assigned Batches",
+          "top": 242.1875
+        },
+        {
+          "text": "Students",
+          "top": 319.1796875
+        },
+        {
+          "text": "Attendance",
+          "top": 396.171875
+        },
+        {
+          "text": "Homework",
+          "top": 473.1640625
+        },
+        {
+          "text": "Tests & Results",
+          "top": 550.15625
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 627.1484375
+        }
+      ],
+      "theme": "dark",
+      "title": "Teacher Dashboard",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 36.23697853088379,
+              "height": 28.0859375,
+              "left": 15.989583015441896,
+              "right": 218.94530200958252,
+              "top": 8.151041030883789,
+              "width": 202.95571899414065,
+              "x": 15.989583015441896,
+              "y": 8.151041030883789
+            },
+            "text": "Teacher Dashboard"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 75.83332824707031
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.16665649414065,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentA",
+      "route": "/student-portal",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "FICTIONAL PREVIEW Sample data only. Your private records are not connected.",
+        "Sample student · New General · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores · assessments not connected.",
+        "New General · timetable not connected.",
+        "Sample attendance only.",
+        "Published results not connected.",
+        "Personal fees and payments not connected.",
+        "Verified profile details require secure sign-in.",
+        "Assignments not connected.",
+        "No notices or timetables published.",
+        "Private student records require secure sign-in. Figures shown here are sample data."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 83.984375
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 323.17706298828125
+        },
+        {
+          "text": "Fees",
+          "top": 419.1015625
+        },
+        {
+          "text": "Attendance",
+          "top": 673.7239379882812
+        },
+        {
+          "text": "Homework",
+          "top": 928.3463134765624
+        },
+        {
+          "text": "Recent tests",
+          "top": 1074.466064453125
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 1227.578125
+        },
+        {
+          "text": "Attendance",
+          "top": 1227.578125
+        },
+        {
+          "text": "Tests & Results",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Fees",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Profile",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "Homework",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1545.546875
+        }
+      ],
+      "theme": "light",
+      "title": "Student Home",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 44.5703125,
+              "height": 11.9921875,
+              "left": 30.8203125,
+              "right": 723.3463134765625,
+              "top": 32.578125,
+              "width": 692.5260009765625,
+              "x": 30.8203125,
+              "y": 32.578125
+            },
+            "text": "No payment or receipt is recorded."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 587.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentA",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.99998474121097,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentA",
+      "route": "/student-portal",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "FICTIONAL PREVIEW Sample data only. Your private records are not connected.",
+        "Sample student · New General · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores · assessments not connected.",
+        "New General · timetable not connected.",
+        "Sample attendance only.",
+        "Published results not connected.",
+        "Personal fees and payments not connected.",
+        "Verified profile details require secure sign-in.",
+        "Assignments not connected.",
+        "No notices or timetables published.",
+        "Private student records require secure sign-in. Figures shown here are sample data."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 83.984375
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 323.17706298828125
+        },
+        {
+          "text": "Fees",
+          "top": 419.1015625
+        },
+        {
+          "text": "Attendance",
+          "top": 673.7239379882812
+        },
+        {
+          "text": "Homework",
+          "top": 928.3463134765624
+        },
+        {
+          "text": "Recent tests",
+          "top": 1074.466064453125
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 1227.578125
+        },
+        {
+          "text": "Attendance",
+          "top": 1227.578125
+        },
+        {
+          "text": "Tests & Results",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Fees",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Profile",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "Homework",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1545.546875
+        }
+      ],
+      "theme": "dark",
+      "title": "Student Home",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 64.5703125,
+              "height": 11.9921875,
+              "left": 30.8203125,
+              "right": 723.3463134765625,
+              "top": 52.578125,
+              "width": 692.5260009765625,
+              "x": 30.8203125,
+              "y": 52.578125
+            },
+            "text": "No payment or receipt is recorded."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 567.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentA",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.16665649414065,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentB",
+      "route": "/student-portal",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "FICTIONAL PREVIEW Sample data only. Your private records are not connected.",
+        "Sample student · New General · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores · assessments not connected.",
+        "New General · timetable not connected.",
+        "Sample attendance only.",
+        "Published results not connected.",
+        "Personal fees and payments not connected.",
+        "Verified profile details require secure sign-in.",
+        "Assignments not connected.",
+        "No notices or timetables published.",
+        "Private student records require secure sign-in. Figures shown here are sample data."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 83.984375
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 323.17706298828125
+        },
+        {
+          "text": "Fees",
+          "top": 419.1015625
+        },
+        {
+          "text": "Attendance",
+          "top": 673.7239379882812
+        },
+        {
+          "text": "Homework",
+          "top": 928.3463134765624
+        },
+        {
+          "text": "Recent tests",
+          "top": 1074.466064453125
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 1227.578125
+        },
+        {
+          "text": "Attendance",
+          "top": 1227.578125
+        },
+        {
+          "text": "Tests & Results",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Fees",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Profile",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "Homework",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1545.546875
+        }
+      ],
+      "theme": "light",
+      "title": "Student Home",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 56.23697662353515,
+              "height": 11.9921875,
+              "left": 30.8203125,
+              "right": 723.3463134765625,
+              "top": 44.24478912353515,
+              "width": 692.5260009765625,
+              "x": 30.8203125,
+              "y": 44.24478912353515
+            },
+            "text": "No payment or receipt is recorded."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 575.8333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentB",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 202.49998474121097,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentB",
+      "route": "/student-portal",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "FICTIONAL PREVIEW Sample data only. Your private records are not connected.",
+        "Sample student · New General · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores · assessments not connected.",
+        "New General · timetable not connected.",
+        "Sample attendance only.",
+        "Published results not connected.",
+        "Personal fees and payments not connected.",
+        "Verified profile details require secure sign-in.",
+        "Assignments not connected.",
+        "No notices or timetables published.",
+        "Private student records require secure sign-in. Figures shown here are sample data."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 83.984375
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 323.17706298828125
+        },
+        {
+          "text": "Fees",
+          "top": 419.1015625
+        },
+        {
+          "text": "Attendance",
+          "top": 673.7239379882812
+        },
+        {
+          "text": "Homework",
+          "top": 928.3463134765624
+        },
+        {
+          "text": "Recent tests",
+          "top": 1074.466064453125
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 1227.578125
+        },
+        {
+          "text": "Attendance",
+          "top": 1227.578125
+        },
+        {
+          "text": "Tests & Results",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Fees",
+          "top": 1333.567626953125
+        },
+        {
+          "text": "Profile",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "Homework",
+          "top": 1439.5572509765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1545.546875
+        }
+      ],
+      "theme": "dark",
+      "title": "Student Home",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 64.5703125,
+              "height": 11.9921875,
+              "left": 30.8203125,
+              "right": 723.3463134765625,
+              "top": 52.578125,
+              "width": 692.5260009765625,
+              "x": 30.8203125,
+              "y": 52.578125
+            },
+            "text": "No payment or receipt is recorded."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 567.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentB",
+      "route": "/settings",
+      "requestedWidth": 767,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 754.1666259765625,
+          "top": 0,
+          "width": 754.1666259765625,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 199.16665649414065,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 738.1770830154419,
+          "top": 57.99478912353515,
+          "width": 722.1875,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    }
+  ],
+  "themes": {
+    "admin": "System",
+    "manager": "System",
+    "developer": "System",
+    "teacher": "System",
+    "studentA": "System",
+    "studentB": "System"
+  }
+}

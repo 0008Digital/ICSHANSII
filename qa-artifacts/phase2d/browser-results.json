@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "1eb401870b90c3e4db134609928077b1686a6f87",
+  "baseURL": "http://localhost:3000",
+  "updatedAt": "2026-10-14T16:12:07.301Z",
+  "summary": {
+    "passed": 43,
+    "failed": 0
+  },
+  "settingsVisualApproval": false,
+  "scenarioFilter": null,
+  "visualComparison": "Reference screenshots only; no pixel-diff assertion. Motion remains enabled.",
+  "results": [
+    {
+      "name": "admin/mobile320: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 37,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "admin/mobile320: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3373
+    },
+    {
+      "name": "admin/mobile320: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1920
+    },
+    {
+      "name": "admin/mobile320: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 1904
+    },
+    {
+      "name": "admin/mobile320: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 939
+    },
+    {
+      "name": "admin/mobile320: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1860
+    },
+    {
+      "name": "admin/mobile320: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1488,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 71.58853912353516,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1900.80712890625,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": -1290
+        }
+      }
+    },
+    {
+      "name": "admin/mobile320: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 170
+    },
+    {
+      "name": "admin/mobile320: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 797
+    },
+    {
+      "name": "admin/mobile320: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 1015
+    },
+    {
+      "name": "admin/mobile320: branding draft/reset does not apply",
+      "status": "passed",
+      "durationMs": 376
+    },
+    {
+      "name": "manager/mobile320: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 27,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "manager/mobile320: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3310
+    },
+    {
+      "name": "manager/mobile320: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1881
+    },
+    {
+      "name": "manager/mobile320: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 1880
+    },
+    {
+      "name": "manager/mobile320: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 915
+    },
+    {
+      "name": "manager/mobile320: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1827
+    },
+    {
+      "name": "manager/mobile320: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1364,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 71.58853912353516,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1121.71875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": -1290
+        }
+      }
+    },
+    {
+      "name": "manager/mobile320: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 182
+    },
+    {
+      "name": "manager/mobile320: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 879
+    },
+    {
+      "name": "manager/mobile320: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 713
+    },
+    {
+      "name": "admin/desktop: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 72,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "admin/desktop: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3750
+    },
+    {
+      "name": "admin/desktop: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 2033
+    },
+    {
+      "name": "admin/desktop: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 1965
+    },
+    {
+      "name": "admin/desktop: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 982
+    },
+    {
+      "name": "admin/desktop: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1931
+    },
+    {
+      "name": "admin/desktop: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1925,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 83.125,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1207.3046875,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": -606.6666259765625
+        }
+      }
+    },
+    {
+      "name": "admin/desktop: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 225
+    },
+    {
+      "name": "admin/desktop: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 870
+    },
+    {
+      "name": "admin/desktop: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 1417
+    },
+    {
+      "name": "admin/desktop: branding draft/reset does not apply",
+      "status": "passed",
+      "durationMs": 623
+    },
+    {
+      "name": "manager/desktop: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 73,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "manager/desktop: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3777
+    },
+    {
+      "name": "manager/desktop: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1978
+    },
+    {
+      "name": "manager/desktop: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 2022
+    },
+    {
+      "name": "manager/desktop: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 974
+    },
+    {
+      "name": "manager/desktop: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1926
+    },
+    {
+      "name": "manager/desktop: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1862,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 83.125,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 899.8306884765625,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": -502.5
+        }
+      }
+    },
+    {
+      "name": "manager/desktop: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 221
+    },
+    {
+      "name": "manager/desktop: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 914
+    },
+    {
+      "name": "manager/desktop: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 915
+    },
+    {
+      "name": "cleanup: original demo identity and viewport",
+      "status": "passed",
+      "durationMs": 987
+    }
+  ],
+  "screenshots": [],
+  "notes": []
+}

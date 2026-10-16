@@ -1,0 +1,6 @@
+C:\Projects\ics-hansi\src\components\ics\demo-workspaces.css
+C:\Projects\ics-hansi\src\components\ics\section-navigation.mjs
+C:\Projects\ics-hansi\src\components\ics\student-portal.tsx
+C:\Projects\ics-hansi\src\components\ics\teacher-dashboard.tsx
+C:\Projects\ics-hansi\src\components\ics\use-role-section-navigation.ts
+C:\Projects\ics-hansi\src\components\ics\workspace-bar.css

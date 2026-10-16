@@ -1,0 +1,2755 @@
+{
+  "results": [
+    {
+      "name": "admin/1440/Light: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.049972, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0.065963, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, -1.87496, -74.986)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, -1.47638, -31.7383)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, -0.702752, -15.1073)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "admin/1440/Light: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.666667, 0, 0, 1, 0, 0)",
+            "none",
+            "matrix(0.888889, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)",
+            "matrix(0.91, 0, 0, 1, 0, 0)",
+            "matrix(0.86, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "admin/1440/Light: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.666667, 0, 0, 1, 0, 0)",
+            "none",
+            "matrix(0.888889, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)",
+            "matrix(0.91, 0, 0, 1, 0, 0)",
+            "matrix(0.86, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "admin/320/Dark: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.123638, 0, 0, 1, 0, 0)",
+            "matrix(0.0721186, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0.163202, 0, 0, 1, 0, 0)",
+            "matrix(0.0656279, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 120.623, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 5.10561, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 69.6637, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 92.9318, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "admin/320/Dark: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.666667, 0, 0, 1, 0, 0)",
+            "none",
+            "matrix(0.888889, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)",
+            "matrix(0.91, 0, 0, 1, 0, 0)",
+            "matrix(0.86, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "admin/320/Dark: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.666667, 0, 0, 1, 0, 0)",
+            "none",
+            "matrix(0.888889, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)",
+            "matrix(0.91, 0, 0, 1, 0, 0)",
+            "matrix(0.86, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.0450107, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0.112527, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, -1.35278, -54.1022)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, -0.885354, -19.0328)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, -0.167092, -3.59204)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.4, 0, 0, 1, 0, 0)",
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.6, 0, 0, 1, 0, 0)",
+            "none",
+            "none",
+            "matrix(0.333333, 0, 0, 1, 0, 0)",
+            "matrix(0.666667, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.4, 0, 0, 1, 0, 0)",
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.6, 0, 0, 1, 0, 0)",
+            "none",
+            "none",
+            "matrix(0.333333, 0, 0, 1, 0, 0)",
+            "matrix(0.666667, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "manager/320/Dark: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.069789, 0, 0, 1, 0, 0)",
+            "matrix(0.0480932, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0.174473, 0, 0, 1, 0, 0)",
+            "matrix(0.0200388, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 127.674, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 16.6481, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 66.6839, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 93.5241, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "manager/320/Dark: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.4, 0, 0, 1, 0, 0)",
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.6, 0, 0, 1, 0, 0)",
+            "none",
+            "none",
+            "matrix(0.333333, 0, 0, 1, 0, 0)",
+            "matrix(0.666667, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "manager/320/Dark: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/",
+            "/"
+          ],
+          "chartTransforms": [
+            "matrix(0.4, 0, 0, 1, 0, 0)",
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.6, 0, 0, 1, 0, 0)",
+            "none",
+            "none",
+            "matrix(0.333333, 0, 0, 1, 0, 0)",
+            "matrix(0.666667, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/students",
+            "/students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/batches",
+            "/batches"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 112, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/developer",
+            "/developer"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/developer#bug-reports",
+            "/developer#bug-reports"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00053, 0, 0, 1.00053, 0.229635, -41.7526)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00051, 0, 0, 1.00051, 0.196219, -27.0524)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 0.0370901, -5.11356)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/developer",
+            "/developer"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/developer#bug-reports",
+            "/developer#bug-reports"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/developer",
+            "/developer"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/developer#bug-reports",
+            "/developer#bug-reports"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "developer/320/Dark: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/developer",
+            "/developer"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0.104422, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 57.4435, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/developer#bug-reports",
+            "/developer#bug-reports"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 54.6311, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 152.81, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 168.047, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "developer/320/Dark: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/developer",
+            "/developer"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/developer#bug-reports",
+            "/developer#bug-reports"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "developer/320/Dark: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/developer",
+            "/developer"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/developer#bug-reports",
+            "/developer#bug-reports"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/developer#system-health",
+            "/developer#system-health"
+          ],
+          "chartTransforms": [
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "none",
+            "none"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/teacher-dashboard",
+            "/teacher-dashboard"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/teacher-dashboard#assigned-students",
+            "/teacher-dashboard#assigned-students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1.00027, 0, 0, 1.00027, 0.734816, -44.7525)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1.0003, 0, 0, 1.0003, 0.528919, -71.6701)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 0.178879, -24.2387)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/teacher-dashboard",
+            "/teacher-dashboard"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/teacher-dashboard#assigned-students",
+            "/teacher-dashboard#assigned-students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/teacher-dashboard",
+            "/teacher-dashboard"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/teacher-dashboard#assigned-students",
+            "/teacher-dashboard#assigned-students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "teacher/320/Dark: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/teacher-dashboard",
+            "/teacher-dashboard"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 54.7107, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/teacher-dashboard#assigned-students",
+            "/teacher-dashboard#assigned-students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 36.3294, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 119.742, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 156.248, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "teacher/320/Dark: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/teacher-dashboard",
+            "/teacher-dashboard"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/teacher-dashboard#assigned-students",
+            "/teacher-dashboard#assigned-students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "teacher/320/Dark: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/teacher-dashboard",
+            "/teacher-dashboard"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/teacher-dashboard#assigned-students",
+            "/teacher-dashboard#assigned-students"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/teacher-dashboard#homework",
+            "/teacher-dashboard#homework"
+          ],
+          "chartTransforms": [],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.0676902, 0, 0, 1, 0, 0)",
+            "matrix(0.0693824, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.462177, 0, 0, 1, 0, 0)",
+            "matrix(0.473732, 0, 0, 1, 0, 0)",
+            "matrix(0.385845, 0, 0, 1, 0, 0)",
+            "matrix(0.381822, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00068, 0, 0, 1.00068, 0.255533, -33.8352)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.709979, 0, 0, 1, 0, 0)",
+            "matrix(0.727728, 0, 0, 1, 0, 0)",
+            "matrix(0.640623, 0, 0, 1, 0, 0)",
+            "matrix(0.69793, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00077, 0, 0, 1.00077, 0.256361, -36.3095)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.782828, 0, 0, 1, 0, 0)",
+            "matrix(0.802398, 0, 0, 1, 0, 0)",
+            "matrix(0.724994, 0, 0, 1, 0, 0)",
+            "matrix(0.810764, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00011, 0, 0, 1.00011, 0.0382524, -5.41785)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "studentA/320/Dark: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.135483, 0, 0, 1, 0, 0)",
+            "matrix(0.13887, 0, 0, 1, 0, 0)",
+            "matrix(0.0607495, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 104.188, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.518794, 0, 0, 1, 0, 0)",
+            "matrix(0.531764, 0, 0, 1, 0, 0)",
+            "matrix(0.44292, 0, 0, 1, 0, 0)",
+            "matrix(0.451278, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 43.5854, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.77188, 0, 0, 1, 0, 0)",
+            "matrix(0.791177, 0, 0, 1, 0, 0)",
+            "matrix(0.710866, 0, 0, 1, 0, 0)",
+            "matrix(0.790982, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 135.05, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.799761, 0, 0, 1, 0, 0)",
+            "matrix(0.819755, 0, 0, 1, 0, 0)",
+            "matrix(0.753487, 0, 0, 1, 0, 0)",
+            "matrix(0.856348, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 161.918, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "studentA/320/Dark: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "studentA/320/Dark: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.12478, 0, 0, 1, 0, 0)",
+            "matrix(0.1279, 0, 0, 1, 0, 0)",
+            "matrix(0.0503069, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.749502, 0, 0, 1, 0, 0)",
+            "matrix(0.768239, 0, 0, 1, 0, 0)",
+            "matrix(0.684525, 0, 0, 1, 0, 0)",
+            "matrix(0.755085, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00037, 0, 0, 1.00037, 0.650287, -41.6635)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00038, 0, 0, 1.00038, 0.680626, -46.1278)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1.00018, 0, 0, 1.00018, 0.324129, -21.9671)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    },
+    {
+      "name": "studentB/320/Dark: saved Full workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.117828, 0, 0, 1, 0, 0)",
+            "matrix(0.120773, 0, 0, 1, 0, 0)",
+            "matrix(0.0431762, 0, 0, 1, 0, 0)",
+            "matrix(0, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 120.623, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.731965, 0, 0, 1, 0, 0)",
+            "matrix(0.750264, 0, 0, 1, 0, 0)",
+            "matrix(0.664707, 0, 0, 1, 0, 0)",
+            "matrix(0.728973, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 19.0036, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 110.141, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 148.559, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "full"
+        }
+      }
+    },
+    {
+      "name": "studentB/320/Dark: saved Reduced workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "reduced"
+        }
+      }
+    },
+    {
+      "name": "studentB/320/Dark: saved Off workspace navigation and indicator behavior",
+      "status": "passed",
+      "evidence": {
+        "entrance": {
+          "active": [
+            "/student-portal",
+            "/student-portal"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "none",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "first": {
+          "active": [
+            "/student-portal#batch",
+            "/student-portal#batch"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 56, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "second": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        },
+        "settled": {
+          "active": [
+            "/student-portal#results",
+            "/student-portal#results"
+          ],
+          "chartTransforms": [
+            "matrix(0.8, 0, 0, 1, 0, 0)",
+            "matrix(0.82, 0, 0, 1, 0, 0)",
+            "matrix(0.76, 0, 0, 1, 0, 0)",
+            "matrix(0.88, 0, 0, 1, 0, 0)"
+          ],
+          "indicators": [
+            {
+              "transform": "matrix(1, 0, 0, 1, 169, 0)",
+              "transition": "0s"
+            }
+          ],
+          "mode": "off"
+        }
+      }
+    }
+  ],
+  "originals": {
+    "admin": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 79,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "manager": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "developer": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "teacher": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "studentA": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "studentB": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    }
+  },
+  "scenarioFilter": null
+}

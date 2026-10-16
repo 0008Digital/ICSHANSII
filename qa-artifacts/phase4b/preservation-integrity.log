@@ -1,0 +1,26 @@
+{
+  "checked": 122,
+  "issues": [
+    "Changed protected file: src/components/ics/academic-preview.tsx",
+    "Changed protected file: src/components/ics/app-navigation.tsx",
+    "Changed protected file: src/components/ics/appearance/customizer.tsx",
+    "Changed protected file: src/components/ics/attendance-preview.tsx",
+    "Changed protected file: src/components/ics/audit-ledger.tsx",
+    "Changed protected file: src/components/ics/branding/branding-editor.tsx",
+    "Changed protected file: src/components/ics/chatrooms-workspace.tsx",
+    "Changed protected file: src/components/ics/dashboard-charts.tsx",
+    "Changed protected file: src/components/ics/demo-workspaces.css",
+    "Changed protected file: src/components/ics/management-page.tsx",
+    "Changed protected file: src/components/ics/personal-settings.tsx",
+    "Changed protected file: src/components/ics/role-dashboard.tsx",
+    "Changed protected file: src/components/ics/saas-layout.css",
+    "Changed protected file: src/components/ics/settings-layout.css",
+    "Changed protected file: src/components/ics/smart-workspace-bar.tsx",
+    "Changed protected file: src/components/ics/student-directory.tsx",
+    "Changed protected file: src/components/ics/students/batch-management.tsx",
+    "Changed protected file: src/components/ics/students/fee-management.tsx",
+    "Changed protected file: src/components/ics/students/student-form.tsx",
+    "Changed protected file: src/components/ics/students/student-profile.tsx",
+    "Changed protected file: src/components/ics/students/student-record-previews.tsx"
+  ]
+}

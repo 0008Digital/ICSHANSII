@@ -1,0 +1,4090 @@
+{
+  "rows": [
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 620.0911254882812
+        },
+        {
+          "text": "Admissions trend",
+          "top": 1245.078125
+        },
+        {
+          "text": "Attendance trend",
+          "top": 1391.6796875
+        },
+        {
+          "text": "Financial overview",
+          "top": 1538.28125
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1736.484375
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 38.91926860809326,
+              "height": 47.99478912353515,
+              "left": 29.98697853088379,
+              "right": 154.2838535308838,
+              "top": -9.075520515441896,
+              "width": 124.296875,
+              "x": 29.98697853088379,
+              "y": -9.075520515441896
+            },
+            "text": "Enrollment renewals"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 629.1666259765625
+      },
+      "status": "passed",
+      "screenshot": "admin-320-Light--.jpg"
+    },
+    {
+      "role": "admin",
+      "route": "/students",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Fictional directory records",
+        "Fictional directory records",
+        "Enrollment periods · not unique students",
+        "Unavailable · fee records not connected",
+        "Renewals due within 30 days · demo",
+        "Fictional enrollment periods",
+        "With active demo enrollments",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New General · Batch roll: 101",
+        "Unclassified legacy contact: 00000 00001",
+        "Enrollment: Active",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old General · Batch roll: 201",
+        "Unclassified legacy contact: 00000 00002",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New Guarantee · Batch roll: 301",
+        "Unclassified legacy contact: 00000 00003",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old Guarantee · Batch roll: 401",
+        "Unclassified legacy contact: 00000 00004",
+        "Enrollment: Expired Enrollment",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Weekend Practice (demo custom) · Batch roll: 501",
+        "Unclassified legacy contact: 00000 00005",
+        "Enrollment: Active",
+        "5 of 5 fictional students · showing 5 on this page",
+        "Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Students",
+          "top": 83.984375
+        },
+        {
+          "text": "Student overview",
+          "top": 130.06509399414062
+        },
+        {
+          "text": "Student directory",
+          "top": 995.3125
+        }
+      ],
+      "theme": "light",
+      "title": "Students",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1089.1666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/new",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Demo preview — admission is not saved.",
+        "Period ends 14 January 2027",
+        "Optional for cash; required for other modes.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Add Student",
+          "top": 83.984375
+        },
+        {
+          "text": "Fees & Payment",
+          "top": 1001.5885009765624
+        }
+      ],
+      "theme": "light",
+      "title": "Add Student",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 585.8333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Fictional demo profile · DEMO-001 is a preview reference, not an official student ID. No records are connected.",
+        "Unsaved request. Centre permission and teacher confirmation may be required; no records change.",
+        "Transfers must preserve the Student ID and existing records. This preview submits no transfer.",
+        "No renewal history is connected.",
+        "No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.",
+        "Exports contain sample references only; no payments or receipts.",
+        "No live attendance register or percentage is available.",
+        "No live assessments or published marks are available.",
+        "No student-specific notices are available in this demo.",
+        "Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access.",
+        "Not shown in this demo. Access requires an explicit centre authorization."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Aarav Example",
+          "top": 137.9817657470703
+        },
+        {
+          "text": "Personal details",
+          "top": 361.1848754882813
+        },
+        {
+          "text": "Academic & admission details",
+          "top": 1051.0416259765625
+        },
+        {
+          "text": "Current batch enrollment",
+          "top": 1667.9556884765625
+        },
+        {
+          "text": "Batch transfer",
+          "top": 2219.921875
+        },
+        {
+          "text": "Batch & renewal history",
+          "top": 2357.903564453125
+        },
+        {
+          "text": "Fees & payments",
+          "top": 2595.3515625
+        },
+        {
+          "text": "Attendance",
+          "top": 3437.109375
+        },
+        {
+          "text": "Tests & Results",
+          "top": 3616.39306640625
+        },
+        {
+          "text": "Notices & Updates",
+          "top": 3795.677001953125
+        },
+        {
+          "text": "Conduct Reports",
+          "top": 3974.9609375
+        },
+        {
+          "text": "Internal notes",
+          "top": 4130.9111328125
+        }
+      ],
+      "theme": "light",
+      "title": "Aarav Example",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1864.9998779296875
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001/edit",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Aarav Example · Fictional demo record",
+        "Demo preview — admission is not saved.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Edit student details",
+          "top": 137.9817657470703
+        }
+      ],
+      "theme": "light",
+      "title": "Edit student details",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 2.942708969116211,
+              "height": 15.546875,
+              "left": 15.989583015441896,
+              "right": 222.42186450958252,
+              "top": -12.604166030883787,
+              "width": 206.43228149414065,
+              "x": 15.989583015441896,
+              "y": -12.604166030883787
+            },
+            "text": "Aarav Example · Fictional demo record"
+          },
+          {
+            "rect": {
+              "bottom": 66.14583206176758,
+              "height": 45.20833206176758,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": 20.9375,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": 20.9375
+            },
+            "text": "Demo preview — admission is not saved."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 186.66665649414065
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/batches",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO DATA Sample batches only. Changes are not saved.",
+        "Sample batch catalogue.",
+        "Batch dates do not change student enrollment periods.",
+        "Choose NEW or OLD for registration numbering. This preview does not create a batch.",
+        "Assignments and batch updates are unavailable until centre records and permissions are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Batches",
+          "top": 83.984375
+        },
+        {
+          "text": "Batch catalogue",
+          "top": 240.02603149414065
+        },
+        {
+          "text": "Preview date changes",
+          "top": 893.3333129882812
+        }
+      ],
+      "theme": "light",
+      "title": "Batches",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 462.4999694824219
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/attendance",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh.",
+        "Identify a student, confirm the details, then mark a draft status.",
+        "Enter a roll number; name or demo reference also works as a fallback.",
+        "New General · 2026-10-15 · 0 marked of 1 active demo students",
+        "Roll audit: 0 missing · 0 duplicate numbers.",
+        "DEMO-001 · batch roll 101"
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 83.984375
+        },
+        {
+          "text": "Rapid Attendance · preview",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 47.20051956176758,
+              "height": 74.63541412353516,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": -27.434894561767575,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": -27.434894561767575
+            },
+            "text": "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 157.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/tests-results",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "Unsaved assessment for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 83.984375
+        },
+        {
+          "text": "Create test preview",
+          "top": 271.015625
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 975.9895629882812
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 1429.0625
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 0.1171875,
+              "height": 45.98958206176758,
+              "left": 30.8203125,
+              "right": 276.6796875,
+              "top": -45.87239456176758,
+              "width": 245.859375,
+              "x": 30.8203125,
+              "y": -45.87239456176758
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 688.3333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/homework",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Homework and submissions are unavailable until batch assignments are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 83.984375
+        },
+        {
+          "text": "No homework connected",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/fees",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO PREVIEW Sample scenarios only. Balances, payments and receipts are not connected.",
+        "Fee status follows promised payment dates, independently of enrollment expiry.",
+        "0 connected",
+        "0 connected",
+        "0 connected",
+        "DEMO-001 · Registration Number unavailable · New General",
+        "DEMO-002 · Registration Number unavailable · Old General",
+        "DEMO-003 · Registration Number unavailable · New Guarantee",
+        "DEMO-004 · Registration Number unavailable · Old Guarantee",
+        "DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)",
+        "Search sample students above. Real fees and balances are not connected.",
+        "Preview only. No installment is posted and no receipt is issued."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Fees",
+          "top": 83.984375
+        },
+        {
+          "text": "Fee register",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Fees",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 346.6666564941406
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ledger",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO LEDGER Sample transactions only; no payment source is connected. A fee invoice is not income.",
+        "Reversals retain the original entry.",
+        "2026-10-12 · adjustment · Reversed",
+        "Example partial refund",
+        "DEMO-REFUND-04 · Reversal of DEMO-TXN-002",
+        "2026-10-11 · expense · Posted",
+        "Example electricity expense",
+        "DEMO-EXP-03",
+        "2026-10-10 · income · Posted",
+        "Example course fee receipt",
+        "DEMO-PAY-02",
+        "2026-10-02 · expense · Posted",
+        "Example classroom supplies",
+        "DEMO-EXP-01",
+        "2026-09-30 · adjustment · Posted",
+        "Example reversal of duplicate expense",
+        "DEMO-REV-05 · Reversal of DEMO-TXN-006",
+        "2026-09-30 · expense · Reversed",
+        "Example expense later reversed",
+        "DEMO-EXP-06",
+        "Preview only. No financial records or payments are posted."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Ledger",
+          "top": 83.984375
+        },
+        {
+          "text": "Transaction history",
+          "top": 510.8984375
+        }
+      ],
+      "theme": "light",
+      "title": "Ledger",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 789.1666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/staff",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Staff records and teacher assignments are not connected. Access changes require centre authorization."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Staff",
+          "top": 83.984375
+        },
+        {
+          "text": "Staff records unavailable",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Staff",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/audit-logs",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO EVENTS Sample activity only. Real audit events are not connected.",
+        "Centre-local timestamps · no passwords, tokens or private contact details",
+        "Exports · Demo Centre Admin (Centre Admin) · Fictional directory",
+        "Enrollment · Demo Manager (Manager) · DEMO-003",
+        "Batches · Demo Centre Admin (Centre Admin) · New Guarantee (demo)",
+        "Fees · Demo Centre Admin (Centre Admin) · Fictional admission",
+        "Attendance · Demo Teacher (Teacher) · Assigned batch scope"
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Audit Logs",
+          "top": 83.984375
+        },
+        {
+          "text": "Activity history",
+          "top": 256.5234375
+        }
+      ],
+      "theme": "light",
+      "title": "Audit Logs",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 662.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ics-updates",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "No current timetable is published.",
+        "Notices, timetable uploads and history are not connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "ICS Updates",
+          "top": 83.984375
+        },
+        {
+          "text": "Pinned current timetables",
+          "top": 150.8984375
+        },
+        {
+          "text": "No updates published",
+          "top": 341.41925048828125
+        }
+      ],
+      "theme": "light",
+      "title": "ICS Updates",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/chatrooms",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO ONLY Sample conversations only. Messages are not delivered or saved.",
+        "Batch room · fictional",
+        "Staff only · fictional",
+        "One-way notices · fictional",
+        "Student to authorized staff · fictional",
+        "Batch room · fictional · sender names are fictional profile references",
+        "Could you share the revision topic list for Friday?",
+        "New General · fictional demo identity",
+        "We will review chapters 3 and 4 in class.",
+        "New General · fictional demo identity",
+        "Text only. Attachments are disabled. Sending will not deliver or persist.",
+        "Abusive language · Medium · simulated · Status: New",
+        "A fictional message excerpt for the moderator preview.",
+        "Review changes are not saved. No notification is sent.",
+        "Centre-wide defaults and room overrides",
+        "Preview controls only. Changes are not saved and do not grant room access."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 257.6822814941406
+        },
+        {
+          "text": "New General",
+          "top": 376.3020629882813
+        },
+        {
+          "text": "Moderation review · demo",
+          "top": 1060.390625
+        },
+        {
+          "text": "Chat Permissions",
+          "top": 1329.934814453125
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 21.380207538604736,
+              "height": 17.99479103088379,
+              "left": 38.81510162353515,
+              "right": 56.809892654418945,
+              "top": 3.3854165077209473,
+              "width": 17.99479103088379,
+              "x": 38.81510162353515,
+              "y": 3.3854165077209473
+            },
+            "text": "INPUT"
+          },
+          {
+            "rect": {
+              "bottom": 21.380207538604736,
+              "height": 17.99479103088379,
+              "left": 116.5625,
+              "right": 134.5572910308838,
+              "top": 3.3854165077209473,
+              "width": 17.99479103088379,
+              "x": 116.5625,
+              "y": 3.3854165077209473
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1500.833251953125
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1118.7109375
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 58.89322757720947,
+              "height": 45.98958206176758,
+              "left": 236.11978149414065,
+              "right": 279.5182189941406,
+              "top": 12.903645515441896,
+              "width": 43.3984375,
+              "x": 236.11978149414065,
+              "y": 12.903645515441896
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 647.5,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "admin-320-Light--settings.jpg"
+    },
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 620.0911254882812
+        },
+        {
+          "text": "Admissions trend",
+          "top": 1245.078125
+        },
+        {
+          "text": "Attendance trend",
+          "top": 1391.6796875
+        },
+        {
+          "text": "Financial overview",
+          "top": 1538.28125
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1736.484375
+        }
+      ],
+      "theme": "dark",
+      "title": "Dashboard",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 38.91926860809326,
+              "height": 47.99478912353515,
+              "left": 29.98697853088379,
+              "right": 154.2838535308838,
+              "top": -9.075520515441896,
+              "width": 124.296875,
+              "x": 29.98697853088379,
+              "y": -9.075520515441896
+            },
+            "text": "Enrollment renewals"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 629.1666259765625
+      },
+      "status": "passed",
+      "screenshot": "admin-320-Dark--.jpg"
+    },
+    {
+      "role": "admin",
+      "route": "/students",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Fictional directory records",
+        "Fictional directory records",
+        "Enrollment periods · not unique students",
+        "Unavailable · fee records not connected",
+        "Renewals due within 30 days · demo",
+        "Fictional enrollment periods",
+        "With active demo enrollments",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New General · Batch roll: 101",
+        "Unclassified legacy contact: 00000 00001",
+        "Enrollment: Active",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old General · Batch roll: 201",
+        "Unclassified legacy contact: 00000 00002",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New Guarantee · Batch roll: 301",
+        "Unclassified legacy contact: 00000 00003",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old Guarantee · Batch roll: 401",
+        "Unclassified legacy contact: 00000 00004",
+        "Enrollment: Expired Enrollment",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Weekend Practice (demo custom) · Batch roll: 501",
+        "Unclassified legacy contact: 00000 00005",
+        "Enrollment: Active",
+        "5 of 5 fictional students · showing 5 on this page",
+        "Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Students",
+          "top": 83.984375
+        },
+        {
+          "text": "Student overview",
+          "top": 130.06509399414062
+        },
+        {
+          "text": "Student directory",
+          "top": 995.3125
+        }
+      ],
+      "theme": "dark",
+      "title": "Students",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1073.333251953125
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/new",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Demo preview — admission is not saved.",
+        "Period ends 14 January 2027",
+        "Optional for cash; required for other modes.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Add Student",
+          "top": 83.984375
+        },
+        {
+          "text": "Fees & Payment",
+          "top": 1001.5885009765624
+        }
+      ],
+      "theme": "dark",
+      "title": "Add Student",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 585.8333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Fictional demo profile · DEMO-001 is a preview reference, not an official student ID. No records are connected.",
+        "Unsaved request. Centre permission and teacher confirmation may be required; no records change.",
+        "Transfers must preserve the Student ID and existing records. This preview submits no transfer.",
+        "No renewal history is connected.",
+        "No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.",
+        "Exports contain sample references only; no payments or receipts.",
+        "No live attendance register or percentage is available.",
+        "No live assessments or published marks are available.",
+        "No student-specific notices are available in this demo.",
+        "Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access.",
+        "Not shown in this demo. Access requires an explicit centre authorization."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Aarav Example",
+          "top": 137.9817657470703
+        },
+        {
+          "text": "Personal details",
+          "top": 361.1848754882813
+        },
+        {
+          "text": "Academic & admission details",
+          "top": 1051.0416259765625
+        },
+        {
+          "text": "Current batch enrollment",
+          "top": 1667.9556884765625
+        },
+        {
+          "text": "Batch transfer",
+          "top": 2219.921875
+        },
+        {
+          "text": "Batch & renewal history",
+          "top": 2357.903564453125
+        },
+        {
+          "text": "Fees & payments",
+          "top": 2595.3515625
+        },
+        {
+          "text": "Attendance",
+          "top": 3437.109375
+        },
+        {
+          "text": "Tests & Results",
+          "top": 3616.39306640625
+        },
+        {
+          "text": "Notices & Updates",
+          "top": 3795.677001953125
+        },
+        {
+          "text": "Conduct Reports",
+          "top": 3974.9609375
+        },
+        {
+          "text": "Internal notes",
+          "top": 4130.9111328125
+        }
+      ],
+      "theme": "dark",
+      "title": "Aarav Example",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1853.333251953125
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001/edit",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Aarav Example · Fictional demo record",
+        "Demo preview — admission is not saved.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Edit student details",
+          "top": 137.9817657470703
+        }
+      ],
+      "theme": "dark",
+      "title": "Edit student details",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 10.442708492279053,
+              "height": 15.546875,
+              "left": 15.989583015441896,
+              "right": 222.42186450958252,
+              "top": -5.104166507720947,
+              "width": 206.43228149414065,
+              "x": 15.989583015441896,
+              "y": -5.104166507720947
+            },
+            "text": "Aarav Example · Fictional demo record"
+          },
+          {
+            "rect": {
+              "bottom": 73.64583206176758,
+              "height": 45.20833206176758,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": 28.4375,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": 28.4375
+            },
+            "text": "Demo preview — admission is not saved."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 179.16665649414062
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/batches",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO DATA Sample batches only. Changes are not saved.",
+        "Sample batch catalogue.",
+        "Batch dates do not change student enrollment periods.",
+        "Choose NEW or OLD for registration numbering. This preview does not create a batch.",
+        "Assignments and batch updates are unavailable until centre records and permissions are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Batches",
+          "top": 83.984375
+        },
+        {
+          "text": "Batch catalogue",
+          "top": 240.02603149414065
+        },
+        {
+          "text": "Preview date changes",
+          "top": 893.3333129882812
+        }
+      ],
+      "theme": "dark",
+      "title": "Batches",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 433.3333129882813
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/attendance",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh.",
+        "Identify a student, confirm the details, then mark a draft status.",
+        "Enter a roll number; name or demo reference also works as a fallback.",
+        "New General · 2026-10-15 · 0 marked of 1 active demo students",
+        "Roll audit: 0 missing · 0 duplicate numbers.",
+        "DEMO-001 · batch roll 101"
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 83.984375
+        },
+        {
+          "text": "Rapid Attendance · preview",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "dark",
+      "title": "Attendance",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 58.03385162353515,
+              "height": 74.63541412353516,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": -16.6015625,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": -16.6015625
+            },
+            "text": "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 146.66665649414062
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/tests-results",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "Unsaved assessment for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 83.984375
+        },
+        {
+          "text": "Create test preview",
+          "top": 271.015625
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 975.9895629882812
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 1429.0625
+        }
+      ],
+      "theme": "dark",
+      "title": "Tests & Results",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 13.450519561767578,
+              "height": 45.98958206176758,
+              "left": 30.8203125,
+              "right": 276.6796875,
+              "top": -32.5390625,
+              "width": 245.859375,
+              "x": 30.8203125,
+              "y": -32.5390625
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 675
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/homework",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Homework and submissions are unavailable until batch assignments are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 83.984375
+        },
+        {
+          "text": "No homework connected",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "dark",
+      "title": "Homework",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/fees",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO PREVIEW Sample scenarios only. Balances, payments and receipts are not connected.",
+        "Fee status follows promised payment dates, independently of enrollment expiry.",
+        "0 connected",
+        "0 connected",
+        "0 connected",
+        "DEMO-001 · Registration Number unavailable · New General",
+        "DEMO-002 · Registration Number unavailable · Old General",
+        "DEMO-003 · Registration Number unavailable · New Guarantee",
+        "DEMO-004 · Registration Number unavailable · Old Guarantee",
+        "DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)",
+        "Search sample students above. Real fees and balances are not connected.",
+        "Preview only. No installment is posted and no receipt is issued."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Fees",
+          "top": 83.984375
+        },
+        {
+          "text": "Fee register",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "dark",
+      "title": "Fees",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 350.83331298828125
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ledger",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO LEDGER Sample transactions only; no payment source is connected. A fee invoice is not income.",
+        "Reversals retain the original entry.",
+        "2026-10-12 · adjustment · Reversed",
+        "Example partial refund",
+        "DEMO-REFUND-04 · Reversal of DEMO-TXN-002",
+        "2026-10-11 · expense · Posted",
+        "Example electricity expense",
+        "DEMO-EXP-03",
+        "2026-10-10 · income · Posted",
+        "Example course fee receipt",
+        "DEMO-PAY-02",
+        "2026-10-02 · expense · Posted",
+        "Example classroom supplies",
+        "DEMO-EXP-01",
+        "2026-09-30 · adjustment · Posted",
+        "Example reversal of duplicate expense",
+        "DEMO-REV-05 · Reversal of DEMO-TXN-006",
+        "2026-09-30 · expense · Reversed",
+        "Example expense later reversed",
+        "DEMO-EXP-06",
+        "Preview only. No financial records or payments are posted."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Ledger",
+          "top": 83.984375
+        },
+        {
+          "text": "Transaction history",
+          "top": 510.8984375
+        }
+      ],
+      "theme": "dark",
+      "title": "Ledger",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 802.4999389648438
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/staff",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Staff records and teacher assignments are not connected. Access changes require centre authorization."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Staff",
+          "top": 83.984375
+        },
+        {
+          "text": "Staff records unavailable",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "dark",
+      "title": "Staff",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/audit-logs",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO EVENTS Sample activity only. Real audit events are not connected.",
+        "Centre-local timestamps · no passwords, tokens or private contact details",
+        "Exports · Demo Centre Admin (Centre Admin) · Fictional directory",
+        "Enrollment · Demo Manager (Manager) · DEMO-003",
+        "Batches · Demo Centre Admin (Centre Admin) · New Guarantee (demo)",
+        "Fees · Demo Centre Admin (Centre Admin) · Fictional admission",
+        "Attendance · Demo Teacher (Teacher) · Assigned batch scope"
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Audit Logs",
+          "top": 83.984375
+        },
+        {
+          "text": "Activity history",
+          "top": 256.5234375
+        }
+      ],
+      "theme": "dark",
+      "title": "Audit Logs",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 662.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ics-updates",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "No current timetable is published.",
+        "Notices, timetable uploads and history are not connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "ICS Updates",
+          "top": 83.984375
+        },
+        {
+          "text": "Pinned current timetables",
+          "top": 150.8984375
+        },
+        {
+          "text": "No updates published",
+          "top": 341.41925048828125
+        }
+      ],
+      "theme": "dark",
+      "title": "ICS Updates",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/chatrooms",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO ONLY Sample conversations only. Messages are not delivered or saved.",
+        "Batch room · fictional",
+        "Staff only · fictional",
+        "One-way notices · fictional",
+        "Student to authorized staff · fictional",
+        "Batch room · fictional · sender names are fictional profile references",
+        "Could you share the revision topic list for Friday?",
+        "New General · fictional demo identity",
+        "We will review chapters 3 and 4 in class.",
+        "New General · fictional demo identity",
+        "Text only. Attachments are disabled. Sending will not deliver or persist.",
+        "Abusive language · Medium · simulated · Status: New",
+        "A fictional message excerpt for the moderator preview.",
+        "Review changes are not saved. No notification is sent.",
+        "Centre-wide defaults and room overrides",
+        "Preview controls only. Changes are not saved and do not grant room access."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 257.6822814941406
+        },
+        {
+          "text": "New General",
+          "top": 376.3020629882813
+        },
+        {
+          "text": "Moderation review · demo",
+          "top": 1060.390625
+        },
+        {
+          "text": "Chat Permissions",
+          "top": 1329.934814453125
+        }
+      ],
+      "theme": "dark",
+      "title": "Chatrooms",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 28.880207061767575,
+              "height": 17.99479103088379,
+              "left": 38.81510162353515,
+              "right": 56.809892654418945,
+              "top": 10.885416030883787,
+              "width": 17.99479103088379,
+              "x": 38.81510162353515,
+              "y": 10.885416030883787
+            },
+            "text": "INPUT"
+          },
+          {
+            "rect": {
+              "bottom": 28.880207061767575,
+              "height": 17.99479103088379,
+              "left": 116.5625,
+              "right": 134.5572910308838,
+              "top": 10.885416030883787,
+              "width": 17.99479103088379,
+              "x": 116.5625,
+              "y": 10.885416030883787
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1493.333251953125
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1118.7109375
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 58.89322757720947,
+              "height": 45.98958206176758,
+              "left": 236.11978149414065,
+              "right": 279.5182189941406,
+              "top": 12.903645515441896,
+              "width": 43.3984375,
+              "x": 236.11978149414065,
+              "y": 12.903645515441896
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 647.5,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "admin-320-Dark--settings.jpg"
+    },
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Admissions trend",
+          "top": 847.265625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 993.8671875
+        },
+        {
+          "text": "Financial overview",
+          "top": 1140.46875
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1326.6796875
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 444.9999694824219
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Fictional directory records",
+        "Fictional directory records",
+        "Enrollment periods · not unique students",
+        "Unavailable · fee records not connected",
+        "Renewals due within 30 days · demo",
+        "Fictional enrollment periods",
+        "With active demo enrollments",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New General · Batch roll: 101",
+        "Unclassified legacy contact: 00000 00001",
+        "Enrollment: Active",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old General · Batch roll: 201",
+        "Unclassified legacy contact: 00000 00002",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New Guarantee · Batch roll: 301",
+        "Unclassified legacy contact: 00000 00003",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old Guarantee · Batch roll: 401",
+        "Unclassified legacy contact: 00000 00004",
+        "Enrollment: Expired Enrollment",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Weekend Practice (demo custom) · Batch roll: 501",
+        "Unclassified legacy contact: 00000 00005",
+        "Enrollment: Active",
+        "5 of 5 fictional students · showing 5 on this page",
+        "Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Students",
+          "top": 83.984375
+        },
+        {
+          "text": "Student overview",
+          "top": 130.06509399414062
+        },
+        {
+          "text": "Student directory",
+          "top": 700.5208129882812
+        }
+      ],
+      "theme": "light",
+      "title": "Students",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 50.950520515441895,
+              "height": 40,
+              "left": 38.81510162353515,
+              "right": 323.6848831176758,
+              "top": 10.950520515441896,
+              "width": 284.8697814941406,
+              "x": 38.81510162353515,
+              "y": 10.950520515441896
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 859.1666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/new",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Demo preview — admission is not saved.",
+        "Period ends 14 January 2027",
+        "Optional for cash; required for other modes.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Add Student",
+          "top": 83.984375
+        },
+        {
+          "text": "Fees & Payment",
+          "top": 1001.5885009765624
+        }
+      ],
+      "theme": "light",
+      "title": "Add Student",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 577.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Fictional demo profile · DEMO-001 is a preview reference, not an official student ID. No records are connected.",
+        "Unsaved request. Centre permission and teacher confirmation may be required; no records change.",
+        "Transfers must preserve the Student ID and existing records. This preview submits no transfer.",
+        "No renewal history is connected.",
+        "No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.",
+        "Exports contain sample references only; no payments or receipts.",
+        "No live attendance register or percentage is available.",
+        "No live assessments or published marks are available.",
+        "No student-specific notices are available in this demo.",
+        "Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access.",
+        "Not shown in this demo. Access requires an explicit centre authorization."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Aarav Example",
+          "top": 137.9817657470703
+        },
+        {
+          "text": "Personal details",
+          "top": 307.55206298828125
+        },
+        {
+          "text": "Academic & admission details",
+          "top": 997.4088134765624
+        },
+        {
+          "text": "Current batch enrollment",
+          "top": 1614.3228759765625
+        },
+        {
+          "text": "Batch transfer",
+          "top": 2166.2890625
+        },
+        {
+          "text": "Batch & renewal history",
+          "top": 2304.270751953125
+        },
+        {
+          "text": "Fees & payments",
+          "top": 2541.71875
+        },
+        {
+          "text": "Attendance",
+          "top": 3365.46875
+        },
+        {
+          "text": "Tests & Results",
+          "top": 3544.75244140625
+        },
+        {
+          "text": "Notices & Updates",
+          "top": 3724.036376953125
+        },
+        {
+          "text": "Conduct Reports",
+          "top": 3903.3203125
+        },
+        {
+          "text": "Internal notes",
+          "top": 4059.270751953125
+        }
+      ],
+      "theme": "light",
+      "title": "Aarav Example",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1816.6666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001/edit",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Aarav Example · Fictional demo record",
+        "Demo preview — admission is not saved.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Edit student details",
+          "top": 137.9817657470703
+        }
+      ],
+      "theme": "light",
+      "title": "Edit student details",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 18.776041507720947,
+              "height": 15.546875,
+              "left": 15.989583015441896,
+              "right": 222.42186450958252,
+              "top": 3.2291665077209473,
+              "width": 206.43228149414065,
+              "x": 15.989583015441896,
+              "y": 3.2291665077209473
+            },
+            "text": "Aarav Example · Fictional demo record"
+          },
+          {
+            "rect": {
+              "bottom": 81.97916412353516,
+              "height": 45.20833206176758,
+              "left": 15.989583015441896,
+              "right": 346.51039600372314,
+              "top": 36.77083206176758,
+              "width": 330.52081298828125,
+              "x": 15.989583015441896,
+              "y": 36.77083206176758
+            },
+            "text": "Demo preview — admission is not saved."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 170.8333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/batches",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO DATA Sample batches only. Changes are not saved.",
+        "Sample batch catalogue.",
+        "Batch dates do not change student enrollment periods.",
+        "Choose NEW or OLD for registration numbering. This preview does not create a batch.",
+        "Assignments and batch updates are unavailable until centre records and permissions are connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Batches",
+          "top": 83.984375
+        },
+        {
+          "text": "Batch catalogue",
+          "top": 240.02603149414065
+        },
+        {
+          "text": "Preview date changes",
+          "top": 876.8359375
+        }
+      ],
+      "theme": "light",
+      "title": "Batches",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 443.3333129882813
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/attendance",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh.",
+        "Identify a student, confirm the details, then mark a draft status.",
+        "Enter a roll number; name or demo reference also works as a fallback.",
+        "New General · 2026-10-15 · 0 marked of 1 active demo students",
+        "Roll audit: 0 missing · 0 duplicate numbers.",
+        "DEMO-001 · batch roll 101"
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 83.984375
+        },
+        {
+          "text": "Rapid Attendance · preview",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 58.03385162353515,
+              "height": 74.63541412353516,
+              "left": 15.989583015441896,
+              "right": 346.51039600372314,
+              "top": -16.6015625,
+              "width": 330.52081298828125,
+              "x": 15.989583015441896,
+              "y": -16.6015625
+            },
+            "text": "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 146.66665649414062
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/tests-results",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "Unsaved assessment for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 83.984375
+        },
+        {
+          "text": "Create test preview",
+          "top": 254.51821899414065
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 959.4921875
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 1371.2760009765625
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 19.453125,
+              "height": 45.98958206176758,
+              "left": 30.8203125,
+              "right": 331.6796875,
+              "top": -26.536457061767575,
+              "width": 300.859375,
+              "x": 30.8203125,
+              "y": -26.536457061767575
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 652.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/homework",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Homework and submissions are unavailable until batch assignments are connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 83.984375
+        },
+        {
+          "text": "No homework connected",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/fees",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO PREVIEW Sample scenarios only. Balances, payments and receipts are not connected.",
+        "Fee status follows promised payment dates, independently of enrollment expiry.",
+        "0 connected",
+        "0 connected",
+        "0 connected",
+        "DEMO-001 · Registration Number unavailable · New General",
+        "DEMO-002 · Registration Number unavailable · Old General",
+        "DEMO-003 · Registration Number unavailable · New Guarantee",
+        "DEMO-004 · Registration Number unavailable · Old Guarantee",
+        "DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)",
+        "Search sample students above. Real fees and balances are not connected.",
+        "Preview only. No installment is posted and no receipt is issued."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Fees",
+          "top": 83.984375
+        },
+        {
+          "text": "Fee register",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Fees",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 331.6666564941406
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ledger",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO LEDGER Sample transactions only; no payment source is connected. A fee invoice is not income.",
+        "Reversals retain the original entry.",
+        "2026-10-12 · adjustment · Reversed",
+        "Example partial refund",
+        "DEMO-REFUND-04 · Reversal of DEMO-TXN-002",
+        "2026-10-11 · expense · Posted",
+        "Example electricity expense",
+        "DEMO-EXP-03",
+        "2026-10-10 · income · Posted",
+        "Example course fee receipt",
+        "DEMO-PAY-02",
+        "2026-10-02 · expense · Posted",
+        "Example classroom supplies",
+        "DEMO-EXP-01",
+        "2026-09-30 · adjustment · Posted",
+        "Example reversal of duplicate expense",
+        "DEMO-REV-05 · Reversal of DEMO-TXN-006",
+        "2026-09-30 · expense · Reversed",
+        "Example expense later reversed",
+        "DEMO-EXP-06",
+        "Preview only. No financial records or payments are posted."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Ledger",
+          "top": 83.984375
+        },
+        {
+          "text": "Transaction history",
+          "top": 510.8984375
+        }
+      ],
+      "theme": "light",
+      "title": "Ledger",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 801.6666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/staff",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Staff records and teacher assignments are not connected. Access changes require centre authorization."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Staff",
+          "top": 83.984375
+        },
+        {
+          "text": "Staff records unavailable",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Staff",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/audit-logs",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO EVENTS Sample activity only. Real audit events are not connected.",
+        "Centre-local timestamps · no passwords, tokens or private contact details",
+        "Exports · Demo Centre Admin (Centre Admin) · Fictional directory",
+        "Enrollment · Demo Manager (Manager) · DEMO-003",
+        "Batches · Demo Centre Admin (Centre Admin) · New Guarantee (demo)",
+        "Fees · Demo Centre Admin (Centre Admin) · Fictional admission",
+        "Attendance · Demo Teacher (Teacher) · Assigned batch scope"
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Audit Logs",
+          "top": 83.984375
+        },
+        {
+          "text": "Activity history",
+          "top": 240.02603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Audit Logs",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 640
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ics-updates",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "No current timetable is published.",
+        "Notices, timetable uploads and history are not connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "ICS Updates",
+          "top": 83.984375
+        },
+        {
+          "text": "Pinned current timetables",
+          "top": 150.8984375
+        },
+        {
+          "text": "No updates published",
+          "top": 341.41925048828125
+        }
+      ],
+      "theme": "light",
+      "title": "ICS Updates",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/chatrooms",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO ONLY Sample conversations only. Messages are not delivered or saved.",
+        "Batch room · fictional",
+        "Staff only · fictional",
+        "One-way notices · fictional",
+        "Student to authorized staff · fictional",
+        "Batch room · fictional · sender names are fictional profile references",
+        "Could you share the revision topic list for Friday?",
+        "New General · fictional demo identity",
+        "We will review chapters 3 and 4 in class.",
+        "New General · fictional demo identity",
+        "Text only. Attachments are disabled. Sending will not deliver or persist.",
+        "Abusive language · Medium · simulated · Status: New",
+        "A fictional message excerpt for the moderator preview.",
+        "Review changes are not saved. No notification is sent.",
+        "Centre-wide defaults and room overrides",
+        "Preview controls only. Changes are not saved and do not grant room access."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 257.6822814941406
+        },
+        {
+          "text": "New General",
+          "top": 376.3020629882813
+        },
+        {
+          "text": "Moderation review · demo",
+          "top": 1004.921875
+        },
+        {
+          "text": "Chat Permissions",
+          "top": 1253.4765625
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 6.2630205154418945,
+              "height": 17.99479103088379,
+              "left": 38.81510162353515,
+              "right": 56.809892654418945,
+              "top": -11.731770515441896,
+              "width": 17.99479103088379,
+              "x": 38.81510162353515,
+              "y": -11.731770515441896
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1417.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 375,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1057.7213134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 375,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 97.22655868530272,
+              "height": 45.98958206176758,
+              "left": 291.1197814941406,
+              "right": 334.5182189941406,
+              "top": 51.23697662353515,
+              "width": 43.3984375,
+              "x": 291.1197814941406,
+              "y": 51.23697662353515
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 362.5,
+          "top": 0,
+          "width": 362.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 609.1666259765625,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 346.51039600372314,
+          "top": 57.99478912353515,
+          "width": 330.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Admissions trend",
+          "top": 847.265625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 993.8671875
+        },
+        {
+          "text": "Financial overview",
+          "top": 1140.46875
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1326.6796875
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/students",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Fictional directory records",
+        "Fictional directory records",
+        "Enrollment periods · not unique students",
+        "Unavailable · fee records not connected",
+        "Renewals due within 30 days · demo",
+        "Fictional enrollment periods",
+        "With active demo enrollments",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New General · Batch roll: 101",
+        "Unclassified legacy contact: 00000 00001",
+        "Enrollment: Active",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old General · Batch roll: 201",
+        "Unclassified legacy contact: 00000 00002",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "New Guarantee · Batch roll: 301",
+        "Unclassified legacy contact: 00000 00003",
+        "Enrollment: Renewal Due",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Old Guarantee · Batch roll: 401",
+        "Unclassified legacy contact: 00000 00004",
+        "Enrollment: Expired Enrollment",
+        "Permanent Student ID: Not issued",
+        "Registration Number: Not recorded",
+        "Weekend Practice (demo custom) · Batch roll: 501",
+        "Unclassified legacy contact: 00000 00005",
+        "Enrollment: Active",
+        "5 of 5 fictional students · showing 5 on this page",
+        "Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Students",
+          "top": 83.984375
+        },
+        {
+          "text": "Student overview",
+          "top": 130.06509399414062
+        },
+        {
+          "text": "Student directory",
+          "top": 700.5208129882812
+        }
+      ],
+      "theme": "light",
+      "title": "Students",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/students/new",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Demo preview — admission is not saved.",
+        "Period ends 14 January 2027",
+        "Optional for cash; required for other modes.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Add Student",
+          "top": 83.984375
+        },
+        {
+          "text": "Fees & Payment",
+          "top": 1001.5885009765624
+        }
+      ],
+      "theme": "light",
+      "title": "Add Student",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Fictional demo profile · DEMO-001 is a preview reference, not an official student ID. No records are connected.",
+        "Unsaved request. Centre permission and teacher confirmation may be required; no records change.",
+        "Transfers must preserve the Student ID and existing records. This preview submits no transfer.",
+        "No renewal history is connected.",
+        "No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.",
+        "Exports contain sample references only; no payments or receipts.",
+        "No live attendance register or percentage is available.",
+        "No live assessments or published marks are available.",
+        "No student-specific notices are available in this demo.",
+        "Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access.",
+        "Not shown in this demo. Access requires an explicit centre authorization."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Aarav Example",
+          "top": 137.9817657470703
+        },
+        {
+          "text": "Personal details",
+          "top": 307.55206298828125
+        },
+        {
+          "text": "Academic & admission details",
+          "top": 997.4088134765624
+        },
+        {
+          "text": "Current batch enrollment",
+          "top": 1614.3228759765625
+        },
+        {
+          "text": "Batch transfer",
+          "top": 2166.2890625
+        },
+        {
+          "text": "Batch & renewal history",
+          "top": 2304.270751953125
+        },
+        {
+          "text": "Fees & payments",
+          "top": 2541.71875
+        },
+        {
+          "text": "Attendance",
+          "top": 3365.46875
+        },
+        {
+          "text": "Tests & Results",
+          "top": 3544.75244140625
+        },
+        {
+          "text": "Notices & Updates",
+          "top": 3724.036376953125
+        },
+        {
+          "text": "Conduct Reports",
+          "top": 3903.3203125
+        },
+        {
+          "text": "Internal notes",
+          "top": 4059.270751953125
+        }
+      ],
+      "theme": "light",
+      "title": "Aarav Example",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001/edit",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Aarav Example · Fictional demo record",
+        "Demo preview — admission is not saved.",
+        "Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Edit student details",
+          "top": 137.9817657470703
+        }
+      ],
+      "theme": "light",
+      "title": "Edit student details",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/batches",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO DATA Sample batches only. Changes are not saved.",
+        "Sample batch catalogue.",
+        "Batch dates do not change student enrollment periods.",
+        "Choose NEW or OLD for registration numbering. This preview does not create a batch.",
+        "Assignments and batch updates are unavailable until centre records and permissions are connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Batches",
+          "top": 83.984375
+        },
+        {
+          "text": "Batch catalogue",
+          "top": 240.02603149414065
+        },
+        {
+          "text": "Preview date changes",
+          "top": 876.8359375
+        }
+      ],
+      "theme": "light",
+      "title": "Batches",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/attendance",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO PREVIEW Attendance is not connected. Draft marks are not submitted and clear on refresh.",
+        "Identify a student, confirm the details, then mark a draft status.",
+        "Enter a roll number; name or demo reference also works as a fallback.",
+        "New General · 2026-10-15 · 0 marked of 1 active demo students",
+        "Roll audit: 0 missing · 0 duplicate numbers.",
+        "DEMO-001 · batch roll 101"
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 83.984375
+        },
+        {
+          "text": "Rapid Attendance · preview",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/tests-results",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "Unsaved assessment for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 83.984375
+        },
+        {
+          "text": "Create test preview",
+          "top": 254.51821899414065
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 959.4921875
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 1371.2760009765625
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/homework",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Homework and submissions are unavailable until batch assignments are connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 83.984375
+        },
+        {
+          "text": "No homework connected",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/fees",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO PREVIEW Sample scenarios only. Balances, payments and receipts are not connected.",
+        "Fee status follows promised payment dates, independently of enrollment expiry.",
+        "0 connected",
+        "0 connected",
+        "0 connected",
+        "DEMO-001 · Registration Number unavailable · New General",
+        "DEMO-002 · Registration Number unavailable · Old General",
+        "DEMO-003 · Registration Number unavailable · New Guarantee",
+        "DEMO-004 · Registration Number unavailable · Old Guarantee",
+        "DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)",
+        "Search sample students above. Real fees and balances are not connected.",
+        "Preview only. No installment is posted and no receipt is issued."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Fees",
+          "top": 83.984375
+        },
+        {
+          "text": "Fee register",
+          "top": 252.52603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Fees",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/ledger",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO LEDGER Sample transactions only; no payment source is connected. A fee invoice is not income.",
+        "Reversals retain the original entry.",
+        "2026-10-12 · adjustment · Reversed",
+        "Example partial refund",
+        "DEMO-REFUND-04 · Reversal of DEMO-TXN-002",
+        "2026-10-11 · expense · Posted",
+        "Example electricity expense",
+        "DEMO-EXP-03",
+        "2026-10-10 · income · Posted",
+        "Example course fee receipt",
+        "DEMO-PAY-02",
+        "2026-10-02 · expense · Posted",
+        "Example classroom supplies",
+        "DEMO-EXP-01",
+        "2026-09-30 · adjustment · Posted",
+        "Example reversal of duplicate expense",
+        "DEMO-REV-05 · Reversal of DEMO-TXN-006",
+        "2026-09-30 · expense · Reversed",
+        "Example expense later reversed",
+        "DEMO-EXP-06",
+        "Preview only. No financial records or payments are posted."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Ledger",
+          "top": 83.984375
+        },
+        {
+          "text": "Transaction history",
+          "top": 510.8984375
+        }
+      ],
+      "theme": "light",
+      "title": "Ledger",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/staff",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Staff records and teacher assignments are not connected. Access changes require centre authorization."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Staff",
+          "top": 83.984375
+        },
+        {
+          "text": "Staff records unavailable",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Staff",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/audit-logs",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO EVENTS Sample activity only. Real audit events are not connected.",
+        "Centre-local timestamps · no passwords, tokens or private contact details",
+        "Exports · Demo Centre Admin (Centre Admin) · Fictional directory",
+        "Enrollment · Demo Manager (Manager) · DEMO-003",
+        "Batches · Demo Centre Admin (Centre Admin) · New Guarantee (demo)",
+        "Fees · Demo Centre Admin (Centre Admin) · Fictional admission",
+        "Attendance · Demo Teacher (Teacher) · Assigned batch scope"
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Audit Logs",
+          "top": 83.984375
+        },
+        {
+          "text": "Activity history",
+          "top": 240.02603149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Audit Logs",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/ics-updates",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "No current timetable is published.",
+        "Notices, timetable uploads and history are not connected."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "ICS Updates",
+          "top": 83.984375
+        },
+        {
+          "text": "Pinned current timetables",
+          "top": 150.8984375
+        },
+        {
+          "text": "No updates published",
+          "top": 341.41925048828125
+        }
+      ],
+      "theme": "light",
+      "title": "ICS Updates",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/chatrooms",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO ONLY Sample conversations only. Messages are not delivered or saved.",
+        "Batch room · fictional",
+        "Staff only · fictional",
+        "One-way notices · fictional",
+        "Student to authorized staff · fictional",
+        "Batch room · fictional · sender names are fictional profile references",
+        "Could you share the revision topic list for Friday?",
+        "New General · fictional demo identity",
+        "We will review chapters 3 and 4 in class.",
+        "New General · fictional demo identity",
+        "Text only. Attachments are disabled. Sending will not deliver or persist.",
+        "Abusive language · Medium · simulated · Status: New",
+        "A fictional message excerpt for the moderator preview.",
+        "Review changes are not saved. No notification is sent.",
+        "Centre-wide defaults and room overrides",
+        "Preview controls only. Changes are not saved and do not grant room access."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 257.6822814941406
+        },
+        {
+          "text": "New General",
+          "top": 376.3020629882813
+        },
+        {
+          "text": "Moderation review · demo",
+          "top": 1004.921875
+        },
+        {
+          "text": "Chat Permissions",
+          "top": 1253.4765625
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 375,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 362,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 362.5,
+        "top": 0,
+        "width": 362.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1057.7213134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 375,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'light' !== 'dark'\n"
+    }
+  ],
+  "themes": {
+    "admin": "System"
+  }
+}

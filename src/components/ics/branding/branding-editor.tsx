@@ -51,7 +51,7 @@ function BrandingEditorForm({ branding, logoUrl, storageIssue, applyBranding }: 
 
   return <section className="branding-settings" aria-labelledby="branding-title">
     <h2 id="branding-title">Centre branding</h2>
-    <p className="branding-scope">Centre Admin preview · Current demo centre only. Changes are stored on this device and are not saved to Supabase, shared with other devices or authorized by a real sign-in.</p>
+    <p className="branding-scope">Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.</p>
     <div className="branding-editor">
       <form className="branding-fields" onSubmit={event => { event.preventDefault(); void apply(); }} noValidate>
         <label htmlFor="brand-centre-name">Centre display name<input id="brand-centre-name" maxLength={80} required value={draft.displayName} aria-invalid={!!errors.displayName} aria-describedby={errors.displayName ? "brand-centre-name-error" : undefined} onChange={event => change("displayName", event.currentTarget.value)}/>{errors.displayName && <span id="brand-centre-name-error" className="field-error">{errors.displayName}</span>}</label>
@@ -60,7 +60,7 @@ function BrandingEditorForm({ branding, logoUrl, storageIssue, applyBranding }: 
         <div className="branding-accent-field"><ColorPicker label="Brand mark accent" description="Optional · does not change the app accent" value={draft.brandAccent || "#7896ff"} onChange={value => change("brandAccent", value)}/><button type="button" className="secondary-action" onClick={() => change("brandAccent", "")}>Use application accent</button></div>
         <label className="branding-logo-field" htmlFor="brand-logo">Logo <span className="branding-optional">PNG, JPG or WebP · up to 1 MB · stays in this browser</span><input id="brand-logo" type="file" accept="image/png,image/jpeg,image/webp,.png,.jpg,.jpeg,.webp" onChange={event => void chooseLogo(event)}/>{errors.logo && <span className="field-error">{String(errors.logo)}</span>}</label>
         <div className="branding-actions"><button type="submit" disabled={busy}>{busy ? "Applying…" : "Apply branding"}</button><button type="button" className="secondary-action" disabled={busy} onClick={() => { setDraft(branding); setLogoFile(null); setRemoveLogo(false); setErrors({}); setMessage("Draft reset to the branding currently applied on this device."); }}>Reset draft</button>{(logoFile || branding.logoId) && <button type="button" className="secondary-action" disabled={busy} onClick={() => { setLogoFile(null); setRemoveLogo(true); setMessage("Logo removal is in the draft. Apply branding to confirm it."); }}>Remove logo</button>}</div>
-        <p className="branding-message" role="status" aria-live="polite">{message || storageIssue || "Preview your draft first. Apply updates this device-local demo only."}</p>
+        <p className="branding-message" role="status" aria-live="polite">{message || storageIssue || "Apply saves this preview on this device only."}</p>
       </form>
       <aside className="branding-preview" aria-label="Centre branding preview">
         <span className="branding-preview-label">Preview</span>
@@ -68,7 +68,7 @@ function BrandingEditorForm({ branding, logoUrl, storageIssue, applyBranding }: 
           {previewUrl ? <Image src={previewUrl} width={48} height={48} alt="" unoptimized className="branding-preview-logo"/> : <span className="brand-symbol branding-preview-mark" aria-hidden="true">{brandInitials(draft)}</span>}
           <span><strong>{draft.displayName || "Centre name"}</strong><small>{draft.branchName || "Branch name"}</small></span>
         </div>
-        <p>The sidebar and workspace header use applied branding for this browser.</p>
+        <p>Applied branding appears in this browser.</p>
       </aside>
     </div>
   </section>;

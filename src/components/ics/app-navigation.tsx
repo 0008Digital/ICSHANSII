@@ -13,9 +13,10 @@ import { GlassSurface } from "./glass";
 import { useAppMotionReduced } from "@/app/providers";
 import { useWorkspaceRolePreview } from "./workspace-role-preview";
 import { isCurrentNavigationHref, mobileNavigationLabel } from "./navigation-current.mjs";
+import {subscribeSectionLocation} from "./section-navigation.mjs";
+import {useRoleSectionNavigation} from "./use-role-section-navigation";
 const subscribe=()=>()=>{};
 const clientSnapshot=()=>true,serverSnapshot=()=>false;
-const subscribeHash=(listener:()=>void)=>{window.addEventListener("hashchange",listener);return()=>window.removeEventListener("hashchange",listener);};
 const currentHash=()=>window.location.hash,serverHash=()=>"";
 const MotionLink=motion.create(Link);
 const primary=["/","/students","/batches","/attendance"];
@@ -25,7 +26,8 @@ const teacherDockIds=["teacher-dashboard","assigned-students","attendance","home
 const ownerDockIds=["developer-console","bug-reports","application-errors","system-health"];
 export function AppNavigation({mode,role=DEMO_WORKSPACE.role,placement="main"}:{mode:"desktop"|"mobile";role?:WorkspaceRole;placement?:"main"|"bottom"}) {
  const pathname=usePathname();
- const hash=useSyncExternalStore(subscribeHash,currentHash,serverHash);
+ const hash=useSyncExternalStore(subscribeSectionLocation,currentHash,serverHash);
+ useRoleSectionNavigation(role,mode==="mobile");
  const navigation=roleFeatures(role);const indicator=useId();
  const reduced=useAppMotionReduced();
  const dock=useRef<HTMLElement>(null);
@@ -37,7 +39,9 @@ export function AppNavigation({mode,role=DEMO_WORKSPACE.role,placement="main"}:{
  const moreScope=`${userId}:${role}:${pathname}:${hash}`;
  const [moreState,setMoreState]=useState({scope:"",open:false});
  const moreOpen=moreState.scope===moreScope&&moreState.open;
- const setMoreOpen=(open:boolean)=>setMoreState({scope:moreScope,open});
+ // Next can commit a cross-route hash removal after this render. Capture the
+ // actual location at interaction time so the first More click stays open.
+ const setMoreOpen=(open:boolean)=>setMoreState({scope:role==="admin"||role==="manager"?moreScope:`${userId}:${role}:${window.location.pathname}:${window.location.hash}`,open});
  const {settings}=useAppearance();
  useEffect(()=>{
   const desktop=window.matchMedia("(min-width: 768px)");

@@ -1,0 +1,33 @@
+{
+  "sourceChanges": 0,
+  "diffCheckExit": 0,
+  "captures": 50,
+  "captureStatuses": [
+    {
+      "Name": "captured",
+      "Count": 38
+    },
+    {
+      "Name": "viewport-mismatch",
+      "Count": 12
+    }
+  ],
+  "coverage": [
+    {
+      "Name": "approximate-width-only",
+      "Count": 31
+    },
+    {
+      "Name": "captured-not-visual-pass",
+      "Count": 177
+    },
+    {
+      "Name": "misattributed-capture-excluded",
+      "Count": 11
+    },
+    {
+      "Name": "untested",
+      "Count": 411
+    }
+  ]
+}

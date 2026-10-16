@@ -1,0 +1,60 @@
+[
+  {
+    "action": "direct",
+    "hash": "#assigned-students",
+    "title": "Teacher Dashboard",
+    "visible": [
+      "assigned-batches",
+      "assigned-students",
+      "attendance",
+      "homework",
+      "tests",
+      "chat-moderation"
+    ]
+  },
+  {
+    "action": "reload",
+    "hash": "#assigned-students",
+    "title": "Teacher Dashboard",
+    "visible": [
+      "assigned-batches",
+      "assigned-students",
+      "attendance",
+      "homework",
+      "tests",
+      "chat-moderation"
+    ]
+  },
+  {
+    "action": "batches",
+    "hash": "#assigned-batches",
+    "title": "Assigned Batches",
+    "visible": [
+      "assigned-batches"
+    ]
+  },
+  {
+    "action": "students",
+    "hash": "#assigned-students",
+    "title": "Students",
+    "visible": [
+      "assigned-students"
+    ]
+  },
+  {
+    "action": "back",
+    "hash": "#assigned-batches",
+    "title": "Assigned Batches",
+    "visible": [
+      "assigned-batches"
+    ]
+  },
+  {
+    "action": "forward",
+    "hash": "#assigned-students",
+    "title": "Students",
+    "visible": [
+      "assigned-students"
+    ]
+  }
+]

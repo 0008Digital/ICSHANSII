@@ -1,0 +1,35 @@
+ M AGENTS.md
+ M src/components/ics/academic-preview.tsx
+ M src/components/ics/app-navigation.tsx
+ M src/components/ics/appearance/customizer.tsx
+ M src/components/ics/attendance-preview.tsx
+ M src/components/ics/audit-ledger.tsx
+ M src/components/ics/branding/branding-editor.tsx
+ M src/components/ics/chatrooms-workspace.tsx
+ M src/components/ics/dashboard-charts.tsx
+ M src/components/ics/demo-workspaces.css
+ M src/components/ics/developer-console.tsx
+ M src/components/ics/management-page.tsx
+ M src/components/ics/personal-settings.tsx
+ M src/components/ics/role-dashboard.tsx
+ M src/components/ics/saas-layout.css
+ M src/components/ics/settings-layout.css
+ M src/components/ics/smart-workspace-bar.tsx
+ M src/components/ics/student-directory.tsx
+ M src/components/ics/student-portal.tsx
+ M src/components/ics/students/batch-management.tsx
+ M src/components/ics/students/fee-management.tsx
+ M src/components/ics/students/student-form.tsx
+ M src/components/ics/students/student-profile.tsx
+ M src/components/ics/students/student-record-previews.tsx
+?? docs/phase1-admin-manager-regression.md
+?? qa-artifacts/
+?? scripts/cross-role-navigation-browser.mjs
+?? scripts/phase1-centre-regression.test.mjs
+?? scripts/phase1/
+?? scripts/phase3-ui-audit.mjs
+?? scripts/phase3-ui-states.mjs
+?? scripts/phase4b-browser-audit.mjs
+?? scripts/section-navigation.test.mjs
+?? src/components/ics/section-navigation.mjs
+?? src/components/ics/use-role-section-navigation.ts

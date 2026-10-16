@@ -1,0 +1,20 @@
+[
+  {
+    "active": [],
+    "hash": "#developer-settings",
+    "moreActive": "true",
+    "title": "Developer Settings",
+    "top": 1882.109375,
+    "width": 320
+  },
+  {
+    "active": [
+      "/developer#developer-settings"
+    ],
+    "hash": "#developer-settings",
+    "moreActive": "true",
+    "title": "Developer Settings",
+    "top": 734.1275634765625,
+    "width": 1440
+  }
+]

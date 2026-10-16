@@ -1,0 +1,235 @@
+✔ assessment preview validates date, maximum and explicit marks or absence (13.06ms)
+✔ assessment ranking keeps ties, absent and not-marked records separate (38.4527ms)
+✔ weekly leaderboard excludes unpublished and mismatched test sets (1.3988ms)
+✔ weekly leaderboard normalizes different maxima, shares ties and omits absent students (4.3332ms)
+✔ student preview calculations keep fee and attendance totals consistent (2.5734ms)
+✔ missing and zero totals return unavailable percentages (0.4276ms)
+✔ chart fill fractions cannot overflow tracks or invent positive zero-value bars (0.3179ms)
+✔ student status charts keep semantic categories, labels and correct proportions (4.46ms)
+✔ operational chart series remain explicitly fictional and semantically colored (0.875ms)
+(node:11804) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/app/theme-preference.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ every appearance setting persists alongside legacy theme (17.3962ms)
+✔ settings reject malformed storage and clamp numeric ranges (0.7184ms)
+✔ all requested sources, materials and original swatches are accepted (1.0863ms)
+✔ visual settings synchronize across tabs with stable snapshots (1.0249ms)
+✔ scene assets retain their recorded upstream hashes (30.5045ms)
+✔ runtime reduced-motion and hidden documents cannot be overridden by a saved preference (0.5146ms)
+✔ Scene Motion describes the enabled state and exposes its actual reduced-motion state (2.0443ms)
+✔ Motion scene uses a first-frame poster and waits for native video readiness (4.9647ms)
+✔ selected Photo is rendered in the initially selected source layer with eager priority (1.1432ms)
+✔ pre-paint bootstrap preloads the selected Motion poster or Photo image (12.4852ms)
+(node:15824) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/students/model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ rapid attendance searches fictional batch roll and student name without cross-batch results (7.4396ms)
+✔ duplicate roll matches are surfaced for safe review (1.0403ms)
+(node:25372) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/branding/branding.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ branding defaults and parser remain scoped to the current demo centre (11.1305ms)
+✔ branding validation requires readable centre and branch names (2.655ms)
+✔ branding draft store applies locally, restores after refresh and isolates tenant keys (3.0279ms)
+✔ branding storage failures reject Apply without replacing the live draft (1.4451ms)
+✔ logo input is limited to small PNG, JPG and WebP files with matching MIME (0.7862ms)
+✔ logo bytes must match the declared image type (4.4286ms)
+✔ brand mark initials and accent text contrast are deterministic (17.7198ms)
+✔ bug report requires short descriptions and valid category (3.6617ms)
+✔ bug report attachment accepts only bounded image metadata (0.9059ms)
+✔ DOB year selection preserves the day, handles leap years and clamps bounds (2.3784ms)
+✔ calendar selection supports Gregorian extremes and rejects invalid targets (1.5295ms)
+✔ chat access defaults deny non-admins and room overrides are explicit (2.0433ms)
+✔ student cannot enter the staff room, even when centre defaults are enabled (0.5959ms)
+✔ moderation blocks high-confidence threats, holds abuse/spam and allows ordinary text (1.6367ms)
+✔ permission controls keep intrinsic checkbox sizing and labelled touch targets (61.5238ms)
+✔ custom color parser accepts six digit hex and rejects malformed or non-hex values (4.0456ms)
+✔ a color editor near the right edge stays inside narrow visual viewports and above the dock (1.136ms)
+(node:36880) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/appearance/custom-background.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ custom settings reject executable CSS and invalid URLs and clamp resource controls (4.4882ms)
+✔ accepted media signatures match their MIME types (4.0759ms)
+✔ custom metadata persists without media bytes (5.9354ms)
+✔ storage denial is reported while ordinary preferences remain usable in memory (3.8333ms)
+✔ failed preference writes cannot replace previously saved media metadata (1.1799ms)
+(node:19832) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/students/model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Gregorian leap years and invalid date input (6.0773ms)
+✔ date-only day/month and fast-year navigation (1.1028ms)
+✔ inclusive min/max restrictions (2.1636ms)
+✔ display and storage do not shift date-only values across timezones (7.3538ms)
+✔ optional DOB clearing and required preview admission date validation (3.3838ms)
+✔ calendar grids remain valid at the first and last supported Gregorian years (1.3158ms)
+✔ nested modal locks preserve the gutter and release only after the final dialog (2.833ms)
+✔ scroll lock restores existing inline overflow, priority and compensated padding (0.9147ms)
+✔ separate documents do not share lock ownership (23.5175ms)
+✔ fee summary export includes fee totals and honest unavailable values (2.5553ms)
+✔ payment history export has one row per supplied event and preserves audit reference fields (1.2852ms)
+✔ empty transaction export is explicit and contains no fabricated payment row (0.3626ms)
+✔ fee status is independent of enrollment expiry and changes only after promised date (3.1254ms)
+✔ integer-paise fee summaries reject negative and overpaid balances (4.9091ms)
+✔ payment preview requires mode/reference as appropriate and cannot exceed balance (2.9973ms)
+✔ payment event projection retains immutable reference fields for future backend exports (0.7799ms)
+(node:20332) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-roles.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ batch dates reject invalid and reversed ranges without rewriting enrollment history (37.7161ms)
+✔ custom batch preview validates name, dates and optional whole-number capacity (1.2407ms)
+✔ expiry uses date-only local calendar arithmetic and the configured warning threshold (1.247ms)
+✔ renewal validation detects overlaps and accepts adjacent date-only periods (1.2565ms)
+✔ directory enrollment filters support expiring and expired states without changing IDs (1.3516ms)
+✔ ledger uses integer paise, excludes unpaid invoices, and reconciles reversals/refunds (134.5692ms)
+✔ audit demo rows are chronological, privacy-minimized and safely exported (1.2582ms)
+✔ new routes and exports honor current presentation boundaries (1.637ms)
+✔ enrollment export includes no official IDs or personal phone details (0.9745ms)
+✔ compact calendars use four, five or six rows without losing leap days (3.6879ms)
+✔ every date remains reachable in compact grids, including Gregorian boundaries (39.8244ms)
+(node:2252) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/monitoring-adapter.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ default monitoring boundary is disconnected and does not transmit diagnostic content (1.6543ms)
+✔ monitoring adapter can be supplied without coupling the app to a vendor (0.4858ms)
+✔ dashboard section navigation marks only one teacher, owner or student destination active (5.8602ms)
+✔ management routes retain nested-profile active states without matching route prefixes (0.4727ms)
+✔ compact role docks preserve full accessible module titles (0.809ms)
+(node:23800) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-role-model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Phase 1 admin: root landing and exact ordered navigation remain available (4.343ms)
+✔ Phase 1 admin: every linked centre route and student detail route has a page (206.3446ms)
+✔ Phase 1 admin: global search preserves admission action and navigation destinations (1.5684ms)
+✔ Phase 1 admin: export availability remains explicitly demo-scoped (0.8489ms)
+✔ Phase 1 manager: root landing and exact ordered navigation remain available (0.4017ms)
+✔ Phase 1 manager: every linked centre route and student detail route has a page (15.8969ms)
+✔ Phase 1 manager: global search preserves admission action and navigation destinations (0.8292ms)
+✔ Phase 1 manager: export availability remains explicitly demo-scoped (0.2386ms)
+✖ Phase 1: preservation boundary includes Settings without approving its layout (432.4307ms)
+✔ Phase 1: directory filters compose and do not mutate the shared records (6.5338ms)
+✔ Phase 1: admission accepts a valid draft, rejects overpayment and missing references (1.7719ms)
+✔ Phase 1: attendance matches the selected fictional roster only (0.4835ms)
+✔ Phase 1: fee preview rejects a payment beyond the fictional outstanding balance (0.3216ms)
+✔ Phase 1: proposed assessment ordering remains separate from publication (1.0039ms)
+✔ Phase 1: personal Settings and centre branding remain separate role contracts (0.2234ms)
+✔ Phase 1: screenshot policy excludes Settings from approved visual baselines (0.3482ms)
+✔ Phase 1: all approved desktop/mobile references exist and retain their hashes (168.1702ms)
+✔ Phase 1: report aggregation never hides an unrechecked failure or uses stale rechecks (1.6433ms)
+✔ dropdown keyboard movement skips disabled choices and supports Home, End and typeahead (3.8637ms)
+✔ desktop dropdown centers within workspace and stays below its trigger when space allows (2.1104ms)
+✔ mobile dropdown remains inside narrow viewport and above the floating dock (0.5304ms)
+✔ short viewports prefer the space above a trigger when the dock limits space below (2.2759ms)
+✔ global navbar spans the viewport while the sidebar and content start below it (5.0883ms)
+✔ overflowing desktop navigation must remain keyboard and wheel scrollable (0.6872ms)
+✔ short desktop windows use the fixed sidebar as the single hidden-track scroll host (0.4168ms)
+✔ mobile hides the desktop sidebar and rejects document overflow (1.6204ms)
+✔ narrow mobile dock labels override global navigation typography (27.0856ms)
+(node:29932) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/students/model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ directory searches name, ID and normalized phone (10.9943ms)
+✔ batch and status compose with search (0.8494ms)
+✔ By Batch grouping keeps each demo student exactly once and labels custom or unassigned groups (36.8682ms)
+✔ student overview derives consistent demo counts from directory and enrollment fixtures (19.7151ms)
+✔ overview metric filters return their matching students and expired enrollment stays visible as a filter (2.065ms)
+✔ admission accepts default and approved demo custom batches (2.5512ms)
+✔ admission requires valid personal details and an allowlisted batch (0.9273ms)
+✔ details edit validation does not authorize enrollment or create IDs (0.4632ms)
+✔ guardian phone is mandatory; student phone never substitutes (0.5459ms)
+✔ missing fixture contacts stay missing; legacy values remain explicitly unclassified (0.835ms)
+✔ admission fee preview uses decimal-safe minor units and rejects overpayment or malformed values (31.3222ms)
+✔ admission requires a manually entered registration number and duration (0.7931ms)
+✔ renewal due date uses calendar-month arithmetic and inclusive period end (0.7435ms)
+(node:27036) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-roles.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ every teacher dashboard anchor has an existing, unique preview target (2.7126ms)
+(node:30108) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/app/theme-preference.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ validates stored preferences (4.8683ms)
+✔ all selections survive a new store/browser session (7.3399ms)
+✔ notifies current controls and other-tab changes, with cleanup (1.2733ms)
+✔ blocked storage retains a usable in-memory preference (0.9244ms)
+✔ pre-paint bootstrap resolves saved and system appearance safely (11.0055ms)
+✔ pre-paint bootstrap selects the current demo user's scoped appearance (6.3638ms)
+✔ SSR appearance projection restores user-scoped preferences without sending local media identifiers (1.6103ms)
+✔ demo users keep appearance preferences in isolated tenant/user records (2.0511ms)
+✔ Developer, Admin, Manager and Teacher appearance records are independent (1.8492ms)
+✔ role appearance edits do not overwrite the legacy Admin mirror (0.7823ms)
+✔ bootstrap migrates local visual settings into SSR mirror, excludes blob identifier (2.0335ms)
+✔ pre-body reconciliation requests correct SSR once for a stale mirror, then stops (6.5766ms)
+✔ matching SSR settings never require reconciliation navigation (17.2427ms)
+✔ blocked cookies do not trigger reconciliation loops (2.4479ms)
+✔ cookie changes synchronously and explicit themes override OS resolution (2.0446ms)
+✔ missing or denied localStorage preserves the server snapshot instead of System/Motion (0.6827ms)
+✔ every theme/source pair bootstraps matching saved appearance without navigation (86.957ms)
+(node:3732) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-roles.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ workspace command registry exposes only real role-accessible routes and workflows (4.7455ms)
+✔ workspace route titles keep Add Student and Student Home distinct from student profiles (3.1911ms)
+✔ export choices avoid student administration for Student and centre exports for Platform Owner (0.8147ms)
+✔ admin demo exports are labeled and Manager permissions remain grant-dependent (1.7905ms)
+✔ CSV safely quotes delimiters and neutralizes spreadsheet formulas (0.7917ms)
+✔ Settings tabs parse direct hashes and manual scroll chooses the visible section (0.9866ms)
+✔ Settings sticky offsets measure the full-width global navbar (1.7082ms)
+(node:38004) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-role-model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ role preview recognizes only the five agreed roles and routes each to its workspace (3.8305ms)
+✔ demo Student A and Student B have distinct identities under the same role (0.7919ms)
+✔ command registry contains only each role's available pages and the shared safe bug action is presented separately (1.4114ms)
+(node:14580) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-roles.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ five role plans have unique feature IDs and honest dashboard summaries (5.2837ms)
+✔ admin keeps centre routes; manager has no unrestricted ledger or audit destination (1.1761ms)
+✔ platform owner has technical and centre-metadata routes, never private centre-record routes (0.5382ms)
+✔ teacher and student routes stay within teaching or personal preview workspaces (0.5348ms)
+ℹ tests 147
+ℹ suites 0
+ℹ pass 146
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2497.4252
+
+✖ failing tests:
+
+test at scripts\phase1-centre-regression.test.mjs:43:1
+✖ Phase 1: preservation boundary includes Settings without approving its layout (432.4307ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   'Changed protected file: src/components/ics/appearance/customizer.tsx',
+  +   'Changed protected file: src/components/ics/settings-layout.css'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///C:/Projects/ics-hansi/scripts/phase1-centre-regression.test.mjs:46:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'Changed protected file: src/components/ics/appearance/customizer.tsx', 'Changed protected file: src/components/ics/settings-layout.css' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

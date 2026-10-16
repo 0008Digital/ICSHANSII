@@ -23,6 +23,7 @@ import { DEMO_IDENTITIES, roleForDemoIdentity, workspaceRoleLanding, type DemoId
 import { BugReportDialog } from "./bug-report";
 import { useAppMotionReduced } from "@/app/providers";
 import { lockDocumentScroll } from "./document-scroll-lock.mjs";
+import {commitRoleSection,resetRoleSectionForIdentity} from "./section-navigation.mjs";
 
 const noSubscribe=()=>()=>{};
 const clientReady=()=>true;
@@ -45,7 +46,7 @@ function CommandPalette({role,onClose,trigger}:{role:WorkspaceRole;onClose:()=>v
   if(event.key==="ArrowUp"){event.preventDefault();setActive(current=>results.length?(current-1+results.length)%results.length:0);}
   if(event.key==="Home"&&results.length){event.preventDefault();setActive(0);}
   if(event.key==="End"&&results.length){event.preventDefault();setActive(results.length-1);}
-  if(event.key==="Enter"&&results[active]){event.preventDefault();router.push(results[active].href);onClose();}
+  if(event.key==="Enter"&&results[active]){event.preventDefault();const sectionRole=role!=="admin"&&role!=="manager";if(!sectionRole||!commitRoleSection(results[active].href,window,document,workspaceRoleLanding(role)))router.push(results[active].href);onClose();}
  }
  return <dialog ref={dialog} className="workspace-dialog command-dialog" aria-labelledby="command-title" onCancel={event=>{event.preventDefault();onClose();}}>
    <motion.div className="workspace-dialog-surface" initial={{opacity:reduced?1:0,y:reduced?0:8,scale:reduced?1:.99}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:reduced?1:0,y:reduced?0:5}} transition={{duration:reduced?0:.16,ease:[.22,1,.36,1]}}>
@@ -162,7 +163,7 @@ export function SmartWorkspaceBar({role,platform,name,branch,logoUrl,initials}:{
        <button role="menuitem" type="button" onClick={event=>openBug(actionButton.current??event.currentTarget)}><Icon name="bug"/>Report a Bug</button>
       </motion.div>}</AnimatePresence>
      </div>
-     {process.env.NODE_ENV!="production"?<label className="workspace-role-preview"><span>DEMO USER</span><select aria-label="Demo user preview" value={rolePreview.userId} onChange={event=>{const identity=event.currentTarget.value as DemoIdentityId;const next=roleForDemoIdentity(identity);rolePreview.setIdentity(identity);setActionsOpen(false);setCommandOpen(false);setExportOpen(false);setBugOpen(false);router.replace(workspaceRoleLanding(next));}}>{DEMO_IDENTITIES.map(identity=><option key={identity.id} value={identity.id}>{identity.label}</option>)}</select></label>:<div className="workspace-role-chip" aria-label={`Current role: ${roleLabels[role]}`} title={roleLabels[role]}><span aria-hidden="true">{role.slice(0,2).toUpperCase()}</span><small>{roleLabels[role]}</small></div>}
+     {process.env.NODE_ENV!="production"?<label className="workspace-role-preview"><span>DEMO USER</span><select aria-label="Demo user preview" value={rolePreview.userId} onChange={event=>{const identity=event.currentTarget.value as DemoIdentityId;const next=roleForDemoIdentity(identity);rolePreview.setIdentity(identity);setActionsOpen(false);setCommandOpen(false);setExportOpen(false);setBugOpen(false);if(next!=="admin"&&next!=="manager")resetRoleSectionForIdentity(window,workspaceRoleLanding(next));router.replace(workspaceRoleLanding(next));}}>{DEMO_IDENTITIES.map(identity=><option key={identity.id} value={identity.id}>{identity.label}</option>)}</select></label>:<div className="workspace-role-chip" aria-label={`Current role: ${roleLabels[role]}`} title={roleLabels[role]}><span aria-hidden="true">{role.slice(0,2).toUpperCase()}</span><small>{roleLabels[role]}</small></div>}
      <span className="workspace-connection" role="status" aria-label="Backend not connected" title="No backend connection is configured"><span className="note-dot" aria-hidden="true"/><span aria-hidden="true">Not connected</span></span>
     </div>
    </GlassSurface>

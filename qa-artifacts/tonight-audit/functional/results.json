@@ -1,0 +1,96 @@
+[
+  {
+    "name": "developer/320/Light: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/320/Light: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/320/Light: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/320/Light: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/320/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/320/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: assessment validation preview reset and batch isolation",
+    "status": "failed",
+    "error": "Error: Error: Click did not change checked state to true\nlocator.setChecked(true) failed for selector internal:role=checkbox[name=\"Absent\"s]\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"setChecked\",\"locator\":\"internal:role=checkbox[name=\\\"Absent\\\"s]\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":null,\"disabled\":false,\"role\":null,\"tag\":\"input\",\"text\":\"\",\"type\":\"checkbox\",\"visible\":true}],\"visibleCount\":1,\"truncated\":false}",
+    "screenshot": "teacher-320-Dark-assessment-validation-preview-reset-and-batch-isolation.jpg"
+  },
+  {
+    "name": "teacher/320/Dark: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  }
+]

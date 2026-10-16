@@ -1,0 +1,41 @@
+[
+  {
+    "name": "teacher/320/Dark: Teacher tools links and unavailable assignments",
+    "status": "failed",
+    "error": "Error: Timed out waiting for URL http://localhost:3000/attendance in tab 1.",
+    "screenshot": "teacher-320-Dark-Teacher-tools-links-and-unavailable-assignments.jpg"
+  },
+  {
+    "name": "teacher/320/Dark: assessment validation preview reset and batch isolation",
+    "status": "failed",
+    "error": "Error: Error: Browser Use encountered an error interacting with this webpage's clipboard: Active element is no longer the expected input target: target token mismatch\nlocator.fill failed for selector internal:role=textbox[name=\"Marks for Aarav Example\"s]\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"fill\",\"locator\":\"internal:role=textbox[name=\\\"Marks for Aarav Example\\\"s]\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":\"Marks for Aarav Example\",\"disabled\":false,\"role\":null,\"tag\":\"input\",\"text\":\"\",\"type\":null,\"visible\":true}],\"visibleCount\":1,\"truncated\":false}",
+    "screenshot": "teacher-320-Dark-assessment-validation-preview-reset-and-batch-isolation.jpg"
+  },
+  {
+    "name": "teacher/320/Dark: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  }
+]

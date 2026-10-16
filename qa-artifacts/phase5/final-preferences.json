@@ -1,0 +1,68 @@
+{
+  "admin": {
+    "theme": "System",
+    "source": "Motion",
+    "material": "Clear",
+    "mode": "Full",
+    "motion": true,
+    "intensity": 79,
+    "frost": 4,
+    "osReduced": false,
+    "resolvedTheme": "light"
+  },
+  "manager": {
+    "theme": "System",
+    "source": "Motion",
+    "material": "Clear",
+    "mode": "Full",
+    "motion": true,
+    "intensity": 78,
+    "frost": 4,
+    "osReduced": false,
+    "resolvedTheme": "light"
+  },
+  "developer": {
+    "theme": "System",
+    "source": "Motion",
+    "material": "Clear",
+    "mode": "Full",
+    "motion": true,
+    "intensity": 78,
+    "frost": 4,
+    "osReduced": false,
+    "resolvedTheme": "light"
+  },
+  "teacher": {
+    "theme": "System",
+    "source": "Motion",
+    "material": "Clear",
+    "mode": "Full",
+    "motion": true,
+    "intensity": 78,
+    "frost": 4,
+    "osReduced": false,
+    "resolvedTheme": "light"
+  },
+  "studentA": {
+    "theme": "System",
+    "source": "Motion",
+    "material": "Clear",
+    "mode": "Full",
+    "motion": true,
+    "intensity": 78,
+    "frost": 4,
+    "osReduced": false,
+    "resolvedTheme": "light"
+  },
+  "studentB": {
+    "theme": "System",
+    "source": "Motion",
+    "material": "Clear",
+    "mode": "Full",
+    "motion": true,
+    "intensity": 78,
+    "frost": 4,
+    "osReduced": false,
+    "resolvedTheme": "light"
+  }
+}

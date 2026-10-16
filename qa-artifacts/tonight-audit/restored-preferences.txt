@@ -1,0 +1,157 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "ICS Coaching Centre, Hansi Branch":
+    - /url: /
+    - generic: I
+    - strong: ICS Coaching Centre
+    - generic: Hansi Branch
+  - button "Search pages and actions":
+    - generic: Search pages and actions
+    - generic: Ctrl K
+  - button "Quick actions":
+    - generic: Quick actions
+  - generic: DEMO USER
+  - combobox "Demo user preview":
+    - option "Developer / Owner"
+    - option "Centre Admin" [selected]
+    - option "Manager"
+    - option "Teacher / Staff"
+    - option "Student A"
+    - option "Student B"
+  - status "Backend not connected":
+    - generic: Not connected
+- complementary "Workspace sidebar":
+  - navigation "Main navigation":
+    - region "Overview":
+      - heading "Overview" [level=2]
+      - link "Dashboard":
+        - /url: /
+        - generic: Dashboard
+    - region "Academics":
+      - heading "Academics" [level=2]
+      - link "Students":
+        - /url: /students
+        - generic: Students
+      - link "Batches":
+        - /url: /batches
+        - generic: Batches
+      - link "Attendance":
+        - /url: /attendance
+        - generic: Attendance
+      - link "Tests & Results":
+        - /url: /tests-results
+        - generic: Tests & Results
+      - link "Homework":
+        - /url: /homework
+        - generic: Homework
+    - region "Operations":
+      - heading "Operations" [level=2]
+      - link "Fees":
+        - /url: /fees
+        - generic: Fees
+      - link "Ledger":
+        - /url: /ledger
+        - generic: Ledger
+      - link "Staff":
+        - /url: /staff
+        - generic: Staff
+      - link "Audit Logs":
+        - /url: /audit-logs
+        - generic: Audit Logs
+      - link "ICS Updates":
+        - /url: /ics-updates
+        - generic: ICS Updates
+      - link "Chatrooms":
+        - /url: /chatrooms
+        - generic: Chatrooms
+  - navigation "Workspace settings":
+    - link "Settings":
+      - /url: /settings
+      - generic: Settings
+- main:
+  - heading "Settings" [level=1]
+  - navigation "Settings sections":
+    - link "Appearance":
+      - /url: "#appearance-title"
+    - link "Branding":
+      - /url: "#branding-title"
+  - region "Appearance":
+    - heading "Appearance" [level=2]
+    - heading "Theme" [level=3]
+    - group "Appearance":
+      - generic: Appearance
+      - button "Light":
+        - generic: Light
+      - button "Dark" [pressed]:
+        - generic: Dark
+      - button "System":
+        - generic: System
+    - heading "Background source" [level=3]
+    - group "Background source":
+      - button "Motion" [pressed]: Motion
+      - button "Photo"
+      - button "Topo"
+      - button "Chroma"
+      - button "Custom"
+    - heading "Glass material" [level=3]
+    - group "Glass material":
+      - generic: Glass material
+      - button "Clear" [pressed]:
+        - generic: Clear
+      - button "Regular":
+        - generic: Regular
+      - button "Frosted":
+        - generic: Frosted
+    - group "Accent":
+      - generic: Accent
+      - button "Neutral accent" [pressed]
+      - button "Blue accent"
+      - button "Teal accent"
+      - button "Purple accent"
+      - button "Coral accent"
+      - button "Yellow accent"
+      - button "Periwinkle accent"
+      - generic: Custom accent
+      - button "Custom accent":
+        - generic: "#7896FF"
+    - switch "Scene Motion" [checked]
+    - generic: Scene Motion
+    - generic: Enable background animations
+    - generic "Interface animation":
+      - generic: Interface animation
+    - button "Reset to Default"
+    - button "Apply appearance" [disabled]
+    - button "Discard preview" [disabled]
+    - status: Applied on this device for this demo user. FULL motion.
+    - generic "Advanced Glass Settings":
+      - generic: Advanced Glass Settings
+  - paragraph:
+    - strong: CENTRE BRANDING
+    - text: Separate from personal appearance. Preview roles do not grant real centre permissions.
+  - region "Centre branding":
+    - heading "Centre branding" [level=2]
+    - paragraph: Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.
+    - text: Centre display name
+    - textbox "Centre display name": ICS Coaching Centre
+    - text: Branch display name
+    - textbox "Branch display name": Hansi Branch
+    - text: Optional short name
+    - textbox "Optional short name": ICS
+    - generic: Brand mark accent
+    - generic: Optional · does not change the app accent
+    - button "Brand mark accent":
+      - generic: "#7896FF"
+    - button "Use application accent"
+    - text: Logo
+    - generic: PNG, JPG or WebP · up to 1 MB · stays in this browser
+    - button "Logo PNG, JPG or WebP · up to 1 MB · stays in this browser"
+    - button "Apply branding"
+    - button "Reset draft"
+    - status: Apply saves this preview on this device only.
+    - complementary "Centre branding preview":
+      - text: Preview
+      - generic: I
+      - strong: ICS Coaching Centre
+      - generic: Hansi Branch
+      - paragraph: Applied branding appears in this browser.

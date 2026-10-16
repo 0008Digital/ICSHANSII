@@ -1,0 +1,12 @@
+{
+  "hash": "#assigned-students",
+  "title": "Teacher Dashboard",
+  "visible": [
+    "assigned-batches",
+    "assigned-students",
+    "attendance",
+    "homework",
+    "tests",
+    "chat-moderation"
+  ]
+}

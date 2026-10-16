@@ -1,0 +1,9 @@
+{
+  "active": [
+    "/student-portal",
+    "/student-portal"
+  ],
+  "identity": "demo-student-b",
+  "scrollY": 0,
+  "url": "http://localhost:3000/student-portal"
+}

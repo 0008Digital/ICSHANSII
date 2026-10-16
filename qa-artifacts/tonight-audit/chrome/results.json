@@ -1,0 +1,1204 @@
+[
+  {
+    "name": "admin/320: Settings Branding anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 105.98957824707033,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 57.99478912353515,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 57.99478912353515
+      },
+      "target": {
+        "bottom": 266.8098945617676,
+        "height": 23.098957061767575,
+        "left": 30.8203125,
+        "right": 276.6796875,
+        "top": 243.7109375,
+        "width": 245.859375,
+        "x": 30.8203125,
+        "y": 243.7109375
+      }
+    }
+  },
+  {
+    "name": "admin/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "admin/320: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 458.5807189941406,
+        "height": 393.5807189941406,
+        "left": 45.5078125,
+        "right": 295.5078125,
+        "top": 65,
+        "width": 250,
+        "x": 45.5078125,
+        "y": 65
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "admin/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 224.10174179077148,
+        "height": 42.99477767944336,
+        "left": 55.559906005859375,
+        "right": 241.79684448242188,
+        "top": 181.10696411132812,
+        "width": 186.2369384765625,
+        "x": 55.559906005859375,
+        "y": 181.10696411132812
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "admin/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 460.9768371582031,
+        "height": 157.44851684570312,
+        "left": 74.22879028320312,
+        "right": 263.1670227050781,
+        "top": 303.5283203125,
+        "width": 188.938232421875,
+        "x": 74.22879028320312,
+        "y": 303.5283203125
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "manager/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "manager/320: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 458.5807189941406,
+        "height": 393.5807189941406,
+        "left": 45.5078125,
+        "right": 295.5078125,
+        "top": 65,
+        "width": 250,
+        "x": 45.5078125,
+        "y": 65
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "manager/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 224.10155487060547,
+        "height": 42.99478912353515,
+        "left": 55.55989456176758,
+        "right": 241.7968635559082,
+        "top": 181.1067657470703,
+        "width": 186.23696899414065,
+        "x": 55.55989456176758,
+        "y": 181.1067657470703
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "manager/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 501.7242431640625,
+        "height": 157.27658081054688,
+        "left": 74.33197784423828,
+        "right": 263.0638656616211,
+        "top": 344.4476623535156,
+        "width": 188.7318878173828,
+        "x": 74.33197784423828,
+        "y": 344.4476623535156
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "developer/320: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 122.64322662353516,
+        "height": 57.64322662353515,
+        "left": 45.5078125,
+        "right": 295.5078125,
+        "top": 65,
+        "width": 250,
+        "x": 45.5078125,
+        "y": 65
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 231.80988311767575,
+        "height": 42.99478912353515,
+        "left": 55.55989456176758,
+        "right": 241.7968635559082,
+        "top": 188.81509399414065,
+        "width": 186.23696899414065,
+        "x": 55.55989456176758,
+        "y": 188.81509399414065
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 501.5845031738281,
+        "height": 156.99716186523438,
+        "left": 74.4996109008789,
+        "right": 262.8962173461914,
+        "top": 344.58734130859375,
+        "width": 188.3966064453125,
+        "x": 74.4996109008789,
+        "y": 344.58734130859375
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "teacher/320: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 206.62759399414065,
+        "height": 141.62759399414062,
+        "left": 45.5078125,
+        "right": 295.5078125,
+        "top": 65,
+        "width": 250,
+        "x": 45.5078125,
+        "y": 65
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 224.10155487060547,
+        "height": 42.99478912353515,
+        "left": 55.55989456176758,
+        "right": 241.7968635559082,
+        "top": 181.1067657470703,
+        "width": 186.23696899414065,
+        "x": 55.55989456176758,
+        "y": 181.1067657470703
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 501.4609069824219,
+        "height": 156.74996948242188,
+        "left": 74.64791870117188,
+        "right": 262.7478942871094,
+        "top": 344.7109375,
+        "width": 188.0999755859375,
+        "x": 74.64791870117188,
+        "y": 344.7109375
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "studentA/320: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 122.64322662353516,
+        "height": 57.64322662353515,
+        "left": 45.5078125,
+        "right": 295.5078125,
+        "top": 65,
+        "width": 250,
+        "x": 45.5078125,
+        "y": 65
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 224.10155487060547,
+        "height": 42.99478912353515,
+        "left": 55.55989456176758,
+        "right": 241.7968635559082,
+        "top": 181.1067657470703,
+        "width": 186.23696899414065,
+        "x": 55.55989456176758,
+        "y": 181.1067657470703
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 501.5879821777344,
+        "height": 157.00408935546875,
+        "left": 74.4954605102539,
+        "right": 262.90035247802734,
+        "top": 344.5838928222656,
+        "width": 188.40489196777344,
+        "x": 74.4954605102539,
+        "y": 344.5838928222656
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "studentB/320: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 122.64322662353516,
+        "height": 57.64322662353515,
+        "left": 45.5078125,
+        "right": 295.5078125,
+        "top": 65,
+        "width": 250,
+        "x": 45.5078125,
+        "y": 65
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 224.10155487060547,
+        "height": 42.99478912353515,
+        "left": 55.55989456176758,
+        "right": 241.7968635559082,
+        "top": 181.1067657470703,
+        "width": 186.23696899414065,
+        "x": 55.55989456176758,
+        "y": 181.1067657470703
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 501.48048400878906,
+        "height": 156.7891387939453,
+        "left": 74.62443542480469,
+        "right": 262.7714080810547,
+        "top": 344.69134521484375,
+        "width": 188.14697265625,
+        "x": 74.62443542480469,
+        "y": 344.69134521484375
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "admin/1440: Settings Branding anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 119.6484375,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 70,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 70
+      },
+      "target": {
+        "bottom": 480.0130195617676,
+        "height": 23.098957061767575,
+        "left": 302.82550048828125,
+        "right": 1364.6743774414062,
+        "top": 456.9140625,
+        "width": 1061.848876953125,
+        "x": 302.82550048828125,
+        "y": 456.9140625
+      }
+    }
+  },
+  {
+    "name": "admin/1440: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 143.6328125,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 93.984375,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 93.984375
+      },
+      "target": {
+        "bottom": 190.703125,
+        "height": 35.078125,
+        "left": 283.99737548828125,
+        "right": 393.6458129882813,
+        "top": 155.625,
+        "width": 109.6484375,
+        "x": 283.99737548828125,
+        "y": 155.625
+      }
+    }
+  },
+  {
+    "name": "admin/1440: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 457.5650939941406,
+        "height": 393.5807189941406,
+        "left": 883.9453125,
+        "right": 1143.9453125,
+        "top": 63.984375,
+        "width": 260,
+        "x": 883.9453125,
+        "y": 63.984375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "admin/1440: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 272.9440040588379,
+        "height": 42.9947395324707,
+        "left": 449.5575866699219,
+        "right": 967.7990417480468,
+        "top": 229.9492645263672,
+        "width": 518.241455078125,
+        "x": 449.5575866699219,
+        "y": 229.9492645263672
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "admin/1440: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 559.3739166259766,
+        "height": 156.76869201660156,
+        "left": 1144.31103515625,
+        "right": 1332.4334869384766,
+        "top": 402.605224609375,
+        "width": 188.12245178222656,
+        "x": 1144.31103515625,
+        "y": 402.605224609375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "manager/1440: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 143.6328125,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 93.984375,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 93.984375
+      },
+      "target": {
+        "bottom": 190.703125,
+        "height": 35.078125,
+        "left": 283.99737548828125,
+        "right": 393.6458129882813,
+        "top": 155.625,
+        "width": 109.6484375,
+        "x": 283.99737548828125,
+        "y": 155.625
+      }
+    }
+  },
+  {
+    "name": "manager/1440: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 457.5650939941406,
+        "height": 393.5807189941406,
+        "left": 883.9453125,
+        "right": 1143.9453125,
+        "top": 63.984375,
+        "width": 260,
+        "x": 883.9453125,
+        "y": 63.984375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "manager/1440: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 272.9426956176758,
+        "height": 42.99478912353515,
+        "left": 449.5572814941406,
+        "right": 967.7994689941406,
+        "top": 229.94790649414065,
+        "width": 518.2421875,
+        "x": 449.5572814941406,
+        "y": 229.94790649414065
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "manager/1440: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 698.7161102294922,
+        "height": 157.1197967529297,
+        "left": 1144.1004638671875,
+        "right": 1332.6441650390625,
+        "top": 541.5963134765625,
+        "width": 188.543701171875,
+        "x": 1144.1004638671875,
+        "y": 541.5963134765625
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 143.6328125,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 93.984375,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 93.984375
+      },
+      "target": {
+        "bottom": 190.703125,
+        "height": 35.078125,
+        "left": 283.99737548828125,
+        "right": 393.6458129882813,
+        "top": 155.625,
+        "width": 109.6484375,
+        "x": 283.99737548828125,
+        "y": 155.625
+      }
+    }
+  },
+  {
+    "name": "developer/1440: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 121.62760162353516,
+        "height": 57.64322662353515,
+        "left": 883.9453125,
+        "right": 1143.9453125,
+        "top": 63.984375,
+        "width": 260,
+        "x": 883.9453125,
+        "y": 63.984375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 272.9426956176758,
+        "height": 42.99478912353515,
+        "left": 449.5572814941406,
+        "right": 967.7994689941406,
+        "top": 229.94790649414065,
+        "width": 518.2421875,
+        "x": 449.5572814941406,
+        "y": 229.94790649414065
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 698.87890625,
+        "height": 157.44537353515625,
+        "left": 1143.9051513671875,
+        "right": 1332.8394775390625,
+        "top": 541.4335327148438,
+        "width": 188.934326171875,
+        "x": 1143.9051513671875,
+        "y": 541.4335327148438
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 143.6328125,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 93.984375,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 93.984375
+      },
+      "target": {
+        "bottom": 190.703125,
+        "height": 35.078125,
+        "left": 283.99737548828125,
+        "right": 393.6458129882813,
+        "top": 155.625,
+        "width": 109.6484375,
+        "x": 283.99737548828125,
+        "y": 155.625
+      }
+    }
+  },
+  {
+    "name": "teacher/1440: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 205.61196899414065,
+        "height": 141.62759399414062,
+        "left": 883.9453125,
+        "right": 1143.9453125,
+        "top": 63.984375,
+        "width": 260,
+        "x": 883.9453125,
+        "y": 63.984375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 272.9426956176758,
+        "height": 42.99478912353515,
+        "left": 449.5572814941406,
+        "right": 967.7994689941406,
+        "top": 229.94790649414065,
+        "width": 518.2421875,
+        "x": 449.5572814941406,
+        "y": 229.94790649414065
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 698.5312194824219,
+        "height": 156.74996948242188,
+        "left": 1144.3223876953125,
+        "right": 1332.42236328125,
+        "top": 541.78125,
+        "width": 188.0999755859375,
+        "x": 1144.3223876953125,
+        "y": 541.78125
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 143.6328125,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 93.984375,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 93.984375
+      },
+      "target": {
+        "bottom": 190.703125,
+        "height": 35.078125,
+        "left": 283.99737548828125,
+        "right": 393.6458129882813,
+        "top": 155.625,
+        "width": 109.6484375,
+        "x": 283.99737548828125,
+        "y": 155.625
+      }
+    }
+  },
+  {
+    "name": "studentA/1440: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 121.62760162353516,
+        "height": 57.64322662353515,
+        "left": 883.9453125,
+        "right": 1143.9453125,
+        "top": 63.984375,
+        "width": 260,
+        "x": 883.9453125,
+        "y": 63.984375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 272.9426956176758,
+        "height": 42.99478912353515,
+        "left": 449.5572814941406,
+        "right": 967.7994689941406,
+        "top": 229.94790649414065,
+        "width": 518.2421875,
+        "x": 449.5572814941406,
+        "y": 229.94790649414065
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 698.6585235595703,
+        "height": 157.0045928955078,
+        "left": 1144.1695556640625,
+        "right": 1332.5751037597656,
+        "top": 541.6539306640625,
+        "width": 188.40554809570312,
+        "x": 1144.1695556640625,
+        "y": 541.6539306640625
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 900,
+      "settings": {
+        "bottom": 143.6328125,
+        "height": 49.6484375,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 93.984375,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 93.984375
+      },
+      "target": {
+        "bottom": 190.703125,
+        "height": 35.078125,
+        "left": 283.99737548828125,
+        "right": 393.6458129882813,
+        "top": 155.625,
+        "width": 109.6484375,
+        "x": 283.99737548828125,
+        "y": 155.625
+      }
+    }
+  },
+  {
+    "name": "studentB/1440: Quick actions menu bounds and pointer reachability",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 121.62760162353516,
+        "height": 57.64322662353515,
+        "left": 883.9453125,
+        "right": 1143.9453125,
+        "top": 63.984375,
+        "width": 260,
+        "x": 883.9453125,
+        "y": 63.984375
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 272.9426956176758,
+        "height": 42.99478912353515,
+        "left": 449.5572814941406,
+        "right": 967.7994689941406,
+        "top": 229.94790649414065,
+        "width": 518.2421875,
+        "x": 449.5572814941406,
+        "y": 229.94790649414065
+      },
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 900,
+      "hit": true,
+      "rect": {
+        "bottom": 698.6590118408203,
+        "height": 157.00550842285156,
+        "left": 1144.1690673828125,
+        "right": 1332.5756378173828,
+        "top": 541.6535034179688,
+        "width": 188.4065704345703,
+        "x": 1144.1690673828125,
+        "y": 541.6535034179688
+      },
+      "width": 1440
+    }
+  }
+]

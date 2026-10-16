@@ -1,0 +1,684 @@
+{
+  "rows": [
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 766,
+      "requestedTheme": "Light",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Admissions trend",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 765.6119384765625
+        },
+        {
+          "text": "Financial overview",
+          "top": 912.2135009765624
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1098.4244384765625
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 766,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 958.2551879882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 766,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "Sample figures only; collections and expenses are not verified financial records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Admissions trend",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 765.6119384765625
+        },
+        {
+          "text": "Financial overview",
+          "top": 912.2135009765624
+        },
+        {
+          "text": "Recent Activity",
+          "top": 1098.4244384765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Dashboard",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 766,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "CENTRE BRANDING Separate from personal appearance. Preview roles do not grant real centre permissions.",
+        "Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.",
+        "Optional · does not change the app accent",
+        "Apply saves this preview on this device only.",
+        "Hansi Branch",
+        "Applied branding appears in this browser."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 958.2551879882812
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "manager",
+      "route": "/",
+      "requestedWidth": 766,
+      "requestedTheme": "Light",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Daily admissions",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Renewal queue preview",
+          "top": 788.0989379882812
+        },
+        {
+          "text": "Recent Activity",
+          "top": 945.859375
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "manager",
+      "route": "/settings",
+      "requestedWidth": 766,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "manager",
+      "route": "/",
+      "requestedWidth": 766,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Sample enrollments only. Live totals, payments and renewal history are not connected.",
+        "Sample data · not live.",
+        "Sample data · not live.",
+        "No activity available yet."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 384.0755004882813
+        },
+        {
+          "text": "Daily admissions",
+          "top": 619.0103759765625
+        },
+        {
+          "text": "Renewal queue preview",
+          "top": 788.0989379882812
+        },
+        {
+          "text": "Recent Activity",
+          "top": 945.859375
+        }
+      ],
+      "theme": "dark",
+      "title": "Dashboard",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "manager",
+      "route": "/settings",
+      "requestedWidth": 766,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 766,
+      "requestedTheme": "Light",
+      "copy": [
+        "SIMULATED Sample reports only. Live monitoring and centres are not connected.",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample reports · changes are not saved.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Changes are not saved.",
+        "Error collection is not connected.",
+        "No errors are being collected.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Service status is unavailable.",
+        "Local changelog preview.",
+        "Interface preview · no deployment is connected.",
+        "Internal notes are not published to users.",
+        "No submissions connected.",
+        "No feedback available.",
+        "Moderation is not connected.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Notification service not connected."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 83.984375
+        },
+        {
+          "text": "Reports by severity",
+          "top": 318.5025939941406
+        },
+        {
+          "text": "Bug Reports",
+          "top": 680.5078125
+        },
+        {
+          "text": "Application Errors",
+          "top": 1525.0260009765625
+        },
+        {
+          "text": "System Health",
+          "top": 1891.6796875
+        },
+        {
+          "text": "Release Updates",
+          "top": 2254.8046875
+        },
+        {
+          "text": "Feedback",
+          "top": 2441.536376953125
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 2555.65087890625
+        },
+        {
+          "text": "Centre Overview",
+          "top": 2705.755126953125
+        },
+        {
+          "text": "Developer Settings",
+          "top": 3032.434814453125
+        }
+      ],
+      "theme": "light",
+      "title": "Developer Console",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 766,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 766,
+      "requestedTheme": "Dark",
+      "copy": [
+        "SIMULATED Sample reports only. Live monitoring and centres are not connected.",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample reports · changes are not saved.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Changes are not saved.",
+        "Error collection is not connected.",
+        "No errors are being collected.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Service status is unavailable.",
+        "Local changelog preview.",
+        "Interface preview · no deployment is connected.",
+        "Internal notes are not published to users.",
+        "No submissions connected.",
+        "No feedback available.",
+        "Moderation is not connected.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Notification service not connected."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 83.984375
+        },
+        {
+          "text": "Reports by severity",
+          "top": 318.5025939941406
+        },
+        {
+          "text": "Bug Reports",
+          "top": 680.5078125
+        },
+        {
+          "text": "Application Errors",
+          "top": 1525.0260009765625
+        },
+        {
+          "text": "System Health",
+          "top": 1891.6796875
+        },
+        {
+          "text": "Release Updates",
+          "top": 2254.8046875
+        },
+        {
+          "text": "Feedback",
+          "top": 2441.536376953125
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 2555.65087890625
+        },
+        {
+          "text": "Centre Overview",
+          "top": 2705.755126953125
+        },
+        {
+          "text": "Developer Settings",
+          "top": 3032.434814453125
+        }
+      ],
+      "theme": "dark",
+      "title": "Developer Console",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 766,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 754,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 754.1666259765625,
+        "top": 0,
+        "width": 754.1666259765625,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 889.2838134765625
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 767,
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n767 !== 766\n"
+    }
+  ],
+  "themes": {
+    "admin": "System",
+    "manager": "System",
+    "developer": "System",
+    "teacher": "System",
+    "studentA": "System",
+    "studentB": "System"
+  }
+}

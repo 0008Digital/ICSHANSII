@@ -1,0 +1,2818 @@
+[
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-002.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-002-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-003.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-003-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-004.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-004-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-005.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "admin-320--students-DEMO-005-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-002.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-002-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-003.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-003-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-004.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-004-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-005.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "admin-1440--students-DEMO-005-edit.jpg"
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 1920
+  },
+  {
+    "role": "admin",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-002.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-002-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-003.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-003-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-004.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-004-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-005.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 320,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 891.8228950500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 853.3333129882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 915.8202667236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 274.6875,
+          "top": 845.3385009765625,
+          "width": 241.875
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 320,
+    "screenshot": "manager-320--students-DEMO-005-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 375,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 874.2057075500488,
+              "height": 38.48958206176758,
+              "left": 32.8125,
+              "right": 164.7005157470703,
+              "top": 835.7161254882812,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 898.2030792236328,
+          "height": 70.48176574707031,
+          "left": 32.8125,
+          "right": 329.6875,
+          "top": 827.7213134765625,
+          "width": 296.875
+        }
+      }
+    ],
+    "documentWidth": 362,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 375
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 768,
+    "status": "approximate-viewport",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 818.2030830383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 779.7135009765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 842.2005157470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 705.8463439941406,
+          "top": 771.71875,
+          "width": 455.0260314941406
+        }
+      }
+    ],
+    "documentWidth": 757,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 769
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 1024,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 800.5858955383301,
+              "height": 38.48958206176758,
+              "left": 250.8203125,
+              "right": 382.7083282470703,
+              "top": 762.0963134765625,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 824.5833282470703,
+          "height": 70.48176574707031,
+          "left": 250.8203125,
+          "right": 960.8463134765624,
+          "top": 754.1015625,
+          "width": 710.0260009765625
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-002.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-002-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-003.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-003-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-004.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-004-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-005.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 1440,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 406.5755004882813,
+              "right": 538.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 406.5755004882813,
+          "right": 1260.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1440,
+    "screenshot": "manager-1440--students-DEMO-005-edit.jpg"
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Diya Example",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-002/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Kabir Example",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-003/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Meera Example",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-004/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Riya Example",
+    "width": 1920
+  },
+  {
+    "role": "manager",
+    "route": "/students/DEMO-005/edit",
+    "requestedWidth": 1920,
+    "status": "observed",
+    "academicFields": [],
+    "actionRows": [
+      {
+        "buttons": [
+          {
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "label": "Preview changes",
+            "outline": "rgb(249, 248, 243) none 2.5px",
+            "radius": "999px",
+            "rect": {
+              "bottom": 809.5442695617676,
+              "height": 38.48958206176758,
+              "left": 646.5755004882812,
+              "right": 778.4635162353516,
+              "top": 771.0546875,
+              "width": 131.8880157470703
+            },
+            "shadow": "rgba(255, 255, 255, 0.5) 3.4202px 9.39693px 14px -10px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, color(srgb 0.0823529 0.0901961 0.0980392 / 0.58) 0px 10px 28px -8px"
+          }
+        ],
+        "rect": {
+          "bottom": 833.5416412353516,
+          "height": 70.48176574707031,
+          "left": 646.5755004882812,
+          "right": 1500.9244384765625,
+          "top": 763.0598754882812,
+          "width": 854.3489379882812
+        }
+      }
+    ],
+    "documentWidth": 1907,
+    "outliers": [],
+    "settingsPresent": false,
+    "smallControls": [],
+    "theme": "light",
+    "title": "Edit student details",
+    "width": 1920
+  }
+]

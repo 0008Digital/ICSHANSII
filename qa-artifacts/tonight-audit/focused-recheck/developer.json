@@ -1,0 +1,338 @@
+[
+  {
+    "label": "click/320/bug-reports",
+    "status": "passed",
+    "active": [
+      "/developer#bug-reports"
+    ],
+    "bottom": 1463.0598907470703,
+    "dialogOpen": false,
+    "hash": "#bug-reports",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "false",
+    "text": "Bug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+    "title": "Bug Reports",
+    "top": 200.0130157470703,
+    "width": 320
+  },
+  {
+    "label": "click/320/application-errors",
+    "status": "passed",
+    "active": [
+      "/developer#application-errors"
+    ],
+    "bottom": 568.8801879882812,
+    "dialogOpen": false,
+    "hash": "#application-errors",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "false",
+    "text": "Application Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+    "title": "Application Errors",
+    "top": 200.22134399414065,
+    "width": 320
+  },
+  {
+    "label": "click/320/system-health",
+    "status": "passed",
+    "active": [
+      "/developer#system-health"
+    ],
+    "bottom": 550.3385162353516,
+    "dialogOpen": false,
+    "hash": "#system-health",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "false",
+    "text": "System Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+    "title": "System Health",
+    "top": 200.2083282470703,
+    "width": 320
+  },
+  {
+    "label": "click/320/release-updates",
+    "status": "passed",
+    "active": [],
+    "bottom": 373.7369689941406,
+    "dialogOpen": false,
+    "hash": "#release-updates",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Release Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+    "title": "Release Updates",
+    "top": 200,
+    "width": 320
+  },
+  {
+    "label": "click/320/feedback",
+    "status": "passed",
+    "active": [],
+    "bottom": 301.1848831176758,
+    "dialogOpen": false,
+    "hash": "#feedback",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Feedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+    "title": "Feedback",
+    "top": 200.06509399414065,
+    "width": 320
+  },
+  {
+    "label": "click/320/chat-moderation",
+    "status": "passed",
+    "active": [],
+    "bottom": 386.60154724121094,
+    "dialogOpen": false,
+    "hash": "#chat-moderation",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Chatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+    "title": "Chatroom Moderation",
+    "top": 200.0130157470703,
+    "width": 320
+  },
+  {
+    "label": "click/320/centres",
+    "status": "passed",
+    "active": [],
+    "bottom": 659.1145629882812,
+    "dialogOpen": false,
+    "hash": "#centres",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Centre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+    "title": "Centre Overview",
+    "top": 345.4296875,
+    "width": 320
+  },
+  {
+    "label": "click/320/developer-settings",
+    "status": "passed",
+    "active": [],
+    "bottom": 792.2265625,
+    "dialogOpen": false,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Developer Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+    "title": "Developer Settings",
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "back/320",
+    "status": "passed",
+    "active": [
+      "/developer#centres"
+    ],
+    "bottom": 659.1145629882812,
+    "dialogOpen": true,
+    "hash": "#centres",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Centre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+    "title": "Centre Overview",
+    "top": 345.4296875,
+    "width": 320
+  },
+  {
+    "label": "forward/320",
+    "status": "passed",
+    "active": [],
+    "bottom": 792.2265625,
+    "dialogOpen": false,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "moreActive": "true",
+    "text": "Developer Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+    "title": "Developer Settings",
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "reload/320",
+    "status": "passed",
+    "active": [],
+    "bottom": 792.2265625,
+    "dialogOpen": false,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "text": "Developer Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+    "title": "Developer Settings",
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "click/1440/bug-reports",
+    "status": "passed",
+    "active": [
+      "/developer#bug-reports"
+    ],
+    "bottom": 835.2734375,
+    "dialogOpen": false,
+    "hash": "#bug-reports",
+    "headerBottom": 70,
+    "moreActive": "false",
+    "text": "Bug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+    "title": "Bug Reports",
+    "top": 197.8515625,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/application-errors",
+    "status": "passed",
+    "active": [
+      "/developer#application-errors"
+    ],
+    "bottom": 445.6770629882813,
+    "dialogOpen": false,
+    "hash": "#application-errors",
+    "headerBottom": 70,
+    "moreActive": "false",
+    "text": "Application Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+    "title": "Application Errors",
+    "top": 198.26821899414065,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/system-health",
+    "status": "passed",
+    "active": [
+      "/developer#system-health"
+    ],
+    "bottom": 433.55467224121094,
+    "dialogOpen": false,
+    "hash": "#system-health",
+    "headerBottom": 70,
+    "moreActive": "false",
+    "text": "System Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+    "title": "System Health",
+    "top": 197.83853149414065,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/release-updates",
+    "status": "passed",
+    "active": [
+      "/developer#release-updates"
+    ],
+    "bottom": 377.96873474121094,
+    "dialogOpen": false,
+    "hash": "#release-updates",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Release Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+    "title": "Release Updates",
+    "top": 198.2161407470703,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/feedback",
+    "status": "passed",
+    "active": [
+      "/developer#feedback"
+    ],
+    "bottom": 370.5989456176758,
+    "dialogOpen": false,
+    "hash": "#feedback",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Feedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+    "title": "Feedback",
+    "top": 263.4635314941406,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/chat-moderation",
+    "status": "passed",
+    "active": [
+      "/developer#chat-moderation"
+    ],
+    "bottom": 511.71875,
+    "dialogOpen": false,
+    "hash": "#chat-moderation",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Chatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+    "title": "Chatroom Moderation",
+    "top": 383.59375,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/centres",
+    "status": "passed",
+    "active": [
+      "/developer#centres"
+    ],
+    "bottom": 721.1327667236328,
+    "dialogOpen": false,
+    "hash": "#centres",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Centre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+    "title": "Centre Overview",
+    "top": 524.7135009765625,
+    "width": 1440
+  },
+  {
+    "label": "click/1440/developer-settings",
+    "status": "passed",
+    "active": [
+      "/developer#developer-settings"
+    ],
+    "bottom": 860.2603759765625,
+    "dialogOpen": false,
+    "hash": "#developer-settings",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Developer Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+    "title": "Developer Settings",
+    "top": 734.1275634765625,
+    "width": 1440
+  },
+  {
+    "label": "back/1440",
+    "status": "passed",
+    "active": [
+      "/developer#centres"
+    ],
+    "bottom": 721.1327667236328,
+    "dialogOpen": false,
+    "hash": "#centres",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Centre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+    "title": "Centre Overview",
+    "top": 524.7135009765625,
+    "width": 1440
+  },
+  {
+    "label": "forward/1440",
+    "status": "passed",
+    "active": [
+      "/developer#developer-settings"
+    ],
+    "bottom": 860.2603759765625,
+    "dialogOpen": false,
+    "hash": "#developer-settings",
+    "headerBottom": 70,
+    "moreActive": "true",
+    "text": "Developer Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+    "title": "Developer Settings",
+    "top": 734.1275634765625,
+    "width": 1440
+  },
+  {
+    "label": "reload/1440",
+    "status": "passed",
+    "active": [
+      "/developer"
+    ],
+    "bottom": 860.2603759765625,
+    "dialogOpen": false,
+    "hash": "#developer-settings",
+    "headerBottom": 70,
+    "text": "Developer Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+    "title": "Developer Settings",
+    "top": 734.1275634765625,
+    "width": 1440
+  }
+]

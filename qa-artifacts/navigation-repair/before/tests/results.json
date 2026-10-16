@@ -1,0 +1,399 @@
+[
+  {
+    "name": "studentA/320: first section pointer click and active indicator",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(attached) timed out for selector .desktop-navigation a[href=\"/student-portal#batch\"] >> internal:and=\"[aria-current=\\\"page\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".desktop-navigation a[href=\\\"/student-portal#batch\\\"] >> internal:and=\\\"[aria-current=\\\\\\\"page\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "studentA-320-first-section-pointer-click-and-active-indicator.jpg"
+  },
+  {
+    "name": "studentA/320: More opens on first click after section change",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=navigation[name=\"More student sections\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=navigation[name=\\\"More student sections\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "studentA-320-More-opens-on-first-click-after-section-change.jpg"
+  },
+  {
+    "name": "studentA/320: secondary section opens and menu closes",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'false' !== 'true'\n",
+    "screenshot": "studentA-320-secondary-section-opens-and-menu-closes.jpg"
+  },
+  {
+    "name": "studentA/320: rapid consecutive sections latest click wins",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nnull !== 'page'\n",
+    "screenshot": "studentA-320-rapid-consecutive-sections-latest-click-wins.jpg"
+  },
+  {
+    "name": "studentA/320: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 428.5677032470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 332.578125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 332.578125
+      },
+      "url": "http://localhost:3000/student-portal#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: cross-route section, later Home and no replay",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(attached) timed out for selector .desktop-navigation a[href=\"/student-portal\"] >> internal:and=\"[aria-current=\\\"page\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".desktop-navigation a[href=\\\"/student-portal\\\"] >> internal:and=\\\"[aria-current=\\\\\\\"page\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "studentA-320-cross-route-section-later-Home-and-no-replay.jpg"
+  },
+  {
+    "name": "studentA/320: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 322.57810974121094,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 226.58853149414065,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 226.58853149414065
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/1440: first section pointer click and active indicator",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(attached) timed out for selector .desktop-navigation a[href=\"/developer#bug-reports\"] >> internal:and=\"[aria-current=\\\"page\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".desktop-navigation a[href=\\\"/developer#bug-reports\\\"] >> internal:and=\\\"[aria-current=\\\\\\\"page\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "developer-1440-first-section-pointer-click-and-active-indicator.jpg"
+  },
+  {
+    "name": "developer/1440: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#feedback"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1669.9998779296875,
+      "target": {
+        "bottom": 370.5859146118164,
+        "height": 107.13541412353516,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 263.45050048828125,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 263.45050048828125
+      },
+      "url": "http://localhost:3000/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1294.1666259765625,
+      "target": {
+        "bottom": 433.5416564941406,
+        "height": 235.7161407470703,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.8255157470703,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.8255157470703
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1294.1666259765625,
+      "target": {
+        "bottom": 433.5416564941406,
+        "height": 235.7161407470703,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.8255157470703,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.8255157470703
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#bug-reports",
+        "/developer#bug-reports"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 383.3333129882813,
+      "target": {
+        "bottom": 835.2604064941406,
+        "height": 637.421875,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.83853149414065,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.83853149414065
+      },
+      "url": "http://localhost:3000/developer#bug-reports",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: cross-route section, later Home and no replay",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(attached) timed out for selector .desktop-navigation a[href=\"/developer\"] >> internal:and=\"[aria-current=\\\"page\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".desktop-navigation a[href=\\\"/developer\\\"] >> internal:and=\\\"[aria-current=\\\\\\\"page\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "developer-1440-cross-route-section-later-Home-and-no-replay.jpg"
+  },
+  {
+    "name": "developer/1440: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#feedback"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1669.9998779296875,
+      "target": {
+        "bottom": 370.5859146118164,
+        "height": 107.13541412353516,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 263.45050048828125,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 263.45050048828125
+      },
+      "url": "http://localhost:3000/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/320: first section pointer click and active indicator",
+    "status": "failed",
+    "error": "Error: Error: Timed out after 2000ms waiting for selector .desktop-navigation a[href=\"/teacher-dashboard#assigned-students\"] >> internal:and=\"[aria-current=\\\"page\\\"]\": Browser Use encountered an error interacting with this webpage: Error: Element is not attached\n    at <anonymous>:227:97\n    at <anonymous>:227:479\n    at <anonymous>:228:11\n    at <anonymous>:229:11\nlocator.waitFor(attached) timed out for selector .desktop-navigation a[href=\"/teacher-dashboard#assigned-students\"] >> internal:and=\"[aria-current=\\\"page\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".desktop-navigation a[href=\\\"/teacher-dashboard#assigned-students\\\"] >> internal:and=\\\"[aria-current=\\\\\\\"page\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "teacher-320-first-section-pointer-click-and-active-indicator.jpg"
+  },
+  {
+    "name": "teacher/320: More opens on first click after section change",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=navigation[name=\"More destinations\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=navigation[name=\\\"More destinations\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "teacher-320-More-opens-on-first-click-after-section-change.jpg"
+  },
+  {
+    "name": "teacher/320: secondary section opens and menu closes",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'false' !== 'true'\n",
+    "screenshot": "teacher-320-secondary-section-opens-and-menu-closes.jpg"
+  },
+  {
+    "name": "teacher/320: rapid consecutive sections latest click wins",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nnull !== 'page'\n",
+    "screenshot": "teacher-320-rapid-consecutive-sections-latest-click-wins.jpg"
+  },
+  {
+    "name": "teacher/320: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 422.8255004882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 355.83331298828125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 355.83331298828125
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: cross-route section, later Home and no replay",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(attached) timed out for selector .desktop-navigation a[href=\"/teacher-dashboard\"] >> internal:and=\"[aria-current=\\\"page\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".desktop-navigation a[href=\\\"/teacher-dashboard\\\"] >> internal:and=\\\"[aria-current=\\\\\\\"page\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "teacher-320-cross-route-section-later-Home-and-no-replay.jpg"
+  },
+  {
+    "name": "teacher/320: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#tests"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 499.8176879882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 432.8255004882813,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 432.8255004882813
+      },
+      "url": "http://localhost:3000/teacher-dashboard#tests",
+      "width": 320
+    }
+  }
+]

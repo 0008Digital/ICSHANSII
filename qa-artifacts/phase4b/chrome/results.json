@@ -1,0 +1,120 @@
+[
+  {
+    "name": "admin/320: Settings Branding anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 105.98957824707033,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 57.99478912353515,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 57.99478912353515
+      },
+      "target": {
+        "bottom": 266.8098945617676,
+        "height": 23.098957061767575,
+        "left": 30.8203125,
+        "right": 276.6796875,
+        "top": 243.7109375,
+        "width": 245.859375,
+        "x": 30.8203125,
+        "y": 243.7109375
+      }
+    }
+  },
+  {
+    "name": "admin/320: Settings Appearance anchor clears both headers",
+    "status": "passed",
+    "evidence": {
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "height": 740,
+      "settings": {
+        "bottom": 123.98436737060548,
+        "height": 47.99478912353515,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 75.98957824707031,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 75.98957824707031
+      },
+      "target": {
+        "bottom": 171.0546875,
+        "height": 35.078125,
+        "left": 15.989583015441896,
+        "right": 125.6380205154419,
+        "top": 135.9765625,
+        "width": 109.6484375,
+        "x": 15.989583015441896,
+        "y": 135.9765625
+      }
+    }
+  },
+  {
+    "name": "admin/320: Quick actions menu bounds and pointer reachability",
+    "status": "failed",
+    "error": "Error: Error: Timed out after 3000ms waiting for selector internal:role=menu[name=\"Quick actions\"s]: Browser Use encountered an error interacting with this webpage: Error: Element is not focused\n    at SM (<anonymous>:228:905)\n    at async <anonymous>:228:18\nlocator.press failed for selector internal:role=menu[name=\"Quick actions\"s]\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"press\",\"locator\":\"internal:role=menu[name=\\\"Quick actions\\\"s]\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":\"Quick actions\",\"disabled\":false,\"role\":\"menu\",\"tag\":\"div\",\"text\":\"Add StudentStudentsBatchesAttendanceTests & ResultsHomeworkFeesExportReport a Bug\",\"type\":null,\"visible\":true}],\"visibleCount\":1,\"truncated\":false}",
+    "screenshot": "admin-320-Quick-actions-menu-bounds-and-pointer-reachability.jpg"
+  },
+  {
+    "name": "admin/320: palette field is reachable above sticky surfaces",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 225.0834274291992,
+        "height": 42.950157165527344,
+        "left": 55.66181564331055,
+        "right": 241.7054557800293,
+        "top": 182.13327026367188,
+        "width": 186.04364013671875,
+        "x": 55.66181564331055,
+        "y": 182.13327026367188
+      },
+      "width": 320
+    }
+  },
+  {
+    "name": "admin/320: floating lens pointer and keyboard remain usable",
+    "status": "passed",
+    "evidence": {
+      "height": 740,
+      "hit": true,
+      "rect": {
+        "bottom": 460.6275634765625,
+        "height": 156.74996948242188,
+        "left": 74.64791870117188,
+        "right": 262.7478942871094,
+        "top": 303.8775939941406,
+        "width": 188.0999755859375,
+        "x": 74.64791870117188,
+        "y": 303.8775939941406
+      },
+      "width": 320
+    }
+  }
+]

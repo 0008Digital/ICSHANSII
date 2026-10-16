@@ -1,0 +1,557 @@
+[
+  {
+    "label": "Developer before sidebar System Health",
+    "active": [
+      {
+        "current": "page",
+        "href": "/developer",
+        "text": "Developer Console"
+      },
+      {
+        "current": "page",
+        "href": "/developer",
+        "text": "Console"
+      }
+    ],
+    "hash": "",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 0,
+    "url": "http://localhost:3000/developer",
+    "width": 1440
+  },
+  {
+    "label": "Developer immediately after sidebar System Health",
+    "active": [
+      {
+        "current": "page",
+        "href": "/developer",
+        "text": "Developer Console"
+      },
+      {
+        "current": "page",
+        "href": "/developer",
+        "text": "Console"
+      }
+    ],
+    "hash": "#system-health",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1294.1666259765625,
+    "target": {
+      "bottom": 433.5416564941406,
+      "height": 235.7161407470703,
+      "left": 283.99737548828125,
+      "right": 1383.5025024414062,
+      "top": 197.8255157470703,
+      "width": 1099.505126953125,
+      "x": 283.99737548828125,
+      "y": 197.8255157470703
+    },
+    "url": "http://localhost:3000/developer#system-health",
+    "width": 1440
+  },
+  {
+    "label": "Developer settled sidebar System Health",
+    "active": [
+      {
+        "current": "page",
+        "href": "/developer",
+        "text": "Developer Console"
+      },
+      {
+        "current": "page",
+        "href": "/developer",
+        "text": "Console"
+      }
+    ],
+    "hash": "#system-health",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1294.1666259765625,
+    "target": {
+      "bottom": 433.5416564941406,
+      "height": 235.7161407470703,
+      "left": 283.99737548828125,
+      "right": 1383.5025024414062,
+      "top": 197.8255157470703,
+      "width": 1099.505126953125,
+      "x": 283.99737548828125,
+      "y": 197.8255157470703
+    },
+    "url": "http://localhost:3000/developer#system-health",
+    "width": 1440
+  },
+  {
+    "label": "Developer immediately after later Feedback click",
+    "active": [
+      {
+        "current": "page",
+        "href": "/developer#feedback",
+        "text": "Feedback"
+      }
+    ],
+    "hash": "#feedback",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1669.9998779296875,
+    "target": {
+      "bottom": 370.5859146118164,
+      "height": 107.13541412353516,
+      "left": 283.99737548828125,
+      "right": 1383.5025024414062,
+      "top": 263.45050048828125,
+      "width": 1099.505126953125,
+      "x": 283.99737548828125,
+      "y": 263.45050048828125
+    },
+    "url": "http://localhost:3000/developer#feedback",
+    "width": 1440
+  },
+  {
+    "label": "Developer native section tab Bug Reports",
+    "active": [
+      {
+        "current": "page",
+        "href": "/developer#bug-reports",
+        "text": "Bug Reports"
+      },
+      {
+        "current": "page",
+        "href": "/developer#bug-reports",
+        "text": "Reports"
+      }
+    ],
+    "hash": "#bug-reports",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 383.3333129882813,
+    "target": {
+      "bottom": 835.2604064941406,
+      "height": 637.421875,
+      "left": 283.99737548828125,
+      "right": 1383.5025024414062,
+      "top": 197.83853149414065,
+      "width": 1099.505126953125,
+      "x": 283.99737548828125,
+      "y": 197.83853149414065
+    },
+    "url": "http://localhost:3000/developer#bug-reports",
+    "width": 1440
+  },
+  {
+    "label": "Teacher desktop Tests sidebar",
+    "active": [
+      {
+        "current": "page",
+        "href": "/teacher-dashboard#tests",
+        "text": "Tests & Results"
+      }
+    ],
+    "hash": "#tests",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 0,
+    "target": {
+      "bottom": 382.6432189941406,
+      "height": 66.9921875,
+      "left": 653.828125,
+      "right": 1013.6588439941406,
+      "top": 315.6510314941406,
+      "width": 359.8307189941406,
+      "x": 653.828125,
+      "y": 315.6510314941406
+    },
+    "url": "http://localhost:3000/teacher-dashboard#tests",
+    "width": 1440
+  },
+  {
+    "label": "Teacher desktop cross-route Homework",
+    "active": [
+      {
+        "current": "page",
+        "href": "/teacher-dashboard#homework",
+        "text": "Homework"
+      },
+      {
+        "current": "page",
+        "href": "/teacher-dashboard#homework",
+        "text": "Homework"
+      }
+    ],
+    "hash": "#homework",
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 0,
+    "target": {
+      "bottom": 382.6432189941406,
+      "height": 66.9921875,
+      "left": 283.99737548828125,
+      "right": 643.8280944824219,
+      "top": 315.6510314941406,
+      "width": 359.8307189941406,
+      "x": 283.99737548828125,
+      "y": 315.6510314941406
+    },
+    "url": "http://localhost:3000/teacher-dashboard#homework",
+    "width": 1440
+  },
+  {
+    "label": "Teacher mobile Homework first click",
+    "active": [
+      {
+        "current": "page",
+        "href": "/teacher-dashboard",
+        "text": "Teacher Dashboard"
+      },
+      {
+        "current": "page",
+        "href": "/teacher-dashboard",
+        "text": "Dashboard"
+      }
+    ],
+    "hash": "#homework",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 103.33332824707033,
+    "target": {
+      "bottom": 422.8255004882813,
+      "height": 66.9921875,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 355.83331298828125,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 355.83331298828125
+    },
+    "url": "http://localhost:3000/teacher-dashboard#homework",
+    "width": 320
+  },
+  {
+    "label": "Teacher mobile after opening More",
+    "active": [
+      {
+        "current": "page",
+        "href": "/teacher-dashboard",
+        "text": "Teacher Dashboard"
+      },
+      {
+        "current": "page",
+        "href": "/teacher-dashboard#homework",
+        "text": "Homework"
+      }
+    ],
+    "hash": "#homework",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 103.33332824707033,
+    "target": {
+      "bottom": 422.8255004882813,
+      "height": 66.9921875,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 355.83331298828125,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 355.83331298828125
+    },
+    "url": "http://localhost:3000/teacher-dashboard#homework",
+    "width": 320
+  },
+  {
+    "label": "Teacher More Tests first request",
+    "active": [
+      {
+        "current": "page",
+        "href": "/teacher-dashboard",
+        "text": "Teacher Dashboard"
+      },
+      {
+        "current": "page",
+        "href": "/teacher-dashboard#homework",
+        "text": "Homework"
+      }
+    ],
+    "hash": "#homework",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 103.33332824707033,
+    "target": {
+      "bottom": 422.8255004882813,
+      "height": 66.9921875,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 355.83331298828125,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 355.83331298828125
+    },
+    "url": "http://localhost:3000/teacher-dashboard#homework",
+    "width": 320
+  },
+  {
+    "label": "Student A mobile Results first request",
+    "active": [
+      {
+        "current": "page",
+        "href": "/student-portal#results",
+        "text": "Results"
+      },
+      {
+        "current": "page",
+        "href": "/student-portal",
+        "text": "Home"
+      }
+    ],
+    "hash": "#results",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1290.833251953125,
+    "target": {
+      "bottom": 285.5989532470703,
+      "height": 95.98957824707033,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 189.609375,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 189.609375
+    },
+    "url": "http://localhost:3000/student-portal#results",
+    "width": 320
+  },
+  {
+    "label": "Student A Results settled before Home",
+    "active": [
+      {
+        "current": "page",
+        "href": "/student-portal#results",
+        "text": "Results"
+      },
+      {
+        "current": "page",
+        "href": "/student-portal",
+        "text": "Home"
+      }
+    ],
+    "hash": "#results",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1290.833251953125,
+    "target": {
+      "bottom": 285.5989532470703,
+      "height": 95.98957824707033,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 189.609375,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 189.609375
+    },
+    "url": "http://localhost:3000/student-portal#results",
+    "width": 320
+  },
+  {
+    "label": "Student A Home click after Results",
+    "active": [
+      {
+        "current": "page",
+        "href": "/student-portal#results",
+        "text": "Results"
+      },
+      {
+        "current": "page",
+        "href": "/student-portal#results",
+        "text": "Results"
+      }
+    ],
+    "hash": "",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 0,
+    "url": "http://localhost:3000/student-portal",
+    "width": 320
+  },
+  {
+    "label": "Student A Attendance click after Home",
+    "active": [
+      {
+        "current": "page",
+        "href": "/student-portal#attendance",
+        "text": "Attendance"
+      },
+      {
+        "current": "page",
+        "href": "/student-portal",
+        "text": "Home"
+      }
+    ],
+    "hash": "#attendance",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1184.1666259765625,
+    "target": {
+      "bottom": 286.2760314941406,
+      "height": 95.98957824707033,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 190.2864532470703,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 190.2864532470703
+    },
+    "url": "http://localhost:3000/student-portal#attendance",
+    "width": 320
+  },
+  {
+    "label": "Student A Results cross-route from Settings",
+    "active": [
+      {
+        "current": "page",
+        "href": "/student-portal#results",
+        "text": "Results"
+      },
+      {
+        "current": "page",
+        "href": "/student-portal#results",
+        "text": "Results"
+      }
+    ],
+    "hash": "#results",
+    "header": {
+      "bottom": 57.99478912353515,
+      "height": 57.99478912353515,
+      "left": 0,
+      "right": 307.5,
+      "top": 0,
+      "width": 307.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 1290.833251953125,
+    "target": {
+      "bottom": 285.5989532470703,
+      "height": 95.98957824707033,
+      "left": 15.989583015441896,
+      "right": 291.51039600372314,
+      "top": 189.609375,
+      "width": 275.52081298828125,
+      "x": 15.989583015441896,
+      "y": 189.609375
+    },
+    "url": "http://localhost:3000/student-portal#results",
+    "width": 320
+  }
+]

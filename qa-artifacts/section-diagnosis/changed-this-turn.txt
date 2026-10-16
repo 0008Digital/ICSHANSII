@@ -1,0 +1,2 @@
+C:\Projects\ics-hansi\src\components\ics\demo-workspaces.css
+C:\Projects\ics-hansi\src\components\ics\workspace-bar.css

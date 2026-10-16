@@ -1,0 +1,360 @@
+{
+  "results": [
+    {
+      "name": "developer/320/Dark: Scene Motion stops and resumes rendered media independently",
+      "status": "passed",
+      "evidence": {
+        "initial": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.52704)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(0.56)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "51.409% 48.591% 60.235% 39.765% / 49.4547% 45.9695% 54.0305% 50.5453%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 2.110696
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 2.193654
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.22)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, rgba(0, 0, 0, 0.42) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 320
+        },
+        "paused": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.52704)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(0.56)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "paused"
+          },
+          "header": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "49.3725% 50.6275% 62.3845% 37.6155% / 52.1699% 42.8017% 57.1983% 47.8301%",
+            "state": "paused",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": true,
+              "ready": 4,
+              "time": 2.485286
+            },
+            {
+              "paused": true,
+              "ready": 4,
+              "time": 2.568446
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.22)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, rgba(0, 0, 0, 0.42) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "off",
+          "width": 320
+        },
+        "pausedLater": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.52704)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(0.56)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "paused"
+          },
+          "header": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "49.3725% 50.6275% 62.3845% 37.6155% / 52.1699% 42.8017% 57.1983% 47.8301%",
+            "state": "paused",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": true,
+              "ready": 4,
+              "time": 2.485286
+            },
+            {
+              "paused": true,
+              "ready": 4,
+              "time": 2.568446
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.22)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, rgba(0, 0, 0, 0.42) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "off",
+          "width": 320
+        },
+        "resumed": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.52704)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(0.56)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "48.5469% 51.4531% 63.2561% 36.7439% / 53.2708% 41.5173% 58.4827% 46.7292%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 2.726988
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 2.805778
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.22)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, rgba(0, 0, 0, 0.42) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 320
+        },
+        "resumedLater": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.52704)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(0.56)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.328526)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.047) 0px 1px 2px 0px, rgba(0, 0, 0, 0.125) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "47.9593% 52.0407% 63.8763% 36.1237% / 54.0543% 40.6034% 59.3966% 45.9457%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 2.878045
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 2.956835
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 0.0627451 0.0705882 0.0941176 / 0.22)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(0.46)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgba(255, 255, 255, 0.85) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.3) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14))",
+            "shadow": "rgba(255, 255, 255, 0.24) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.05) 0px 0px 16px 0px inset, rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, rgba(0, 0, 0, 0.42) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 320
+        },
+        "sampleIntervalMs": 120
+      }
+    }
+  ],
+  "originals": {
+    "admin": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 79,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "manager": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "developer": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "teacher": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    }
+  },
+  "scenarioFilter": [
+    "developer/320/Dark: Scene Motion stops and resumes rendered media independently"
+  ]
+}

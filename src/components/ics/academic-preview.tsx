@@ -30,7 +30,7 @@ export function AcademicPreview() {
  return <div className="academic-workspace">
   <p className="demo-banner"><strong>DEMO WORKSPACE</strong> Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.</p>
   <section className="directory academic-assessment" aria-labelledby="assessment-preview-title">
-   <header className="directory-heading"><div><h2 id="assessment-preview-title">Create test preview</h2><p className="section-footnote">A single unsaved assessment workflow for the selected batch.</p></div></header>
+   <header className="directory-heading"><div><h2 id="assessment-preview-title">Create test preview</h2><p className="section-footnote">Unsaved assessment for the selected batch.</p></div></header>
    <div className="academic-fields">
     <ChoiceSelect label="Batch" value={batch} onChange={changeBatch} options={batches.map(value=>({value,label:value}))}/>
     <label>Subject<input value={subject} maxLength={80} onChange={event=>{setSubject(event.currentTarget.value);setReview(false);setPublicationPreview(false);}} aria-invalid={attempted&&!!reviewErrors.subject}/>{attempted&&reviewErrors.subject&&<span className="field-error">{reviewErrors.subject}</span>}</label>
@@ -47,7 +47,7 @@ export function AcademicPreview() {
    {proposed&&<section className="academic-result-preview" aria-labelledby="proposed-results-title"><div className="academic-result-heading"><div><h3 id="proposed-results-title">Proposed order · unpublished preview</h3><p>{subject.trim()} · {batch} · {testDate} · out of {maximumMarks}</p></div><button className="secondary-button" type="button" onClick={()=>setPublicationPreview(true)}>Preview publication</button></div>
     {proposed.ranked.length>0?<div className="history-table"><table><thead><tr><th>Proposed rank</th><th>Student</th><th>Marks</th><th>Percentage</th></tr></thead><tbody>{proposed.ranked.map(result=><tr key={result.studentId}><td>{result.rank}{proposed.ranked.filter(item=>item.rank===result.rank).length>1?" (tie)":""}</td><th scope="row">{result.name}</th><td>{result.marks} / {maximumMarks}</td><td>{(result.marks/Number(maximumMarks)*100).toFixed(2)}%</td></tr>)}</tbody></table></div>:<p className="no-results">No scored students. Absent students remain outside the proposed order.</p>}
     <p className="section-footnote">Absent: {proposed.absent.map(row=>row.name).join(", ")||"None"} · Not marked: {proposed.notMarked.map(row=>row.name).join(", ")||"None"}. Equal marks share competition rank; the next rank skips tied positions.</p>
-    {publicationPreview&&<p className="renewal-preview" role="status"><strong>UNSAVED PUBLICATION PREVIEW</strong> This result is still unpublished. Actual publishing requires authenticated centre permissions, complete batch data and an audited backend transaction.</p>}
+    {publicationPreview&&<p className="renewal-preview" role="status"><strong>UNSAVED PUBLICATION PREVIEW</strong> Results remain unpublished. Publishing requires verified centre permissions and complete batch records.</p>}
    </section>}
   </section>
 
@@ -60,7 +60,7 @@ export function AcademicPreview() {
   <section className="directory academic-leaderboards" aria-labelledby="weekly-leaderboard-title">
    <header className="directory-heading"><div><h2 id="weekly-leaderboard-title">Weekly leaderboard</h2><p className="section-footnote">Scoring rule: average percentage across the same complete set of published tests.</p></div></header>
    <div className="academic-fields academic-filter-fields"><ChoiceSelect label="Batch" value={weeklyBatch} onChange={setWeeklyBatch} options={[{value:"all-demo",label:"All demo batches · fictional only"},...batches.map(value=>({value,label:value}))]}/><DatePicker label="Week starting" value={weekStart} onChange={setWeekStart} max={localToday()} showToday={false}/></div>
-   <p className="student-view-empty"><strong>{weeklyPreview.reason}</strong> Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected.</p>
+   <p className="student-view-empty"><strong>{weeklyPreview.reason}</strong> Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected.</p>
   </section>
  </div>;
 }

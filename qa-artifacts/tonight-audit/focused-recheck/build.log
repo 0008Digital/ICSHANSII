@@ -1,0 +1,45 @@
+
+> ics-hansi@0.1.0 build
+> node scripts/verify-openglass.mjs && next build
+
+Verified 12 OpenGlass files against 4943bbfd5611fe211cccf4b50c384345468d635b.
+▲ Next.js 16.4.0 (Turbopack)
+✓ Running next.config.ts took 191ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.1s
+  Running TypeScript ...
+  Finished TypeScript in 6.8s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/30) ...
+  Generating static pages using 11 workers (7/30) 
+  Generating static pages using 11 workers (14/30) 
+  Generating static pages using 11 workers (22/30) 
+✓ Generating static pages using 11 workers (30/30) in 1240ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /attendance
+├ ƒ /audit-logs
+├ ƒ /batches
+├ ƒ /chatrooms
+├ ƒ /developer
+├ ƒ /fees
+├ ƒ /homework
+├ ƒ /ics-updates
+├ ƒ /ledger
+├ ƒ /settings
+├ ƒ /staff
+├ ƒ /student-portal
+├ ƒ /students
+├ ƒ /students/[studentId]
+├ ƒ /students/[studentId]/edit
+├ ƒ /students/new
+├ ƒ /teacher-dashboard
+└ ƒ /tests-results
+
+
+ƒ  (Dynamic)  server-rendered on demand
+

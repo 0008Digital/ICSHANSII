@@ -1,0 +1,38 @@
+[
+  {
+    "href": "/developer#release-updates",
+    "expanded": "false",
+    "url": "http://localhost:3000/developer#system-health",
+    "menu": 0
+  },
+  {
+    "href": "/developer#feedback",
+    "expanded": "false",
+    "url": "http://localhost:3000/developer#release-updates",
+    "menu": 0
+  },
+  {
+    "href": "/developer#chat-moderation",
+    "expanded": "false",
+    "url": "http://localhost:3000/developer#feedback",
+    "menu": 0
+  },
+  {
+    "href": "/developer#centres",
+    "expanded": "false",
+    "url": "http://localhost:3000/developer#chat-moderation",
+    "menu": 0
+  },
+  {
+    "href": "/developer#developer-settings",
+    "expanded": "false",
+    "url": "http://localhost:3000/developer#centres",
+    "menu": 0
+  },
+  {
+    "href": "/settings",
+    "expanded": "false",
+    "url": "http://localhost:3000/developer#developer-settings",
+    "menu": 0
+  }
+]

@@ -1,0 +1,3711 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "1eb401870b90c3e4db134609928077b1686a6f87",
+  "baseURL": "http://localhost:3000",
+  "updatedAt": "2026-10-15T02:02:52.646Z",
+  "summary": {
+    "passed": 167,
+    "failed": 0
+  },
+  "settingsVisualApproval": false,
+  "scenarioFilter": null,
+  "visualComparison": "Reference screenshots only; no pixel-diff assertion. Motion remains enabled.",
+  "results": [
+    {
+      "name": "admin/desktop: navigation destinations",
+      "status": "passed",
+      "durationMs": 77,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Ledger",
+          "/ledger"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "Audit Logs",
+          "/audit-logs"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ]
+    },
+    {
+      "name": "admin/desktop: navigate /",
+      "status": "passed",
+      "durationMs": 649,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 994.8176879882812,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /students",
+      "status": "passed",
+      "durationMs": 1002,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1431.171875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /batches",
+      "status": "passed",
+      "durationMs": 767,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1118.0859375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /attendance",
+      "status": "passed",
+      "durationMs": 740,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 1140,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1263.8931884765625,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /homework",
+      "status": "passed",
+      "durationMs": 869,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /fees",
+      "status": "passed",
+      "durationMs": 871,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /ledger",
+      "status": "passed",
+      "durationMs": 930,
+      "evidence": {
+        "href": "/ledger",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1291.25,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /staff",
+      "status": "passed",
+      "durationMs": 791,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /audit-logs",
+      "status": "passed",
+      "durationMs": 875,
+      "evidence": {
+        "href": "/audit-logs",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1304.036376953125,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 754,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 884,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 2620.364501953125,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/desktop: navigate /settings",
+      "status": "passed",
+      "durationMs": 1016,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 107.109375,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1180.8984375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      }
+    },
+    {
+      "name": "admin/desktop: direct /students/new",
+      "status": "passed",
+      "durationMs": 1192,
+      "evidence": {
+        "dock": null,
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 101.9921875,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1185.7291259765625,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "admin/desktop: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 1598,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 161.47134399414062,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 3135.72900390625,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "admin/desktop: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 1277,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 155.9895782470703,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "admin/desktop: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 127,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "admin/desktop: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 6246
+    },
+    {
+      "name": "admin/desktop: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 2906
+    },
+    {
+      "name": "admin/desktop: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 3138
+    },
+    {
+      "name": "admin/desktop: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 1722
+    },
+    {
+      "name": "admin/desktop: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 3708
+    },
+    {
+      "name": "admin/desktop: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 2813,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 83.125,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1190.8203125,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": -606.6666259765625
+        }
+      }
+    },
+    {
+      "name": "admin/desktop: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 371
+    },
+    {
+      "name": "admin/desktop: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 1514
+    },
+    {
+      "name": "admin/desktop: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 2468
+    },
+    {
+      "name": "admin/desktop: branding draft/reset does not apply",
+      "status": "passed",
+      "durationMs": 708
+    },
+    {
+      "name": "admin/desktop: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 1462
+    },
+    {
+      "name": "admin/desktop: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 2201
+    },
+    {
+      "name": "admin/desktop: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 5026,
+      "evidence": {
+        "demoCsvVerified": true
+      }
+    },
+    {
+      "name": "admin/desktop: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 1126
+    },
+    {
+      "name": "admin/desktop: six directory views",
+      "status": "passed",
+      "durationMs": 3849
+    },
+    {
+      "name": "admin/desktop: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 3237
+    },
+    {
+      "name": "admin/desktop: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 7387
+    },
+    {
+      "name": "admin/desktop: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 3994
+    },
+    {
+      "name": "admin/desktop: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1245
+    },
+    {
+      "name": "admin/desktop: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 2841
+    },
+    {
+      "name": "admin/desktop: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 1440,
+      "evidence": {
+        "bottom": 782.5650939941406,
+        "height": 900,
+        "left": 668.75,
+        "right": 998.75,
+        "top": 384.6875,
+        "width": 1440
+      }
+    },
+    {
+      "name": "admin/desktop: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 3118
+    },
+    {
+      "name": "admin/desktop: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 5372
+    },
+    {
+      "name": "admin/desktop: ledger filter totals",
+      "status": "passed",
+      "durationMs": 877
+    },
+    {
+      "name": "admin/desktop: audit pagination, table and detail dialog",
+      "status": "passed",
+      "durationMs": 4371
+    },
+    {
+      "name": "admin/desktop: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 3278
+    },
+    {
+      "name": "admin/mobile320: navigation destinations",
+      "status": "passed",
+      "durationMs": 1679,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Ledger",
+          "/ledger"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "Audit Logs",
+          "/audit-logs"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ]
+    },
+    {
+      "name": "admin/mobile320: navigate /",
+      "status": "passed",
+      "durationMs": 817,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1922.96875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /students",
+      "status": "passed",
+      "durationMs": 1679,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2811.484375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /batches",
+      "status": "passed",
+      "durationMs": 816,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1530.1953125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /attendance",
+      "status": "passed",
+      "durationMs": 1114,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 956.5885009765624,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 1595,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2014.296875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /homework",
+      "status": "passed",
+      "durationMs": 1443,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 8.001301765441895,
+            "position": "fixed",
+            "right": 311.99867725372314,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /fees",
+      "status": "passed",
+      "durationMs": 1342,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1358.0338134765625,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /ledger",
+      "status": "passed",
+      "durationMs": 1576,
+      "evidence": {
+        "href": "/ledger",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2242.9296875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /staff",
+      "status": "passed",
+      "durationMs": 1294,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 8.001301765441895,
+            "position": "fixed",
+            "right": 311.99867725372314,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /audit-logs",
+      "status": "passed",
+      "durationMs": 1344,
+      "evidence": {
+        "href": "/audit-logs",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1988.450439453125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 1348,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 8.001301765441895,
+            "position": "fixed",
+            "right": 311.99867725372314,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 1453,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 3651.145751953125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "admin/mobile320: navigate /settings",
+      "status": "passed",
+      "durationMs": 1702,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 89.58332824707031,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1959.2056884765625,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      }
+    },
+    {
+      "name": "admin/mobile320: direct /students/new",
+      "status": "passed",
+      "durationMs": 1319,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 83.984375,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1836.171875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "admin/mobile320: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 1940,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 137.9817657470703,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 4371.3671875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "admin/mobile320: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 1706,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 137.9817657470703,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1023.0208129882812,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "admin/mobile320: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 51,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "admin/mobile320: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 4647
+    },
+    {
+      "name": "admin/mobile320: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 3057
+    },
+    {
+      "name": "admin/mobile320: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 2830
+    },
+    {
+      "name": "admin/mobile320: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 1337
+    },
+    {
+      "name": "admin/mobile320: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 2718
+    },
+    {
+      "name": "admin/mobile320: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 2144,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 71.58853912353516,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1809.5181884765625,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": -1271.6666259765625
+        }
+      }
+    },
+    {
+      "name": "admin/mobile320: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 155
+    },
+    {
+      "name": "admin/mobile320: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 1313
+    },
+    {
+      "name": "admin/mobile320: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 1548
+    },
+    {
+      "name": "admin/mobile320: branding draft/reset does not apply",
+      "status": "passed",
+      "durationMs": 560
+    },
+    {
+      "name": "admin/mobile320: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 1539
+    },
+    {
+      "name": "admin/mobile320: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 2456
+    },
+    {
+      "name": "admin/mobile320: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 4367,
+      "evidence": {
+        "demoCsvVerified": true
+      }
+    },
+    {
+      "name": "admin/mobile320: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 963
+    },
+    {
+      "name": "admin/mobile320: six directory views",
+      "status": "passed",
+      "durationMs": 3634
+    },
+    {
+      "name": "admin/mobile320: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 2953
+    },
+    {
+      "name": "admin/mobile320: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 7183
+    },
+    {
+      "name": "admin/mobile320: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 3760
+    },
+    {
+      "name": "admin/mobile320: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1216
+    },
+    {
+      "name": "admin/mobile320: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 3065
+    },
+    {
+      "name": "admin/mobile320: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 1448,
+      "evidence": {
+        "bottom": 646.0155944824219,
+        "height": 740,
+        "left": 12.005208015441896,
+        "right": 307.99477100372314,
+        "top": 238.11196899414065,
+        "width": 320
+      }
+    },
+    {
+      "name": "admin/mobile320: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 3298
+    },
+    {
+      "name": "admin/mobile320: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 4078
+    },
+    {
+      "name": "admin/mobile320: ledger filter totals",
+      "status": "passed",
+      "durationMs": 1255
+    },
+    {
+      "name": "admin/mobile320: audit pagination, table and detail dialog",
+      "status": "passed",
+      "durationMs": 3328
+    },
+    {
+      "name": "admin/mobile320: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 2672
+    },
+    {
+      "name": "manager/desktop: navigation destinations",
+      "status": "passed",
+      "durationMs": 21,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ]
+    },
+    {
+      "name": "manager/desktop: navigate /",
+      "status": "passed",
+      "durationMs": 683,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /students",
+      "status": "passed",
+      "durationMs": 1091,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1431.171875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /batches",
+      "status": "passed",
+      "durationMs": 823,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1118.0859375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /attendance",
+      "status": "passed",
+      "durationMs": 1609,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 897,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1263.8931884765625,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /homework",
+      "status": "passed",
+      "durationMs": 824,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /fees",
+      "status": "passed",
+      "durationMs": 694,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /staff",
+      "status": "passed",
+      "durationMs": 691,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 646,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 735,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 101.9921875,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/desktop: navigate /settings",
+      "status": "passed",
+      "durationMs": 949,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1427,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1427.5,
+            "top": 0
+          },
+          "headingTop": 107.109375,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1427.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      }
+    },
+    {
+      "name": "manager/desktop: direct /students/new",
+      "status": "passed",
+      "durationMs": 1154,
+      "evidence": {
+        "dock": null,
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 101.9921875,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1185.7291259765625,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "manager/desktop: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 1816,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 161.47134399414062,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 3135.72900390625,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "manager/desktop: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 842,
+      "evidence": {
+        "dock": null,
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 155.9895782470703,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "manager/desktop: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 32,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "manager/desktop: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 5681
+    },
+    {
+      "name": "manager/desktop: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 3114
+    },
+    {
+      "name": "manager/desktop: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 3107
+    },
+    {
+      "name": "manager/desktop: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 1995
+    },
+    {
+      "name": "manager/desktop: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 3545
+    },
+    {
+      "name": "manager/desktop: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 2784,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1427,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1427.5,
+          "top": 0
+        },
+        "headingTop": 83.125,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 899.8306884765625,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1427.5,
+          "top": -502.5
+        }
+      }
+    },
+    {
+      "name": "manager/desktop: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 149
+    },
+    {
+      "name": "manager/desktop: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 1459
+    },
+    {
+      "name": "manager/desktop: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 1719
+    },
+    {
+      "name": "manager/desktop: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 1345
+    },
+    {
+      "name": "manager/desktop: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 2260
+    },
+    {
+      "name": "manager/desktop: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 4464,
+      "evidence": {
+        "demoCsvVerified": true
+      }
+    },
+    {
+      "name": "manager/desktop: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 904
+    },
+    {
+      "name": "manager/desktop: six directory views",
+      "status": "passed",
+      "durationMs": 3777
+    },
+    {
+      "name": "manager/desktop: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 3019
+    },
+    {
+      "name": "manager/desktop: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 7555
+    },
+    {
+      "name": "manager/desktop: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 3667
+    },
+    {
+      "name": "manager/desktop: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1066
+    },
+    {
+      "name": "manager/desktop: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 3215
+    },
+    {
+      "name": "manager/desktop: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 1676,
+      "evidence": {
+        "bottom": 782.5650939941406,
+        "height": 900,
+        "left": 668.75,
+        "right": 998.75,
+        "top": 384.6875,
+        "width": 1440
+      }
+    },
+    {
+      "name": "manager/desktop: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 3420
+    },
+    {
+      "name": "manager/desktop: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 6270
+    },
+    {
+      "name": "manager/desktop: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 1366
+    },
+    {
+      "name": "manager/mobile320: navigation destinations",
+      "status": "passed",
+      "durationMs": 654,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ]
+    },
+    {
+      "name": "manager/mobile320: navigate /",
+      "status": "passed",
+      "durationMs": 616,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1758.411376953125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /students",
+      "status": "passed",
+      "durationMs": 731,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2811.484375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /batches",
+      "status": "passed",
+      "durationMs": 804,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1530.1953125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /attendance",
+      "status": "passed",
+      "durationMs": 737,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 956.5885009765624,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 1324,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2014.296875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /homework",
+      "status": "passed",
+      "durationMs": 1138,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 8.001301765441895,
+            "position": "fixed",
+            "right": 311.99867725372314,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /fees",
+      "status": "passed",
+      "durationMs": 1247,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1358.0338134765625,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /staff",
+      "status": "passed",
+      "durationMs": 1578,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 8.001301765441895,
+            "position": "fixed",
+            "right": 311.99867725372314,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 1335,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 8.001301765441895,
+            "position": "fixed",
+            "right": 311.99867725372314,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 1219,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 83.984375,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1131.184814453125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      }
+    },
+    {
+      "name": "manager/mobile320: navigate /settings",
+      "status": "passed",
+      "durationMs": 1580,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 89.58332824707031,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1220.716064453125,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      }
+    },
+    {
+      "name": "manager/mobile320: direct /students/new",
+      "status": "passed",
+      "durationMs": 997,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 83.984375,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1836.171875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "manager/mobile320: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 1225,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 137.9817657470703,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 4371.3671875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "manager/mobile320: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 1183,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 137.9817657470703,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1023.0208129882812,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": 0
+        }
+      }
+    },
+    {
+      "name": "manager/mobile320: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 41,
+      "evidence": {
+        "settingsVisualApproval": false
+      }
+    },
+    {
+      "name": "manager/mobile320: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 4634
+    },
+    {
+      "name": "manager/mobile320: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 2658
+    },
+    {
+      "name": "manager/mobile320: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 2786
+    },
+    {
+      "name": "manager/mobile320: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 1328
+    },
+    {
+      "name": "manager/mobile320: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 2707
+    },
+    {
+      "name": "manager/mobile320: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 3278,
+      "evidence": {
+        "dock": {
+          "bottom": 728.0078125,
+          "display": "grid",
+          "left": 7.994791507720947,
+          "position": "fixed",
+          "right": 298.9843544960022,
+          "top": 656.015625
+        },
+        "documentWidth": 307,
+        "header": {
+          "bottom": 57.99478912353515,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 307.5,
+          "top": 0
+        },
+        "headingTop": 71.58853912353516,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1071.0286865234375,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 307.5,
+          "top": -1271.6666259765625
+        }
+      }
+    },
+    {
+      "name": "manager/mobile320: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 165
+    },
+    {
+      "name": "manager/mobile320: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 1081
+    },
+    {
+      "name": "manager/mobile320: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 1001
+    },
+    {
+      "name": "manager/mobile320: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 1584
+    },
+    {
+      "name": "manager/mobile320: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 2308
+    },
+    {
+      "name": "manager/mobile320: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 4872,
+      "evidence": {
+        "demoCsvVerified": true
+      }
+    },
+    {
+      "name": "manager/mobile320: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 1050
+    },
+    {
+      "name": "manager/mobile320: six directory views",
+      "status": "passed",
+      "durationMs": 3546
+    },
+    {
+      "name": "manager/mobile320: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 3042
+    },
+    {
+      "name": "manager/mobile320: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 7065
+    },
+    {
+      "name": "manager/mobile320: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 3180
+    },
+    {
+      "name": "manager/mobile320: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1183
+    },
+    {
+      "name": "manager/mobile320: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 2398
+    },
+    {
+      "name": "manager/mobile320: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 2074,
+      "evidence": {
+        "bottom": 646.0155944824219,
+        "height": 740,
+        "left": 12.005208015441896,
+        "right": 307.99477100372314,
+        "top": 238.11196899414065,
+        "width": 320
+      }
+    },
+    {
+      "name": "manager/mobile320: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 3478
+    },
+    {
+      "name": "manager/mobile320: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 4056
+    },
+    {
+      "name": "manager/mobile320: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 775
+    },
+    {
+      "name": "cleanup: original demo identity and viewport",
+      "status": "passed",
+      "durationMs": 1154
+    }
+  ],
+  "screenshots": [],
+  "notes": []
+}

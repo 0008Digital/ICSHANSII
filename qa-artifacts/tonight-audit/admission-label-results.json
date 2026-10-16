@@ -1,0 +1,266 @@
+[
+  {
+    "role": "admin",
+    "width": 320,
+    "theme": "Light",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "admin",
+    "width": 320,
+    "theme": "Dark",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "admin",
+    "width": 1440,
+    "theme": "Light",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "admin",
+    "width": 1440,
+    "theme": "Dark",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "manager",
+    "width": 320,
+    "theme": "Light",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "manager",
+    "width": 320,
+    "theme": "Dark",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "manager",
+    "width": 1440,
+    "theme": "Light",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "role": "manager",
+    "width": 1440,
+    "theme": "Dark",
+    "labels": [
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Admission Batch *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Batch Duration *"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Admission Date *"
+      },
+      {
+        "display": "block",
+        "height": 16.497394561767578,
+        "text": "Payment Mode"
+      },
+      {
+        "display": "block",
+        "height": 16.380207061767578,
+        "text": "Payment Date"
+      }
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "href": "/teacher-dashboard#assigned-batches",
+    "expanded": "false",
+    "url": "http://localhost:3000/teacher-dashboard#assigned-students",
+    "menu": 0
+  },
+  {
+    "href": "/teacher-dashboard#tests",
+    "expanded": "false",
+    "url": "http://localhost:3000/attendance",
+    "menu": 0
+  },
+  {
+    "href": "/chatrooms",
+    "expanded": "false",
+    "url": "http://localhost:3000/teacher-dashboard#homework",
+    "menu": 0
+  },
+  {
+    "href": "/settings",
+    "expanded": "false",
+    "url": "http://localhost:3000/chatrooms",
+    "menu": 0
+  }
+]

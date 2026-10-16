@@ -1,0 +1,101 @@
+{
+  "controls": [
+    {
+      "class": "workspace-command-search",
+      "grid": "none",
+      "min": "0px",
+      "rect": {
+        "bottom": 56.97916603088379,
+        "height": 40,
+        "left": 231.6796875,
+        "right": 523.3203125,
+        "top": 16.97916603088379,
+        "width": 291.640625,
+        "x": 231.6796875,
+        "y": 16.97916603088379
+      },
+      "text": "Search pages and actionsCtrl K"
+    },
+    {
+      "class": "workspace-search-trigger",
+      "grid": "none",
+      "min": "0px",
+      "rect": {
+        "bottom": 56.97916603088379,
+        "height": 40,
+        "left": 231.6796875,
+        "right": 523.3203125,
+        "top": 16.97916603088379,
+        "width": 291.640625,
+        "x": 231.6796875,
+        "y": 16.97916603088379
+      },
+      "text": "Search pages and actionsCtrl K"
+    },
+    {
+      "class": "workspace-tools",
+      "grid": "none",
+      "min": "0px",
+      "rect": {
+        "bottom": 65.96354150772095,
+        "height": 57.96875,
+        "left": 513.0078125,
+        "right": 738.125,
+        "top": 7.994791507720947,
+        "width": 225.1171875,
+        "x": 513.0078125,
+        "y": 7.994791507720947
+      },
+      "text": "Quick actionsDEMO USERDeveloper / OwnerCentre AdminManagerTeacher / StaffStudent AStudent BNot connected"
+    },
+    {
+      "class": "workspace-action-trigger",
+      "grid": "none",
+      "min": "0px",
+      "rect": {
+        "bottom": 56.97916603088379,
+        "height": 40,
+        "left": 513.0078125,
+        "right": 606.7708282470703,
+        "top": 16.97916603088379,
+        "width": 93.76301574707033,
+        "x": 513.0078125,
+        "y": 16.97916603088379
+      },
+      "text": "Quick actions"
+    },
+    {
+      "class": "workspace-role-preview",
+      "grid": "34.6615px",
+      "min": "0px",
+      "rect": {
+        "bottom": 65.96354150772095,
+        "height": 57.96875,
+        "left": 613.671875,
+        "right": 648.3333320617676,
+        "top": 7.994791507720947,
+        "width": 34.66145706176758,
+        "x": 613.671875,
+        "y": 7.994791507720947
+      },
+      "text": "DEMO USERDeveloper / OwnerCentre AdminManagerTeacher / StaffStudent AStudent B"
+    },
+    {
+      "class": "",
+      "grid": "none",
+      "min": "auto",
+      "rect": {
+        "bottom": 65.96353912353516,
+        "height": 31.9921875,
+        "left": 613.671875,
+        "right": 648.3333320617676,
+        "top": 33.971351623535156,
+        "width": 34.66145706176758,
+        "x": 613.671875,
+        "y": 33.971351623535156
+      },
+      "text": "Developer / OwnerCentre AdminManagerTeacher / StaffStudent AStudent B"
+    }
+  ],
+  "width": 767
+}

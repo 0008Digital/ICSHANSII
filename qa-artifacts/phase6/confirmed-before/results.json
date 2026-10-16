@@ -1,0 +1,80 @@
+[
+  {
+    "name": "studentA/320/Dark: greeting matches selected demo identity",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Student A/. Input:\n\n'STUDENT WORKSPACE · DEMO\\n' +\n  'Good morning, Aarav\\n' +\n  '\\n' +\n  'Sample student · New General · Enrollment not connected.'\n",
+    "screenshot": "studentA-320-Dark-greeting-matches-selected-demo-identity.jpg"
+  },
+  {
+    "name": "studentA/320/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/320/Dark: greeting matches selected demo identity",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Student B/. Input:\n\n'STUDENT WORKSPACE · DEMO\\n' +\n  'Good morning, Aarav\\n' +\n  '\\n' +\n  'Sample student · New General · Enrollment not connected.'\n",
+    "screenshot": "studentB-320-Dark-greeting-matches-selected-demo-identity.jpg"
+  },
+  {
+    "name": "studentB/320/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  }
+]

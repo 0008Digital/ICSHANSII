@@ -1,0 +1,46 @@
+[
+  {
+    "name": "developer/1440/Light: notes belong to selected report",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'QA note for report 001'\n- ''\n",
+    "screenshot": "developer-1440-Light-notes-belong-to-selected-report.jpg"
+  },
+  {
+    "name": "developer/1440/Light: all report filters and empty search",
+    "status": "failed",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n2 !== 1\n",
+    "screenshot": "developer-1440-Light-all-report-filters-and-empty-search.jpg"
+  },
+  {
+    "name": "developer/1440/Light: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/1440/Light: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/1440/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/1440/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  }
+]

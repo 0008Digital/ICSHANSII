@@ -14,7 +14,7 @@ export function TransferRequestPreview({student}:{student:DemoStudent}) {
  const [preview,setPreview]=useState(false);
  const valid=!!destination&&destination!==student.batch&&reason.trim().length>=10&&!!effectiveDate;
  return <details className="directory profile-workflow-disclosure"><DisclosureSummary>Preview batch transfer</DisclosureSummary><div className="profile-workflow-body">
-  <p className="section-footnote">Unsaved request only. A centre Admin/Manager must have permission; the destination teacher may need to confirm. No batch or history changes are made.</p>
+  <p className="section-footnote">Unsaved request. Centre permission and teacher confirmation may be required; no records change.</p>
   <div className="form-grid">
    <label>Student<input value={`${student.name} · ${student.id}`} readOnly/></label>
    <label>Current batch<input value={student.batch} readOnly/></label>
@@ -26,7 +26,7 @@ export function TransferRequestPreview({student}:{student:DemoStudent}) {
   <div className="workflow-checks"><span>Destination exists: {destination?"Yes · demo catalogue":"Choose a batch"}</span><span>Active status: Not verified</span><span>Capacity: Not configured</span><span>Conflicting enrollment: Requires backend check</span><span>Centre staff confirmation: Pending · not configured</span><span>Teacher acknowledgment: Pending · required status unknown</span></div>
   <button type="button" className="primary-link" disabled={!valid} onClick={()=>setPreview(true)}>Preview transfer request</button>
   {preview&&<p className="renewal-preview" role="status"><strong>UNSAVED TRANSFER REQUEST</strong>{student.name} · {student.batch} → {destination} · {effectiveDate} · {reason.trim()}. Approval, capacity, teacher confirmation and roll allocation remain unverified; no record was submitted.</p>}
-  <p className="section-footnote">A real transfer must close the old membership, append a destination membership and roll history, preserve fees/attendance/results, and write an audit event atomically. The permanent Student ID must remain unchanged.</p>
+  <p className="section-footnote">Transfers must preserve the Student ID and existing records. This preview submits no transfer.</p>
  </div></details>;
 }
 
@@ -44,7 +44,7 @@ export function DisciplineReportPreview({student}:{student:DemoStudent}) {
  const [preview,setPreview]=useState(false);
  const valid=!!incidentDate&&!!incidentTime&&!!category&&description.trim().length>=10&&reporter.trim().length>=2;
  return <details className="directory profile-workflow-disclosure"><DisclosureSummary>Conduct report · restricted staff workflow</DisclosureSummary><div className="profile-workflow-body">
-  <p className="form-notice">Fictional unsaved preview. Real conduct records require verified centre authorization and batch-scoped teacher access. This client interface does not enforce permissions.</p>
+  <p className="form-notice">Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access.</p>
   <div className="form-grid">
    <div className="form-date-row"><DatePicker label="Incident date" value={incidentDate} onChange={value=>{setIncidentDate(value);setPreview(false);}} max={localToday()} showToday={false}/></div>
    <label>Incident time<input type="time" value={incidentTime} onChange={event=>{setIncidentTime(event.currentTarget.value);setPreview(false);}}/></label>

@@ -1,0 +1,149 @@
+[
+  {
+    "name": "teacher/1440/click Teacher Dashboard",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 7 elements:\n    1) <h1>Teacher Dashboard</h1> aka getByRole('heading', { name: 'Teacher Dashboard' })\n    2) <h2 id=\"assigned-batches-title\">Assigned Batches</h2> aka getByRole('heading', { name: 'Assigned Batches' })\n    3) <h2 id=\"assigned-students-title\">Students</h2> aka getByRole('heading', { name: 'Students' })\n    4) <h2 id=\"attendance-title\">Attendance</h2> aka getByRole('heading', { name: 'Attendance' })\n    5) <h2 id=\"homework-title\">Homework</h2> aka getByRole('heading', { name: 'Homework' })\n    6) <h2 id=\"tests-title\">Tests & Results</h2> aka getByRole('heading', { name: 'Tests & Results' })\n    7) <h2 id=\"chat-moderation-title\">Chat Moderation</h2> aka getByRole('heading', { name: 'Chat Moderation' })\n"
+  },
+  {
+    "name": "teacher/1440/click Assigned Students",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Students</h1> aka locator('h1')\n    2) <h2 id=\"assigned-students-title\">Students</h2> aka getByLabel('Students', { exact: true }).getByRole('heading', { name: 'Students' })\n"
+  },
+  {
+    "name": "teacher/1440/click Assigned Batches",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Assigned Batches</h1> aka locator('h1')\n    2) <h2 id=\"assigned-batches-title\">Assigned Batches</h2> aka getByLabel('Assigned Batches').getByRole('heading', { name: 'Assigned Batches' })\n"
+  },
+  {
+    "name": "teacher/1440/click Rapid Attendance",
+    "evidence": {
+      "active": [
+        "/attendance"
+      ],
+      "sections": [],
+      "url": "/attendance",
+      "text": "Attendance\n\nTEACHER PREVIEW\nTeacher assignments and rosters are not connected.\n\nAttendance requires a verified batch assignment."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Tests & Results",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Tests & Results</h1> aka locator('h1')\n    2) <h2 id=\"tests-title\">Tests & Results</h2> aka getByLabel('Tests & Results').getByRole('heading', { name: 'Tests & Results' })\n"
+  },
+  {
+    "name": "teacher/1440/click Homework",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Homework</h1> aka locator('h1')\n    2) <h2 id=\"homework-title\">Homework</h2> aka locator('#homework-title')\n"
+  },
+  {
+    "name": "teacher/1440/click Chatrooms",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 4 elements:\n    1) <h1>Chatrooms</h1> aka getByRole('heading', { name: 'Chatrooms' })\n    2) <h2>Rooms</h2> aka getByRole('heading', { name: 'Rooms', exact: true })\n    3) <h2>New General</h2> aka getByRole('heading', { name: 'New General' })\n    4) <h2>Chat Moderation</h2> aka getByRole('heading', { name: 'Chat Moderation' })\n"
+  },
+  {
+    "name": "teacher/1440/direct /teacher-dashboard#assigned-students",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 7 elements:\n    1) <h1>Teacher Dashboard</h1> aka getByRole('heading', { name: 'Teacher Dashboard' })\n    2) <h2 id=\"assigned-batches-title\">Assigned Batches</h2> aka getByRole('heading', { name: 'Assigned Batches' })\n    3) <h2 id=\"assigned-students-title\">Students</h2> aka getByRole('heading', { name: 'Students' })\n    4) <h2 id=\"attendance-title\">Attendance</h2> aka getByRole('heading', { name: 'Attendance' })\n    5) <h2 id=\"homework-title\">Homework</h2> aka getByRole('heading', { name: 'Homework' })\n    6) <h2 id=\"tests-title\">Tests & Results</h2> aka getByRole('heading', { name: 'Tests & Results' })\n    7) <h2 id=\"chat-moderation-title\">Chat Moderation</h2> aka getByRole('heading', { name: 'Chat Moderation' })\n"
+  },
+  {
+    "name": "teacher/1440/direct /teacher-dashboard#assigned-batches",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Students</h1> aka locator('h1')\n    2) <h2 id=\"assigned-students-title\">Students</h2> aka getByLabel('Students', { exact: true }).getByRole('heading', { name: 'Students' })\n"
+  },
+  {
+    "name": "teacher/1440/reload",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 7 elements:\n    1) <h1>Teacher Dashboard</h1> aka getByRole('heading', { name: 'Teacher Dashboard' })\n    2) <h2 id=\"assigned-batches-title\">Assigned Batches</h2> aka getByRole('heading', { name: 'Assigned Batches' })\n    3) <h2 id=\"assigned-students-title\">Students</h2> aka getByRole('heading', { name: 'Students' })\n    4) <h2 id=\"attendance-title\">Attendance</h2> aka getByRole('heading', { name: 'Attendance' })\n    5) <h2 id=\"homework-title\">Homework</h2> aka getByRole('heading', { name: 'Homework' })\n    6) <h2 id=\"tests-title\">Tests & Results</h2> aka getByRole('heading', { name: 'Tests & Results' })\n    7) <h2 id=\"chat-moderation-title\">Chat Moderation</h2> aka getByRole('heading', { name: 'Chat Moderation' })\n"
+  },
+  {
+    "name": "teacher/1440/back",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Students</h1> aka locator('h1')\n    2) <h2 id=\"assigned-students-title\">Students</h2> aka getByLabel('Students', { exact: true }).getByRole('heading', { name: 'Students' })\n"
+  },
+  {
+    "name": "teacher/1440/forward",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=main >> internal:role=heading[name=\"Assigned Batches\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=main >> internal:role=heading[name=\\\"Assigned Batches\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}"
+  },
+  {
+    "name": "teacher/1440/rapid and repeat",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Assigned Batches</h1> aka locator('h1')\n    2) <h2 id=\"assigned-batches-title\">Assigned Batches</h2> aka getByLabel('Assigned Batches').getByRole('heading', { name: 'Assigned Batches' })\n"
+  },
+  {
+    "name": "studentA/1440/click Home",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 13 elements:\n    1) <h1>Student Home</h1> aka getByRole('heading', { name: 'Student Home' })\n    2) <h2>Good morning, Student A</h2> aka getByRole('heading', { name: 'Good morning, Student A' })\n    3) <h2>Fees</h2> aka getByLabel('Student progress preview').getByRole('heading', { name: 'Fees' })\n    4) <h2>Attendance</h2> aka getByLabel('Student progress preview').getByRole('heading', { name: 'Attendance' })\n    5) <h2>Homework</h2> aka getByLabel('Student progress preview').getByRole('heading', { name: 'Homework' })\n    6) <h2>Recent tests</h2> aka getByRole('heading', { name: 'Recent tests' })\n    7) <h2 id=\"batch-heading\">Classes & Batch</h2> aka getByRole('heading', { name: 'Classes & Batch' })\n    8) <h2 id=\"attendance-heading\">Attendance</h2> aka locator('#attendance-heading')\n    9) <h2 id=\"results-heading\">Tests & Results</h2> aka getByRole('heading', { name: 'Tests & Results' })\n    10) <h2 id=\"fees-heading\">Fees</h2> aka getByLabel('Fees').getByRole('heading', { name: 'Fees' })\n    ...\n"
+  },
+  {
+    "name": "studentA/1440/click Classes / Batch",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Classes & Batch</h1> aka locator('h1')\n    2) <h2 id=\"batch-heading\">Classes & Batch</h2> aka getByLabel('Classes & Batch').getByRole('heading', { name: 'Classes & Batch' })\n"
+  },
+  {
+    "name": "studentA/1440/click Attendance",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Attendance</h1> aka locator('h1')\n    2) <h2 id=\"attendance-heading\">Attendance</h2> aka locator('#attendance-heading')\n"
+  },
+  {
+    "name": "studentA/1440/click Results",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Tests & Results</h1> aka locator('h1')\n    2) <h2 id=\"results-heading\">Tests & Results</h2> aka getByLabel('Tests & Results').getByRole('heading', { name: 'Tests & Results' })\n"
+  },
+  {
+    "name": "studentA/1440/click Fees",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Fees</h1> aka locator('h1')\n    2) <h2 id=\"fees-heading\">Fees</h2> aka getByLabel('Fees').getByRole('heading', { name: 'Fees' })\n"
+  },
+  {
+    "name": "studentA/1440/click Profile",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Profile</h1> aka locator('h1')\n    2) <h2 id=\"profile-heading\">Profile</h2> aka getByLabel('Profile').getByRole('heading', { name: 'Profile' })\n"
+  },
+  {
+    "name": "studentA/1440/click Homework",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Homework</h1> aka locator('h1')\n    2) <h2 id=\"homework-heading\">Homework</h2> aka getByLabel('Homework', { exact: true }).getByRole('heading', { name: 'Homework' })\n"
+  },
+  {
+    "name": "studentA/1440/click ICS Updates",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>ICS Updates</h1> aka locator('h1')\n    2) <h2 id=\"updates-heading\">ICS Updates</h2> aka getByLabel('ICS Updates').getByRole('heading', { name: 'ICS Updates' })\n"
+  },
+  {
+    "name": "studentA/1440/click Chatrooms",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 3 elements:\n    1) <h1>Chatrooms</h1> aka getByRole('heading', { name: 'Chatrooms' })\n    2) <h2>Rooms</h2> aka getByRole('heading', { name: 'Rooms', exact: true })\n    3) <h2>New General</h2> aka getByRole('heading', { name: 'New General' })\n"
+  },
+  {
+    "name": "studentA/1440/direct /student-portal#batch",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Classes & Batch</h1> aka locator('h1')\n    2) <h2 id=\"batch-heading\">Classes & Batch</h2> aka getByLabel('Classes & Batch').getByRole('heading', { name: 'Classes & Batch' })\n"
+  },
+  {
+    "name": "studentA/1440/direct /student-portal#attendance",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Attendance</h1> aka locator('h1')\n    2) <h2 id=\"attendance-heading\">Attendance</h2> aka locator('#attendance-heading')\n"
+  },
+  {
+    "name": "studentA/1440/reload",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Attendance</h1> aka locator('h1')\n    2) <h2 id=\"attendance-heading\">Attendance</h2> aka locator('#attendance-heading')\n"
+  },
+  {
+    "name": "studentA/1440/back",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Classes & Batch</h1> aka locator('h1')\n    2) <h2 id=\"batch-heading\">Classes & Batch</h2> aka getByLabel('Classes & Batch').getByRole('heading', { name: 'Classes & Batch' })\n"
+  },
+  {
+    "name": "studentA/1440/forward",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Attendance</h1> aka locator('h1')\n    2) <h2 id=\"attendance-heading\">Attendance</h2> aka locator('#attendance-heading')\n"
+  },
+  {
+    "name": "studentA/1440/rapid and repeat",
+    "status": "failed",
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: getByRole('main').getByRole('heading') resolved to 2 elements:\n    1) <h1>Attendance</h1> aka locator('h1')\n    2) <h2 id=\"attendance-heading\">Attendance</h2> aka locator('#attendance-heading')\n"
+  }
+]

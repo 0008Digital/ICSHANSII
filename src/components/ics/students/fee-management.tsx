@@ -69,13 +69,13 @@ export function FeeManagement(){
   download("DEMO-DATA-fee-summary.csv",buildDemoFeeSummaryCsv(rows));
  }
  return <div className="fee-management-workspace">
-  <p className="demo-banner"><strong>DEMO PREVIEW</strong> No fee balances, payment history, receipts or confirmed transactions are connected. Values entered below are fictional scenarios only.</p>
+  <p className="demo-banner"><strong>DEMO PREVIEW</strong> Sample scenarios only. Balances, payments and receipts are not connected.</p>
   <section className="directory fee-register" aria-labelledby="fee-register-title">
    <header className="directory-heading"><div><h2 id="fee-register-title">Fee register</h2><p>Fee status follows promised payment dates, independently of enrollment expiry.</p></div><button type="button" className="primary-link" onClick={()=>{if(requestedStudentValid&&effectiveFormOpen)setDismissedRequestedStudent(true);else setFormOpen(value=>!value);setNotice("");}}> {effectiveFormOpen?"Close preview":"Preview Collect Fee"}</button></header>
    <div className="fee-status-tabs" role="group" aria-label="Fee status view">{(["Pending","Expired Fees","Paid"] as const).map(item=><button key={item} type="button" aria-pressed={view===item} onClick={()=>setView(item)}>{item}<small>0 connected</small></button>)}</div>
    <div className="directory-toolbar fee-filters"><label>Search fees<input type="search" value={search} onChange={event=>setSearch(event.currentTarget.value)} placeholder="Name, student ID, registration number or batch"/></label><ChoiceSelect label="Batch" value={batch} onChange={setBatch} options={[{value:"",label:"All batches"},...batches.map(value=>({value,label:value}))]}/></div>
    <ul className="fee-student-preview-list" aria-label="Matching fictional students">{filtered.map(item=><li key={item.id}><span><strong>{item.name}</strong><small>{item.id} · {item.paperRegistrationNumber||"Registration Number unavailable"} · {item.batch}</small></span><button type="button" className="secondary-button" aria-pressed={studentId===item.id} onClick={()=>{setStudentOverride(item.id);setDrafts([]);resetForm();}}>{studentId===item.id?"Selected":"Select"}</button></li>)}</ul>
-   <div className="fee-empty-state"><strong>No connected {view.toLowerCase()} fee records</strong><p>Student names may be searched from the fictional directory, but fees and balances stay unavailable until authorized records are connected.</p></div>
+   <div className="fee-empty-state"><strong>No connected {view.toLowerCase()} fee records</strong><p>Search sample students above. Real fees and balances are not connected.</p></div>
    {effectiveFormOpen&&<section className="fee-preview-form" aria-labelledby="collect-fee-preview-title">
     <header><div><h3 id="collect-fee-preview-title">Collect Fee · unsaved preview</h3><p>No transaction is confirmed, receipt issued or ledger updated.</p></div></header>
     <div className="admission-field-grid fee-collect-grid">
@@ -92,10 +92,10 @@ export function FeeManagement(){
     </div>
     <div className="form-actions"><button className="primary-link" type="button" onClick={previewPayment} disabled={!previewable}>Preview installment</button><button className="secondary-button" type="button" onClick={previewPromise}>Preview promised-date update</button><button className="secondary-button" type="button" onClick={()=>{setDrafts([]);resetForm();}}>Reset preview</button></div>
     {notice&&<p role="status" className="fee-preview-status">{notice}</p>}
-    {drafts.length>0&&<div className="fee-draft-history"><h4>Unsaved installment previews</h4><ol>{drafts.map(item=><li key={item.id}><strong>Draft {item.id} · {item.studentName}</strong><span>{formatMoneyMinor(item.amountMinor)} · {displayDate(item.paymentDate)} · {item.mode}</span><span>Remaining {formatMoneyMinor(item.remainingMinor)} · {item.status}</span>{item.status==="Expired Fees"&&<small>{daysOverdue(item.promisedDate,today)} days overdue</small>}<small>{item.reference?`Reference ${item.reference}`:"No transaction reference"} · no receipt issued</small></li>)}</ol><p>Each preview is a separate draft item in this page session only. Refreshing clears them.</p></div>}
+    {drafts.length>0&&<div className="fee-draft-history"><h4>Unsaved installment previews</h4><ol>{drafts.map(item=><li key={item.id}><strong>Draft {item.id} · {item.studentName}</strong><span>{formatMoneyMinor(item.amountMinor)} · {displayDate(item.paymentDate)} · {item.mode}</span><span>Remaining {formatMoneyMinor(item.remainingMinor)} · {item.status}</span>{item.status==="Expired Fees"&&<small>{daysOverdue(item.promisedDate,today)} days overdue</small>}<small>{item.reference?`Reference ${item.reference}`:"No transaction reference"} · no receipt issued</small></li>)}</ol><p>Draft installments clear on refresh.</p></div>}
    </section>}
    <div className="fee-export-actions"><button type="button" className="secondary-button" onClick={exportSummary}>Export fee summary · DEMO CSV</button><button type="button" className="secondary-button" onClick={()=>download("DEMO-DATA-payment-history.csv",buildDemoPaymentHistoryCsv([]))}>Export payment history · DEMO CSV</button><span>Summary rows show “Not connected”; payment-history export has no transaction rows.</span></div>
-   <p className="section-footnote">Real installment posting must be atomic, idempotent, authorized for this centre and enrollment, append-only with corrections/reversals, and audited by trusted server logic using integer paise.</p>
+   <p className="section-footnote">Preview only. No installment is posted and no receipt is issued.</p>
   </section>
  </div>;
 }

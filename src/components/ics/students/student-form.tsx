@@ -109,7 +109,7 @@ export function StudentForm({student,onClose}:{student?:DemoStudent;onClose?:()=
      {remaining!==null&&remaining>0&&<div className="form-wide promise-date-control"><label><input type="checkbox" checked={promiseOpen} onChange={event=>{const checked=event.currentTarget.checked;setPromiseOpen(checked);setValue(current=>({...current,promiseDateRequested:checked,...(!checked?{promisedPaymentDate:""}:{})}));setDirty(true);setPreview(null);if(!checked)setErrors(current=>({...current,promisedPaymentDate:undefined}));}}/>Add a promised payment date</label>{promiseOpen&&<div className="form-date-row"><DatePicker id="promisedPaymentDate" label="Promised Payment Date" required value={value.promisedPaymentDate??""} onChange={next=>change("promisedPaymentDate",next)} min={admissionDate||today||"1900-01-01"} max="2100-12-31" error={errors.promisedPaymentDate}/></div>}</div>}
     </div>
    </section>}
-   <p className="section-footnote">Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate.</p>
+   <p className="section-footnote">Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate.</p>
    <div className="form-actions"><Button type="submit" variant="primary">{student?"Preview changes":"Review Admission"}</Button>{onClose?<button className="secondary-button" type="button" onClick={cancel}>Cancel</button>:<Link className="text-link" href={student?`/students/${student.id}`:"/students"}>Cancel</Link>}</div>
   </form>
   {preview&&!student&&<AdmissionPreview draft={preview}/>}

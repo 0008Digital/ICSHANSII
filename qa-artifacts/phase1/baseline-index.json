@@ -1,0 +1,842 @@
+[
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Dashboard",
+    "href": "/",
+    "file": "baselines/admin/desktop/dashboard.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:09.305Z",
+    "sha256": "4951b7a635aa0e905028a1169d0a047d32cb20f8f064c78aefcb49b04daafbb4"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Students",
+    "href": "/students",
+    "file": "baselines/admin/desktop/students.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:11.561Z",
+    "sha256": "1024aecf7cf30649ddcf35862cf6e86ecd6e4f41d1883b968d4d352f9d6e2e3f"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Batches",
+    "href": "/batches",
+    "file": "baselines/admin/desktop/batches.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:13.573Z",
+    "sha256": "b262070b617ea2a832a8d8906cd17a10a6d2e8c0a85827cc6d7d2f5416069170"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Attendance",
+    "href": "/attendance",
+    "file": "baselines/admin/desktop/attendance.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:14.282Z",
+    "sha256": "4438b4de66c9f5db318716b03a4e728c9ea2d29ed8cf7c9393b88743562f3002"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Tests & Results",
+    "href": "/tests-results",
+    "file": "baselines/admin/desktop/tests-results.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:18.945Z",
+    "sha256": "1b0a61f08e76604d02dd5fe46f77195473a4bac9763072fba34be80451c2f7c2"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Homework",
+    "href": "/homework",
+    "file": "baselines/admin/desktop/homework.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:22.554Z",
+    "sha256": "cf20e36eb317b25b47246062be70f3bd47957dd00fbb3bfab9d7d2813e47aabe"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Fees",
+    "href": "/fees",
+    "file": "baselines/admin/desktop/fees.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:26.085Z",
+    "sha256": "a074ac7a12462917b57fa1e609fbd389922d7b09a4107870d3a5d8b40a62b454"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Ledger",
+    "href": "/ledger",
+    "file": "baselines/admin/desktop/ledger.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:30.717Z",
+    "sha256": "72072a187413ae9a78a4305e85722948c1691792f81fa73c779651f7417ddc0a"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Staff",
+    "href": "/staff",
+    "file": "baselines/admin/desktop/staff.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:34.235Z",
+    "sha256": "094db73f3a5fb5b36cb2253c5a673a384463814e5a7a6885d2df08c9c9c7b924"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Audit Logs",
+    "href": "/audit-logs",
+    "file": "baselines/admin/desktop/audit-logs.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:36.179Z",
+    "sha256": "4030430b83351ba0f00aa0d6d6110f00bf7f6494db7b5d8f7412a95592c49a10"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "ICS Updates",
+    "href": "/ics-updates",
+    "file": "baselines/admin/desktop/ics-updates.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:39.788Z",
+    "sha256": "7493963c9eabd0f25f4f7b4fe32bc993ef22961d25ed908081261e685a60ac51"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Chatrooms",
+    "href": "/chatrooms",
+    "file": "baselines/admin/desktop/chatrooms.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:42.034Z",
+    "sha256": "41442ce5d9632a24d36a60717e50e94d24b300ab4f6c5aa14d9648fcee338dd4"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Add Student",
+    "href": "/students/new",
+    "file": "baselines/admin/desktop/students-new.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:45.128Z",
+    "sha256": "1d3b268f4a549c1c30045e2b2e6519d24164fb3ec9d0cb50efeda4f052f08553"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Aarav Example",
+    "href": "/students/DEMO-001",
+    "file": "baselines/admin/desktop/students-DEMO-001.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:48.720Z",
+    "sha256": "f72cfc878af9b6cad5b94a9dc0e0493bb71298d3085a24a844012f33b6c8a1b8"
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "title": "Edit student details",
+    "href": "/students/DEMO-001/edit",
+    "file": "baselines/admin/desktop/students-DEMO-001-edit.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:21:50.712Z",
+    "sha256": "0f79d1fa2dcbfbca53b6dc0ce084499a935656c5db0a4fe2fb31dc373b851ae1"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Dashboard",
+    "href": "/",
+    "file": "baselines/manager/desktop/dashboard.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:23:56.071Z",
+    "sha256": "bc42cf85f4f479dd46d4b3bca365b3e8b8458a4018eb213271df5c1d03b6f53e"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Students",
+    "href": "/students",
+    "file": "baselines/manager/desktop/students.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:23:58.036Z",
+    "sha256": "506617566a3b95c10d0ac31bd0c442287585fbe67eda34d2fb44282e7048ff96"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Batches",
+    "href": "/batches",
+    "file": "baselines/manager/desktop/batches.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:23:59.766Z",
+    "sha256": "61ae429f253be85a6f6f967542cfd13d405f236bfc9538c5cbd9b8df1c7e8cd4"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Attendance",
+    "href": "/attendance",
+    "file": "baselines/manager/desktop/attendance.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:00.469Z",
+    "sha256": "2436950fb7d2b2bb0553ab8ecb9302369981eb34e286a475bf4b849197527e0c"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Tests & Results",
+    "href": "/tests-results",
+    "file": "baselines/manager/desktop/tests-results.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:02.032Z",
+    "sha256": "6f32d9307437c7795966e8991980844e3696e110032d06a84ad1680c4b7d1d81"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Homework",
+    "href": "/homework",
+    "file": "baselines/manager/desktop/homework.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:02.530Z",
+    "sha256": "4820652d85b8fa238421d5282de2c86d8e895c932cc4c9d4f5ef14aa51fd98e5"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Fees",
+    "href": "/fees",
+    "file": "baselines/manager/desktop/fees.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:03.128Z",
+    "sha256": "0baf207f6e4c29866e4803a890ba979946ea2fc3c744f7805f37de71c4d5c83c"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Staff",
+    "href": "/staff",
+    "file": "baselines/manager/desktop/staff.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:03.728Z",
+    "sha256": "190b29fd4a0479a788a342d049a1951d2aaa298a2eec18fb6229559da02d1a07"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "ICS Updates",
+    "href": "/ics-updates",
+    "file": "baselines/manager/desktop/ics-updates.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:04.329Z",
+    "sha256": "3f9e5dc45b349366fe00585794811bafee60393a30f687c2073fde4bd21676dd"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Chatrooms",
+    "href": "/chatrooms",
+    "file": "baselines/manager/desktop/chatrooms.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:04.912Z",
+    "sha256": "13bd628142b9c8479724c3e4e01d4b9a35ea065b5b54927b20a8f1163b485686"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Add Student",
+    "href": "/students/new",
+    "file": "baselines/manager/desktop/students-new.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:07.259Z",
+    "sha256": "1a46c3b9b50e2077a86c8b681551025ee3ac547b20a68ff420ec39898b45ce98"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Aarav Example",
+    "href": "/students/DEMO-001",
+    "file": "baselines/manager/desktop/students-DEMO-001.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:09.365Z",
+    "sha256": "2f37fad290e7d160b4671254bc6e18906f5c7d99ec8955e8d1d3a1c67106fd9e"
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "title": "Edit student details",
+    "href": "/students/DEMO-001/edit",
+    "file": "baselines/manager/desktop/students-DEMO-001-edit.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:24:10.293Z",
+    "sha256": "5c8c72f11f52be5c24e4de2ce7df4c3bbd579b0d83c6caa650559a2fcbabeaa2"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Dashboard",
+    "href": "/",
+    "file": "baselines/admin/mobile320/dashboard.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:15.747Z",
+    "sha256": "f4835de136fc383231411e52413d94b75f94fe183b8c7ad7dbbf40d6dc20429c"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Students",
+    "href": "/students",
+    "file": "baselines/admin/mobile320/students.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:17.545Z",
+    "sha256": "c3fae7cb35cfacef2fec0117f4eede3167f76566e3eae82f6b0fc8a8da92a2fb"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Batches",
+    "href": "/batches",
+    "file": "baselines/admin/mobile320/batches.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:19.197Z",
+    "sha256": "00ead56482db955fa2db520d02fdc062482ea26b6470411212bc0a225d82a907"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Attendance",
+    "href": "/attendance",
+    "file": "baselines/admin/mobile320/attendance.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:20.578Z",
+    "sha256": "71dd3570c6e7876c72c2747d3133510be98be6446c6ea9755b66c5d3a2860686"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Tests & Results",
+    "href": "/tests-results",
+    "file": "baselines/admin/mobile320/tests-results.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:22.500Z",
+    "sha256": "45b78b5e669f711b555c655d381b9d5eeb7190539f761f8d868cd6e36b64ea64"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Homework",
+    "href": "/homework",
+    "file": "baselines/admin/mobile320/homework.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:23.326Z",
+    "sha256": "d0b9803a339261f47fe7999f98f6dd45613390b191151a14a5864c228ec7e2eb"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Fees",
+    "href": "/fees",
+    "file": "baselines/admin/mobile320/fees.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:25.320Z",
+    "sha256": "80bc77d839cbe58d9f57723397027cc8c9390cbf35955cb023c553aff872471e"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Ledger",
+    "href": "/ledger",
+    "file": "baselines/admin/mobile320/ledger.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:27.518Z",
+    "sha256": "535291b48dae0590d2833f34e6ae650acbd20287591cfbb6e44c85c0da2311b9"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Staff",
+    "href": "/staff",
+    "file": "baselines/admin/mobile320/staff.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:28.596Z",
+    "sha256": "7ff62e644023d971674729f71b868117db7c0a3386f918366225ee9b1a3a776e"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Audit Logs",
+    "href": "/audit-logs",
+    "file": "baselines/admin/mobile320/audit-logs.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:30.735Z",
+    "sha256": "1cde6cec32b3279ebdfaa9edc21e85a579b52b553f7c4536ad85a23530fd5fc7"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "ICS Updates",
+    "href": "/ics-updates",
+    "file": "baselines/admin/mobile320/ics-updates.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:32.784Z",
+    "sha256": "60e645117d55ff75396d0700f2111ccfb84666a335fe7bbabe3f463d61b1d31e"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Chatrooms",
+    "href": "/chatrooms",
+    "file": "baselines/admin/mobile320/chatrooms.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:34.952Z",
+    "sha256": "9406c21820e1aa64deb6b546050492f58cf270f1db0292be356ee210f2008bfd"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Aarav Example",
+    "href": "/students/DEMO-001",
+    "file": "baselines/admin/mobile320/students-DEMO-001.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "capturedAt": "2026-10-14T02:26:39.183Z",
+    "sha256": "d88c0472b41e5119a51db71ab62596a15c693369314373d5c4fc0aae5b3ae587"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Add Student",
+    "href": "/students/new",
+    "file": "baselines/admin/mobile320/students-new.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "ab3c06a55f7e7edafdd53f62194aaef8edfe206544808512c063e24f6b4a78e1",
+    "capturedAt": "2026-10-14T02:34:28.977Z"
+  },
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "title": "Edit student details",
+    "href": "/students/DEMO-001/edit",
+    "file": "baselines/admin/mobile320/students-DEMO-001-edit.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "6c2c7655265fdcf9ec8b059503f552ac7754b519a734ee54ccddadfaee5eabe5",
+    "capturedAt": "2026-10-14T02:34:31.805Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Dashboard",
+    "href": "/",
+    "file": "baselines/manager/mobile320/dashboard.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "3a51c55897ad907c6f578179999186d1f4da25b4031c8e2146f017cde0590bb4",
+    "capturedAt": "2026-10-14T02:37:03.612Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Students",
+    "href": "/students",
+    "file": "baselines/manager/mobile320/students.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "dfb432364429a03cd1d820c8eafde9dcc9dce1a2a3e494b7179624ca14b9f20f",
+    "capturedAt": "2026-10-14T02:37:05.423Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Batches",
+    "href": "/batches",
+    "file": "baselines/manager/mobile320/batches.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "28efac05026295f89c775bad22a817478821a2ffc5b66cde75f326072cf4b4a4",
+    "capturedAt": "2026-10-14T02:37:07.090Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Attendance",
+    "href": "/attendance",
+    "file": "baselines/manager/mobile320/attendance.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "f305c8f35cbe222da96d4803bec3ea5935d8828796e83ed2f6a84208be2d260f",
+    "capturedAt": "2026-10-14T02:37:08.588Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Tests & Results",
+    "href": "/tests-results",
+    "file": "baselines/manager/mobile320/tests-results.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "95352275ccac4c47c407a364e5eab600ec9b39df22d772ee31baa8f9eb20328c",
+    "capturedAt": "2026-10-14T02:37:10.543Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Homework",
+    "href": "/homework",
+    "file": "baselines/manager/mobile320/homework.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "32f807b308de73f6ce59b59cb94e088ee7b9f530429bacf1c22eeaed5c4a3325",
+    "capturedAt": "2026-10-14T02:37:11.269Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Fees",
+    "href": "/fees",
+    "file": "baselines/manager/mobile320/fees.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "ef28f57cc1d07d51ee71aeb61999c7b9a58b7156c55d91460d69af7d55a96d91",
+    "capturedAt": "2026-10-14T02:37:13.176Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Staff",
+    "href": "/staff",
+    "file": "baselines/manager/mobile320/staff.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "ae739fb5ffcacc4924dbfdbe81ca85d808c015cb07f1c7537be73b3a087bf34f",
+    "capturedAt": "2026-10-14T02:37:13.885Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "ICS Updates",
+    "href": "/ics-updates",
+    "file": "baselines/manager/mobile320/ics-updates.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "0ef9b103dfc2a905e047540bc8710030fd159170c9aa5729ff944825b1ecfd49",
+    "capturedAt": "2026-10-14T02:37:15.704Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Chatrooms",
+    "href": "/chatrooms",
+    "file": "baselines/manager/mobile320/chatrooms.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "5cef35ec2b30b1039a0ce66dda0be884cf2cf482a100765f100314136ad23a78",
+    "capturedAt": "2026-10-14T02:37:17.508Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Add Student",
+    "href": "/students/new",
+    "file": "baselines/manager/mobile320/students-new.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "397a8488ea625a3bde4fc37ac0c31f79ba6e35c367ac4b2af88fdda128b8b12c",
+    "capturedAt": "2026-10-14T02:37:20.114Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Aarav Example",
+    "href": "/students/DEMO-001",
+    "file": "baselines/manager/mobile320/students-DEMO-001.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "29226c00e3b03842514df6a9aa9ecb93b6ad70cd85c6d8e3095ba4ac9787074d",
+    "capturedAt": "2026-10-14T02:37:22.415Z"
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "title": "Edit student details",
+    "href": "/students/DEMO-001/edit",
+    "file": "baselines/manager/mobile320/students-DEMO-001-edit.jpg",
+    "appearance": {
+      "interfaceMotion": "full",
+      "scene": "motion",
+      "theme": "light"
+    },
+    "approvedScreenScope": true,
+    "sha256": "c8e33daead73a249bf28d8f945699afefeb458e403b2cf65f18985745f90317d",
+    "capturedAt": "2026-10-14T02:37:24.159Z"
+  }
+]

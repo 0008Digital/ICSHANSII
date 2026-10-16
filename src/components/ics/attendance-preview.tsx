@@ -13,7 +13,7 @@ import { lookupAttendanceRoster } from "./attendance-model.mjs";
 type Mark="Present"|"Absent"|"Leave";
 export function AttendancePreview(){
  const {role}=useWorkspaceRolePreview();
- if(role==="teacher")return <section className="directory attendance-rapid"><p className="demo-banner"><strong>TEACHER PREVIEW</strong> No verified teacher-to-batch assignments are connected, so no student roster is available.</p><p className="section-footnote">Rapid Attendance becomes available only after a server-verified teacher assignment is provided. Centre Admin demo workflows can preview fictional roll matching.</p></section>;
+ if(role==="teacher")return <section className="directory attendance-rapid"><p className="demo-banner"><strong>TEACHER PREVIEW</strong> Teacher assignments and rosters are not connected.</p><p className="section-footnote">Attendance requires a verified batch assignment.</p></section>;
  return <AttendanceForm/>;
 }
 function AttendanceForm(){
@@ -39,7 +39,7 @@ function AttendanceForm(){
  function markStudent(mark:Mark){if(!selected)return;setMarks(current=>({...current,[selected.id]:mark}));setReview(false);setSelectedId("");setLookup("");requestAnimationFrame(()=>lookupInput.current?.focus());}
  const marked=Object.keys(marks).length;
  return <div className="attendance-preview-workspace">
-  <p className="demo-banner"><strong>DEMO PREVIEW</strong> No teacher assignments or attendance records are connected. Marks stay in this page session and are never submitted.</p>
+  <p className="demo-banner"><strong>DEMO PREVIEW</strong> Attendance is not connected. Draft marks are not submitted and clear on refresh.</p>
   <section className="directory attendance-rapid" aria-labelledby="rapid-attendance-title">
    <header className="directory-heading"><div><h2 id="rapid-attendance-title">Rapid Attendance · preview</h2><p>Identify a student, confirm the details, then mark a draft status.</p></div></header>
    <div className="attendance-setup"><ChoiceSelect label="Preview batch" value={batch} onChange={value=>{setBatch(value);setSelectedId("");setLookup("");setMarks({});setReview(false);}} options={batches.map(value=>({value,label:`${value} · ${students.filter(student=>student.batch===value).length} demo`}))}/><DatePicker label="Attendance Date" value={date} onChange={value=>{setDate(value);setMarks({});setReview(false);}} max={today}/></div>
@@ -50,7 +50,7 @@ function AttendanceForm(){
    <section className="attendance-register-preview" aria-labelledby="attendance-register-title"><header><div><h3 id="attendance-register-title">Batch register preview</h3><p>{batch} · {date} · {marked} marked of {activeRoster.length} active demo students</p><small role="status">Roll audit: {missingRollCount} missing · {duplicateRollCount} duplicate numbers.</small></div><button type="button" className="primary-link" disabled={marked===0} onClick={()=>setReview(true)}>Review register</button></header>
     <ul>{activeRoster.map(student=><li key={student.id}><span><strong>{student.name}</strong><small>{student.id} · batch roll {student.batchRollNumber??"not issued"}</small></span><span>{marks[student.id]??"Not marked"}</span></li>)}</ul>
     {expiredRoster.length>0&&<div className="attendance-expired-roster"><strong>Expired or completed enrollments · separate from active register</strong><ul>{expiredRoster.map(student=><li key={student.id}>{student.name} · {student.id} · {enrollmentDisplayStatus(enrollmentSnapshotFor(student.id,today).status)}</li>)}</ul></div>}
-    {review&&<div className="attendance-review" role="status"><strong>Unsaved register review</strong><span>Present {Object.values(marks).filter(mark=>mark==="Present").length} · Absent {Object.values(marks).filter(mark=>mark==="Absent").length} · Leave {Object.values(marks).filter(mark=>mark==="Leave").length}.</span><p>This preview is not submitted. Duplicate posting prevention, teacher assignment checks and final confirmation require an authorized backend transaction.</p></div>}
+    {review&&<div className="attendance-review" role="status"><strong>Unsaved register review</strong><span>Present {Object.values(marks).filter(mark=>mark==="Present").length} · Absent {Object.values(marks).filter(mark=>mark==="Absent").length} · Leave {Object.values(marks).filter(mark=>mark==="Leave").length}.</span><p>Not submitted. Recording attendance requires verified permissions and final confirmation.</p></div>}
    </section>
   </section>
  </div>;

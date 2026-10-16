@@ -1,0 +1,35 @@
+{
+  "beforeScroll": {
+    "scrollY": 545.8333129882812,
+    "url": "http://localhost:3000/student-portal#profile"
+  },
+  "afterScroll": {
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 381.6666564941406,
+    "underHeader": [
+      {
+        "rect": {
+          "bottom": 30.19531011581421,
+          "height": 37.21353912353515,
+          "left": 301.9921875,
+          "right": 921.9921875,
+          "top": -7.018229007720947,
+          "width": 620,
+          "x": 301.9921875,
+          "y": -7.018229007720947
+        },
+        "text": "Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollment not connected."
+      }
+    ],
+    "url": "http://localhost:3000/student-portal#profile"
+  }
+}

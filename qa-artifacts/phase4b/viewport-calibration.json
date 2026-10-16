@@ -1,0 +1,30 @@
+[
+  {
+    "requested": 612,
+    "clientWidth": 752,
+    "desktop": false,
+    "mobile": true,
+    "width": 765
+  },
+  {
+    "requested": 613,
+    "clientWidth": 754,
+    "desktop": false,
+    "mobile": true,
+    "width": 767
+  },
+  {
+    "requested": 614,
+    "clientWidth": 767,
+    "desktop": false,
+    "mobile": false,
+    "width": 767
+  },
+  {
+    "requested": 615,
+    "clientWidth": 769,
+    "desktop": true,
+    "mobile": false,
+    "width": 769
+  }
+]

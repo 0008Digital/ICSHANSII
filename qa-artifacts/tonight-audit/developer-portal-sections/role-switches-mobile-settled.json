@@ -1,0 +1,32 @@
+[
+  {
+    "identity": "demo-centre-admin",
+    "url": "http://localhost:3000/",
+    "title": "Dashboard"
+  },
+  {
+    "identity": "demo-manager",
+    "url": "http://localhost:3000/",
+    "title": "Dashboard"
+  },
+  {
+    "identity": "demo-teacher",
+    "url": "http://localhost:3000/teacher-dashboard",
+    "title": "Teacher Dashboard"
+  },
+  {
+    "identity": "demo-student-a",
+    "url": "http://localhost:3000/student-portal",
+    "title": "Student Home"
+  },
+  {
+    "identity": "demo-student-b",
+    "url": "http://localhost:3000/student-portal",
+    "title": "Student Home"
+  },
+  {
+    "identity": "demo-platform-owner",
+    "url": "http://localhost:3000/developer",
+    "title": "Developer Console"
+  }
+]

@@ -1,0 +1,83 @@
+(node:33760) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/ics-hansi/src/components/ics/workspace-role-model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Projects\ics-hansi\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Phase 1 admin: root landing and exact ordered navigation remain available (3.4651ms)
+✔ Phase 1 admin: every linked centre route and student detail route has a page (13.0999ms)
+✔ Phase 1 admin: global search preserves admission action and navigation destinations (0.95ms)
+✔ Phase 1 admin: export availability remains explicitly demo-scoped (0.6373ms)
+✔ Phase 1 manager: root landing and exact ordered navigation remain available (0.4077ms)
+✔ Phase 1 manager: every linked centre route and student detail route has a page (7.5528ms)
+✔ Phase 1 manager: global search preserves admission action and navigation destinations (0.5215ms)
+✔ Phase 1 manager: export availability remains explicitly demo-scoped (0.1983ms)
+✖ Phase 1: preservation boundary includes Settings without approving its layout (123.1793ms)
+✔ Phase 1: directory filters compose and do not mutate the shared records (6.159ms)
+✔ Phase 1: admission accepts a valid draft, rejects overpayment and missing references (1.9397ms)
+✔ Phase 1: attendance matches the selected fictional roster only (0.5323ms)
+✔ Phase 1: fee preview rejects a payment beyond the fictional outstanding balance (0.404ms)
+✔ Phase 1: proposed assessment ordering remains separate from publication (0.9932ms)
+✔ Phase 1: personal Settings and centre branding remain separate role contracts (0.2404ms)
+✔ Phase 1: screenshot policy excludes Settings from approved visual baselines (0.3404ms)
+✔ Phase 1: all approved desktop/mobile references exist and retain their hashes (144.8444ms)
+✔ Phase 1: report aggregation never hides an unrechecked failure or uses stale rechecks (1.5217ms)
+✔ same-page section commits URL and notifies indicators before scrolling (4.3519ms)
+✔ repeated activation rescrolls without a duplicate history entry (1.6396ms)
+✔ rapid later section and Home intents supersede earlier section synchronously (0.5852ms)
+✔ missing section is consumed without leaving a URL or pending request (0.3873ms)
+✔ hidden cached route target cannot intercept the active section (0.3991ms)
+✔ cross-route, external, modified and already-handled navigation stays untouched (0.7186ms)
+✔ hash, history traversal and section commits notify and clean up subscriptions (0.7715ms)
+✔ command-palette section intent uses the same synchronous commit (0.4661ms)
+✔ identity switch clears a same-path old section without pushing history (0.5524ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 699.3738
+
+✖ failing tests:
+
+test at scripts\phase1-centre-regression.test.mjs:43:1
+✖ Phase 1: preservation boundary includes Settings without approving its layout (123.1793ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   'Changed protected file: src/components/ics/academic-preview.tsx',
+  +   'Changed protected file: src/components/ics/app-navigation.tsx',
+  +   'Changed protected file: src/components/ics/appearance/customizer.tsx',
+  +   'Changed protected file: src/components/ics/attendance-preview.tsx',
+  +   'Changed protected file: src/components/ics/audit-ledger.tsx',
+  +   'Changed protected file: src/components/ics/branding/branding-editor.tsx',
+  +   'Changed protected file: src/components/ics/chatrooms-workspace.tsx',
+  +   'Changed protected file: src/components/ics/dashboard-charts.tsx',
+  +   'Changed protected file: src/components/ics/demo-workspaces.css',
+  +   'Changed protected file: src/components/ics/management-page.tsx',
+  +   'Changed protected file: src/components/ics/personal-settings.tsx',
+  +   'Changed protected file: src/components/ics/role-dashboard.tsx',
+  +   'Changed protected file: src/components/ics/saas-layout.css',
+  +   'Changed protected file: src/components/ics/settings-layout.css',
+  +   'Changed protected file: src/components/ics/smart-workspace-bar.tsx',
+  +   'Changed protected file: src/components/ics/student-directory.tsx',
+  +   'Changed protected file: src/components/ics/students/batch-management.tsx',
+  +   'Changed protected file: src/components/ics/students/fee-management.tsx',
+  +   'Changed protected file: src/components/ics/students/student-form.tsx',
+  +   'Changed protected file: src/components/ics/students/student-profile.tsx',
+  +   'Changed protected file: src/components/ics/students/student-record-previews.tsx',
+  +   'Changed protected file: src/components/ics/workspace-bar.css'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///C:/Projects/ics-hansi/scripts/phase1-centre-regression.test.mjs:46:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'Changed protected file: src/components/ics/academic-preview.tsx', 'Changed protected file: src/components/ics/app-navigation.tsx', 'Changed protected file: src/components/ics/appearance/customizer.tsx', 'Changed protected file: src/components/ics/attendance-preview.tsx', 'Changed protected file: src/components/ics/audit-ledger.tsx', 'Changed protected file: src/components/ics/branding/branding-editor.tsx', 'Changed protected file: src/components/ics/chatrooms-workspace.tsx', 'Changed protected file: src/components/ics/dashboard-charts.tsx', 'Changed protected file: src/components/ics/demo-workspaces.css', 'Changed protected file: src/components/ics/management-page.tsx', 'Changed protected file: src/components/ics/personal-settings.tsx', 'Changed protected file: src/components/ics/role-dashboard.tsx', 'Changed protected file: src/components/ics/saas-layout.css', 'Changed protected file: src/components/ics/settings-layout.css', 'Changed protected file: src/components/ics/smart-workspace-bar.tsx', 'Changed protected file: src/components/ics/student-directory.tsx', 'Changed protected file: src/components/ics/students/batch-management.tsx', 'Changed protected file: src/components/ics/students/fee-management.tsx', 'Changed protected file: src/components/ics/students/student-form.tsx', 'Changed protected file: src/components/ics/students/student-profile.tsx', 'Changed protected file: src/components/ics/students/student-record-previews.tsx', 'Changed protected file: src/components/ics/workspace-bar.css' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

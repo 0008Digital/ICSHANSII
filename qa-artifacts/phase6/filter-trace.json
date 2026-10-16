@@ -1,0 +1,31 @@
+[
+  {
+    "step": "search",
+    "list": "Search focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings"
+  },
+  {
+    "step": "Status",
+    "value": "New",
+    "list": "Search focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students"
+  },
+  {
+    "step": "Severity",
+    "value": "Critical",
+    "list": "No matching fictional reports."
+  },
+  {
+    "step": "Role",
+    "value": "Teacher",
+    "list": "Search focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students"
+  },
+  {
+    "step": "Centre",
+    "value": "Demo centre",
+    "list": "Search focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings"
+  },
+  {
+    "step": "date",
+    "value": "2026-10-12",
+    "list": "Search focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings"
+  }
+]

@@ -1,0 +1,2022 @@
+[
+  {
+    "name": "developer/1440: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#bug-reports",
+        "/developer#bug-reports"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 383.3333129882813,
+      "target": {
+        "bottom": 835.2604064941406,
+        "height": 637.421875,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.83853149414065,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.83853149414065
+      },
+      "url": "http://localhost:3000/developer#bug-reports",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#feedback"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1669.9998779296875,
+      "target": {
+        "bottom": 370.5859146118164,
+        "height": 107.13541412353516,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 263.45050048828125,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 263.45050048828125
+      },
+      "url": "http://localhost:3000/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1294.1666259765625,
+      "target": {
+        "bottom": 433.5416564941406,
+        "height": 235.7161407470703,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.8255157470703,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.8255157470703
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1294.1666259765625,
+      "target": {
+        "bottom": 433.5416564941406,
+        "height": 235.7161407470703,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.8255157470703,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.8255157470703
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#bug-reports",
+        "/developer#bug-reports"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 383.3333129882813,
+      "target": {
+        "bottom": 835.2604064941406,
+        "height": 637.421875,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.83853149414065,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.83853149414065
+      },
+      "url": "http://localhost:3000/developer#bug-reports",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer",
+        "/developer"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/developer",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1294.1666259765625,
+      "target": {
+        "bottom": 433.5416564941406,
+        "height": 235.7161407470703,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 197.8255157470703,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 197.8255157470703
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "developer/1440: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#feedback"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1669.9998779296875,
+      "target": {
+        "bottom": 370.5859146118164,
+        "height": 107.13541412353516,
+        "left": 283.99737548828125,
+        "right": 1383.5025024414062,
+        "top": 263.45050048828125,
+        "width": 1099.505126953125,
+        "x": 283.99737548828125,
+        "y": 263.45050048828125
+      },
+      "url": "http://localhost:3000/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/320: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students",
+        "/teacher-dashboard#assigned-students"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 268.8411407470703,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 201.8489532470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 201.8489532470703
+      },
+      "url": "http://localhost:3000/teacher-dashboard#assigned-students",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: More opens on first click after section change",
+    "status": "passed",
+    "evidence": {
+      "expanded": "true"
+    }
+  },
+  {
+    "name": "teacher/320: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#tests"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 499.8176879882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 432.8255004882813,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 432.8255004882813
+      },
+      "url": "http://localhost:3000/teacher-dashboard#tests",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 422.8255004882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 355.83331298828125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 355.83331298828125
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 422.8255004882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 355.83331298828125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 355.83331298828125
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard",
+        "/teacher-dashboard"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/teacher-dashboard",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 422.8255004882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 355.83331298828125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 355.83331298828125
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/320: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#tests"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 103.33332824707033,
+      "target": {
+        "bottom": 499.8176879882813,
+        "height": 66.9921875,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 432.8255004882813,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 432.8255004882813
+      },
+      "url": "http://localhost:3000/teacher-dashboard#tests",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#bug-reports",
+        "/developer#bug-reports"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 504.1666564941406,
+      "target": {
+        "bottom": 1476.536376953125,
+        "height": 1276.536376953125,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200
+      },
+      "url": "http://localhost:3000/developer#bug-reports",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: More opens on first click after section change",
+    "status": "passed",
+    "evidence": {
+      "expanded": "true"
+    }
+  },
+  {
+    "name": "developer/320: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#feedback"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 2783.333251953125,
+      "target": {
+        "bottom": 301.48436737060547,
+        "height": 101.11978912353516,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200.3645782470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200.3645782470703
+      },
+      "url": "http://localhost:3000/developer#feedback",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 2220,
+      "target": {
+        "bottom": 550.4817504882812,
+        "height": 350.13018798828125,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200.3515625,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200.3515625
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 2220,
+      "target": {
+        "bottom": 550.4817504882812,
+        "height": 350.13018798828125,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200.3515625,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200.3515625
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#bug-reports",
+        "/developer#bug-reports"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 504.1666564941406,
+      "target": {
+        "bottom": 1476.536376953125,
+        "height": 1276.536376953125,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200
+      },
+      "url": "http://localhost:3000/developer#bug-reports",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer",
+        "/developer"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/developer",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#system-health",
+        "/developer#system-health"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 2220,
+      "target": {
+        "bottom": 550.4817504882812,
+        "height": 350.13018798828125,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200.3515625,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200.3515625
+      },
+      "url": "http://localhost:3000/developer#system-health",
+      "width": 320
+    }
+  },
+  {
+    "name": "developer/320: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/developer#feedback"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 2783.333251953125,
+      "target": {
+        "bottom": 301.48436737060547,
+        "height": 101.11978912353516,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 200.3645782470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 200.3645782470703
+      },
+      "url": "http://localhost:3000/developer#feedback",
+      "width": 320
+    }
+  },
+  {
+    "name": "teacher/1440: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students",
+        "/teacher-dashboard#assigned-students"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "target": {
+        "bottom": 305.6510314941406,
+        "height": 66.9921875,
+        "left": 653.828125,
+        "right": 1013.6588439941406,
+        "top": 238.65884399414065,
+        "width": 359.8307189941406,
+        "x": 653.828125,
+        "y": 238.65884399414065
+      },
+      "url": "http://localhost:3000/teacher-dashboard#assigned-students",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#tests"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "target": {
+        "bottom": 382.6432189941406,
+        "height": 66.9921875,
+        "left": 653.828125,
+        "right": 1013.6588439941406,
+        "top": 315.6510314941406,
+        "width": 359.8307189941406,
+        "x": 653.828125,
+        "y": 315.6510314941406
+      },
+      "url": "http://localhost:3000/teacher-dashboard#tests",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "target": {
+        "bottom": 382.6432189941406,
+        "height": 66.9921875,
+        "left": 283.99737548828125,
+        "right": 643.8280944824219,
+        "top": 315.6510314941406,
+        "width": 359.8307189941406,
+        "x": 283.99737548828125,
+        "y": 315.6510314941406
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "target": {
+        "bottom": 382.6432189941406,
+        "height": 66.9921875,
+        "left": 283.99737548828125,
+        "right": 643.8280944824219,
+        "top": 315.6510314941406,
+        "width": 359.8307189941406,
+        "x": 283.99737548828125,
+        "y": 315.6510314941406
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard",
+        "/teacher-dashboard"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/teacher-dashboard",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework",
+        "/teacher-dashboard#homework"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "target": {
+        "bottom": 382.6432189941406,
+        "height": 66.9921875,
+        "left": 283.99737548828125,
+        "right": 643.8280944824219,
+        "top": 315.6510314941406,
+        "width": 359.8307189941406,
+        "x": 283.99737548828125,
+        "y": 315.6510314941406
+      },
+      "url": "http://localhost:3000/teacher-dashboard#homework",
+      "width": 1440
+    }
+  },
+  {
+    "name": "teacher/1440: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#tests"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "target": {
+        "bottom": 382.6432189941406,
+        "height": 66.9921875,
+        "left": 653.828125,
+        "right": 1013.6588439941406,
+        "top": 315.6510314941406,
+        "width": 359.8307189941406,
+        "x": 653.828125,
+        "y": 315.6510314941406
+      },
+      "url": "http://localhost:3000/teacher-dashboard#tests",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/320: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "/student-portal#batch"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1078.333251953125,
+      "target": {
+        "bottom": 286.1197814941406,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 190.1302032470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 190.1302032470703
+      },
+      "url": "http://localhost:3000/student-portal#batch",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: More opens on first click after section change",
+    "status": "passed",
+    "evidence": {
+      "expanded": "true"
+    }
+  },
+  {
+    "name": "studentA/320: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 322.57810974121094,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 226.58853149414065,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 226.58853149414065
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 428.5677032470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 332.578125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 332.578125
+      },
+      "url": "http://localhost:3000/student-portal#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/320: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 322.57810974121094,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 226.58853149414065,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 226.58853149414065
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentA/1440: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "/student-portal#batch"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 422.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 307.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 307.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#batch",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 672.7603759765625,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 557.7603759765625,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 557.7603759765625
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 547.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 432.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 432.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 547.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 432.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 432.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#homework"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 672.7603759765625,
+        "height": 115,
+        "left": 838.75,
+        "right": 1383.5025634765625,
+        "top": 557.7603759765625,
+        "width": 544.7525634765625,
+        "x": 838.75,
+        "y": 557.7603759765625
+      },
+      "url": "http://localhost:3000/student-portal#homework",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 547.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 432.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 432.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentA/1440: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 672.7603759765625,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 557.7603759765625,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 557.7603759765625
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/320: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "/student-portal#batch"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1078.333251953125,
+      "target": {
+        "bottom": 286.1197814941406,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 190.1302032470703,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 190.1302032470703
+      },
+      "url": "http://localhost:3000/student-portal#batch",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: More opens on first click after section change",
+    "status": "passed",
+    "evidence": {
+      "expanded": "true"
+    }
+  },
+  {
+    "name": "studentB/320: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 322.57810974121094,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 226.58853149414065,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 226.58853149414065
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#homework"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 428.5677032470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 332.578125,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 332.578125
+      },
+      "url": "http://localhost:3000/student-portal#homework",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1290.833251953125,
+      "target": {
+        "bottom": 285.5989532470703,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 189.609375,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 189.609375
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/320: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 1465.833251953125,
+      "target": {
+        "bottom": 322.57810974121094,
+        "height": 95.98957824707033,
+        "left": 15.989583015441896,
+        "right": 291.51039600372314,
+        "top": 226.58853149414065,
+        "width": 275.52081298828125,
+        "x": 15.989583015441896,
+        "y": 226.58853149414065
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 320
+    }
+  },
+  {
+    "name": "studentB/1440: first section pointer click and active indicator",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "/student-portal#batch"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 422.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 307.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 307.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#batch",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: secondary section opens and menu closes",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 672.7603759765625,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 557.7603759765625,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 557.7603759765625
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: rapid consecutive sections latest click wins",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 547.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 432.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 432.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: repeated keyboard activation and browser Back/Forward",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 547.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 432.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 432.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: role section tab and active sidebar/dock",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#homework"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 672.7603759765625,
+        "height": 115,
+        "left": 838.75,
+        "right": 1383.5025634765625,
+        "top": 557.7603759765625,
+        "width": 544.7525634765625,
+        "x": 838.75,
+        "y": 557.7603759765625
+      },
+      "url": "http://localhost:3000/student-portal#homework",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: cross-route section, later Home and no replay",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: command-palette keyboard section navigation",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "/student-portal#results"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 547.7604064941406,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 432.7604064941406,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 432.7604064941406
+      },
+      "url": "http://localhost:3000/student-portal#results",
+      "width": 1440
+    }
+  },
+  {
+    "name": "studentB/1440: direct section URL and reload",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal#profile"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 545.8333129882812,
+      "target": {
+        "bottom": 672.7603759765625,
+        "height": 115,
+        "left": 283.99737548828125,
+        "right": 828.7499389648438,
+        "top": 557.7603759765625,
+        "width": 544.7525634765625,
+        "x": 283.99737548828125,
+        "y": 557.7603759765625
+      },
+      "url": "http://localhost:3000/student-portal#profile",
+      "width": 1440
+    }
+  },
+  {
+    "name": "roles/1440: rapid switching cancels old sections and selects Student B Home",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 1440
+    }
+  },
+  {
+    "name": "roles/320: rapid switching cancels old sections and selects Student B Home",
+    "status": "passed",
+    "evidence": {
+      "active": [
+        "/student-portal",
+        "/student-portal"
+      ],
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "scrollY": 0,
+      "url": "http://localhost:3000/student-portal",
+      "width": 320
+    }
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "1eb401870b90c3e4db134609928077b1686a6f87",
+  "baseURL": "http://localhost:3000",
+  "updatedAt": "2026-10-14T16:51:45.516Z",
+  "summary": {
+    "passed": 3,
+    "failed": 0
+  },
+  "settingsVisualApproval": false,
+  "scenarioFilter": [
+    "admin/desktop: fee tabs, validation and fictional installment",
+    "admin/mobile320: navigate /settings"
+  ],
+  "visualComparison": "Reference screenshots only; no pixel-diff assertion. Motion remains enabled.",
+  "results": [
+    {
+      "name": "admin/desktop: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 3477
+    },
+    {
+      "name": "admin/mobile320: navigate /settings",
+      "status": "passed",
+      "durationMs": 1016,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 728.0078125,
+            "display": "grid",
+            "left": 7.994791507720947,
+            "position": "fixed",
+            "right": 298.9843544960022,
+            "top": 656.015625
+          },
+          "documentWidth": 307,
+          "header": {
+            "bottom": 57.99478912353515,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 307.5,
+            "top": 0
+          },
+          "headingTop": 89.58332824707031,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2014.8046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 307.5,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      }
+    },
+    {
+      "name": "cleanup: original demo identity and viewport",
+      "status": "passed",
+      "durationMs": 652
+    }
+  ],
+  "screenshots": [],
+  "notes": []
+}

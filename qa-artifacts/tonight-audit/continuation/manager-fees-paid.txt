@@ -1,0 +1,81 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "ICS Coaching Centre, Hansi Branch":
+    - /url: /
+    - generic: I
+    - strong: ICS Coaching Centre
+    - generic: Hansi Branch
+  - button "Search pages and actions":
+  - button "Quick actions":
+  - combobox "Demo user preview":
+    - option "Developer / Owner"
+    - option "Centre Admin"
+    - option "Manager" [selected]
+    - option "Teacher / Staff"
+    - option "Student A"
+    - option "Student B"
+  - status "Backend not connected"
+- main:
+  - heading "Fees" [level=1]
+  - paragraph:
+    - strong: DEMO PREVIEW
+    - text: Sample scenarios only. Balances, payments and receipts are not connected.
+  - region "Fee register":
+    - heading "Fee register" [level=2]
+    - paragraph: Fee status follows promised payment dates, independently of enrollment expiry.
+    - button "Preview Collect Fee"
+    - group "Fee status view":
+      - button "Pending 0 connected":
+        - text: Pending
+        - generic: 0 connected
+      - button "Expired Fees 0 connected":
+        - text: Expired Fees
+        - generic: 0 connected
+      - button "Paid 0 connected" [active] [pressed]:
+        - text: Paid
+        - generic: 0 connected
+    - text: Search fees
+    - searchbox "Search fees"
+    - generic: Batch
+    - button "Batch All batches":
+      - generic: All batches
+    - list "Matching fictional students":
+      - strong: Aarav Example
+      - generic: DEMO-001 · Registration Number unavailable · New General
+      - button "Selected" [pressed]
+      - strong: Diya Example
+      - generic: DEMO-002 · Registration Number unavailable · Old General
+      - button "Select"
+      - strong: Kabir Example
+      - generic: DEMO-003 · Registration Number unavailable · New Guarantee
+      - button "Select"
+      - strong: Meera Example
+      - generic: DEMO-004 · Registration Number unavailable · Old Guarantee
+      - button "Select"
+      - strong: Riya Example
+      - generic: DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)
+      - button "Select"
+    - strong: No connected paid fee records
+    - paragraph: Search sample students above. Real fees and balances are not connected.
+    - button "Export fee summary · DEMO CSV"
+    - button "Export payment history · DEMO CSV"
+    - generic: Summary rows show “Not connected”; payment-history export has no transaction rows.
+    - paragraph: Preview only. No installment is posted and no receipt is issued.
+- alert
+- navigation "Mobile navigation":
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Students":
+    - /url: /students
+    - generic: Students
+  - link "Batches":
+    - /url: /batches
+    - generic: Batches
+  - link "Attendance":
+    - /url: /attendance
+    - generic: Attendance
+  - button "More navigation":
+    - generic: More
+- region "Notifications"

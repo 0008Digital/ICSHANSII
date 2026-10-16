@@ -1,0 +1,99 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "ICS Coaching Centre, Hansi Branch":
+    - /url: /
+    - generic: I
+    - strong: ICS Coaching Centre
+    - generic: Hansi Branch
+  - button "Search pages and actions":
+  - button "Quick actions":
+  - combobox "Demo user preview":
+    - option "Developer / Owner"
+    - option "Centre Admin"
+    - option "Manager" [selected]
+    - option "Teacher / Staff"
+    - option "Student A"
+    - option "Student B"
+  - status "Backend not connected"
+- main:
+  - heading "Students" [level=1]
+  - region "Student overview":
+    - heading "Student overview" [level=2]
+    - generic: FICTIONAL DEMO
+    - button "Active Students 3 Fictional directory records":
+      - generic: Active Students
+      - strong: "3"
+      - generic: Fictional directory records
+      - text: View active students
+    - button "Inactive Students 1 Fictional directory records":
+      - generic: Inactive Students
+      - strong: "1"
+      - generic: Fictional directory records
+      - text: View inactive students
+    - button "Total Enrollments 5 Enrollment periods · not unique students":
+      - generic: Total Enrollments
+      - strong: "5"
+      - generic: Enrollment periods · not unique students
+      - text: View enrollment history
+    - 'region "Fee Due Cases: —. Unavailable · fee records not connected"':
+      - generic: Fee Due Cases
+      - strong: —
+      - generic: Unavailable · fee records not connected
+    - button "Expiring Soon 2 Renewals due within 30 days · demo":
+      - generic: Expiring Soon
+      - strong: "2"
+      - generic: Renewals due within 30 days · demo
+      - text: View renewals
+    - button "Expired Enrollments 1 Fictional enrollment periods":
+      - generic: Expired Enrollments
+      - strong: "1"
+      - generic: Fictional enrollment periods
+      - text: View expired enrollments
+    - link "Active Batches 4 With active demo enrollments":
+      - /url: /batches
+      - generic: Active Batches
+      - strong: "4"
+      - generic: With active demo enrollments
+      - text: Open batches
+  - region "Fictional student directory":
+    - heading "Student directory" [level=2]
+    - generic: Sample records · not connected
+    - button "Add Student"
+    - group "Student directory views":
+      - button "All Students"
+      - button "By Batch"
+      - button "Enrollments"
+      - button "Fee Follow-ups"
+      - button "Renewal Due"
+      - button "Archive" [active] [pressed]
+    - text: Search students
+    - searchbox "Search students"
+    - generic: Archive status
+    - button "Archive status Left or Completed":
+      - generic: Left or Completed
+    - generic: Archive year
+    - button "Archive year All years":
+      - generic: All years
+    - generic "Advanced filters":
+      - generic: Advanced filters
+    - heading "Student Archive · preview only" [level=3]
+    - paragraph: No students are marked Left or Completed in this fictional dataset. Expired enrollments and expired fees do not archive students. Authorized archive and rejoin actions require backend history and centre permissions.
+  - paragraph: Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually.
+- alert
+- navigation "Mobile navigation":
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Students":
+    - /url: /students
+    - generic: Students
+  - link "Batches":
+    - /url: /batches
+    - generic: Batches
+  - link "Attendance":
+    - /url: /attendance
+    - generic: Attendance
+  - button "More navigation":
+    - generic: More
+- region "Notifications"

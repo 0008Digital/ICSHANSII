@@ -1,0 +1,15 @@
+{
+  "sections": [
+    "overview",
+    "bug-reports",
+    "application-errors",
+    "system-health",
+    "release-updates",
+    "feedback",
+    "chat-moderation",
+    "centres",
+    "developer-settings"
+  ],
+  "title": "Developer Console",
+  "url": "http://localhost:3000/developer#feedback"
+}

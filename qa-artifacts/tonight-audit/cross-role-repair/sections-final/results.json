@@ -1,0 +1,542 @@
+[
+  {
+    "role": "teacher",
+    "width": 1440,
+    "id": "assigned-students",
+    "title": "Students",
+    "actual": {
+      "hash": "#assigned-students",
+      "overview": false,
+      "title": "Students",
+      "visible": [
+        "assigned-students"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 1440,
+    "id": "assigned-batches",
+    "title": "Assigned Batches",
+    "actual": {
+      "hash": "#assigned-batches",
+      "overview": false,
+      "title": "Assigned Batches",
+      "visible": [
+        "assigned-batches"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 1440,
+    "id": "tests",
+    "title": "Tests & Results",
+    "actual": {
+      "hash": "#tests",
+      "overview": false,
+      "title": "Tests & Results",
+      "visible": [
+        "tests"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 1440,
+    "id": "homework",
+    "title": "Homework",
+    "actual": {
+      "hash": "#homework",
+      "overview": false,
+      "title": "Homework",
+      "visible": [
+        "homework"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "batch",
+    "title": "Classes & Batch",
+    "actual": {
+      "hash": "#batch",
+      "overview": false,
+      "title": "Classes & Batch",
+      "visible": [
+        "batch"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "attendance",
+    "title": "Attendance",
+    "actual": {
+      "hash": "#attendance",
+      "overview": false,
+      "title": "Attendance",
+      "visible": [
+        "attendance"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "results",
+    "title": "Tests & Results",
+    "actual": {
+      "hash": "#results",
+      "overview": false,
+      "title": "Tests & Results",
+      "visible": [
+        "results"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "fees",
+    "title": "Fees",
+    "actual": {
+      "hash": "#fees",
+      "overview": false,
+      "title": "Fees",
+      "visible": [
+        "fees"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "profile",
+    "title": "Profile",
+    "actual": {
+      "hash": "#profile",
+      "overview": false,
+      "title": "Profile",
+      "visible": [
+        "profile"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "homework",
+    "title": "Homework",
+    "actual": {
+      "hash": "#homework",
+      "overview": false,
+      "title": "Homework",
+      "visible": [
+        "homework"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 1440,
+    "id": "updates",
+    "title": "ICS Updates",
+    "actual": {
+      "hash": "#updates",
+      "overview": false,
+      "title": "ICS Updates",
+      "visible": [
+        "updates"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "batch",
+    "title": "Classes & Batch",
+    "actual": {
+      "hash": "#batch",
+      "overview": false,
+      "title": "Classes & Batch",
+      "visible": [
+        "batch"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "attendance",
+    "title": "Attendance",
+    "actual": {
+      "hash": "#attendance",
+      "overview": false,
+      "title": "Attendance",
+      "visible": [
+        "attendance"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "results",
+    "title": "Tests & Results",
+    "actual": {
+      "hash": "#results",
+      "overview": false,
+      "title": "Tests & Results",
+      "visible": [
+        "results"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "fees",
+    "title": "Fees",
+    "actual": {
+      "hash": "#fees",
+      "overview": false,
+      "title": "Fees",
+      "visible": [
+        "fees"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "profile",
+    "title": "Profile",
+    "actual": {
+      "hash": "#profile",
+      "overview": false,
+      "title": "Profile",
+      "visible": [
+        "profile"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "homework",
+    "title": "Homework",
+    "actual": {
+      "hash": "#homework",
+      "overview": false,
+      "title": "Homework",
+      "visible": [
+        "homework"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 320,
+    "id": "updates",
+    "title": "ICS Updates",
+    "actual": {
+      "hash": "#updates",
+      "overview": false,
+      "title": "ICS Updates",
+      "visible": [
+        "updates"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 320,
+    "id": "assigned-students",
+    "title": "Students",
+    "actual": {
+      "hash": "#assigned-students",
+      "overview": false,
+      "title": "Students",
+      "visible": [
+        "assigned-students"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 320,
+    "id": "assigned-batches",
+    "title": "Assigned Batches",
+    "actual": {
+      "hash": "#assigned-batches",
+      "overview": false,
+      "title": "Assigned Batches",
+      "visible": [
+        "assigned-batches"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 320,
+    "id": "tests",
+    "title": "Tests & Results",
+    "actual": {
+      "hash": "#tests",
+      "overview": false,
+      "title": "Tests & Results",
+      "visible": [
+        "tests"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "teacher",
+    "width": 320,
+    "id": "homework",
+    "title": "Homework",
+    "actual": {
+      "hash": "#homework",
+      "overview": false,
+      "title": "Homework",
+      "visible": [
+        "homework"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "batch",
+    "title": "Classes & Batch",
+    "actual": {
+      "hash": "#batch",
+      "overview": false,
+      "title": "Classes & Batch",
+      "visible": [
+        "batch"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "attendance",
+    "title": "Attendance",
+    "actual": {
+      "hash": "#attendance",
+      "overview": false,
+      "title": "Attendance",
+      "visible": [
+        "attendance"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "results",
+    "title": "Tests & Results",
+    "actual": {
+      "hash": "#results",
+      "overview": false,
+      "title": "Tests & Results",
+      "visible": [
+        "results"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "fees",
+    "title": "Fees",
+    "actual": {
+      "hash": "#fees",
+      "overview": false,
+      "title": "Fees",
+      "visible": [
+        "fees"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "profile",
+    "title": "Profile",
+    "actual": {
+      "hash": "#profile",
+      "overview": false,
+      "title": "Profile",
+      "visible": [
+        "profile"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "homework",
+    "title": "Homework",
+    "actual": {
+      "hash": "#homework",
+      "overview": false,
+      "title": "Homework",
+      "visible": [
+        "homework"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentA",
+    "width": 320,
+    "id": "updates",
+    "title": "ICS Updates",
+    "actual": {
+      "hash": "#updates",
+      "overview": false,
+      "title": "ICS Updates",
+      "visible": [
+        "updates"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "batch",
+    "title": "Classes & Batch",
+    "actual": {
+      "hash": "#batch",
+      "overview": false,
+      "title": "Classes & Batch",
+      "visible": [
+        "batch"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "attendance",
+    "title": "Attendance",
+    "actual": {
+      "hash": "#attendance",
+      "overview": false,
+      "title": "Attendance",
+      "visible": [
+        "attendance"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "results",
+    "title": "Tests & Results",
+    "actual": {
+      "hash": "#results",
+      "overview": false,
+      "title": "Tests & Results",
+      "visible": [
+        "results"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "fees",
+    "title": "Fees",
+    "actual": {
+      "hash": "#fees",
+      "overview": false,
+      "title": "Fees",
+      "visible": [
+        "fees"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "profile",
+    "title": "Profile",
+    "actual": {
+      "hash": "#profile",
+      "overview": false,
+      "title": "Profile",
+      "visible": [
+        "profile"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "homework",
+    "title": "Homework",
+    "actual": {
+      "hash": "#homework",
+      "overview": false,
+      "title": "Homework",
+      "visible": [
+        "homework"
+      ]
+    },
+    "status": "passed"
+  },
+  {
+    "role": "studentB",
+    "width": 1440,
+    "id": "updates",
+    "title": "ICS Updates",
+    "actual": {
+      "hash": "#updates",
+      "overview": false,
+      "title": "ICS Updates",
+      "visible": [
+        "updates"
+      ]
+    },
+    "status": "passed"
+  }
+]

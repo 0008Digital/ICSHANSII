@@ -1,0 +1,331 @@
+{
+  "results": [
+    {
+      "name": "admin/1440/Light: theme renders in live workspace",
+      "status": "passed",
+      "evidence": {
+        "state": {
+          "frost": 4,
+          "intensity": 79,
+          "motion": false,
+          "osReduced": false,
+          "resolvedTheme": "light",
+          "source": "Motion"
+        },
+        "effects": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "45.0001% 54.9999% 66.9998% 33.0002% / 57.9998% 36.0002% 63.9998% 42.0002%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.970232
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.910866
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "admin/1440/Light: Clear Regular Frosted change live materials",
+      "status": "passed",
+      "evidence": [
+        {
+          "material": "Clear",
+          "effects": {
+            "backdrop": "none",
+            "clear": {
+              "background": "color(srgb 1 1 1 / 0.671985)",
+              "clip": "inset(0px 50% 0px 0px)",
+              "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+              "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+            },
+            "comparison": {
+              "background": "color(srgb 1 1 1 / 0.732)",
+              "clip": "inset(0px 0px 0px 50%)",
+              "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+              "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+            },
+            "decorative": {
+              "pointer": "none",
+              "state": "running"
+            },
+            "header": {
+              "background": "color(srgb 1 1 1 / 0.671985)",
+              "clip": "none",
+              "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+              "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+            },
+            "image": null,
+            "lens": {
+              "animation": "landing-morph-b",
+              "pressed": "false",
+              "radius": "45.3399% 54.6601% 66.0421% 33.9579% / 57.4747% 36.7725% 63.2275% 42.5253%",
+              "state": "running",
+              "transform": "none"
+            },
+            "media": [
+              {
+                "paused": false,
+                "ready": 4,
+                "time": 0.629496
+              },
+              {
+                "paused": false,
+                "ready": 4,
+                "time": 0.401391
+              }
+            ],
+            "mode": "full",
+            "osReduced": false,
+            "pane": {
+              "background": "color(srgb 1 1 1 / 0.45)",
+              "clip": "none",
+              "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+              "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+            },
+            "scene": "motion",
+            "sceneMotion": "on",
+            "width": 1440
+          }
+        },
+        {
+          "material": "Regular",
+          "effects": {
+            "backdrop": "none",
+            "clear": {
+              "background": "color(srgb 1 1 1 / 0.671985)",
+              "clip": "inset(0px 50% 0px 0px)",
+              "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+              "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+            },
+            "comparison": {
+              "background": "color(srgb 1 1 1 / 0.732)",
+              "clip": "inset(0px 0px 0px 50%)",
+              "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+              "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+            },
+            "decorative": {
+              "pointer": "none",
+              "state": "running"
+            },
+            "header": {
+              "background": "color(srgb 1 1 1 / 0.732)",
+              "clip": "none",
+              "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+              "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+            },
+            "image": null,
+            "lens": {
+              "animation": "landing-morph-b",
+              "pressed": "false",
+              "radius": "46.3209% 53.6791% 63.2776% 36.7224% / 55.9587% 39.0019% 60.9981% 44.0413%",
+              "state": "running",
+              "transform": "none"
+            },
+            "media": [
+              {
+                "paused": false,
+                "ready": 4,
+                "time": 1.115322
+              },
+              {
+                "paused": false,
+                "ready": 4,
+                "time": 0.887208
+              }
+            ],
+            "mode": "full",
+            "osReduced": false,
+            "pane": {
+              "background": "color(srgb 1 1 1 / 0.5)",
+              "clip": "none",
+              "filter": "blur(11.76px) saturate(1.85) brightness(1.12)",
+              "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 16px 48px -8px"
+            },
+            "scene": "motion",
+            "sceneMotion": "on",
+            "width": 1440
+          }
+        },
+        {
+          "material": "Frosted",
+          "effects": {
+            "backdrop": "none",
+            "clear": {
+              "background": "color(srgb 1 1 1 / 0.671985)",
+              "clip": "inset(0px 50% 0px 0px)",
+              "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+              "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+            },
+            "comparison": {
+              "background": "color(srgb 1 1 1 / 0.732)",
+              "clip": "inset(0px 0px 0px 50%)",
+              "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+              "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+            },
+            "decorative": {
+              "pointer": "none",
+              "state": "running"
+            },
+            "header": {
+              "background": "color(srgb 0.980392 0.980392 0.988235 / 0.85799)",
+              "clip": "none",
+              "filter": "blur(19.5px) saturate(1.7) brightness(1.08)",
+              "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 20px 60px -8px"
+            },
+            "image": null,
+            "lens": {
+              "animation": "landing-morph-b",
+              "pressed": "false",
+              "radius": "52.1282% 47.8718% 46.9114% 53.0886% / 46.9837% 52.2004% 47.7996% 53.0163%",
+              "state": "running",
+              "transform": "none"
+            },
+            "media": [
+              {
+                "paused": false,
+                "ready": 4,
+                "time": 2.374599
+              },
+              {
+                "paused": false,
+                "ready": 4,
+                "time": 2.146656
+              }
+            ],
+            "mode": "full",
+            "osReduced": false,
+            "pane": {
+              "background": "color(srgb 0.980392 0.980392 0.988235 / 0.7)",
+              "clip": "none",
+              "filter": "blur(37.8px) saturate(1.7) brightness(1.08)",
+              "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+              "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 20px 60px -8px"
+            },
+            "scene": "motion",
+            "sceneMotion": "on",
+            "width": 1440
+          }
+        }
+      ]
+    },
+    {
+      "name": "admin/1440/Light: Optical intensity changes live optics then discards",
+      "status": "failed",
+      "error": "Error: Timed out after 3000ms evaluating selector internal:role=slider[name=\"Optical intensity\"s]: Playwright selector deadline exceeded",
+      "screenshot": "admin-1440-Light-Optical-intensity-changes-live-optics-then-discards.jpg"
+    },
+    {
+      "name": "admin/1440/Light: Frost changes workspace blur and preserves explicit specimen",
+      "status": "failed",
+      "error": "Error: Timed out after 3000ms evaluating selector internal:role=slider[name=\"Frost\"s]: Playwright selector deadline exceeded",
+      "screenshot": "admin-1440-Light-Frost-changes-workspace-blur-and-preserves-explicit-specimen.jpg"
+    },
+    {
+      "name": "admin/1440/Light: Compare Frosted Regular affects specimen only",
+      "status": "failed",
+      "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Compare Frosted\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Compare Frosted\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "screenshot": "admin-1440-Light-Compare-Frosted-Regular-affects-specimen-only.jpg"
+    },
+    {
+      "name": "admin/1440/Light: Material comparison has a rendered preview-only effect",
+      "status": "failed",
+      "error": "Error: Timed out after 3000ms evaluating selector internal:role=slider[name=\"Material comparison\"s]: Playwright selector deadline exceeded",
+      "screenshot": "admin-1440-Light-Material-comparison-has-a-rendered-preview-only-effect.jpg"
+    },
+    {
+      "name": "admin/1440/Light: Lighting angle has a rendered preview-only effect",
+      "status": "failed",
+      "error": "Error: Timed out after 3000ms evaluating selector internal:role=slider[name=\"Lighting angle\"s]: Playwright selector deadline exceeded",
+      "screenshot": "admin-1440-Light-Lighting-angle-has-a-rendered-preview-only-effect.jpg"
+    },
+    {
+      "name": "admin/1440/Light: Lighting spread has a rendered preview-only effect",
+      "status": "failed",
+      "error": "Error: Timed out after 3000ms evaluating selector internal:role=slider[name=\"Lighting spread\"s]: Playwright selector deadline exceeded",
+      "screenshot": "admin-1440-Light-Lighting-spread-has-a-rendered-preview-only-effect.jpg"
+    },
+    {
+      "name": "admin/1440/Light: Scene disclosure and floating lens pointer keyboard",
+      "status": "failed",
+      "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector .appearance-scene-disclosure > summary\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"click\",\"locator\":\".appearance-scene-disclosure > summary\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":null,\"disabled\":false,\"role\":null,\"tag\":\"summary\",\"text\":\"Scene interaction preview\",\"type\":null,\"visible\":true}],\"visibleCount\":1,\"truncated\":false}",
+      "screenshot": "admin-1440-Light-Scene-disclosure-and-floating-lens-pointer-keyboard.jpg"
+    },
+    {
+      "name": "admin/1440/Light: comparison values reset after reload without dirtying preferences",
+      "status": "failed",
+      "error": "Error: Error: Playwright selector deadline exceeded\nlocator.press failed for selector internal:role=slider[name=\"Material comparison\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"press\",\"locator\":\"internal:role=slider[name=\\\"Material comparison\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "screenshot": "admin-1440-Light-comparison-values-reset-after-reload-without-dirtying-preferences.jpg"
+    }
+  ],
+  "originals": {
+    "admin": {
+      "frost": 4,
+      "intensity": 79,
+      "motion": false,
+      "osReduced": false,
+      "resolvedTheme": "light",
+      "source": "Motion"
+    }
+  }
+}

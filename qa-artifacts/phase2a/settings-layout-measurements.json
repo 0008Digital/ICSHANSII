@@ -1,0 +1,264 @@
+{
+  "scope": "Investigation only; not approved Settings baselines",
+  "role": "Developer / Owner (unchanged)",
+  "measurements": [
+    {
+      "advancedOpen": false,
+      "controls": {
+        "columns": "523px 523px",
+        "display": "grid",
+        "height": 445,
+        "position": "relative",
+        "radius": "18px",
+        "top": 204,
+        "width": 1102
+      },
+      "documentWidth": 1430,
+      "editor": {
+        "columns": "1102px",
+        "display": "grid",
+        "height": 502,
+        "position": "static",
+        "radius": "0px",
+        "top": 204,
+        "width": 1102
+      },
+      "heading": {
+        "columns": "none",
+        "display": "flex",
+        "height": 53,
+        "position": "sticky",
+        "radius": "15px",
+        "top": 94,
+        "width": 1102
+      },
+      "role": "demo-platform-owner",
+      "source": {
+        "columns": "101px 101px 101px 101px 101px",
+        "display": "grid",
+        "height": 46,
+        "position": "static",
+        "radius": "24px",
+        "top": 329,
+        "width": 523
+      },
+      "width": 1440
+    },
+    {
+      "advancedOpen": false,
+      "controls": {
+        "columns": "726px",
+        "display": "grid",
+        "height": 658,
+        "position": "relative",
+        "radius": "18px",
+        "top": 200,
+        "width": 758
+      },
+      "documentWidth": 1014,
+      "editor": {
+        "columns": "758px",
+        "display": "grid",
+        "height": 716,
+        "position": "static",
+        "radius": "0px",
+        "top": 200,
+        "width": 758
+      },
+      "heading": {
+        "columns": "none",
+        "display": "flex",
+        "height": 53,
+        "position": "sticky",
+        "radius": "15px",
+        "top": 90,
+        "width": 758
+      },
+      "role": "demo-platform-owner",
+      "source": {
+        "columns": "238px 238px 238px",
+        "display": "grid",
+        "height": 89,
+        "position": "static",
+        "radius": "24px",
+        "top": 325,
+        "width": 726
+      },
+      "width": 1024
+    },
+    {
+      "advancedOpen": false,
+      "controls": {
+        "columns": "470px",
+        "display": "grid",
+        "height": 676,
+        "position": "relative",
+        "radius": "18px",
+        "top": 200,
+        "width": 502
+      },
+      "documentWidth": 758,
+      "editor": {
+        "columns": "502px",
+        "display": "grid",
+        "height": 734,
+        "position": "static",
+        "radius": "0px",
+        "top": 200,
+        "width": 502
+      },
+      "heading": {
+        "columns": "none",
+        "display": "flex",
+        "height": 53,
+        "position": "sticky",
+        "radius": "15px",
+        "top": 90,
+        "width": 502
+      },
+      "role": "demo-platform-owner",
+      "source": {
+        "columns": "152.667px 152.667px 152.667px",
+        "display": "grid",
+        "height": 89,
+        "position": "static",
+        "radius": "24px",
+        "top": 325,
+        "width": 470
+      },
+      "width": 768
+    },
+    {
+      "advancedOpen": false,
+      "controls": {
+        "columns": "254px",
+        "display": "grid",
+        "height": 850,
+        "position": "relative",
+        "radius": "18px",
+        "top": 180,
+        "width": 278
+      },
+      "documentWidth": 310,
+      "editor": {
+        "columns": "278px",
+        "display": "grid",
+        "height": 908,
+        "position": "static",
+        "radius": "0px",
+        "top": 180,
+        "width": 278
+      },
+      "heading": {
+        "columns": "none",
+        "display": "flex",
+        "height": 47,
+        "position": "sticky",
+        "radius": "13px",
+        "top": 76,
+        "width": 278
+      },
+      "role": "demo-platform-owner",
+      "source": {
+        "columns": "80.6667px 80.6667px 80.6667px",
+        "display": "grid",
+        "height": 97,
+        "position": "static",
+        "radius": "24px",
+        "top": 303,
+        "width": 254
+      },
+      "width": 320
+    },
+    {
+      "advancedOpen": true,
+      "comparison": {
+        "columns": "530.333px 530.333px",
+        "display": "grid",
+        "height": 432,
+        "order": "0",
+        "position": "static",
+        "width": 1077
+      },
+      "comparisonControls": {
+        "columns": "509px",
+        "display": "grid",
+        "height": 432,
+        "order": "0",
+        "position": "static",
+        "width": 530
+      },
+      "legacyPreviewColumn": false,
+      "liveSliders": {
+        "columns": "509px",
+        "display": "grid",
+        "height": 142,
+        "order": "0",
+        "position": "static",
+        "width": 509
+      },
+      "preview": {
+        "columns": "530.333px",
+        "display": "grid",
+        "height": 387,
+        "order": "0",
+        "position": "sticky",
+        "width": 530
+      },
+      "scene": {
+        "columns": "none",
+        "display": "block",
+        "height": 180,
+        "order": "0",
+        "position": "relative",
+        "width": 530
+      },
+      "width": 1440
+    },
+    {
+      "advancedOpen": true,
+      "comparison": {
+        "columns": "252.667px",
+        "display": "grid",
+        "height": 934,
+        "order": "0",
+        "position": "static",
+        "width": 253
+      },
+      "comparisonControls": {
+        "columns": "none",
+        "display": "contents",
+        "height": 0,
+        "order": "0",
+        "position": "static",
+        "width": 0
+      },
+      "legacyPreviewColumn": false,
+      "liveSliders": {
+        "columns": "252.667px",
+        "display": "grid",
+        "height": 150,
+        "order": "0",
+        "position": "static",
+        "width": 253
+      },
+      "preview": {
+        "columns": "none",
+        "display": "contents",
+        "height": 0,
+        "order": "0",
+        "position": "static",
+        "width": 0
+      },
+      "scene": {
+        "columns": "none",
+        "display": "block",
+        "height": 180,
+        "order": "0",
+        "position": "relative",
+        "width": 253
+      },
+      "width": 320
+    }
+  ]
+}

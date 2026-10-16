@@ -1,0 +1,10 @@
+{
+  "centerHit": "landing-shape landing-shape--clear",
+  "hitZ": "5",
+  "lensZ": "2",
+  "pointerEvents": "auto",
+  "pressed": "false",
+  "role": "admin",
+  "width": 320,
+  "afterClick": "false"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "role": "admin",
+    "size": "mobile320",
+    "status": "passed",
+    "pointerCycles": 3,
+    "keyboardCycles": 1,
+    "geometry": {
+      "animation": "landing-morph-b",
+      "clearPointer": "none",
+      "focusVisible": false,
+      "lensPointer": "auto",
+      "panePointer": "auto",
+      "pressed": "false",
+      "width": 320
+    },
+    "keyboard": {
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "playState": "paused"
+    }
+  },
+  {
+    "role": "manager",
+    "size": "mobile320",
+    "status": "passed",
+    "pointerCycles": 3,
+    "keyboardCycles": 1,
+    "geometry": {
+      "animation": "landing-morph-b",
+      "clearPointer": "none",
+      "focusVisible": false,
+      "lensPointer": "auto",
+      "panePointer": "auto",
+      "pressed": "true",
+      "width": 320
+    },
+    "keyboard": {
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "playState": "paused"
+    }
+  },
+  {
+    "role": "admin",
+    "size": "desktop",
+    "status": "passed",
+    "pointerCycles": 3,
+    "keyboardCycles": 1,
+    "geometry": {
+      "animation": "landing-morph-b",
+      "clearPointer": "none",
+      "focusVisible": false,
+      "lensPointer": "auto",
+      "panePointer": "auto",
+      "pressed": "false",
+      "width": 1440
+    },
+    "keyboard": {
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "playState": "paused"
+    }
+  },
+  {
+    "role": "manager",
+    "size": "desktop",
+    "status": "passed",
+    "pointerCycles": 3,
+    "keyboardCycles": 1,
+    "geometry": {
+      "animation": "landing-morph-b",
+      "clearPointer": "none",
+      "focusVisible": false,
+      "lensPointer": "auto",
+      "panePointer": "auto",
+      "pressed": "false",
+      "width": 1440
+    },
+    "keyboard": {
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "playState": "paused"
+    }
+  }
+]

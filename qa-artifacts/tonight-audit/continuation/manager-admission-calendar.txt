@@ -1,0 +1,189 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "ICS Coaching Centre, Hansi Branch":
+    - /url: /
+    - generic: I
+    - strong: ICS Coaching Centre
+    - generic: Hansi Branch
+  - button "Search pages and actions":
+  - button "Quick actions":
+  - combobox "Demo user preview":
+    - option "Developer / Owner"
+    - option "Centre Admin"
+    - option "Manager" [selected]
+    - option "Teacher / Staff"
+    - option "Student A"
+    - option "Student B"
+  - status "Backend not connected"
+- main:
+  - heading "Add Student" [level=1]
+  - paragraph: Demo preview — admission is not saved.
+  - text: Student Full Name
+  - generic: "*"
+  - textbox "Student Full Name"
+  - text: Registration Number
+  - generic: "*"
+  - textbox "Registration Number"
+  - text: Admission Batch
+  - generic: "*"
+  - button "Admission Batch Choose a batch":
+    - generic: Choose a batch
+  - text: Batch Duration
+  - generic: "*"
+  - button "Batch Duration 3 months":
+    - generic: 3 months
+  - text: Admission Date
+  - generic: "*"
+  - button "Admission Date 15 October 2026" [expanded]:
+    - generic: 15 October 2026
+  - text: Renewal Due Date
+  - textbox "Renewal Due Date": 15 January 2027
+  - generic: Period ends 14 January 2027
+  - text: Father's Name
+  - generic: "*"
+  - textbox "Father's Name"
+  - text: Mother's Name
+  - generic: "*"
+  - textbox "Mother's Name"
+  - text: Parent / Guardian Phone Number
+  - generic: "*"
+  - textbox "Parent / Guardian Phone Number"
+  - region "Fees & Payment":
+    - heading "Fees & Payment" [level=2]
+    - generic: Unconfirmed admission preview
+    - text: Total Fees
+    - generic: "*"
+    - textbox "Total Fees"
+    - text: Amount Paid
+    - textbox "Amount Paid": "0"
+    - text: Remaining Fees
+    - textbox "Remaining Fees": —
+    - generic: Payment Mode
+    - button "Payment Mode Select Payment Mode" [disabled]:
+      - generic: Select Payment Mode
+    - generic: Transaction ID / Payment Reference
+    - textbox "Transaction ID / Payment Reference Optional for cash; required for other modes." [disabled]
+    - generic: Optional for cash; required for other modes.
+    - generic: Payment Date
+    - button "Payment Date 15 October 2026" [disabled]:
+      - generic: 15 October 2026
+  - paragraph: Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate.
+  - button "Review Admission":
+    - generic: Review Admission
+  - link "Cancel":
+    - /url: /students
+- alert
+- navigation "Mobile navigation":
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Students":
+    - /url: /students
+    - generic: Students
+  - link "Batches":
+    - /url: /batches
+    - generic: Batches
+  - link "Attendance":
+    - /url: /attendance
+    - generic: Attendance
+  - button "More navigation":
+    - generic: More
+- region "Notifications"
+- dialog "Admission Date":
+  - strong: Choose date
+  - button "Close Admission Date": ×
+  - generic: October 2026
+  - button "Previous month":
+  - button "Select month, October":
+    - generic: October
+  - button "Select year, 2026":
+    - generic: "2026"
+  - button "Next month" [disabled]:
+  - grid "October 2026":
+    - row "Sun Mon Tue Wed Thu Fri Sat":
+      - columnheader "Sun"
+      - columnheader "Mon"
+      - columnheader "Tue"
+      - columnheader "Wed"
+      - columnheader "Thu"
+      - columnheader "Fri"
+      - columnheader "Sat"
+    - row "27 September 2026 28 September 2026 29 September 2026 30 September 2026 01 October 2026 02 October 2026 03 October 2026":
+      - gridcell "27 September 2026":
+        - button "27 September 2026": "27"
+      - gridcell "28 September 2026":
+        - button "28 September 2026": "28"
+      - gridcell "29 September 2026":
+        - button "29 September 2026": "29"
+      - gridcell "30 September 2026":
+        - button "30 September 2026": "30"
+      - gridcell "01 October 2026":
+        - button "01 October 2026": "1"
+      - gridcell "02 October 2026":
+        - button "02 October 2026": "2"
+      - gridcell "03 October 2026":
+        - button "03 October 2026": "3"
+    - row "04 October 2026 05 October 2026 06 October 2026 07 October 2026 08 October 2026 09 October 2026 10 October 2026":
+      - gridcell "04 October 2026":
+        - button "04 October 2026": "4"
+      - gridcell "05 October 2026":
+        - button "05 October 2026": "5"
+      - gridcell "06 October 2026":
+        - button "06 October 2026": "6"
+      - gridcell "07 October 2026":
+        - button "07 October 2026": "7"
+      - gridcell "08 October 2026":
+        - button "08 October 2026": "8"
+      - gridcell "09 October 2026":
+        - button "09 October 2026": "9"
+      - gridcell "10 October 2026":
+        - button "10 October 2026": "10"
+    - row "11 October 2026 12 October 2026 13 October 2026 14 October 2026 15 October 2026 16 October 2026 17 October 2026":
+      - gridcell "11 October 2026":
+        - button "11 October 2026": "11"
+      - gridcell "12 October 2026":
+        - button "12 October 2026": "12"
+      - gridcell "13 October 2026":
+        - button "13 October 2026": "13"
+      - gridcell "14 October 2026":
+        - button "14 October 2026": "14"
+      - gridcell "15 October 2026" [selected]:
+        - button "15 October 2026" [active]: "15"
+      - gridcell "16 October 2026":
+        - button "16 October 2026" [disabled]: "16"
+      - gridcell "17 October 2026":
+        - button "17 October 2026" [disabled]: "17"
+    - row "18 October 2026 19 October 2026 20 October 2026 21 October 2026 22 October 2026 23 October 2026 24 October 2026":
+      - gridcell "18 October 2026":
+        - button "18 October 2026" [disabled]: "18"
+      - gridcell "19 October 2026":
+        - button "19 October 2026" [disabled]: "19"
+      - gridcell "20 October 2026":
+        - button "20 October 2026" [disabled]: "20"
+      - gridcell "21 October 2026":
+        - button "21 October 2026" [disabled]: "21"
+      - gridcell "22 October 2026":
+        - button "22 October 2026" [disabled]: "22"
+      - gridcell "23 October 2026":
+        - button "23 October 2026" [disabled]: "23"
+      - gridcell "24 October 2026":
+        - button "24 October 2026" [disabled]: "24"
+    - row "25 October 2026 26 October 2026 27 October 2026 28 October 2026 29 October 2026 30 October 2026 31 October 2026":
+      - gridcell "25 October 2026":
+        - button "25 October 2026" [disabled]: "25"
+      - gridcell "26 October 2026":
+        - button "26 October 2026" [disabled]: "26"
+      - gridcell "27 October 2026":
+        - button "27 October 2026" [disabled]: "27"
+      - gridcell "28 October 2026":
+        - button "28 October 2026" [disabled]: "28"
+      - gridcell "29 October 2026":
+        - button "29 October 2026" [disabled]: "29"
+      - gridcell "30 October 2026":
+        - button "30 October 2026" [disabled]: "30"
+      - gridcell "31 October 2026":
+        - button "31 October 2026" [disabled]: "31"
+  - paragraph: Arrow keys move by day or week. Page Up/Down changes month; hold Shift to change year.
+  - button "Clear date"
+  - button "Today"

@@ -1,0 +1,646 @@
+[
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\appearance-bootstrap.mjs",
+    "Hash": "987FE102AA563A9C6989067160B98C7CF32D903F5598A77A480A1F8E40A72C0A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\error.tsx",
+    "Hash": "3DAE3D1F20B6E39FF6BF3BB37955B9A5F46647FABD8CFF0EC59612625964ED82"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\favicon.ico",
+    "Hash": "C28FDD2A4F31E2DC64F653962286DA5C82A4CDFC518B242D32812C624E9A19A4"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\globals.css",
+    "Hash": "5A08BA97287C6F69FCFC7ADF264D72440EAF1D032F37B7CAE7CC3729519C91E3"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\layout.tsx",
+    "Hash": "E4CAA5245A375D339EDCCC3254527EF8F689AD7246152326B020975C89F7F2FE"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\page.tsx",
+    "Hash": "A6D06CA79C579EEC1BD84E691FF7DB85161646FC28711463F14518D97EEB67CC"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\providers.tsx",
+    "Hash": "1902CB35E3A723F5C2B37670EE6E0801E5FA9D19E8B3F236D1A0D1A16A77B41E"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\theme-preference.ts",
+    "Hash": "68B3450E2C25CA387B8301DB9E5625593773B8D25EB5E8DC729FCDC74974ADCA"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\attendance\\page.tsx",
+    "Hash": "A196BBE24CF7C9FF8AD135C343AFBDA5E990309D7A401B2C975B30731412E494"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\audit-logs\\page.tsx",
+    "Hash": "58BAEEAA0117B7998627E7EF607DE94DC38D0BFF47D4EC40399EE9804529CAFC"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\batches\\page.tsx",
+    "Hash": "F140BB363042D82400558F2AB71061BDD01DDE782EE2137C04BF24BE4F5A6B7B"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\chatrooms\\page.tsx",
+    "Hash": "7261EB1D082C564E2D0CC8E8DDC80BE8599BA208BA737DE5265DE2A818044DC1"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\developer\\page.tsx",
+    "Hash": "4D9A3265C7326C3D3D844D7A5D141D1CF2264EAB0F78825CD800356CA3D22584"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\fees\\page.tsx",
+    "Hash": "F27A931532118213B72A2279820A8E1F81DF9DE66FE38168C4A396E072A8C4EF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\homework\\page.tsx",
+    "Hash": "473A63DF4EC11A5A48CE0D58133CD71E2C19B541371948A0A8DAF1E0287CEFBC"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\ics-updates\\page.tsx",
+    "Hash": "C4B4BF1B3EA557416AD1C074AFA6674AB5C0A947EF236354BD6F55CF981CE685"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\ledger\\page.tsx",
+    "Hash": "EA1F2EFE92C17543B197BA7C7CDE81DE39FD8179779132601B6BF99224AD3D26"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\settings\\page.tsx",
+    "Hash": "9818F72B53995EBFF455B904ADA0B337A5FA0C3BD14B5E7B3B35D14615334451"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\staff\\page.tsx",
+    "Hash": "62B1F59A5A97FC2770F148FF5B9EB76F1F6B7FE62D309D375FCC367E1DC40A8F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\student-portal\\page.tsx",
+    "Hash": "32B6012224DDCE711AB0904C26143746079A061184CD86388FE1941915D7B38A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\students\\page.tsx",
+    "Hash": "E704A1CACA343B843AC2154532124426F86D0E392C457DC53FB3FA1245F4A7D0"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\students\\new\\page.tsx",
+    "Hash": "3894FCDD1F003812008B6615AF4E23F26A21E7AC618E353A09FCF5C6BBFCD41A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\students\\[studentId]\\layout.tsx",
+    "Hash": "AE0B0344B36DBAB74CBDF479392D5CF555368CC0A13A6390475ACA074DEF6D1A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\students\\[studentId]\\page.tsx",
+    "Hash": "08C6699754AFE3068B81002E092A126FF1AD88C2AFBEE1A27182BE09759A0C4F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\students\\[studentId]\\edit\\page.tsx",
+    "Hash": "16793A44D0C149DFF4B0B73F53B0EF8031D6272AFAE8036F588F94A0087E7E9A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\teacher-dashboard\\page.tsx",
+    "Hash": "D50B2D1B477BF7E24B302D286AC3B533069A2BD8D4EBA09C3E8FCD43C75BBBC2"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\app\\tests-results\\page.tsx",
+    "Hash": "991731A0A80CB4BC49D7AE286EE8F400C4CD9C967A3F3AF3057A459EBC37172D"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\academic-preview.tsx",
+    "Hash": "B4B776B1EC4AAAA4E77E5BBE1BE5D26930FEADE8B6F1149327C1F3F4DEA59DBD"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\analytics-model.mjs",
+    "Hash": "3B85EA98DDD9F387527E2DF6D6D2E8D3524A557F313775C056FD3A04C95643B4"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\app-navigation.tsx",
+    "Hash": "C3C9A7FB26B00FBC11E7365BC13AE56BC3B0BB130E625333EBE14DFE59EE233F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\attendance-model.mjs",
+    "Hash": "08A18A1CEC2ED90DA1E357447BE807902DD2DDF13F63CFBCFEF8E3E1AD9E1F64"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\attendance-preview.tsx",
+    "Hash": "D9ED8112D09B298A1CE600EDA2FF30E5E8C760206AA8AFC623BEFF7E02925DE1"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\audit-data.mjs",
+    "Hash": "58D8446B90247C1B5978DF5A5EFDFE2D226A057AD32DFCE133ED522326A06D06"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\audit-ledger.tsx",
+    "Hash": "E1A04C4EAD7218EF165D09FE965390DEE79007E57C8F46193DCCAAB7D8BEFFD7"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\bug-report-model.mjs",
+    "Hash": "1C5DBF5D3727C26463001807C1717404AFB1B199C3891E12FD2ADFB1D6A18E00"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\bug-report.tsx",
+    "Hash": "C77B107BF1417D33E9A252DC07397C35709F7C62F6CA5A4E9313B196CB68AE63"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\chat-model.mjs",
+    "Hash": "B4E4D3EDBA79D6DC30528A09EA7940A66F143443A4F37F8577A49024F5F5F4DA"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\chatrooms-workspace.tsx",
+    "Hash": "93C9D21203BFDB470D822C2B939FFFFC27B6FEA3643A35044AD9F948CE577179"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\choice-select-model.mjs",
+    "Hash": "338B2E71E3AD85C469D0909F27BC68F1E29A9EF9FEB60FFEF6CAE897D54034E0"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\choice-select.tsx",
+    "Hash": "CC855D9A4A2932B1B71FDC5D24FB3011042F960D4A05CD74BB123A5200E676A1"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\color-picker-model.mjs",
+    "Hash": "D7482F134FD86DD5AEDD414012733B285936D84D8475146EB6528D7305524938"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\color-picker.tsx",
+    "Hash": "608464EF4D2AD0E19F05E7E336913D1E2E2B5F144F30E8727F73335F9D5B14B5"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\dashboard-charts.tsx",
+    "Hash": "974B44BA72D14E02DF16A72B98EDE09686C666B40CF5FAA2C44A4D941D16C2D1"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\date-only.mjs",
+    "Hash": "EDB1C228BFEC2470E821F6D2899EA1242092C11C1DF9E6140D83EDE528CA4D68"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\date-picker.tsx",
+    "Hash": "5498876E22DF58273FE39193E07F62EB1BE7552B5CA09AF4714A2A2576EC0392"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\demo-workspaces.css",
+    "Hash": "1B13BC0E563ECE1E2B5F92FEAF0DDE46B130A547DCC72B1FB382B04D60887297"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\developer-console.tsx",
+    "Hash": "82DFA9FA9EB9964AF6024574E17D6794359A28C37CA9AB491C46899221A108E6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\disclosure-summary.tsx",
+    "Hash": "FC7879BEBE129306AD99BFD6AEFD10342D76B08B5C078069637D7D900028719A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\document-scroll-lock.mjs",
+    "Hash": "0F2B0625B95A016172ED831CE7F40E2E01158B526D85B126AB08DB81C480C27B"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\export-data.mjs",
+    "Hash": "DC7364489EB8E0B652A90E34D2B058C02576F271D98BD6C544F97BEB95BDFAD6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\glass.tsx",
+    "Hash": "2C29ECD4230B826BC615CEF702A9C7D2FF3B174290DEE087A2590C66F07D0AA9"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\icon.tsx",
+    "Hash": "89A38F1C9A0E78D7BDFCD95450EC3B25E7213DB40456D42040AD5F428C60E677"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\interaction-motion.css",
+    "Hash": "B96F6F6EC906D4A1D9F2D7E4011407DCD733EBABBC15413A498E2D3953F6FC44"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\ledger-data.mjs",
+    "Hash": "4A0CF6A8C763A3389E90AABF8BC27B26C6DDAF5B8B27FD52DE5577C650D2D0DB"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\management-page.tsx",
+    "Hash": "C34A1E48FFA0CD4194E98E2CA459BA816069AC5A7676D7162D45B86403009954"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\mobile-layout.css",
+    "Hash": "ABF77EE81EF75488B233E6BD94DD6701487241299421ADD3899734B77A7F4AD8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\monitoring-adapter.ts",
+    "Hash": "1644F8BBE092019DBAC20C08BFE2320D650C6283EA51C57434C2678583563494"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\navigation-current.mjs",
+    "Hash": "835A99F34D438C5256895908FCB05ED5D8AA3C94736CB2E5B5B7594C5580BCB6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\navigation.ts",
+    "Hash": "479591F0D518FDABDE5D325B4E55AB44097AE72AE6BEF8B02043D8DB92A01695"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\page-heading.tsx",
+    "Hash": "68B5F8677C1CC8D184A40A9B311B5DB52F6EF2BE4307F8B21CDC365B842B8467"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\personal-settings.tsx",
+    "Hash": "5E4DB44CA75ECB3870384BC01F24A538DA2851C2DE4383667005A54B1B8B7BE3"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\picker-overlay.tsx",
+    "Hash": "6E8DE7592869094BEAF30FAE60DF2F81E14B04DAB9DB6D829E2E388BE1F6E09A"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\picker-position.mjs",
+    "Hash": "33F21737E8BC83365C6F2CB62930B3C1B436E52BFF581E42B51EA9ECE3FD522B"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\role-dashboard.tsx",
+    "Hash": "6B52BA56A5BC167E096EF4E0F9316D85B555E53A57C1E662F17A97B1A59ACDF8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\saas-layout.css",
+    "Hash": "B84EDB86438ACF00A854769CE868B9B284F47EDC38B82635206D3DDEA353C739"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\section-navigation.mjs",
+    "Hash": "75457998BD32149F31EB15C234ED0AB005C0308753A6842EE4730502847885FA"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\settings-heading.tsx",
+    "Hash": "4AB453DB4AA5D2D272851CBB51607E1A753AF7A81594EA8F3419A90683B0BCE6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\settings-layout.css",
+    "Hash": "1F30784258B594FE97B500047CFA02053CE5EE4C40B3F3DB85F6AB1E27CF9CA9"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\settings-navigation.mjs",
+    "Hash": "5F9C5D4CFED9AB5686F3E0FD572C34EE13722BA37E817CE99ECB54C11979D1B1"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\shell.tsx",
+    "Hash": "5FCE3BE8A20D7CCEEEACBD740CC675D60DD585875B5AF7FDEA49780410C323A6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\smart-workspace-bar.tsx",
+    "Hash": "4CABB73BCFDEC4D692376F0BFF9C66694D8400FE64AEE01604C345F209A41CB6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\student-directory.tsx",
+    "Hash": "C8F7CC6EB3CA7105A899BABDFC9801133C6C1DB886F5C85E0FA5F4355D243B3D"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\student-portal.tsx",
+    "Hash": "6FABEAB84DD0D6ABA46C9A2ADAF77B1DE3D7CA936CEC2D7E0A8CED831B296770"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\teacher-dashboard-model.mjs",
+    "Hash": "349F5FE871F89C7BB53288F301068F77BCED131DB14F09ECC33B9B0048DCB37C"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\teacher-dashboard.tsx",
+    "Hash": "788DC9166BE8566AB943A6E9563ABAF2B4DA39351107368A31F8DF937F39F200"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\theme-control.tsx",
+    "Hash": "A92C9D2EFA3A4F3C02FDC4C7AC3EA998C7172048AAFC213A7C2830D431158896"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\use-mobile-viewport.ts",
+    "Hash": "6B940D662CC2C0BCC0CD56E27CB282E43E87BC85DF0BBB4A7B06855EBA9CDA8F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\use-role-section-navigation.ts",
+    "Hash": "64F92E60F856C7FBBB70C0A410A4C6CA0F57FDB03F30FAFDFC7BCE0CC43C2EEF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\workspace-bar.css",
+    "Hash": "960FB9FEBE8ED231F2907949E6B54D1F6F3B87EC7ACBD1BBE209DF6EF60B6286"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\workspace-role-model.ts",
+    "Hash": "DEB61F0BE0AD25A90225B4D1766CBA2F18989731C7A0026087BEA3D6086849B8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\workspace-role-preview.tsx",
+    "Hash": "B2636CB884FFFE546D9492B126DB0192826DAB9DD94F426AF8A8174DC6C22F05"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\workspace-roles.ts",
+    "Hash": "BBA8FB25FBB84D2E2D5DAEA347D23C563857BFB006631E5F82863F0032F929F9"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\custom-backdrop.tsx",
+    "Hash": "2287F6028D48DD7EDAB02F4EB1276E999F887298F9E23908D22A53CCB727292D"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\custom-background.ts",
+    "Hash": "862FF116ACFAF7B7F701EEAF68ADC2E104011658631D5DC7B9D9947454369842"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\custom-editor.tsx",
+    "Hash": "8DE41FA8BCA55CD4EBEB083F5F4720BD84453B6DF76E4762D40381B1DDF982D0"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\customizer.tsx",
+    "Hash": "C84AB7AF9EF1D25DA3C2DE44656CCFE744D3CB22574C82DB7DB191D5E22805A8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\decode-wallpaper.ts",
+    "Hash": "024F794C6FCDAE67ECB9F6508AF3AC9E3B60BC76095917FCE3A8D71E91BA7ED4"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\material-comparison.tsx",
+    "Hash": "990E4C17959CC7C43886AFDAB9EEAF9D8FE45A30DD5F2339E4EF2ABB75B62866"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\scene.tsx",
+    "Hash": "18F6F7F98959E310E140FFF0B2F967C00F3D4681929B201BDB8DEC4C97C03433"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\upstream-scene.css",
+    "Hash": "0CF447E5E03D9CCDB4867950F68D62B17BBB7AF947670191FE9E730FE8A299CF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\use-custom-media.ts",
+    "Hash": "DA3FE5452FE6E3A5FD5F19BD74F1E53DD019A0313C80D137AEE627E4B55A7825"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\appearance\\wallpaper-storage.ts",
+    "Hash": "4974B95AA161314922B1A96F70C724932DF863C8E95528E63F9528D84EEE21F6"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\branding\\brand-system.css",
+    "Hash": "C650885910926297356CAA19EA8EEB2A2FBC29A5AF10FDDDCC829A13F1B52DE2"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\branding\\branding-editor.tsx",
+    "Hash": "7045FAA352EB06550EFE4FE4A0361298AA5CB71DCE40131FD3068797D51B16CC"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\branding\\branding-provider.tsx",
+    "Hash": "BFABAF61A15C4ACD38410CDFC09F26760DF102E5C58AD0208A5AB8DFFD75FBEF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\branding\\branding-storage.ts",
+    "Hash": "8897FC6E50649D12DD9E2D26A825C64719830551A54A334FA7C69B66A6ACE5D7"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\branding\\branding.ts",
+    "Hash": "55911C055DAC957C0E33BC9D5EA89124D61706BE79DA7BB58A21904BAAB034F9"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\academic-model.mjs",
+    "Hash": "3087ABFE3BA8617EB035E8A2E591B512762CBBAAB3F7E591A5F4A71F820A5252"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\batch-management.tsx",
+    "Hash": "F00BD0186616BEFA7800533D86EB0651223DF96EB8627FDE3677A40D4E0D7B50"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\fee-management.tsx",
+    "Hash": "415C7D3A2BB29A35727394C9B0F5247F68419CABFD1DBACB6C0CA20A9B9751E8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\fee-model.mjs",
+    "Hash": "7CA27E0FA7AE71837415C5AF3A40A265DB62AAEB08CC89C1701DCDA126F562FA"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\lifecycle.mjs",
+    "Hash": "392EBF334771F87E81414A189BAFB5E234525D8B4CAA54B6D9488C99D23CD093"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\model.ts",
+    "Hash": "8EE4ED1707C999AE05C3B4EEB4E26FB0B5B7426DDE7B7D6A6562D7837659486F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\student-form.tsx",
+    "Hash": "6488A9F8A827FAF6C8942BE14A30F0D85AA708A20BC505C269CF4A46D55511C0"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\student-profile.tsx",
+    "Hash": "E0DD6CF216B467116CE9556393915147C7EE6A0CE8CDF37132307C9AB0AF09B8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\components\\ics\\students\\student-record-previews.tsx",
+    "Hash": "E324342B43561DB3CB2E982F93CD98CB7381B551BA6E031C6F525ECA056F71F5"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\LICENSE",
+    "Hash": "F8D4EF9F663B8C45BC625966664B1A23E784F77904FB500838DEFD124106C923"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\provenance.json",
+    "Hash": "D0086CDE8779468F865C90C7CF65650431822DC71689449281B359ECF074BECB"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\README.md",
+    "Hash": "99CE382515C4B63B1D98D828DAF47112CB98D9F03B5AA28538EC98E57488300D"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\chunk-D5YOP66S.js",
+    "Hash": "30339F7864C973F8D38554247A1ADE111A6CAD8055B358D649BAD74AA522FA7B"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\chunk-VZFDC6ZT.js",
+    "Hash": "B6F3525F5F57EE320372F4B201422F59CA72A778AE92273ED0F71CC06CCA54CD"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\core.d.ts",
+    "Hash": "7841E40B0E8C585E0EAF585D03627DD37D86181DA3A6FDE5DA7F892EEC64C8A1"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\core.js",
+    "Hash": "DAF98549C2CA688A202BC71FD27AF4B1A56B7BF90BB2ECE05616245ACB376789"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\index.d-CKP7R-Up.d.ts",
+    "Hash": "9933F7A169F4DB5C825B3A650820E139847F75CC2D1303A3BD2AEAE57A78FC90"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\index.d.ts",
+    "Hash": "FDAE1166BE4BE07617189DEE9C04F4246C1316234A37986582EBFB69E8C3F340"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\index.js",
+    "Hash": "9322011962879BD9D3FC3681E119B7A1AA80F45E48B1EEE8583CDC57F7DA0B75"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\styles.css",
+    "Hash": "6BDDA81194C8E82AC828B878F33631258D1AB15167178BCC4F56B02386CF1FD5"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\webgl.d.ts",
+    "Hash": "750131574D2A54535B260BC0916D3E2EF5E70536FC1C361169C7510B2E481A64"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\src\\vendor\\open-glass-ui\\dist\\webgl.js",
+    "Hash": "B77CAB24D0F70EC78B4BFE98E255175B730C4C79C46E5F8723D461A9C506CC08"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\academic-preview.test.mjs",
+    "Hash": "04D44AD3677B4816525A19D013461962D42707AB158733218B046DEFC15E5130"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\analytics-model.test.mjs",
+    "Hash": "88833C3D5BCE872E4180D3310D6ADD42FC532A355F81E78FA01163A1B9FDD1E2"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\appearance.test.mjs",
+    "Hash": "522BCE14C119141AF8A21C5C7126B4DD7C672268A88085310052FE39ED7FBF87"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\attendance-lookup.test.mjs",
+    "Hash": "D311BA71D135EFFBA1C9772F3395608BE90FB9E7136B1C6B07AFB0E58ECE08F0"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\branding.test.mjs",
+    "Hash": "5896D98F796D268CB17058223998B73A2DCD60364DABF1B2952E7F276364378F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\bug-report.test.mjs",
+    "Hash": "593823026E46A5FDFDCD6C1E581020F0D12B2375280564103A3A9844E0F5050B"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\calendar-selection.test.mjs",
+    "Hash": "71A3BB2E2C0BD303EA69CE444E648460A0183AA8BA9B2456C3E34A728F419DA3"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\chat-permissions.test.mjs",
+    "Hash": "DE171AE5FFBD057698AC4FA9E51DD69A13FB43888F10DA9AFB9A4D921A18D795"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\color-picker.test.mjs",
+    "Hash": "C98DF1C39B2537BD7FEC76F204320D98623FFE04272EF290B060F850BAF5DA37"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\cross-role-navigation-browser.mjs",
+    "Hash": "120FF92E9269040AF6ED2E84965A6B91B4D6A237431EFB91F0CEEF2998691216"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\custom-background.test.mjs",
+    "Hash": "2DA94BF697166ABAC1BC47A953CBCAD28D5F33CB7B2604355338AE9616514E5F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\date-picker.test.mjs",
+    "Hash": "676AE88AE2057D3F02B01CDE22DB26EB4F145FE9DD69E9AC31E8BDB334527AF2"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\document-scroll-lock.test.mjs",
+    "Hash": "4D654782ACBC841C35577BCF5FC1431E78AC22541481F26E714BCAD3A1EC3726"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\fee-export.test.mjs",
+    "Hash": "9BB4FA0B9D42472FF4BB2C990145E9DE3257AEA0AF059B74C5030D56DE440517"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\fee-workflows.test.mjs",
+    "Hash": "622A926203AE8D7D8DD00E7282DFB7D108ACCB191EEB2F1C8C768EEF2C3DA9DF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\lifecycle-ledger.test.mjs",
+    "Hash": "FF19913634BDDB4D0256BB60C0CC72D8B8B6B3EE71C0EFC5E8396020B66A3F4C"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\mobile-calendar.test.mjs",
+    "Hash": "BBD81093277593DC752178D395533EF8E81EE55F529B452DE923512DC533383C"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\monitoring-boundary.test.mjs",
+    "Hash": "B7273D677355132EBFFA00AD735EB870D520D2EDF0EE00B9C3DCC4EAF7244670"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\navigation-current.test.mjs",
+    "Hash": "DC5E2FBEC726A776ABA63D03C85FA76288A0DDDBBC6F0D059381976A61492BF4"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1-centre-regression.test.mjs",
+    "Hash": "E2C3092E9E93F84536CB18B38436B815DC4A918457BE781511B362F1CAB29C54"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase3-ui-audit.mjs",
+    "Hash": "C7562F90083E0160C396B1E1DEA9CB7CCD84DDBEA8E22F2E9E1D8D4563DB70FA"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase3-ui-states.mjs",
+    "Hash": "B229A6F7E66EDFE0610A2F51EDE24889E765AB366B773E013BCB462B4BD8540F"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase4b-browser-audit.mjs",
+    "Hash": "509FA0F46DB62B9F70CC173092DEB0A94E09E8094DF7AA6A163A3F6279BFCFEC"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase5-settings-browser.mjs",
+    "Hash": "3C7F3760FCFFA64E3F7681A0D5DCAC34660690EB0A98AECEE434B2FC27D7CF69"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase6-role-browser.mjs",
+    "Hash": "6FBAF90DAB3E82031FAAED1107C3B8522AB3D8888679A49CFEC4B794F159E1A3"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\picker-dropdown.test.mjs",
+    "Hash": "1C773F43AFD175884FB9706D7A781F7D89717EF6E7E69A616245D80B6BEEA055"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\section-navigation.test.mjs",
+    "Hash": "00ADB6C88187FA3279FE302D0CE9D8CA44F32AAD6888CA2DEB5C35CCF2508657"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\sidebar-regression.mjs",
+    "Hash": "048CD5A8EC6DBE0F2DAFA073AE4A0C8BABE34BA38F1ACBDECC9E142BA742AA07"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\sidebar-regression.test.mjs",
+    "Hash": "4F679DB3C0EAA155129320FFEB9D60709AE9AE4E81878E7D740882BFB22D18BF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\students.test.mjs",
+    "Hash": "C294D5BFF2ED6AC13DC753B959057F63C3B65AEE44D50D3E6B764E98F8439E67"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\teacher-navigation.test.mjs",
+    "Hash": "641C064905A9A7B7029CF3A04327B3A35BDF1B6AABDD497A5300021F851537F5"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\theme-preference.test.mjs",
+    "Hash": "D7DAA46D88AED84640C4B0D82CD3E869D261264972105CBF99FDA40E3EE24959"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\verify-openglass.mjs",
+    "Hash": "BF99432CF8890F8708F3A5C9BBB758142710672811D2223E2C6303637B998913"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\workspace-bar.test.mjs",
+    "Hash": "1121196BC263321DC31D18C1C83290FB8FB1D2DB4A5876654130DE6D4A8FCC2E"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\workspace-role-model.test.mjs",
+    "Hash": "2CC197970C3EB4A10DB5ABD15BEED144C8D90B97DA1F32E9EB3F7351B47723FF"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\workspace-roles.test.mjs",
+    "Hash": "3B8791825F5776DA0A641B882E10CD85E692F0F2AB2A622136C29DB28A275A1D"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1\\baselines.mjs",
+    "Hash": "7FFCD706F42907BFAE51AE5AC393A4917616B83B190F6FE8F2DC113450009B17"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs",
+    "Hash": "DA7845FB2AD86C46C1ACD10FCF27E76E4012EB70E508692AC624F98B81A81C02"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1\\contracts.mjs",
+    "Hash": "0A43863B23D4F4E5319D6B37F936E14E585F267EE690FB28F07FC6F2A4AD70D8"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1\\preservation.json",
+    "Hash": "4486A61303C3CFFB3835F3F025B295B4368CFD50B46C9C390DF962340D80D628"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1\\preservation.mjs",
+    "Hash": "FE0360E7D6B1AEEA80B9741F5832A6F5A6EFBA0F77728C43C81CCE4F939917FC"
+  },
+  {
+    "Path": "C:\\Projects\\ics-hansi\\scripts\\phase1\\report.mjs",
+    "Hash": "9D3958B00B01D115F9E87CA415B02F98AA6A7880EC324038A3395836E7FACAFC"
+  }
+]

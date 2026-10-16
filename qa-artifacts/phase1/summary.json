@@ -1,0 +1,3894 @@
+{
+  "schemaVersion": 1,
+  "primaryUpdatedAt": "2026-10-14T02:38:32.063Z",
+  "appliedRechecks": [
+    "admin/mobile320: six directory views",
+    "manager/mobile320: six directory views",
+    "cleanup: original demo identity and viewport"
+  ],
+  "settingsVisualApproval": false,
+  "baselineScreenshots": 56,
+  "summary": {
+    "passed": 166,
+    "failed": 1
+  },
+  "results": [
+    {
+      "name": "admin/desktop: navigation destinations",
+      "status": "passed",
+      "durationMs": 19,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Ledger",
+          "/ledger"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "Audit Logs",
+          "/audit-logs"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ],
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /",
+      "status": "passed",
+      "durationMs": 631,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 994.1041870117188,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /students",
+      "status": "passed",
+      "durationMs": 680,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1426.760498046875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /batches",
+      "status": "passed",
+      "durationMs": 500,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1115.447998046875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /attendance",
+      "status": "passed",
+      "durationMs": 540,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 487,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1267.4271240234375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /homework",
+      "status": "passed",
+      "durationMs": 410,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /fees",
+      "status": "passed",
+      "durationMs": 559,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /ledger",
+      "status": "passed",
+      "durationMs": 543,
+      "evidence": {
+        "href": "/ledger",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1286.104248046875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /staff",
+      "status": "passed",
+      "durationMs": 435,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /audit-logs",
+      "status": "passed",
+      "durationMs": 457,
+      "evidence": {
+        "href": "/audit-logs",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1300.2396240234375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 530,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 659,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 2603.83349609375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: navigate /settings",
+      "status": "passed",
+      "durationMs": 652,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 110.58333587646484,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1245.8646240234375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: direct /students/new",
+      "status": "passed",
+      "durationMs": 789,
+      "evidence": {
+        "dock": null,
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 102,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1201.53125,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 1310,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 161.4791717529297,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 3128.666748046875,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 1208,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 156,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 884,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 1570,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 3303,
+      "evidence": {
+        "demoCsvVerified": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 824,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: six directory views",
+      "status": "passed",
+      "durationMs": 2636,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 1638,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 2439,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 2269,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1966,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 1754,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 912,
+      "evidence": {
+        "bottom": 781.4375,
+        "height": 900,
+        "left": 669,
+        "right": 999,
+        "top": 383.9375,
+        "width": 1440
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 2397,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 3281,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: ledger filter totals",
+      "status": "passed",
+      "durationMs": 881,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: audit pagination, table and detail dialog",
+      "status": "passed",
+      "durationMs": 2146,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 2008,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 35,
+      "evidence": {
+        "settingsVisualApproval": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3971,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1995,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 2032,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 943,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1610,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1639,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 86.58333587646484,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1206.3229370117188,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": -554.6666870117188
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 200,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 801,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 1177,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/desktop: branding draft/reset does not apply",
+      "status": "passed",
+      "durationMs": 395,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigation destinations",
+      "status": "passed",
+      "durationMs": 19,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ],
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /",
+      "status": "passed",
+      "durationMs": 513,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /students",
+      "status": "passed",
+      "durationMs": 682,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1426.760498046875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /batches",
+      "status": "passed",
+      "durationMs": 550,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1115.447998046875,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /attendance",
+      "status": "passed",
+      "durationMs": 544,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 388,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 1267.4271240234375,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /homework",
+      "status": "passed",
+      "durationMs": 335,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /fees",
+      "status": "passed",
+      "durationMs": 332,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /staff",
+      "status": "passed",
+      "durationMs": 276,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 326,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 378,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 102,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: navigate /settings",
+      "status": "passed",
+      "durationMs": 408,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "relative",
+            "right": 0,
+            "top": 0
+          },
+          "documentWidth": 1430,
+          "header": {
+            "bottom": 70,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 1430,
+            "top": 0
+          },
+          "headingTop": 110.58333587646484,
+          "height": 900,
+          "sidebar": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 0,
+            "position": "fixed",
+            "right": 240,
+            "top": 70
+          },
+          "width": 1440,
+          "workspace": {
+            "bottom": 900,
+            "display": "flex",
+            "left": 240,
+            "position": "static",
+            "right": 1430,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: direct /students/new",
+      "status": "passed",
+      "durationMs": 840,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 102,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 1201.53125,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 1131,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 161.4791717529297,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 3128.666748046875,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 907,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 156,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 751,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 1342,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 2512,
+      "evidence": {
+        "demoCsvVerified": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 848,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: six directory views",
+      "status": "passed",
+      "durationMs": 2557,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 1514,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 2486,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 2042,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1913,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 1721,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 1231,
+      "evidence": {
+        "bottom": 781.4375,
+        "height": 900,
+        "left": 669,
+        "right": 999,
+        "top": 383.9375,
+        "width": 1440
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 2896,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 3144,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 695,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 24,
+      "evidence": {
+        "settingsVisualApproval": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3896,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1959,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 1924,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 908,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1555,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1625,
+      "evidence": {
+        "dock": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "relative",
+          "right": 0,
+          "top": 0
+        },
+        "documentWidth": 1430,
+        "header": {
+          "bottom": 70,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 1430,
+          "top": 0
+        },
+        "headingTop": 86.58333587646484,
+        "height": 900,
+        "sidebar": {
+          "bottom": 900,
+          "display": "flex",
+          "left": 0,
+          "position": "fixed",
+          "right": 240,
+          "top": 70
+        },
+        "width": 1440,
+        "workspace": {
+          "bottom": 899.96875,
+          "display": "flex",
+          "left": 240,
+          "position": "static",
+          "right": 1430,
+          "top": -450
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 173,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 825,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/desktop: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 783,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigation destinations",
+      "status": "passed",
+      "durationMs": 629,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Ledger",
+          "/ledger"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "Audit Logs",
+          "/audit-logs"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ],
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /",
+      "status": "passed",
+      "durationMs": 350,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1935.875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /students",
+      "status": "passed",
+      "durationMs": 347,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2843.67724609375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /batches",
+      "status": "passed",
+      "durationMs": 341,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1595.7708740234375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /attendance",
+      "status": "passed",
+      "durationMs": 249,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 971.4896240234376,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 785,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2121.322998046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /homework",
+      "status": "passed",
+      "durationMs": 643,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 312,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /fees",
+      "status": "passed",
+      "durationMs": 702,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1440.604248046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /ledger",
+      "status": "passed",
+      "durationMs": 714,
+      "evidence": {
+        "href": "/ledger",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2326.885498046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /staff",
+      "status": "passed",
+      "durationMs": 699,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 312,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /audit-logs",
+      "status": "passed",
+      "durationMs": 733,
+      "evidence": {
+        "href": "/audit-logs",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2016.40625,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 750,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 742.5,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 701,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 3631.0625,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: navigate /settings",
+      "status": "passed",
+      "durationMs": 776,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 90.73958587646484,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2092.73974609375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: direct /students/new",
+      "status": "passed",
+      "durationMs": 2011,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 84,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1851.34375,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 717,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 138,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 4448.5419921875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 2108,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 138,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1040.010498046875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 639,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 1465,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 2200,
+      "evidence": {
+        "demoCsvVerified": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 786,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: six directory views",
+      "status": "passed",
+      "durationMs": 2559,
+      "source": "rechecks/browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 1671,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 2641,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 1860,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1853,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 1808,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 933,
+      "evidence": {
+        "bottom": 646,
+        "height": 740,
+        "left": 12,
+        "right": 308,
+        "top": 238.5,
+        "width": 320
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 2268,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 2981,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: ledger filter totals",
+      "status": "passed",
+      "durationMs": 666,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: audit pagination, table and detail dialog",
+      "status": "passed",
+      "durationMs": 1764,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 1528,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 85,
+      "evidence": {
+        "settingsVisualApproval": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3467,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1901,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 1966,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 927,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1529,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1417,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 72.73958587646484,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1899.447998046875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": -1246
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 184,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: floating lens pointer pause/resume",
+      "status": "failed",
+      "durationMs": 3514,
+      "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(visible) timed out for selector internal:role=button[name=\"Hold floating glass lens\"s] >> internal:and=\"[aria-pressed=\\\"true\\\"]\"\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=button[name=\\\"Hold floating glass lens\\\"s] >> internal:and=\\\"[aria-pressed=\\\\\\\"true\\\\\\\"]\\\"\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}\n    at bl (C:\\Users\\hp\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\cfb32733c877621e\\bin\\node_modules\\@oai\\cua\\dist\\lib\\js\\oai_js_browser\\dist\\skill\\scripts\\browser-client.js:1:103699)\n    at e.actionError (C:\\Users\\hp\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\cfb32733c877621e\\bin\\node_modules\\@oai\\cua\\dist\\lib\\js\\oai_js_browser\\dist\\skill\\scripts\\browser-client.js:1:112326)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async e.waitFor (C:\\Users\\hp\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\cfb32733c877621e\\bin\\node_modules\\@oai\\cua\\dist\\lib\\js\\oai_js_browser\\dist\\skill\\scripts\\browser-client.js:1:109729)\n    at async pressed (C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:60:5)\n    at async C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:344:59\n    at async check (C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:35:28)\n    at async Object.settings (C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:342:5)\n    at async C:\\Projects\\ics-hansi\\.node_repl_cell_23.mjs:16:39",
+      "screenshot": "failures/admin-mobile320-floating-lens-pointer-pause-resume.jpg",
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 996,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "admin/mobile320: branding draft/reset does not apply",
+      "status": "passed",
+      "durationMs": 380,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigation destinations",
+      "status": "passed",
+      "durationMs": 629,
+      "evidence": [
+        [
+          "Dashboard",
+          "/"
+        ],
+        [
+          "Students",
+          "/students"
+        ],
+        [
+          "Batches",
+          "/batches"
+        ],
+        [
+          "Attendance",
+          "/attendance"
+        ],
+        [
+          "Chatrooms",
+          "/chatrooms"
+        ],
+        [
+          "Fees",
+          "/fees"
+        ],
+        [
+          "Staff",
+          "/staff"
+        ],
+        [
+          "Tests & Results",
+          "/tests-results"
+        ],
+        [
+          "Homework",
+          "/homework"
+        ],
+        [
+          "ICS Updates",
+          "/ics-updates"
+        ],
+        [
+          "Settings",
+          "/settings"
+        ]
+      ],
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /",
+      "status": "passed",
+      "durationMs": 1540,
+      "evidence": {
+        "href": "/",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1771.541748046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /students",
+      "status": "passed",
+      "durationMs": 1806,
+      "evidence": {
+        "href": "/students",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2843.67724609375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /batches",
+      "status": "passed",
+      "durationMs": 1668,
+      "evidence": {
+        "href": "/batches",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1595.7708740234375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /attendance",
+      "status": "passed",
+      "durationMs": 1474,
+      "evidence": {
+        "href": "/attendance",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 971.4896240234376,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /tests-results",
+      "status": "passed",
+      "durationMs": 1952,
+      "evidence": {
+        "href": "/tests-results",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 2121.322998046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /homework",
+      "status": "passed",
+      "durationMs": 725,
+      "evidence": {
+        "href": "/homework",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 312,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /fees",
+      "status": "passed",
+      "durationMs": 1904,
+      "evidence": {
+        "href": "/fees",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1440.604248046875,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /staff",
+      "status": "passed",
+      "durationMs": 708,
+      "evidence": {
+        "href": "/staff",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 312,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 740,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /ics-updates",
+      "status": "passed",
+      "durationMs": 1817,
+      "evidence": {
+        "href": "/ics-updates",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 742.5,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /chatrooms",
+      "status": "passed",
+      "durationMs": 1801,
+      "evidence": {
+        "href": "/chatrooms",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 84,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1161.5521240234375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: navigate /settings",
+      "status": "passed",
+      "durationMs": 743,
+      "evidence": {
+        "href": "/settings",
+        "bounds": {
+          "dock": {
+            "bottom": 728,
+            "display": "grid",
+            "left": 8,
+            "position": "fixed",
+            "right": 302,
+            "top": 656
+          },
+          "documentWidth": 310,
+          "header": {
+            "bottom": 58,
+            "display": "block",
+            "left": 0,
+            "position": "fixed",
+            "right": 310,
+            "top": 0
+          },
+          "headingTop": 90.73958587646484,
+          "height": 740,
+          "sidebar": {
+            "bottom": 0,
+            "display": "none",
+            "left": 0,
+            "position": "static",
+            "right": 0,
+            "top": 0
+          },
+          "width": 320,
+          "workspace": {
+            "bottom": 1314.59375,
+            "display": "flex",
+            "left": 0,
+            "position": "static",
+            "right": 310,
+            "top": 0
+          }
+        },
+        "visualBaseline": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: direct /students/new",
+      "status": "passed",
+      "durationMs": 1857,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 84,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1851.34375,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: direct /students/DEMO-001",
+      "status": "passed",
+      "durationMs": 2298,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 138,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 4448.5419921875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: direct /students/DEMO-001/edit",
+      "status": "passed",
+      "durationMs": 1741,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 138,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1040.010498046875,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": 0
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: keyboard search and role scope",
+      "status": "passed",
+      "durationMs": 660,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: Back and Forward preserve route navigation",
+      "status": "passed",
+      "durationMs": 1309,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: demo directory CSV download",
+      "status": "passed",
+      "durationMs": 2260,
+      "evidence": {
+        "demoCsvVerified": true
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: directory matching and empty search",
+      "status": "passed",
+      "durationMs": 911,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: six directory views",
+      "status": "passed",
+      "durationMs": 2321,
+      "source": "rechecks/browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: Quick Add Student and required validation",
+      "status": "passed",
+      "durationMs": 1594,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: valid fictional admission review and unchanged directory",
+      "status": "passed",
+      "durationMs": 2514,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: profile and edit navigation",
+      "status": "passed",
+      "durationMs": 1597,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1777,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: temporary attendance mark and review",
+      "status": "passed",
+      "durationMs": 1625,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: calendar overlay fits and Escape closes",
+      "status": "passed",
+      "durationMs": 1055,
+      "evidence": {
+        "bottom": 646,
+        "height": 740,
+        "left": 12,
+        "right": 308,
+        "top": 238.5,
+        "width": 320
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 2181,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: fee tabs, validation and fictional installment",
+      "status": "passed",
+      "durationMs": 2907,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: chat preview respects default role access",
+      "status": "passed",
+      "durationMs": 636,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: Settings role sections (not visual approval)",
+      "status": "passed",
+      "durationMs": 50,
+      "evidence": {
+        "settingsVisualApproval": false
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: theme preview/discard and Apply reload restore",
+      "status": "passed",
+      "durationMs": 3076,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: all background source previews and discard",
+      "status": "passed",
+      "durationMs": 1874,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: glass material and accent previews",
+      "status": "passed",
+      "durationMs": 1898,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: custom accent rejects invalid hex",
+      "status": "passed",
+      "durationMs": 908,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: scene motion and interface animation preview",
+      "status": "passed",
+      "durationMs": 1567,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: OpenGlass sliders and comparison-only scope",
+      "status": "passed",
+      "durationMs": 1392,
+      "evidence": {
+        "dock": {
+          "bottom": 728,
+          "display": "grid",
+          "left": 8,
+          "position": "fixed",
+          "right": 302,
+          "top": 656
+        },
+        "documentWidth": 310,
+        "header": {
+          "bottom": 58,
+          "display": "block",
+          "left": 0,
+          "position": "fixed",
+          "right": 310,
+          "top": 0
+        },
+        "headingTop": 72.73958587646484,
+        "height": 740,
+        "sidebar": {
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "position": "static",
+          "right": 0,
+          "top": 0
+        },
+        "width": 320,
+        "workspace": {
+          "bottom": 1121.30224609375,
+          "display": "flex",
+          "left": 0,
+          "position": "static",
+          "right": 310,
+          "top": -1246
+        }
+      },
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: floating lens keyboard pause/resume",
+      "status": "passed",
+      "durationMs": 202,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: floating lens pointer pause/resume",
+      "status": "passed",
+      "durationMs": 838,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "manager/mobile320: Reset to Default is an unsaved preview",
+      "status": "passed",
+      "durationMs": 744,
+      "source": "browser-results.json"
+    },
+    {
+      "name": "cleanup: original demo identity and viewport",
+      "status": "passed",
+      "durationMs": 593,
+      "source": "rechecks/browser-results.json"
+    }
+  ]
+}

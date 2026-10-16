@@ -102,12 +102,12 @@ export function StudentDirectory() {
   </section>
 
   {admissionOpen&&<motion.section ref={panel} className="directory inline-admission" aria-labelledby="inline-admission-title" initial={reduced?false:{opacity:0,y:-8}} animate={{opacity:1,y:0}} transition={{duration:reduced?0:.18,ease:[.22,1,.36,1]}}>
-   <header className="directory-heading"><div><h2 id="inline-admission-title">Add Student</h2><p className="section-footnote">Review a fictional admission draft. No record is saved.</p></div><button className="secondary-button" type="button" onClick={closeAdmission}>Close admission</button></header>
+   <header className="directory-heading"><div><h2 id="inline-admission-title">Add Student</h2><p className="section-footnote">Unsaved admission draft.</p></div><button className="secondary-button" type="button" onClick={closeAdmission}>Close admission</button></header>
    <StudentForm onClose={()=>setAdmissionOpen(false)}/>
   </motion.section>}
 
   <section ref={directoryPanel} className="directory student-directory" aria-label="Fictional student directory">
-   <div className="directory-heading"><div><h2>Student directory</h2><span className="quiet-label">Fictional demo records · not saved to a backend</span></div><div className="student-directory-heading-actions"><span className="quiet-label">{students.length} demo records</span><button className="primary-link" type="button" aria-expanded={admissionOpen} onClick={()=>admissionOpen?closeAdmission():setAdmissionOpen(true)}>{admissionOpen?"Hide admission":"Add Student"}</button></div></div>
+   <div className="directory-heading"><div><h2>Student directory</h2><span className="quiet-label">Sample records · not connected</span></div><div className="student-directory-heading-actions"><span className="quiet-label">{students.length} demo records</span><button className="primary-link" type="button" aria-expanded={admissionOpen} onClick={()=>admissionOpen?closeAdmission():setAdmissionOpen(true)}>{admissionOpen?"Hide admission":"Add Student"}</button></div></div>
    <div className="student-view-tabs" role="group" aria-label="Student directory views">
     <button type="button" aria-pressed={view==="all"} onClick={()=>selectView("all")}>All Students</button>
     <button type="button" aria-pressed={view==="batch"} onClick={()=>selectView("batch")}>By Batch</button>
@@ -144,6 +144,6 @@ export function StudentDirectory() {
    </>}
    {view!=="fees"&&view!=="archive"&&<p className="table-footer" role="status">{view==="enrollments"?`${enrollmentRecords.length} fictional enrollment ${enrollmentRecords.length===1?"record":"records"}`:`${rows.length} of ${students.length} fictional students · showing ${visibleRows.length} on this page`}</p>}
   </section>
-  <p className="section-footnote">Demo Student IDs are illustrative only. Permanent Student IDs and batch rolls require secure centre-scoped backend allocation; Registration Numbers are entered manually by centre staff.</p>
+  <p className="section-footnote">Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually.</p>
  </div>;
 }

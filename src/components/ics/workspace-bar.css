@@ -65,7 +65,7 @@
 .export-unavailable,.export-summary,.export-status { margin:10px 0 0; color:var(--muted); font-size:10px; line-height:1.45; }
 .export-summary { padding-top:9px; border-top:1px solid var(--line); font-variant-numeric:tabular-nums; }
 .export-status { color:var(--accent); }
-@media(max-width:767px) {
+@media(width < 768px) {
  .smart-workspace-header { min-height:54px; padding:8px 10px; gap:7px; border:1px solid var(--line); border-radius:18px; }
  .workspace-identity { gap:8px; }
  .workspace-mark { width:29px; height:29px; border-radius:9px; font-size:10px; }
@@ -95,7 +95,7 @@
 .global-workspace-header { position:fixed; inset:0 0 auto; z-index:70; width:100%; min-width:0; }
 .global-workspace-header .smart-workspace-bar { width:100%; min-width:0; }
 .smart-workspace-header {
- display:grid; grid-template-columns:minmax(0,1fr) minmax(260px,min(38vw,560px)) minmax(0,1fr);
+ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,min(38vw,560px)) max-content;
  gap:clamp(10px,1.5vw,22px); width:100%; min-height:var(--global-navbar-height); padding:8px clamp(14px,2.2vw,32px);
  border:0; border-bottom:1px solid var(--line); border-radius:0; background-clip:padding-box;
 }
@@ -121,7 +121,9 @@
 @media(min-width:768px) and (max-width:1100px) {
  :root { --global-navbar-height:66px; }
  .ics-shell { --sidebar-width:200px; }
- .smart-workspace-header { grid-template-columns:minmax(135px,.8fr) minmax(215px,1.15fr) minmax(195px,1fr); gap:10px; padding-inline:14px; }
+ .smart-workspace-header { grid-template-columns:minmax(135px,.8fr) minmax(0,1.15fr) max-content; gap:10px; padding-inline:14px; }
+ .workspace-action-trigger { width:40px; padding:0; }
+ .workspace-action-trigger > span { display:none; }
  .workspace-identity-copy strong,.workspace-identity-copy small { max-width:150px; }
  .workspace-role-chip { gap:5px; padding-right:7px; }
  .workspace-role-chip small { max-width:82px; }
@@ -132,7 +134,7 @@
  .ics-shell > .sidebar { overflow-y:auto; }
  .ics-shell > .sidebar > .sidebar-navigation { flex:0 0 auto; overflow:visible; }
 }
-@media(max-width:767px) {
+@media(width < 768px) {
  :root { --global-navbar-height:58px; }
  .global-workspace-header { z-index:70; }
  .smart-workspace-header { grid-template-columns:minmax(0,1fr) 38px auto; gap:7px; min-height:var(--global-navbar-height); padding:6px 10px; border:0; border-bottom:1px solid var(--line); border-radius:0; }

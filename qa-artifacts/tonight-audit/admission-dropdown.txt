@@ -1,0 +1,104 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "ICS Coaching Centre, Hansi Branch":
+    - /url: /
+    - generic: I
+    - strong: ICS Coaching Centre
+    - generic: Hansi Branch
+  - button "Search pages and actions":
+  - button "Quick actions":
+  - combobox "Demo user preview":
+    - option "Developer / Owner"
+    - option "Centre Admin"
+    - option "Manager" [selected]
+    - option "Teacher / Staff"
+    - option "Student A"
+    - option "Student B"
+  - status "Backend not connected"
+- main:
+  - heading "Add Student" [level=1]
+  - paragraph: Demo preview — admission is not saved.
+  - text: Student Full Name
+  - generic: "*"
+  - textbox "Student Full Name"
+  - text: Registration Number
+  - generic: "*"
+  - textbox "Registration Number"
+  - text: Admission Batch
+  - generic: "*"
+  - button "Admission Batch Choose a batch" [expanded]:
+    - generic: Choose a batch
+  - text: Batch Duration
+  - generic: "*"
+  - button "Batch Duration 3 months":
+    - generic: 3 months
+  - text: Admission Date
+  - generic: "*"
+  - button "Admission Date 15 October 2026":
+    - generic: 15 October 2026
+  - text: Renewal Due Date
+  - textbox "Renewal Due Date": 15 January 2027
+  - generic: Period ends 14 January 2027
+  - text: Father's Name
+  - generic: "*"
+  - textbox "Father's Name"
+  - text: Mother's Name
+  - generic: "*"
+  - textbox "Mother's Name"
+  - text: Parent / Guardian Phone Number
+  - generic: "*"
+  - textbox "Parent / Guardian Phone Number"
+  - region "Fees & Payment":
+    - heading "Fees & Payment" [level=2]
+    - generic: Unconfirmed admission preview
+    - text: Total Fees
+    - generic: "*"
+    - textbox "Total Fees"
+    - text: Amount Paid
+    - textbox "Amount Paid": "0"
+    - text: Remaining Fees
+    - textbox "Remaining Fees": —
+    - generic: Payment Mode
+    - button "Payment Mode Select Payment Mode" [disabled]:
+      - generic: Select Payment Mode
+    - generic: Transaction ID / Payment Reference
+    - textbox "Transaction ID / Payment Reference Optional for cash; required for other modes." [disabled]
+    - generic: Optional for cash; required for other modes.
+    - generic: Payment Date
+    - button "Payment Date 15 October 2026" [disabled]:
+      - generic: 15 October 2026
+  - paragraph: Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate.
+  - button "Review Admission":
+    - generic: Review Admission
+  - link "Cancel":
+    - /url: /students
+- alert
+- navigation "Mobile navigation":
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Students":
+    - /url: /students
+    - generic: Students
+  - link "Batches":
+    - /url: /batches
+    - generic: Batches
+  - link "Attendance":
+    - /url: /attendance
+    - generic: Attendance
+  - button "More navigation":
+    - generic: More
+- region "Notifications"
+- dialog "Admission Batch":
+  - strong: Admission Batch
+  - button "Close Admission Batch": ×
+  - listbox "Admission Batch":
+    - option "Choose a batch" [active] [selected]:
+      - text: Choose a batch
+      - generic: ✓
+    - option "New General"
+    - option "Old General"
+    - option "New Guarantee"
+    - option "Old Guarantee"
+    - option "Weekend Practice (demo custom)"

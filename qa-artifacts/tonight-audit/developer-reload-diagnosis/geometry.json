@@ -1,0 +1,647 @@
+[
+  {
+    "label": "clicked",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "reload-immediate",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "reload-hydrated",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "reload-later",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "direct-observed",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "false",
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "direct-entry",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "desktop-resize",
+    "docHeight": 2550,
+    "documentTop": 2384.12744140625,
+    "hash": "#developer-settings",
+    "headerBottom": 70,
+    "height": 900,
+    "scrollY": 1649.9998779296875,
+    "sections": [
+      {
+        "height": 94.46614074707033,
+        "id": "overview"
+      },
+      {
+        "height": 637.421875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 247.40884399414065,
+        "id": "application-errors"
+      },
+      {
+        "height": 235.7161407470703,
+        "id": "system-health"
+      },
+      {
+        "height": 179.75259399414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 107.13541412353516,
+        "id": "feedback"
+      },
+      {
+        "height": 128.125,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 196.4192657470703,
+        "id": "centres"
+      },
+      {
+        "height": 126.1328125,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 734.1275634765625,
+    "width": 1440
+  },
+  {
+    "label": "mobile-resize",
+    "docHeight": 3760,
+    "documentTop": 3532.1092529296875,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 1649.9998779296875,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 1882.109375,
+    "width": 320
+  },
+  {
+    "label": "resize-reload",
+    "docHeight": 3760,
+    "documentTop": 3532.1092529296875,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "scrollY": 1649.9998779296875,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 1882.109375,
+    "width": 320
+  },
+  {
+    "label": "resize-reload-settled",
+    "docHeight": 3760,
+    "documentTop": 3532.1092529296875,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 1649.9998779296875,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 1882.109375,
+    "width": 320
+  },
+  {
+    "label": "repeat-click",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "repeat-reload",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  },
+  {
+    "label": "repeat-reload-settled",
+    "docHeight": 3760,
+    "documentTop": 3532.109375,
+    "hash": "#developer-settings",
+    "headerBottom": 57.99478912353515,
+    "height": 900,
+    "moreActive": "true",
+    "scrollY": 2860,
+    "sections": [
+      {
+        "height": 198.93228149414065,
+        "id": "overview"
+      },
+      {
+        "height": 1263.046875,
+        "id": "bug-reports"
+      },
+      {
+        "height": 368.6588439941406,
+        "id": "application-errors"
+      },
+      {
+        "height": 350.13018798828125,
+        "id": "system-health"
+      },
+      {
+        "height": 173.73696899414062,
+        "id": "release-updates"
+      },
+      {
+        "height": 101.11978912353516,
+        "id": "feedback"
+      },
+      {
+        "height": 186.58853149414065,
+        "id": "chat-moderation"
+      },
+      {
+        "height": 313.68487548828125,
+        "id": "centres"
+      },
+      {
+        "height": 120.1171875,
+        "id": "developer-settings"
+      }
+    ],
+    "top": 672.109375,
+    "width": 320
+  }
+]

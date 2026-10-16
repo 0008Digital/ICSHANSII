@@ -1,0 +1,5672 @@
+[
+  {
+    "role": "teacher",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 218.94530200958252,
+      "top": 83.984375,
+      "width": 202.95571899414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 899.9999771118164,
+      "height": 842.0051879882812,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 320
+  },
+  {
+    "role": "teacher",
+    "requested": 360,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 140.13019800186157,
+          "top": 15,
+          "width": 132.13540649414062,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 163.5286407470703,
+          "right": 197.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 163.5286407470703,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 202.52603149414065,
+          "right": 234.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 202.52603149414065,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 237.5130157470703,
+          "right": 327.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 237.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 330.5078125,
+          "right": 339.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 330.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 347,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 218.94530200958252,
+      "top": 83.984375,
+      "width": 202.95571899414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 899.9999771118164,
+      "height": 842.0051879882812,
+      "left": 0,
+      "right": 347.5,
+      "top": 57.99478912353515,
+      "width": 347.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 360
+  },
+  {
+    "role": "teacher",
+    "requested": 390,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 44.49218559265137,
+          "height": 30.989582061767575,
+          "left": 10,
+          "right": 155.06509399414062,
+          "top": 13.502603530883787,
+          "width": 145.06509399414062,
+          "x": 10,
+          "y": 13.502603530883787
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 177.52603149414062,
+          "right": 215.52082061767575,
+          "top": 11.002603530883787,
+          "width": 37.99478912353515,
+          "x": 177.52603149414062,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 222.5130157470703,
+          "right": 258.5025978088379,
+          "top": 11.002603530883787,
+          "width": 35.98958206176758,
+          "x": 222.5130157470703,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.997395515441895,
+          "height": 30,
+          "left": 263.5025939941406,
+          "right": 353.5025939941406,
+          "top": 13.997395515441896,
+          "width": 90,
+          "x": 263.5025939941406,
+          "y": 13.997395515441896
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.992186546325684,
+          "height": 5.9895830154418945,
+          "left": 358.5025939941406,
+          "right": 367.4999895095825,
+          "top": 26.00260353088379,
+          "width": 8.997395515441895,
+          "x": 358.5025939941406,
+          "y": 26.00260353088379
+        }
+      }
+    ],
+    "documentWidth": 377,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 218.94530200958252,
+      "top": 83.984375,
+      "width": 202.95571899414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 899.9999771118164,
+      "height": 842.0051879882812,
+      "left": 0,
+      "right": 377.5,
+      "top": 57.99478912353515,
+      "width": 377.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "role": "teacher",
+    "requested": 768,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 16.875,
+          "right": 51.73176956176758,
+          "top": 17.99479103088379,
+          "width": 34.85676956176758,
+          "x": 16.875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 63.2421875,
+          "right": 354.8828125,
+          "top": 15,
+          "width": 291.640625,
+          "x": 63.2421875,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 366.3932189941406,
+          "right": 496.4322814941406,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 366.3932189941406,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 503.3333129882813,
+          "right": 648.3333129882812,
+          "top": 15,
+          "width": 145,
+          "x": 503.3333129882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 655.234375,
+          "right": 738.125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 655.234375,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 755,
+    "heading": {
+      "bottom": 60.078125,
+      "height": 28.0859375,
+      "left": 237.99478149414065,
+      "right": 440.9505004882813,
+      "top": 31.9921875,
+      "width": 202.95571899414065,
+      "x": 237.99478149414065,
+      "y": 31.9921875
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 900,
+      "height": 900,
+      "left": 210,
+      "right": 755,
+      "top": 0,
+      "width": 545,
+      "x": 210,
+      "y": 0
+    },
+    "theme": "light",
+    "width": 767
+  },
+  {
+    "role": "teacher",
+    "requested": 1024,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 49.98697757720947,
+          "height": 33.99739456176758,
+          "left": 13.997395515441896,
+          "right": 185.9114580154419,
+          "top": 15.989583015441896,
+          "width": 171.9140625,
+          "x": 13.997395515441896,
+          "y": 15.989583015441896
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 331.796875,
+          "right": 774.2708129882812,
+          "top": 12.994791030883787,
+          "width": 442.4739379882813,
+          "x": 331.796875,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 784.2708129882812,
+          "right": 824.2708129882812,
+          "top": 12.994791030883787,
+          "width": 40,
+          "x": 784.2708129882812,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 833.4765625,
+          "right": 978.4765625,
+          "top": 12.994791030883787,
+          "width": 145,
+          "x": 833.4765625,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 35.989583015441895,
+          "height": 5.9895830154418945,
+          "left": 987.6822509765624,
+          "right": 997.6692295074464,
+          "top": 30,
+          "width": 9.986978530883787,
+          "x": 987.6822509765624,
+          "y": 30
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "heading": {
+      "bottom": 126.06770324707033,
+      "height": 28.0859375,
+      "left": 227.99478149414065,
+      "right": 430.9505004882813,
+      "top": 97.98176574707033,
+      "width": 202.95571899414065,
+      "x": 227.99478149414065,
+      "y": 97.98176574707033
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 899.9999542236328,
+      "height": 834.0103759765625,
+      "left": 200,
+      "right": 1011.6666259765624,
+      "top": 65.98957824707031,
+      "width": 811.6666259765625,
+      "x": 200,
+      "y": 65.98957824707031
+    },
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "role": "teacher",
+    "requested": 1280,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 28.15104103088379,
+          "right": 200.0651035308838,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 28.15104103088379,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 352.8125,
+          "right": 839.2057189941406,
+          "top": 15,
+          "width": 486.3932189941406,
+          "x": 352.8125,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 858.3984375,
+          "right": 988.4375,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 858.3984375,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 999.9478759765624,
+          "right": 1144.9478759765625,
+          "top": 15,
+          "width": 145,
+          "x": 999.9478759765624,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1156.458251953125,
+          "right": 1239.348876953125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1156.458251953125,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1267,
+    "heading": {
+      "bottom": 133.6979160308838,
+      "height": 31.70572853088379,
+      "left": 283.99737548828125,
+      "right": 513.1770629882812,
+      "top": 101.9921875,
+      "width": 229.1796875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 900,
+      "height": 830,
+      "left": 240,
+      "right": 1267.5,
+      "top": 70,
+      "width": 1027.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "role": "teacher",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 522.7734069824219,
+      "top": 101.9921875,
+      "width": 238.77603149414065,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 900,
+      "height": 830,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "role": "teacher",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 218.94530200958252,
+      "top": 83.984375,
+      "width": 202.95571899414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 899.9999771118164,
+      "height": 842.0051879882812,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "dark",
+    "width": 320
+  },
+  {
+    "role": "teacher",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 522.7734069824219,
+      "top": 101.9921875,
+      "width": 238.77603149414065,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-teacher",
+    "main": {
+      "bottom": 900,
+      "height": 830,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "role": "studentA",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 2168.35929107666,
+      "height": 2110.364501953125,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 320
+  },
+  {
+    "role": "studentA",
+    "requested": 360,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 140.13019800186157,
+          "top": 15,
+          "width": 132.13540649414062,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 163.5286407470703,
+          "right": 197.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 163.5286407470703,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 202.52603149414065,
+          "right": 234.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 202.52603149414065,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 237.5130157470703,
+          "right": 327.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 237.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 330.5078125,
+          "right": 339.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 330.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 347,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 2151.861976623535,
+      "height": 2093.8671875,
+      "left": 0,
+      "right": 347.5,
+      "top": 57.99478912353515,
+      "width": 347.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 360
+  },
+  {
+    "role": "studentA",
+    "requested": 390,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 44.49218559265137,
+          "height": 30.989582061767575,
+          "left": 10,
+          "right": 155.06509399414062,
+          "top": 13.502603530883787,
+          "width": 145.06509399414062,
+          "x": 10,
+          "y": 13.502603530883787
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 177.52603149414062,
+          "right": 215.52082061767575,
+          "top": 11.002603530883787,
+          "width": 37.99478912353515,
+          "x": 177.52603149414062,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 222.5130157470703,
+          "right": 258.5025978088379,
+          "top": 11.002603530883787,
+          "width": 35.98958206176758,
+          "x": 222.5130157470703,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.997395515441895,
+          "height": 30,
+          "left": 263.5025939941406,
+          "right": 353.5025939941406,
+          "top": 13.997395515441896,
+          "width": 90,
+          "x": 263.5025939941406,
+          "y": 13.997395515441896
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.992186546325684,
+          "height": 5.9895830154418945,
+          "left": 358.5025939941406,
+          "right": 367.4999895095825,
+          "top": 26.00260353088379,
+          "width": 8.997395515441895,
+          "x": 358.5025939941406,
+          "y": 26.00260353088379
+        }
+      }
+    ],
+    "documentWidth": 377,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 1832.3697891235352,
+      "height": 1774.375,
+      "left": 0,
+      "right": 377.5,
+      "top": 57.99478912353515,
+      "width": 377.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "role": "studentA",
+    "requested": 768,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 16.875,
+          "right": 51.73176956176758,
+          "top": 17.99479103088379,
+          "width": 34.85676956176758,
+          "x": 16.875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 63.2421875,
+          "right": 354.8828125,
+          "top": 15,
+          "width": 291.640625,
+          "x": 63.2421875,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 366.3932189941406,
+          "right": 496.4322814941406,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 366.3932189941406,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 503.3333129882813,
+          "right": 648.3333129882812,
+          "top": 15,
+          "width": 145,
+          "x": 503.3333129882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 655.234375,
+          "right": 738.125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 655.234375,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 755,
+    "heading": {
+      "bottom": 60.078125,
+      "height": 28.0859375,
+      "left": 237.99478149414065,
+      "right": 390.03904724121094,
+      "top": 31.9921875,
+      "width": 152.0442657470703,
+      "x": 237.99478149414065,
+      "y": 31.9921875
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 1351.0025634765625,
+      "height": 1351.0025634765625,
+      "left": 210,
+      "right": 755,
+      "top": 0,
+      "width": 545,
+      "x": 210,
+      "y": 0
+    },
+    "theme": "light",
+    "width": 767
+  },
+  {
+    "role": "studentA",
+    "requested": 1024,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 49.98697757720947,
+          "height": 33.99739456176758,
+          "left": 13.997395515441896,
+          "right": 185.9114580154419,
+          "top": 15.989583015441896,
+          "width": 171.9140625,
+          "x": 13.997395515441896,
+          "y": 15.989583015441896
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 331.796875,
+          "right": 774.2708129882812,
+          "top": 12.994791030883787,
+          "width": 442.4739379882813,
+          "x": 331.796875,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 784.2708129882812,
+          "right": 824.2708129882812,
+          "top": 12.994791030883787,
+          "width": 40,
+          "x": 784.2708129882812,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 833.4765625,
+          "right": 978.4765625,
+          "top": 12.994791030883787,
+          "width": 145,
+          "x": 833.4765625,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 35.989583015441895,
+          "height": 5.9895830154418945,
+          "left": 987.6822509765624,
+          "right": 997.6692295074464,
+          "top": 30,
+          "width": 9.986978530883787,
+          "x": 987.6822509765624,
+          "y": 30
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "heading": {
+      "bottom": 126.06770324707033,
+      "height": 28.0859375,
+      "left": 227.99478149414065,
+      "right": 380.03904724121094,
+      "top": 97.98176574707033,
+      "width": 152.0442657470703,
+      "x": 227.99478149414065,
+      "y": 97.98176574707033
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 1416.9921417236328,
+      "height": 1351.0025634765625,
+      "left": 200,
+      "right": 1011.6666259765624,
+      "top": 65.98957824707031,
+      "width": 811.6666259765625,
+      "x": 200,
+      "y": 65.98957824707031
+    },
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "role": "studentA",
+    "requested": 1280,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 28.15104103088379,
+          "right": 200.0651035308838,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 28.15104103088379,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 352.8125,
+          "right": 839.2057189941406,
+          "top": 15,
+          "width": 486.3932189941406,
+          "x": 352.8125,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 858.3984375,
+          "right": 988.4375,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 858.3984375,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 999.9478759765624,
+          "right": 1144.9478759765625,
+          "top": 15,
+          "width": 145,
+          "x": 999.9478759765624,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1156.458251953125,
+          "right": 1239.348876953125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1156.458251953125,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1267,
+    "heading": {
+      "bottom": 133.6979160308838,
+      "height": 31.70572853088379,
+      "left": 283.99737548828125,
+      "right": 455.6770629882813,
+      "top": 101.9921875,
+      "width": 171.6796875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 1424.622314453125,
+      "height": 1354.622314453125,
+      "left": 240,
+      "right": 1267.5,
+      "top": 70,
+      "width": 1027.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "role": "studentA",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 462.8645629882813,
+      "top": 101.9921875,
+      "width": 178.8671875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 1425.950439453125,
+      "height": 1355.950439453125,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "role": "studentA",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 2168.35929107666,
+      "height": 2110.364501953125,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "dark",
+    "width": 320
+  },
+  {
+    "role": "studentA",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 462.8645629882813,
+      "top": 101.9921875,
+      "width": 178.8671875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-student-a",
+    "main": {
+      "bottom": 1425.950439453125,
+      "height": 1355.950439453125,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "role": "developer",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 210.42967700958252,
+      "top": 83.984375,
+      "width": 194.44009399414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 3760.221351623535,
+      "height": 3702.2265625,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 320
+  },
+  {
+    "role": "developer",
+    "requested": 360,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 137.26561975479126,
+          "top": 15,
+          "width": 129.2708282470703,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 163.5286407470703,
+          "right": 197.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 163.5286407470703,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 202.52603149414065,
+          "right": 234.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 202.52603149414065,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 237.5130157470703,
+          "right": 327.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 237.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 330.5078125,
+          "right": 339.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 330.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 347,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 210.42967700958252,
+      "top": 83.984375,
+      "width": 194.44009399414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 3730.23429107666,
+      "height": 3672.239501953125,
+      "left": 0,
+      "right": 347.5,
+      "top": 57.99478912353515,
+      "width": 347.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 360
+  },
+  {
+    "role": "developer",
+    "requested": 390,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 44.49218559265137,
+          "height": 30.989582061767575,
+          "left": 10,
+          "right": 151.90103149414062,
+          "top": 13.502603530883787,
+          "width": 141.90103149414062,
+          "x": 10,
+          "y": 13.502603530883787
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 177.52603149414062,
+          "right": 215.52082061767575,
+          "top": 11.002603530883787,
+          "width": 37.99478912353515,
+          "x": 177.52603149414062,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 222.5130157470703,
+          "right": 258.5025978088379,
+          "top": 11.002603530883787,
+          "width": 35.98958206176758,
+          "x": 222.5130157470703,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.997395515441895,
+          "height": 30,
+          "left": 263.5025939941406,
+          "right": 353.5025939941406,
+          "top": 13.997395515441896,
+          "width": 90,
+          "x": 263.5025939941406,
+          "y": 13.997395515441896
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.992186546325684,
+          "height": 5.9895830154418945,
+          "left": 358.5025939941406,
+          "right": 367.4999895095825,
+          "top": 26.00260353088379,
+          "width": 8.997395515441895,
+          "x": 358.5025939941406,
+          "y": 26.00260353088379
+        }
+      }
+    ],
+    "documentWidth": 377,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 210.42967700958252,
+      "top": 83.984375,
+      "width": 194.44009399414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 3423.190101623535,
+      "height": 3365.1953125,
+      "left": 0,
+      "right": 377.5,
+      "top": 57.99478912353515,
+      "width": 377.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "role": "developer",
+    "requested": 768,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 16.875,
+          "right": 51.73176956176758,
+          "top": 17.99479103088379,
+          "width": 34.85676956176758,
+          "x": 16.875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 63.2421875,
+          "right": 354.8828125,
+          "top": 15,
+          "width": 291.640625,
+          "x": 63.2421875,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 366.3932189941406,
+          "right": 496.4322814941406,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 366.3932189941406,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 503.3333129882813,
+          "right": 648.3333129882812,
+          "top": 15,
+          "width": 145,
+          "x": 503.3333129882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 655.234375,
+          "right": 738.125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 655.234375,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 755,
+    "heading": {
+      "bottom": 60.078125,
+      "height": 28.0859375,
+      "left": 237.99478149414065,
+      "right": 432.4348754882813,
+      "top": 31.9921875,
+      "width": 194.44009399414065,
+      "x": 237.99478149414065,
+      "y": 31.9921875
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 2874.75244140625,
+      "height": 2874.75244140625,
+      "left": 210,
+      "right": 755,
+      "top": 0,
+      "width": 545,
+      "x": 210,
+      "y": 0
+    },
+    "theme": "light",
+    "width": 767
+  },
+  {
+    "role": "developer",
+    "requested": 1024,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 49.98697757720947,
+          "height": 33.99739456176758,
+          "left": 13.997395515441896,
+          "right": 182.1614580154419,
+          "top": 15.989583015441896,
+          "width": 168.1640625,
+          "x": 13.997395515441896,
+          "y": 15.989583015441896
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 331.796875,
+          "right": 774.2708129882812,
+          "top": 12.994791030883787,
+          "width": 442.4739379882813,
+          "x": 331.796875,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 784.2708129882812,
+          "right": 824.2708129882812,
+          "top": 12.994791030883787,
+          "width": 40,
+          "x": 784.2708129882812,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 833.4765625,
+          "right": 978.4765625,
+          "top": 12.994791030883787,
+          "width": 145,
+          "x": 833.4765625,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 35.989583015441895,
+          "height": 5.9895830154418945,
+          "left": 987.6822509765624,
+          "right": 997.6692295074464,
+          "top": 30,
+          "width": 9.986978530883787,
+          "x": 987.6822509765624,
+          "y": 30
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "heading": {
+      "bottom": 126.06770324707033,
+      "height": 28.0859375,
+      "left": 227.99478149414065,
+      "right": 422.4348754882813,
+      "top": 97.98176574707033,
+      "width": 194.44009399414065,
+      "x": 227.99478149414065,
+      "y": 97.98176574707033
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 2634.7786407470703,
+      "height": 2568.7890625,
+      "left": 200,
+      "right": 1011.6666259765624,
+      "top": 65.98957824707031,
+      "width": 811.6666259765625,
+      "x": 200,
+      "y": 65.98957824707031
+    },
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "role": "developer",
+    "requested": 1280,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 28.15104103088379,
+          "right": 196.3151035308838,
+          "top": 17.99479103088379,
+          "width": 168.1640625,
+          "x": 28.15104103088379,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 352.8125,
+          "right": 839.2057189941406,
+          "top": 15,
+          "width": 486.3932189941406,
+          "x": 352.8125,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 858.3984375,
+          "right": 988.4375,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 858.3984375,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 999.9478759765624,
+          "right": 1144.9478759765625,
+          "top": 15,
+          "width": 145,
+          "x": 999.9478759765624,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1156.458251953125,
+          "right": 1239.348876953125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1156.458251953125,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1267,
+    "heading": {
+      "bottom": 133.6979160308838,
+      "height": 31.70572853088379,
+      "left": 283.99737548828125,
+      "right": 503.5546569824219,
+      "top": 101.9921875,
+      "width": 219.55728149414065,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 2613.411376953125,
+      "height": 2543.411376953125,
+      "left": 240,
+      "right": 1267.5,
+      "top": 70,
+      "width": 1027.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "role": "developer",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 199.84375,
+          "top": 17.99479103088379,
+          "width": 168.1640625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 512.7473754882812,
+      "top": 101.9921875,
+      "width": 228.75,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 2550.26025390625,
+      "height": 2480.26025390625,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "role": "developer",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 210.42967700958252,
+      "top": 83.984375,
+      "width": 194.44009399414065,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 3760.221351623535,
+      "height": 3702.2265625,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "dark",
+    "width": 320
+  },
+  {
+    "role": "developer",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 199.84375,
+          "top": 17.99479103088379,
+          "width": 168.1640625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 512.7473754882812,
+      "top": 101.9921875,
+      "width": 228.75,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-platform-owner",
+    "main": {
+      "bottom": 2550.26025390625,
+      "height": 2480.26025390625,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "role": "admin",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1922.96866607666,
+      "height": 1864.973876953125,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 320
+  },
+  {
+    "role": "admin",
+    "requested": 360,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 140.13019800186157,
+          "top": 15,
+          "width": 132.13540649414062,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 163.5286407470703,
+          "right": 197.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 163.5286407470703,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 202.52603149414065,
+          "right": 234.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 202.52603149414065,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 237.5130157470703,
+          "right": 327.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 237.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 330.5078125,
+          "right": 339.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 330.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 347,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1552.1614151000977,
+      "height": 1494.1666259765625,
+      "left": 0,
+      "right": 347.5,
+      "top": 57.99478912353515,
+      "width": 347.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 360
+  },
+  {
+    "role": "admin",
+    "requested": 390,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 44.49218559265137,
+          "height": 30.989582061767575,
+          "left": 10,
+          "right": 155.06509399414062,
+          "top": 13.502603530883787,
+          "width": 145.06509399414062,
+          "x": 10,
+          "y": 13.502603530883787
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 177.52603149414062,
+          "right": 215.52082061767575,
+          "top": 11.002603530883787,
+          "width": 37.99478912353515,
+          "x": 177.52603149414062,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 222.5130157470703,
+          "right": 258.5025978088379,
+          "top": 11.002603530883787,
+          "width": 35.98958206176758,
+          "x": 222.5130157470703,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.997395515441895,
+          "height": 30,
+          "left": 263.5025939941406,
+          "right": 353.5025939941406,
+          "top": 13.997395515441896,
+          "width": 90,
+          "x": 263.5025939941406,
+          "y": 13.997395515441896
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.992186546325684,
+          "height": 5.9895830154418945,
+          "left": 358.5025939941406,
+          "right": 367.4999895095825,
+          "top": 26.00260353088379,
+          "width": 8.997395515441895,
+          "x": 358.5025939941406,
+          "y": 26.00260353088379
+        }
+      }
+    ],
+    "documentWidth": 377,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1513.1639785766602,
+      "height": 1455.169189453125,
+      "left": 0,
+      "right": 377.5,
+      "top": 57.99478912353515,
+      "width": 377.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "role": "admin",
+    "requested": 768,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 16.875,
+          "right": 51.73176956176758,
+          "top": 17.99479103088379,
+          "width": 34.85676956176758,
+          "x": 16.875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 63.2421875,
+          "right": 354.8828125,
+          "top": 15,
+          "width": 291.640625,
+          "x": 63.2421875,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 366.3932189941406,
+          "right": 496.4322814941406,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 366.3932189941406,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 503.3333129882813,
+          "right": 648.3333129882812,
+          "top": 15,
+          "width": 145,
+          "x": 503.3333129882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 655.234375,
+          "right": 738.125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 655.234375,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 755,
+    "heading": {
+      "bottom": 60.078125,
+      "height": 28.0859375,
+      "left": 237.99478149414065,
+      "right": 352.6041564941406,
+      "top": 31.9921875,
+      "width": 114.609375,
+      "x": 237.99478149414065,
+      "y": 31.9921875
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1193.4765625,
+      "height": 1193.4765625,
+      "left": 210,
+      "right": 755,
+      "top": 0,
+      "width": 545,
+      "x": 210,
+      "y": 0
+    },
+    "theme": "light",
+    "width": 767
+  },
+  {
+    "role": "admin",
+    "requested": 1024,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 49.98697757720947,
+          "height": 33.99739456176758,
+          "left": 13.997395515441896,
+          "right": 185.9114580154419,
+          "top": 15.989583015441896,
+          "width": 171.9140625,
+          "x": 13.997395515441896,
+          "y": 15.989583015441896
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 331.796875,
+          "right": 774.2708129882812,
+          "top": 12.994791030883787,
+          "width": 442.4739379882813,
+          "x": 331.796875,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 784.2708129882812,
+          "right": 824.2708129882812,
+          "top": 12.994791030883787,
+          "width": 40,
+          "x": 784.2708129882812,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 833.4765625,
+          "right": 978.4765625,
+          "top": 12.994791030883787,
+          "width": 145,
+          "x": 833.4765625,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 35.989583015441895,
+          "height": 5.9895830154418945,
+          "left": 987.6822509765624,
+          "right": 997.6692295074464,
+          "top": 30,
+          "width": 9.986978530883787,
+          "x": 987.6822509765624,
+          "y": 30
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "heading": {
+      "bottom": 126.06770324707033,
+      "height": 28.0859375,
+      "left": 227.99478149414065,
+      "right": 342.6041564941406,
+      "top": 97.98176574707033,
+      "width": 114.609375,
+      "x": 227.99478149414065,
+      "y": 97.98176574707033
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1239.4661407470703,
+      "height": 1173.4765625,
+      "left": 200,
+      "right": 1011.6666259765624,
+      "top": 65.98957824707031,
+      "width": 811.6666259765625,
+      "x": 200,
+      "y": 65.98957824707031
+    },
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "role": "admin",
+    "requested": 1280,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 28.15104103088379,
+          "right": 200.0651035308838,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 28.15104103088379,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 352.8125,
+          "right": 839.2057189941406,
+          "top": 15,
+          "width": 486.3932189941406,
+          "x": 352.8125,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 858.3984375,
+          "right": 988.4375,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 858.3984375,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 999.9478759765624,
+          "right": 1144.9478759765625,
+          "top": 15,
+          "width": 145,
+          "x": 999.9478759765624,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1156.458251953125,
+          "right": 1239.348876953125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1156.458251953125,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1267,
+    "heading": {
+      "bottom": 133.6979160308838,
+      "height": 31.70572853088379,
+      "left": 283.99737548828125,
+      "right": 413.4114379882813,
+      "top": 101.9921875,
+      "width": 129.4140625,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1001.6275634765624,
+      "height": 931.6275634765624,
+      "left": 240,
+      "right": 1267.5,
+      "top": 70,
+      "width": 1027.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "role": "admin",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 418.8280944824219,
+      "top": 101.9921875,
+      "width": 134.83071899414062,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 994.8176879882812,
+      "height": 924.8176879882812,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "role": "admin",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 1922.96866607666,
+      "height": 1864.973876953125,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "dark",
+    "width": 320
+  },
+  {
+    "role": "admin",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 418.8280944824219,
+      "top": 101.9921875,
+      "width": 134.83071899414062,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-centre-admin",
+    "main": {
+      "bottom": 994.8176879882812,
+      "height": 924.8176879882812,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "role": "manager",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 1758.4114151000977,
+      "height": 1700.4166259765625,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "requested": 360,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 140.13019800186157,
+          "top": 15,
+          "width": 132.13540649414062,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 163.5286407470703,
+          "right": 197.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 163.5286407470703,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 202.52603149414065,
+          "right": 234.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 202.52603149414065,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 237.5130157470703,
+          "right": 327.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 237.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 330.5078125,
+          "right": 339.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 330.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 347,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 1399.5963516235352,
+      "height": 1341.6015625,
+      "left": 0,
+      "right": 347.5,
+      "top": 57.99478912353515,
+      "width": 347.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 360
+  },
+  {
+    "role": "manager",
+    "requested": 390,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 44.49218559265137,
+          "height": 30.989582061767575,
+          "left": 10,
+          "right": 155.06509399414062,
+          "top": 13.502603530883787,
+          "width": 145.06509399414062,
+          "x": 10,
+          "y": 13.502603530883787
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 177.52603149414062,
+          "right": 215.52082061767575,
+          "top": 11.002603530883787,
+          "width": 37.99478912353515,
+          "x": 177.52603149414062,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 222.5130157470703,
+          "right": 258.5025978088379,
+          "top": 11.002603530883787,
+          "width": 35.98958206176758,
+          "x": 222.5130157470703,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.997395515441895,
+          "height": 30,
+          "left": 263.5025939941406,
+          "right": 353.5025939941406,
+          "top": 13.997395515441896,
+          "width": 90,
+          "x": 263.5025939941406,
+          "y": 13.997395515441896
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.992186546325684,
+          "height": 5.9895830154418945,
+          "left": 358.5025939941406,
+          "right": 367.4999895095825,
+          "top": 26.00260353088379,
+          "width": 8.997395515441895,
+          "x": 358.5025939941406,
+          "y": 26.00260353088379
+        }
+      }
+    ],
+    "documentWidth": 377,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 1360.5989151000977,
+      "height": 1302.6041259765625,
+      "left": 0,
+      "right": 377.5,
+      "top": 57.99478912353515,
+      "width": 377.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "requested": 768,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 16.875,
+          "right": 51.73176956176758,
+          "top": 17.99479103088379,
+          "width": 34.85676956176758,
+          "x": 16.875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 63.2421875,
+          "right": 354.8828125,
+          "top": 15,
+          "width": 291.640625,
+          "x": 63.2421875,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 366.3932189941406,
+          "right": 496.4322814941406,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 366.3932189941406,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 503.3333129882813,
+          "right": 648.3333129882812,
+          "top": 15,
+          "width": 145,
+          "x": 503.3333129882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 655.234375,
+          "right": 738.125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 655.234375,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 755,
+    "heading": {
+      "bottom": 60.078125,
+      "height": 28.0859375,
+      "left": 237.99478149414065,
+      "right": 352.6041564941406,
+      "top": 31.9921875,
+      "width": 114.609375,
+      "x": 237.99478149414065,
+      "y": 31.9921875
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 1028.919189453125,
+      "height": 1028.919189453125,
+      "left": 210,
+      "right": 755,
+      "top": 0,
+      "width": 545,
+      "x": 210,
+      "y": 0
+    },
+    "theme": "light",
+    "width": 767
+  },
+  {
+    "role": "manager",
+    "requested": 1024,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 49.98697757720947,
+          "height": 33.99739456176758,
+          "left": 13.997395515441896,
+          "right": 185.9114580154419,
+          "top": 15.989583015441896,
+          "width": 171.9140625,
+          "x": 13.997395515441896,
+          "y": 15.989583015441896
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 331.796875,
+          "right": 774.2708129882812,
+          "top": 12.994791030883787,
+          "width": 442.4739379882813,
+          "x": 331.796875,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 784.2708129882812,
+          "right": 824.2708129882812,
+          "top": 12.994791030883787,
+          "width": 40,
+          "x": 784.2708129882812,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 833.4765625,
+          "right": 978.4765625,
+          "top": 12.994791030883787,
+          "width": 145,
+          "x": 833.4765625,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 35.989583015441895,
+          "height": 5.9895830154418945,
+          "left": 987.6822509765624,
+          "right": 997.6692295074464,
+          "top": 30,
+          "width": 9.986978530883787,
+          "x": 987.6822509765624,
+          "y": 30
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "heading": {
+      "bottom": 126.06770324707033,
+      "height": 28.0859375,
+      "left": 227.99478149414065,
+      "right": 342.6041564941406,
+      "top": 97.98176574707033,
+      "width": 114.609375,
+      "x": 227.99478149414065,
+      "y": 97.98176574707033
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 1086.9010162353516,
+      "height": 1020.9114379882812,
+      "left": 200,
+      "right": 1011.6666259765624,
+      "top": 65.98957824707031,
+      "width": 811.6666259765625,
+      "x": 200,
+      "y": 65.98957824707031
+    },
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "role": "manager",
+    "requested": 1280,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 28.15104103088379,
+          "right": 200.0651035308838,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 28.15104103088379,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 352.8125,
+          "right": 839.2057189941406,
+          "top": 15,
+          "width": 486.3932189941406,
+          "x": 352.8125,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 858.3984375,
+          "right": 988.4375,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 858.3984375,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 999.9478759765624,
+          "right": 1144.9478759765625,
+          "top": 15,
+          "width": 145,
+          "x": 999.9478759765624,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1156.458251953125,
+          "right": 1239.348876953125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1156.458251953125,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1267,
+    "heading": {
+      "bottom": 133.6979160308838,
+      "height": 31.70572853088379,
+      "left": 283.99737548828125,
+      "right": 413.4114379882813,
+      "top": 101.9921875,
+      "width": 129.4140625,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 900,
+      "height": 830,
+      "left": 240,
+      "right": 1267.5,
+      "top": 70,
+      "width": 1027.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 418.8280944824219,
+      "top": 101.9921875,
+      "width": 134.83071899414062,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 900,
+      "height": 830,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "role": "manager",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 130.5989580154419,
+      "top": 83.984375,
+      "width": 114.609375,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 1758.4114151000977,
+      "height": 1700.4166259765625,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "dark",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 418.8280944824219,
+      "top": 101.9921875,
+      "width": 134.83071899414062,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-manager",
+    "main": {
+      "bottom": 900,
+      "height": 830,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "role": "studentB",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 2168.35929107666,
+      "height": 2110.364501953125,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 320
+  },
+  {
+    "role": "studentB",
+    "requested": 360,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 140.13019800186157,
+          "top": 15,
+          "width": 132.13540649414062,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 163.5286407470703,
+          "right": 197.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 163.5286407470703,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 202.52603149414065,
+          "right": 234.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 202.52603149414065,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 237.5130157470703,
+          "right": 327.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 237.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 330.5078125,
+          "right": 339.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 330.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 347,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 2151.861976623535,
+      "height": 2093.8671875,
+      "left": 0,
+      "right": 347.5,
+      "top": 57.99478912353515,
+      "width": 347.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 360
+  },
+  {
+    "role": "studentB",
+    "requested": 390,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 44.49218559265137,
+          "height": 30.989582061767575,
+          "left": 10,
+          "right": 155.06509399414062,
+          "top": 13.502603530883787,
+          "width": 145.06509399414062,
+          "x": 10,
+          "y": 13.502603530883787
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 177.52603149414062,
+          "right": 215.52082061767575,
+          "top": 11.002603530883787,
+          "width": 37.99478912353515,
+          "x": 177.52603149414062,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 46.99218559265137,
+          "height": 35.98958206176758,
+          "left": 222.5130157470703,
+          "right": 258.5025978088379,
+          "top": 11.002603530883787,
+          "width": 35.98958206176758,
+          "x": 222.5130157470703,
+          "y": 11.002603530883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.997395515441895,
+          "height": 30,
+          "left": 263.5025939941406,
+          "right": 353.5025939941406,
+          "top": 13.997395515441896,
+          "width": 90,
+          "x": 263.5025939941406,
+          "y": 13.997395515441896
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.992186546325684,
+          "height": 5.9895830154418945,
+          "left": 358.5025939941406,
+          "right": 367.4999895095825,
+          "top": 26.00260353088379,
+          "width": 8.997395515441895,
+          "x": 358.5025939941406,
+          "y": 26.00260353088379
+        }
+      }
+    ],
+    "documentWidth": 377,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 1832.3697891235352,
+      "height": 1774.375,
+      "left": 0,
+      "right": 377.5,
+      "top": 57.99478912353515,
+      "width": 377.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "role": "studentB",
+    "requested": 768,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 16.875,
+          "right": 51.73176956176758,
+          "top": 17.99479103088379,
+          "width": 34.85676956176758,
+          "x": 16.875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 63.2421875,
+          "right": 354.8828125,
+          "top": 15,
+          "width": 291.640625,
+          "x": 63.2421875,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 366.3932189941406,
+          "right": 496.4322814941406,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 366.3932189941406,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 503.3333129882813,
+          "right": 648.3333129882812,
+          "top": 15,
+          "width": 145,
+          "x": 503.3333129882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 655.234375,
+          "right": 738.125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 655.234375,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 755,
+    "heading": {
+      "bottom": 60.078125,
+      "height": 28.0859375,
+      "left": 237.99478149414065,
+      "right": 390.03904724121094,
+      "top": 31.9921875,
+      "width": 152.0442657470703,
+      "x": 237.99478149414065,
+      "y": 31.9921875
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 1351.0025634765625,
+      "height": 1351.0025634765625,
+      "left": 210,
+      "right": 755,
+      "top": 0,
+      "width": 545,
+      "x": 210,
+      "y": 0
+    },
+    "theme": "light",
+    "width": 767
+  },
+  {
+    "role": "studentB",
+    "requested": 1024,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 49.98697757720947,
+          "height": 33.99739456176758,
+          "left": 13.997395515441896,
+          "right": 185.9114580154419,
+          "top": 15.989583015441896,
+          "width": 171.9140625,
+          "x": 13.997395515441896,
+          "y": 15.989583015441896
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 331.796875,
+          "right": 774.2708129882812,
+          "top": 12.994791030883787,
+          "width": 442.4739379882813,
+          "x": 331.796875,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 784.2708129882812,
+          "right": 824.2708129882812,
+          "top": 12.994791030883787,
+          "width": 40,
+          "x": 784.2708129882812,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 52.99479103088379,
+          "height": 40,
+          "left": 833.4765625,
+          "right": 978.4765625,
+          "top": 12.994791030883787,
+          "width": 145,
+          "x": 833.4765625,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 35.989583015441895,
+          "height": 5.9895830154418945,
+          "left": 987.6822509765624,
+          "right": 997.6692295074464,
+          "top": 30,
+          "width": 9.986978530883787,
+          "x": 987.6822509765624,
+          "y": 30
+        }
+      }
+    ],
+    "documentWidth": 1012,
+    "heading": {
+      "bottom": 126.06770324707033,
+      "height": 28.0859375,
+      "left": 227.99478149414065,
+      "right": 380.03904724121094,
+      "top": 97.98176574707033,
+      "width": 152.0442657470703,
+      "x": 227.99478149414065,
+      "y": 97.98176574707033
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 1416.9921417236328,
+      "height": 1351.0025634765625,
+      "left": 200,
+      "right": 1011.6666259765624,
+      "top": 65.98957824707031,
+      "width": 811.6666259765625,
+      "x": 200,
+      "y": 65.98957824707031
+    },
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "role": "studentB",
+    "requested": 1280,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 28.15104103088379,
+          "right": 200.0651035308838,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 28.15104103088379,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 352.8125,
+          "right": 839.2057189941406,
+          "top": 15,
+          "width": 486.3932189941406,
+          "x": 352.8125,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 858.3984375,
+          "right": 988.4375,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 858.3984375,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 999.9478759765624,
+          "right": 1144.9478759765625,
+          "top": 15,
+          "width": 145,
+          "x": 999.9478759765624,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1156.458251953125,
+          "right": 1239.348876953125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1156.458251953125,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1267,
+    "heading": {
+      "bottom": 133.6979160308838,
+      "height": 31.70572853088379,
+      "left": 283.99737548828125,
+      "right": 455.6770629882813,
+      "top": 101.9921875,
+      "width": 171.6796875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 1424.622314453125,
+      "height": 1354.622314453125,
+      "left": 240,
+      "right": 1267.5,
+      "top": 70,
+      "width": 1027.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "role": "studentB",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 462.8645629882813,
+      "top": 101.9921875,
+      "width": 178.8671875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 1425.950439453125,
+      "height": 1355.950439453125,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "role": "studentB",
+    "requested": 320,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 42.99479103088379,
+          "height": 27.99479103088379,
+          "left": 7.994791507720947,
+          "right": 118.5286431312561,
+          "top": 15,
+          "width": 110.53385162353516,
+          "x": 7.994791507720947,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 123.52864074707033,
+          "right": 157.5260353088379,
+          "top": 12.994791030883787,
+          "width": 33.99739456176758,
+          "x": 123.52864074707033,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 44.98697853088379,
+          "height": 31.9921875,
+          "left": 162.52603149414062,
+          "right": 194.51821899414065,
+          "top": 12.994791030883787,
+          "width": 31.9921875,
+          "x": 162.52603149414062,
+          "y": 12.994791030883787
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "9px",
+        "rect": {
+          "bottom": 43.984375,
+          "height": 30,
+          "left": 197.5130157470703,
+          "right": 287.5130157470703,
+          "top": 13.984375,
+          "width": 90,
+          "x": 197.5130157470703,
+          "y": 13.984375
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "0px",
+        "rect": {
+          "bottom": 31.979165077209473,
+          "height": 5.9895830154418945,
+          "left": 290.5078125,
+          "right": 299.5052080154419,
+          "top": 25.989582061767575,
+          "width": 8.997395515441895,
+          "x": 290.5078125,
+          "y": 25.989582061767575
+        }
+      }
+    ],
+    "documentWidth": 307,
+    "heading": {
+      "bottom": 112.0703125,
+      "height": 28.0859375,
+      "left": 15.989583015441896,
+      "right": 168.0338487625122,
+      "top": 83.984375,
+      "width": 152.0442657470703,
+      "x": 15.989583015441896,
+      "y": 83.984375
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 2168.35929107666,
+      "height": 2110.364501953125,
+      "left": 0,
+      "right": 307.5,
+      "top": 57.99478912353515,
+      "width": 307.5,
+      "x": 0,
+      "y": 57.99478912353515
+    },
+    "theme": "dark",
+    "width": 320
+  },
+  {
+    "role": "studentB",
+    "requested": 1440,
+    "controls": [
+      {
+        "class": "workspace-identity",
+        "display": "flex",
+        "font": "14px",
+        "rect": {
+          "bottom": 51.99218559265137,
+          "height": 33.99739456176758,
+          "left": 31.6796875,
+          "right": 203.59375,
+          "top": 17.99479103088379,
+          "width": 171.9140625,
+          "x": 31.6796875,
+          "y": 17.99479103088379
+        }
+      },
+      {
+        "class": "workspace-search-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 445.1301879882813,
+          "right": 992.3176879882812,
+          "top": 15,
+          "width": 547.1875,
+          "x": 445.1301879882813,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-action-trigger",
+        "display": "inline-flex",
+        "font": "12px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1013.90625,
+          "right": 1143.9453125,
+          "top": 15,
+          "width": 130.0390625,
+          "x": 1013.90625,
+          "y": 15
+        }
+      },
+      {
+        "class": "",
+        "display": "block",
+        "font": "10px",
+        "rect": {
+          "bottom": 55,
+          "height": 40,
+          "left": 1155.9375,
+          "right": 1300.9375,
+          "top": 15,
+          "width": 145,
+          "x": 1155.9375,
+          "y": 15
+        }
+      },
+      {
+        "class": "workspace-connection",
+        "display": "flex",
+        "font": "10px",
+        "rect": {
+          "bottom": 42.5,
+          "height": 15,
+          "left": 1312.9296875,
+          "right": 1395.8203125,
+          "top": 27.5,
+          "width": 82.890625,
+          "x": 1312.9296875,
+          "y": 27.5
+        }
+      }
+    ],
+    "documentWidth": 1427,
+    "heading": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 462.8645629882813,
+      "top": 101.9921875,
+      "width": 178.8671875,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "identity": "demo-student-b",
+    "main": {
+      "bottom": 1425.950439453125,
+      "height": 1355.950439453125,
+      "left": 240,
+      "right": 1427.5,
+      "top": 70,
+      "width": 1187.5,
+      "x": 240,
+      "y": 70
+    },
+    "theme": "dark",
+    "width": 1440
+  }
+]

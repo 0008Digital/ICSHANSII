@@ -1,0 +1,36 @@
+{
+  "captureState": {
+    "header": {
+      "bottom": 70,
+      "height": 70,
+      "left": 0,
+      "right": 1427.5,
+      "top": 0,
+      "width": 1427.5,
+      "x": 0,
+      "y": 0
+    },
+    "scrollY": 0,
+    "title": {
+      "bottom": 135.02603912353516,
+      "height": 33.033851623535156,
+      "left": 283.99737548828125,
+      "right": 418.8280944824219,
+      "top": 101.9921875,
+      "width": 134.83071899414062,
+      "x": 283.99737548828125,
+      "y": 101.9921875
+    },
+    "width": 1440
+  },
+  "url": "http://localhost:3000/settings",
+  "identity": "demo-centre-admin",
+  "originalThemes": {
+    "admin": "System",
+    "manager": "System",
+    "developer": "System",
+    "teacher": "System",
+    "studentA": "System",
+    "studentB": "System"
+  }
+}

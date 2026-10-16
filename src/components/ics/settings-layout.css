@@ -83,3 +83,31 @@
 @media(min-width:1200px) { .appearance-source > .ogui-segments { grid-template-columns:repeat(5,minmax(0,1fr)); } }
 @media(prefers-reduced-motion:reduce) { .ics-mobile-dock > .ics-dock-selection { transition:none; } }
 @media(forced-colors:active) { .ics-mobile-dock > .ics-dock-selection { border-color:Highlight; background:Canvas; } }
+
+/* Settings-only restoration. Shared dashboard surfaces and appearance state stay intact. */
+.workspace-main .settings-heading { min-height:48px; padding:7px 14px; border-radius:15px; }
+.workspace-main .settings-heading h1 { font-size:18px; line-height:1.3; }
+.appearance-settings.appearance-settings--compact .appearance-controls {
+ grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 24px; padding:18px;
+ border:1px solid var(--line); border-radius:18px;
+ background:color-mix(in srgb,var(--surface) 65%,transparent);
+}
+.appearance-settings--compact .appearance-background-group,
+.appearance-settings--compact .appearance-glass-group { gap:14px; }
+.appearance-settings--compact .appearance-field h3,
+.appearance-settings--compact .appearance-field legend { font-size:13px; margin:0 0 8px; }
+.appearance-settings--compact .appearance-animation-options,
+.appearance-settings--compact .appearance-custom-options { grid-column:1 / -1; min-width:0; border-top:1px solid var(--line); }
+.appearance-settings--compact :is(.appearance-animation-options,.appearance-custom-options) > summary { min-height:44px; padding:10px 0; font-size:13px; cursor:pointer; }
+.appearance-settings--compact .appearance-animation-options > .appearance-field { max-width:440px; }
+.appearance-settings--compact .appearance-preference-actions { grid-column:1 / -1; margin:0; padding:0; }
+.appearance-settings--compact .appearance-preference-actions [role="status"] { flex-basis:100%; font-size:12px; }
+.appearance-settings--compact .appearance-custom-options .custom-editor { border-top:0; padding-top:0; }
+.appearance-settings.appearance-settings--compact .appearance-advanced { background:color-mix(in srgb,var(--surface) 65%,transparent); }
+/* The aria-hidden decoration must not intercept the preview lens button. */
+.appearance-settings .appearance-preview .landing-shape--clear { pointer-events:none; }
+@media(max-width:767px) {
+ .workspace-main .settings-heading { padding:6px 11px; border-radius:13px; }
+ .workspace-main .settings-heading h1 { font-size:16px; }
+ .appearance-settings.appearance-settings--compact .appearance-controls { grid-template-columns:minmax(0,1fr); gap:12px; padding:12px; }
+}

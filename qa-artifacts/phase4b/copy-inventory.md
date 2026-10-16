@@ -1,0 +1,210 @@
+# Phase 4B exact copy inventory
+
+81 rewrite/removal entries across 18 components. Repeated occurrences of a listed string were rewritten together. Field labels, validation, accessibility labels and behavior were preserved.
+
+## Developer — /developer
+
+File: [src/components/ics/developer-console.tsx](C:/Projects/ics-hansi/src/components/ics/developer-console.tsx)
+
+| Before | After |
+| --- | --- |
+| Switch to the clearly labeled demo role preview to inspect fictional technical screens. This is not authentication or an authorization boundary. | Select Developer / Owner to view sample reports. Role preview does not grant access to real records. |
+| No production monitoring, telemetry, reports, notifications or connected centres are available. | Sample reports only. Live monitoring and centres are not connected. |
+| &lt;p&gt;Fictional local report fixtures; no telemetry is connected.&lt;/p&gt; | **Removed redundant paragraph** |
+| Fictional demo count | Sample count |
+| Local preview state only. No report was sent. | Sample reports · changes are not saved. |
+| Notes and status changes are temporary page state, not saved. | Changes are not saved. |
+| Provider-neutral future telemetry boundary. | Error collection is not connected. |
+| Errors are not being collected. A future adapter must redact sensitive values, require authenticated ingestion, rate-limit and deduplicate submissions, and enforce retention. | No errors are being collected. |
+| Unconfigured services stay unknown. | Service status is unavailable. |
+| Appearance, admissions and management workflows are frontend demos. No deployment is connected. | Interface preview · no deployment is connected. |
+| Fictional queue, no real submissions. | No submissions connected. |
+| No feedback has been received by a backend. | No feedback available. |
+| Technical alert preview with minimal metadata. | Moderation is not connected. |
+| Unavailable until a secured notification service is configured. | Notification service not connected. |
+
+## Student A, Student B — /student-portal
+
+File: [src/components/ics/student-portal.tsx](C:/Projects/ics-hansi/src/components/ics/student-portal.tsx)
+
+| Before | After |
+| --- | --- |
+| No authenticated student profile or private records are connected. | Sample data only. Your private records are not connected. |
+| Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollment not connected. | Sample student · New General · Enrollment not connected. |
+| Fictional demo attendance preview. | Sample attendance only. |
+| Sample marks only; published results are not connected. | Published results not connected. |
+| Personal fee records and payment history are not connected. | Personal fees and payments not connected. |
+| Fictional completion preview; assignments are not connected. | Assignments not connected. |
+| Centre notices and current timetable images are not published. | No notices or timetables published. |
+| Sample scores only; no assessments are connected. | Sample scores · assessments not connected. |
+| Student records must be bound to one verified student account server-side. All visualized figures above are fictional and frontend-only. | Private student records require secure sign-in. Figures shown here are sample data. |
+
+## Centre Admin, Manager — /
+
+File: [src/components/ics/role-dashboard.tsx](C:/Projects/ics-hansi/src/components/ics/role-dashboard.tsx)
+
+| Before | After |
+| --- | --- |
+| These date calculations use fictional fixtures for interface preview. No operational counts, payment totals or renewal history are connected. | Sample enrollments only. Live totals, payments and renewal history are not connected. |
+
+## Centre Admin, Manager, Teacher — /; Teacher chart consumers
+
+File: [src/components/ics/dashboard-charts.tsx](C:/Projects/ics-hansi/src/components/ics/dashboard-charts.tsx)
+
+| Before | After |
+| --- | --- |
+| Fictional preview values. No live operational data is connected. | Sample data · not live. |
+| Fictional preview; collections are not verified income and expenses are not ledger records. | Sample figures only; collections and expenses are not verified financial records. |
+
+## Centre Admin, Manager — /students
+
+File: [src/components/ics/student-directory.tsx](C:/Projects/ics-hansi/src/components/ics/student-directory.tsx)
+
+| Before | After |
+| --- | --- |
+| Review a fictional admission draft. No record is saved. | Unsaved admission draft. |
+| Fictional demo records · not saved to a backend | Sample records · not connected |
+| Demo Student IDs are illustrative only. Permanent Student IDs and batch rolls require secure centre-scoped backend allocation; Registration Numbers are entered manually by centre staff. | Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually. |
+
+## Centre Admin, Manager — /students/new; /students/[id]/edit; inline admission
+
+File: [src/components/ics/students/student-form.tsx](C:/Projects/ics-hansi/src/components/ics/students/student-form.tsx)
+
+| Before | After |
+| --- | --- |
+| Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate. | Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate. |
+
+## Centre Admin, Manager — /students/[id]
+
+File: [src/components/ics/students/student-profile.tsx](C:/Projects/ics-hansi/src/components/ics/students/student-profile.tsx)
+
+| Before | After |
+| --- | --- |
+| No historical renewal events are included in this fictional fixture. Real renewals must append history and preserve previous periods and roll assignments. | No renewal history is connected. |
+| No payment transactions are connected. Each future installment must be retained as a separate immutable transaction. | No payment transactions are connected. |
+| Both exports are marked DEMO DATA. The summary shows unavailable values; payment history contains no transaction rows, receipts or staff identities. | Exports contain sample references only; no payments or receipts. |
+
+## Centre Admin, Manager — /students/[id] transfer and conduct disclosures
+
+File: [src/components/ics/students/student-record-previews.tsx](C:/Projects/ics-hansi/src/components/ics/students/student-record-previews.tsx)
+
+| Before | After |
+| --- | --- |
+| Unsaved request only. A centre Admin/Manager must have permission; the destination teacher may need to confirm. No batch or history changes are made. | Unsaved request. Centre permission and teacher confirmation may be required; no records change. |
+| A real transfer must close the old membership, append a destination membership and roll history, preserve fees/attendance/results, and write an audit event atomically. The permanent Student ID must remain unchanged. | Transfers must preserve the Student ID and existing records. This preview submits no transfer. |
+| Fictional unsaved preview. Real conduct records require verified centre authorization and batch-scoped teacher access. This client interface does not enforce permissions. | Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access. |
+
+## Centre Admin, Manager — /batches
+
+File: [src/components/ics/students/batch-management.tsx](C:/Projects/ics-hansi/src/components/ics/students/batch-management.tsx)
+
+| Before | After |
+| --- | --- |
+| Batch dates and counts below are fictional previews. No dates, capacity or assignments are saved. | Sample batches only. Changes are not saved. |
+| Four default batches plus the existing fictional custom batch. No sub-batches. | Sample batch catalogue. |
+| Scheduled batch dates do not rewrite each student&apos;s enrollment validity period. | Batch dates do not change student enrollment periods. |
+| Custom batches must be classified NEW or OLD for registration counters. No sub-batch categories are used. This preview does not create a batch. | Choose NEW or OLD for registration numbering. This preview does not create a batch. |
+| Teacher assignment, capacity management, batch edits and enrollment records require authenticated centre permissions and backend transactions. | Assignments and batch updates are unavailable until centre records and permissions are connected. |
+
+## Centre Admin, Manager — /fees
+
+File: [src/components/ics/students/fee-management.tsx](C:/Projects/ics-hansi/src/components/ics/students/fee-management.tsx)
+
+| Before | After |
+| --- | --- |
+| No fee balances, payment history, receipts or confirmed transactions are connected. Values entered below are fictional scenarios only. | Sample scenarios only. Balances, payments and receipts are not connected. |
+| Student names may be searched from the fictional directory, but fees and balances stay unavailable until authorized records are connected. | Search sample students above. Real fees and balances are not connected. |
+| Each preview is a separate draft item in this page session only. Refreshing clears them. | Draft installments clear on refresh. |
+| Real installment posting must be atomic, idempotent, authorized for this centre and enrollment, append-only with corrections/reversals, and audited by trusted server logic using integer paise. | Preview only. No installment is posted and no receipt is issued. |
+
+## Centre Admin, Manager, Teacher — /attendance
+
+File: [src/components/ics/attendance-preview.tsx](C:/Projects/ics-hansi/src/components/ics/attendance-preview.tsx)
+
+| Before | After |
+| --- | --- |
+| No verified teacher-to-batch assignments are connected, so no student roster is available. | Teacher assignments and rosters are not connected. |
+| Rapid Attendance becomes available only after a server-verified teacher assignment is provided. Centre Admin demo workflows can preview fictional roll matching. | Attendance requires a verified batch assignment. |
+| No teacher assignments or attendance records are connected. Marks stay in this page session and are never submitted. | Attendance is not connected. Draft marks are not submitted and clear on refresh. |
+| This preview is not submitted. Duplicate posting prevention, teacher assignment checks and final confirmation require an authorized backend transaction. | Not submitted. Recording attendance requires verified permissions and final confirmation. |
+
+## Centre Admin, Manager, Teacher — /tests-results
+
+File: [src/components/ics/academic-preview.tsx](C:/Projects/ics-hansi/src/components/ics/academic-preview.tsx)
+
+| Before | After |
+| --- | --- |
+| A single unsaved assessment workflow for the selected batch. | Unsaved assessment for the selected batch. |
+| This result is still unpublished. Actual publishing requires authenticated centre permissions, complete batch data and an audited backend transaction. | Results remain unpublished. Publishing requires verified centre permissions and complete batch records. |
+| Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected. | Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected. |
+
+## Centre Admin; permission-restricted Manager — /audit-logs; /ledger
+
+File: [src/components/ics/audit-ledger.tsx](C:/Projects/ics-hansi/src/components/ics/audit-ledger.tsx)
+
+| Before | After |
+| --- | --- |
+| Audit log access requires an explicit centre grant. This presentation layer does not infer permissions from a role label. | Audit logs require an explicit centre permission. A preview role does not grant access. |
+| These fictional examples are not actual user activity. Real security events must be append-only and recorded by trusted server logic. | Sample activity only. Real audit events are not connected. |
+| Authorized Admin demo only · no real audit log is connected | Sample export · no live audit log |
+| Live event IDs, tenant scope, before/after data and actor identity must be generated and verified server-side. | Sample event only; identity and centre details are not verified. |
+| Fictional entries only. A fee invoice is not income; only transaction examples appear below. No backend or real payment source is connected. | Sample transactions only; no payment source is connected. A fee invoice is not income. |
+| Append-only design preview · reversals keep the original entry visible | Reversals retain the original entry. |
+| Real admissions, fees, renewals, receipts, corrections and refunds must post atomically to a tenant-scoped ledger with idempotency keys, server authorization, reversals and audit events. | Preview only. No financial records or payments are posted. |
+
+## All roles, including both Students — /chatrooms
+
+File: [src/components/ics/chatrooms-workspace.tsx](C:/Projects/ics-hansi/src/components/ics/chatrooms-workspace.tsx)
+
+| Before | After |
+| --- | --- |
+| Fictional conversations and local UI state. No messages are sent, stored or moderated by a service. | Sample conversations only. Messages are not delivered or saved. |
+| Access defaults to deny. An authorized backend must enforce membership on every read and send request. | Room access requires verified membership. |
+| No real incident or notification is recorded. Backend review actions require audit logging and batch scope. | Review changes are not saved. No notification is sent. |
+| These controls affect only this page&apos;s preview state. They do not authorize access. Supabase must enforce role grants, tenant and batch membership, server-side reads/sends, rate limits and audited moderation. | Preview controls only. Changes are not saved and do not grant room access. |
+| No verified teacher batch assignments or incidents are connected. No message content is exposed in this inbox. | No verified batch assignments or incidents connected. Private messages are not shown. |
+
+## Centre Admin, Manager, Teacher where accessible — /staff; /homework; /ics-updates
+
+File: [src/components/ics/management-page.tsx](C:/Projects/ics-hansi/src/components/ics/management-page.tsx)
+
+| Before | After |
+| --- | --- |
+| A dedicated space for your team | Staff records unavailable |
+| Staff records, approved role administration and teacher assignments will live here. Access changes require reviewed authorization and audit trails. | Staff records and teacher assignments are not connected. Access changes require centre authorization. |
+| One place for assigned work | No homework connected |
+| Homework and submission tracking will appear here after assigned-batch permissions are implemented. | Homework and submissions are unavailable until batch assignments are connected. |
+| Current timetable images will be pinned here, with dates and readable text alternatives. | No current timetable is published. |
+| Updates, without the clutter | No updates published |
+| Centre notices and WhatsApp-style photo statuses will appear here. Previous timetable images will remain available in an accessible history. Publishing, uploads and history are not connected. | Notices, timetable uploads and history are not connected. |
+
+## All roles; branding banner for Centre Admin — /settings
+
+File: [src/components/ics/personal-settings.tsx](C:/Projects/ics-hansi/src/components/ics/personal-settings.tsx)
+
+| Before | After |
+| --- | --- |
+| Shared centre presentation is separate from your personal appearance. This demo role preview does not authorize changes. | Separate from personal appearance. Preview roles do not grant real centre permissions. |
+| Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it. | Managed by the Centre Admin. Personal appearance does not change centre branding. |
+
+## Centre Admin — /settings branding
+
+File: [src/components/ics/branding/branding-editor.tsx](C:/Projects/ics-hansi/src/components/ics/branding/branding-editor.tsx)
+
+| Before | After |
+| --- | --- |
+| Centre Admin preview · Current demo centre only. Changes are stored on this device and are not saved to Supabase, shared with other devices or authorized by a real sign-in. | Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access. |
+| Preview your draft first. Apply updates this device-local demo only. | Apply saves this preview on this device only. |
+| The sidebar and workspace header use applied branding for this browser. | Applied branding appears in this browser. |
+
+## All roles, including both Students — /settings appearance
+
+File: [src/components/ics/appearance/customizer.tsx](C:/Projects/ics-hansi/src/components/ics/appearance/customizer.tsx)
+
+| Before | After |
+| --- | --- |
+| Previewing changes for this demo user; changes are not saved yet. | Unsaved appearance preview. |
+| Applied for this demo user. Centre branding is separate. | Applied on this device for this demo user. |
+| Comparison material, split and lighting affect these specimens only. They are not saved or applied to the workspace. | Comparison controls affect this preview only and are not saved. |
+| Preview updates the workspace. Apply appearance to save for this demo user. | Preview changes live; Apply saves for this demo user. |
+| Reflects your live background and glass settings. Holding the floating lens pauses that lens only. | Live scene preview. Hold the lens to pause it. |

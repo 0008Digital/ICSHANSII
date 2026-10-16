@@ -1,0 +1,20 @@
+[
+  "src\\components\\ics\\academic-preview.tsx",
+  "src\\components\\ics\\attendance-preview.tsx",
+  "src\\components\\ics\\audit-ledger.tsx",
+  "src\\components\\ics\\chatrooms-workspace.tsx",
+  "src\\components\\ics\\dashboard-charts.tsx",
+  "src\\components\\ics\\developer-console.tsx",
+  "src\\components\\ics\\management-page.tsx",
+  "src\\components\\ics\\personal-settings.tsx",
+  "src\\components\\ics\\role-dashboard.tsx",
+  "src\\components\\ics\\student-directory.tsx",
+  "src\\components\\ics\\student-portal.tsx",
+  "src\\components\\ics\\appearance\\customizer.tsx",
+  "src\\components\\ics\\branding\\branding-editor.tsx",
+  "src\\components\\ics\\students\\batch-management.tsx",
+  "src\\components\\ics\\students\\fee-management.tsx",
+  "src\\components\\ics\\students\\student-form.tsx",
+  "src\\components\\ics\\students\\student-profile.tsx",
+  "src\\components\\ics\\students\\student-record-previews.tsx"
+]

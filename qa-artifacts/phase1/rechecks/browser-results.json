@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "1eb401870b90c3e4db134609928077b1686a6f87",
+  "baseURL": "http://localhost:3000",
+  "updatedAt": "2026-10-14T02:39:57.872Z",
+  "summary": {
+    "passed": 3,
+    "failed": 0
+  },
+  "settingsVisualApproval": false,
+  "scenarioFilter": [
+    "admin/mobile320: six directory views",
+    "manager/mobile320: six directory views"
+  ],
+  "visualComparison": "Reference screenshots only; no pixel-diff assertion. Motion remains enabled.",
+  "results": [
+    {
+      "name": "admin/mobile320: six directory views",
+      "status": "passed",
+      "durationMs": 2559
+    },
+    {
+      "name": "manager/mobile320: six directory views",
+      "status": "passed",
+      "durationMs": 2321
+    },
+    {
+      "name": "cleanup: original demo identity and viewport",
+      "status": "passed",
+      "durationMs": 593
+    }
+  ],
+  "screenshots": [],
+  "notes": []
+}

@@ -1,0 +1,11 @@
+{
+  "checked": 122,
+  "issues": [
+    "Changed protected file: src/components/ics/app-navigation.tsx",
+    "Changed protected file: src/components/ics/appearance/customizer.tsx",
+    "Changed protected file: src/components/ics/demo-workspaces.css",
+    "Changed protected file: src/components/ics/saas-layout.css",
+    "Changed protected file: src/components/ics/settings-layout.css",
+    "Changed protected file: src/components/ics/smart-workspace-bar.tsx"
+  ]
+}

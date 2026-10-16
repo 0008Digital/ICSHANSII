@@ -1,0 +1,4016 @@
+{
+  "rows": [
+    {
+      "role": "admin",
+      "route": "/",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "These date calculations use fictional fixtures for interface preview. No operational counts, payment totals or renewal history are connected.",
+        "Fictional preview values. No live operational data is connected.",
+        "Fictional preview values. No live operational data is connected.",
+        "Fictional preview; collections are not verified income and expenses are not ledger records.",
+        "No activity available yet."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 101.9921875
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 320.0650939941406
+        },
+        {
+          "text": "Admissions trend",
+          "top": 531.5103759765625
+        },
+        {
+          "text": "Attendance trend",
+          "top": 531.5103759765625
+        },
+        {
+          "text": "Financial overview",
+          "top": 678.1119384765625
+        },
+        {
+          "text": "Recent Activity",
+          "top": 872.3306884765625
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 40.02603912353515,
+              "height": 33.033851623535156,
+              "left": 283.99737548828125,
+              "right": 418.8280944824219,
+              "top": 6.9921875,
+              "width": 134.83071899414062,
+              "x": 283.99737548828125,
+              "y": 6.9921875
+            },
+            "text": "Dashboard"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 95
+      },
+      "status": "passed",
+      "screenshot": "admin-1440-original--.jpg"
+    },
+    {
+      "role": "admin",
+      "route": "/students",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Fictional directory records",
+        "Fictional directory records",
+        "Enrollment periods · not unique students",
+        "Unavailable · fee records not connected",
+        "Renewals due within 30 days · demo",
+        "Fictional enrollment periods",
+        "With active demo enrollments",
+        "Demo reference: DEMO-001",
+        "Parent: Names unavailable",
+        "00000 00001",
+        "Batch roll: 101",
+        "Active",
+        "Demo reference: DEMO-002",
+        "Parent: Names unavailable",
+        "00000 00002",
+        "Batch roll: 201",
+        "Renewal Due",
+        "Demo reference: DEMO-003",
+        "Parent: Names unavailable",
+        "00000 00003",
+        "Batch roll: 301",
+        "Renewal Due",
+        "Demo reference: DEMO-004",
+        "Parent: Names unavailable",
+        "00000 00004",
+        "Batch roll: 401",
+        "Expired Enrollment",
+        "Demo reference: DEMO-005",
+        "Parent: Names unavailable",
+        "00000 00005",
+        "Batch roll: 501",
+        "Active",
+        "5 of 5 fictional students · showing 5 on this page",
+        "Demo Student IDs are illustrative only. Permanent Student IDs and batch rolls require secure centre-scoped backend allocation; Registration Numbers are entered manually by centre staff."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Students",
+          "top": 101.9921875
+        },
+        {
+          "text": "Student overview",
+          "top": 157.01821899414062
+        },
+        {
+          "text": "Student directory",
+          "top": 483.0338439941406
+        }
+      ],
+      "theme": "light",
+      "title": "Students",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 8.619791984558105,
+              "height": 20.5859375,
+              "left": 306.8229064941406,
+              "right": 526.6145629882812,
+              "top": -11.966145515441896,
+              "width": 219.79165649414065,
+              "x": 306.8229064941406,
+              "y": -11.966145515441896
+            },
+            "text": "Student directory"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 494.9999694824219
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/new",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Demo preview — admission is not saved.",
+        "Period ends —",
+        "Optional for cash; required for other modes.",
+        "Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Add Student",
+          "top": 101.9921875
+        },
+        {
+          "text": "Fees & Payment",
+          "top": 702.7734375
+        }
+      ],
+      "theme": "light",
+      "title": "Add Student",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 64.59635353088379,
+              "height": 40,
+              "left": 406.5755004882813,
+              "right": 826.7447509765625,
+              "top": 24.59635353088379,
+              "width": 420.1692504882813,
+              "x": 406.5755004882813,
+              "y": 24.59635353088379
+            },
+            "text": "Student Full Name"
+          },
+          {
+            "rect": {
+              "bottom": 64.59635353088379,
+              "height": 40,
+              "left": 840.7421875,
+              "right": 1260.9244689941406,
+              "top": 24.59635353088379,
+              "width": 420.1822814941406,
+              "x": 840.7421875,
+              "y": 24.59635353088379
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 245.8333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Fictional demo profile · DEMO-001 is a preview reference, not an official student ID. No records are connected.",
+        "Unsaved request only. A centre Admin/Manager must have permission; the destination teacher may need to confirm. No batch or history changes are made.",
+        "A real transfer must close the old membership, append a destination membership and roll history, preserve fees/attendance/results, and write an audit event atomically. The permanent Student ID must remain unchanged.",
+        "No historical renewal events are included in this fictional fixture. Real renewals must append history and preserve previous periods and roll assignments.",
+        "No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.",
+        "Both exports are marked DEMO DATA. The summary shows unavailable values; payment history contains no transaction rows, receipts or staff identities.",
+        "No live attendance register or percentage is available.",
+        "No live assessments or published marks are available.",
+        "No student-specific notices are available in this demo.",
+        "Fictional unsaved preview. Real conduct records require verified centre authorization and batch-scoped teacher access. This client interface does not enforce permissions.",
+        "Not shown in this demo. Access requires an explicit centre authorization."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Aarav Example",
+          "top": 161.47134399414062
+        },
+        {
+          "text": "Personal details",
+          "top": 320.01300048828125
+        },
+        {
+          "text": "Academic & admission details",
+          "top": 730.1041259765625
+        },
+        {
+          "text": "Current batch enrollment",
+          "top": 1140.1953125
+        },
+        {
+          "text": "Batch transfer",
+          "top": 1485.3385009765625
+        },
+        {
+          "text": "Batch & renewal history",
+          "top": 1635.325439453125
+        },
+        {
+          "text": "Fees & payments",
+          "top": 1872.278564453125
+        },
+        {
+          "text": "Attendance",
+          "top": 2338.359375
+        },
+        {
+          "text": "Tests & Results",
+          "top": 2508.65869140625
+        },
+        {
+          "text": "Notices & Updates",
+          "top": 2678.958251953125
+        },
+        {
+          "text": "Conduct Reports",
+          "top": 2849.2578125
+        },
+        {
+          "text": "Internal notes",
+          "top": 2999.24462890625
+        }
+      ],
+      "theme": "light",
+      "title": "Aarav Example",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 10.364582061767578,
+              "height": 22.669269561767575,
+              "left": 308.828125,
+              "right": 1358.671875,
+              "top": -12.3046875,
+              "width": 1049.84375,
+              "x": 308.828125,
+              "y": -12.3046875
+            },
+            "text": "Current batch enrollment"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1152.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/students/DEMO-001/edit",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Aarav Example · Fictional demo record",
+        "Demo preview — admission is not saved.",
+        "Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Edit student details",
+          "top": 155.9895782470703
+        }
+      ],
+      "theme": "light",
+      "title": "Edit student details",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/batches",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO DATA Batch dates and counts below are fictional previews. No dates, capacity or assignments are saved.",
+        "Four default batches plus the existing fictional custom batch. No sub-batches.",
+        "Scheduled batch dates do not rewrite each student's enrollment validity period.",
+        "Custom batches must be classified NEW or OLD for registration counters. No sub-batch categories are used. This preview does not create a batch.",
+        "Teacher assignment, capacity management, batch edits and enrollment records require authenticated centre permissions and backend transactions."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Batches",
+          "top": 101.9921875
+        },
+        {
+          "text": "Batch catalogue",
+          "top": 250.49478149414065
+        },
+        {
+          "text": "Preview date changes",
+          "top": 754.9478759765625
+        }
+      ],
+      "theme": "light",
+      "title": "Batches",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 67.74739456176758,
+              "height": 20.5859375,
+              "left": 306.8229064941406,
+              "right": 666.1588439941406,
+              "top": 47.16145706176758,
+              "width": 359.3359375,
+              "x": 306.8229064941406,
+              "y": 47.16145706176758
+            },
+            "text": "Batch catalogue"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 203.3333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/attendance",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO PREVIEW No teacher assignments or attendance records are connected. Marks stay in this page session and are never submitted.",
+        "Identify a student, confirm the details, then mark a draft status.",
+        "Enter a roll number; name or demo reference also works as a fallback.",
+        "New General · 2026-10-15 · 0 marked of 1 active demo students",
+        "Roll audit: 0 missing · 0 duplicate numbers.",
+        "DEMO-001 · batch roll 101"
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rapid Attendance · preview",
+          "top": 246.4973907470703
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/tests-results",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "A single unsaved assessment workflow for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 101.9921875
+        },
+        {
+          "text": "Create test preview",
+          "top": 248.4895782470703
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 649.0625
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 954.3880004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 24.075520753860474,
+              "height": 20.5859375,
+              "left": 306.8229064941406,
+              "right": 595.2864379882812,
+              "top": 3.4895832538604736,
+              "width": 288.4635314941406,
+              "x": 306.8229064941406,
+              "y": 3.4895832538604736
+            },
+            "text": "Create test preview"
+          },
+          {
+            "rect": {
+              "bottom": 61.69270706176758,
+              "height": 17.6171875,
+              "left": 306.8229064941406,
+              "right": 595.2864379882812,
+              "top": 44.07551956176758,
+              "width": 288.4635314941406,
+              "x": 306.8229064941406,
+              "y": 44.07551956176758
+            },
+            "text": "A single unsaved assessment workflow for the selected batch."
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 244.99998474121097
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/homework",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Homework and submission tracking will appear here after assigned-batch permissions are implemented."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 101.9921875
+        },
+        {
+          "text": "One place for assigned work",
+          "top": 193.8411407470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/fees",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO PREVIEW No fee balances, payment history, receipts or confirmed transactions are connected. Values entered below are fictional scenarios only.",
+        "Fee status follows promised payment dates, independently of enrollment expiry.",
+        "0 connected",
+        "0 connected",
+        "0 connected",
+        "DEMO-001 · Registration Number unavailable · New General",
+        "DEMO-002 · Registration Number unavailable · Old General",
+        "DEMO-003 · Registration Number unavailable · New Guarantee",
+        "DEMO-004 · Registration Number unavailable · Old Guarantee",
+        "DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)",
+        "Student names may be searched from the fictional directory, but fees and balances stay unavailable until authorized records are connected.",
+        "Real installment posting must be atomic, idempotent, authorized for this centre and enrollment, append-only with corrections/reversals, and audited by trusted server logic using integer paise."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Fees",
+          "top": 101.9921875
+        },
+        {
+          "text": "Fee register",
+          "top": 247.95571899414065
+        }
+      ],
+      "theme": "light",
+      "title": "Fees",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ledger",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO LEDGER Fictional entries only. A fee invoice is not income; only transaction examples appear below. No backend or real payment source is connected.",
+        "Append-only design preview · reversals keep the original entry visible",
+        "Example partial refund",
+        "DEMO-REFUND-04",
+        "Ref. DEMO-TXN-002",
+        "Example electricity expense",
+        "DEMO-EXP-03",
+        "Example course fee receipt",
+        "DEMO-PAY-02",
+        "Example classroom supplies",
+        "DEMO-EXP-01",
+        "Example reversal of duplicate expense",
+        "DEMO-REV-05",
+        "Ref. DEMO-TXN-006",
+        "Example expense later reversed",
+        "DEMO-EXP-06",
+        "Real admissions, fees, renewals, receipts, corrections and refunds must post atomically to a tenant-scoped ledger with idempotency keys, server authorization, reversals and audit events."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Ledger",
+          "top": 101.9921875
+        },
+        {
+          "text": "Transaction history",
+          "top": 352.9557189941406
+        }
+      ],
+      "theme": "light",
+      "title": "Ledger",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 230.8333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/staff",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Staff records, approved role administration and teacher assignments will live here. Access changes require reviewed authorization and audit trails."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Staff",
+          "top": 101.9921875
+        },
+        {
+          "text": "A dedicated space for your team",
+          "top": 193.8411407470703
+        }
+      ],
+      "theme": "light",
+      "title": "Staff",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/audit-logs",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO EVENTS These fictional examples are not actual user activity. Real security events must be append-only and recorded by trusted server logic.",
+        "Centre-local timestamps · no passwords, tokens or private contact details",
+        "Exports · Demo Centre Admin (Centre Admin) · Fictional directory",
+        "Enrollment · Demo Manager (Manager) · DEMO-003",
+        "Batches · Demo Centre Admin (Centre Admin) · New Guarantee (demo)",
+        "Fees · Demo Centre Admin (Centre Admin) · Fictional admission",
+        "Attendance · Demo Teacher (Teacher) · Assigned batch scope"
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Audit Logs",
+          "top": 101.9921875
+        },
+        {
+          "text": "Activity history",
+          "top": 250.49478149414065
+        }
+      ],
+      "theme": "light",
+      "title": "Audit Logs",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 75.16926956176758,
+              "height": 41.9921875,
+              "left": 306.8229064941406,
+              "right": 650.1041564941406,
+              "top": 33.17708206176758,
+              "width": 343.28125,
+              "x": 306.8229064941406,
+              "y": 33.17708206176758
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 335
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/ics-updates",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Current timetable images will be pinned here, with dates and readable text alternatives.",
+        "Centre notices and WhatsApp-style photo statuses will appear here. Previous timetable images will remain available in an accessible history. Publishing, uploads and history are not connected."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "ICS Updates",
+          "top": 101.9921875
+        },
+        {
+          "text": "Pinned current timetables",
+          "top": 181.8489532470703
+        },
+        {
+          "text": "Updates, without the clutter",
+          "top": 351.875
+        }
+      ],
+      "theme": "light",
+      "title": "ICS Updates",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/chatrooms",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "Batch room · fictional",
+        "Staff only · fictional",
+        "One-way notices · fictional",
+        "Student to authorized staff · fictional",
+        "Batch room · fictional · sender names are fictional profile references",
+        "Could you share the revision topic list for Friday?",
+        "New General · fictional demo identity",
+        "We will review chapters 3 and 4 in class.",
+        "New General · fictional demo identity",
+        "Text only. Attachments are disabled. Sending will not deliver or persist.",
+        "Abusive language · Medium · simulated · Status: New",
+        "A fictional message excerpt for the moderator preview.",
+        "No real incident or notification is recorded. Backend review actions require audit logging and batch scope.",
+        "Centre-wide defaults and room overrides",
+        "These controls affect only this page's preview state. They do not authorize access. Supabase must enforce role grants, tenant and batch membership, server-side reads/sends, rate limits and audited moderation."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rooms",
+          "top": 251.6536407470703
+        },
+        {
+          "text": "New General",
+          "top": 252.65625
+        },
+        {
+          "text": "Moderation review · demo",
+          "top": 782.8125
+        },
+        {
+          "text": "Chat Permissions",
+          "top": 1011.3671875
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 44.66145706176758,
+              "height": 17.99479103088379,
+              "left": 309.8307189941406,
+              "right": 327.8255100250244,
+              "top": 26.66666603088379,
+              "width": 17.99479103088379,
+              "x": 309.8307189941406,
+              "y": 26.66666603088379
+            },
+            "text": "INPUT"
+          },
+          {
+            "rect": {
+              "bottom": 44.66145706176758,
+              "height": 17.99479103088379,
+              "left": 414.296875,
+              "right": 432.2916660308838,
+              "top": 26.66666603088379,
+              "width": 17.99479103088379,
+              "x": 414.296875,
+              "y": 26.66666603088379
+            },
+            "text": "INPUT"
+          },
+          {
+            "rect": {
+              "bottom": 44.66145706176758,
+              "height": 17.99479103088379,
+              "left": 496.25,
+              "right": 514.2447910308838,
+              "top": 26.66666603088379,
+              "width": 17.99479103088379,
+              "x": 496.25,
+              "y": 26.66666603088379
+            },
+            "text": "INPUT"
+          },
+          {
+            "rect": {
+              "bottom": 44.66145706176758,
+              "height": 17.99479103088379,
+              "left": 573.9973754882812,
+              "right": 591.992166519165,
+              "top": 26.66666603088379,
+              "width": 17.99479103088379,
+              "x": 573.9973754882812,
+              "y": 26.66666603088379
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1085
+      },
+      "status": "passed"
+    },
+    {
+      "role": "admin",
+      "route": "/settings",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "CENTRE BRANDING Shared centre presentation is separate from your personal appearance. This demo role preview does not authorize changes.",
+        "Centre Admin preview · Current demo centre only. Changes are stored on this device and are not saved to Supabase, shared with other devices or authorized by a real sign-in.",
+        "Optional · does not change the app accent",
+        "Preview your draft first. Apply updates this device-local demo only.",
+        "Hansi Branch",
+        "The sidebar and workspace header use applied branding for this browser."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 107.109375
+        },
+        {
+          "text": "Appearance",
+          "top": 155.625
+        },
+        {
+          "text": "Centre branding",
+          "top": 737.7473754882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 7.369792938232422,
+              "height": 35.078125,
+              "left": 283.99737548828125,
+              "right": 393.6458129882813,
+              "top": -27.708332061767575,
+              "width": 109.6484375,
+              "x": 283.99737548828125,
+              "y": -27.708332061767575
+            },
+            "text": "Appearance"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 183.3333282470703,
+        "settings": {
+          "bottom": 119.6484375,
+          "height": 49.6484375,
+          "left": 283.99737548828125,
+          "right": 1383.5025024414062,
+          "top": 70,
+          "width": 1099.505126953125,
+          "x": 283.99737548828125,
+          "y": 70
+        }
+      },
+      "status": "passed",
+      "screenshot": "admin-1440-original--settings.jpg"
+    },
+    {
+      "role": "manager",
+      "route": "/",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "These date calculations use fictional fixtures for interface preview. No operational counts, payment totals or renewal history are connected.",
+        "Fictional preview values. No live operational data is connected.",
+        "Fictional preview values. No live operational data is connected.",
+        "No activity available yet."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Dashboard",
+          "top": 101.9921875
+        },
+        {
+          "text": "Enrollment renewals",
+          "top": 320.0650939941406
+        },
+        {
+          "text": "Daily admissions",
+          "top": 531.5103759765625
+        },
+        {
+          "text": "Renewal queue preview",
+          "top": 531.5103759765625
+        },
+        {
+          "text": "Recent Activity",
+          "top": 719.765625
+        }
+      ],
+      "theme": "light",
+      "title": "Dashboard",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed",
+      "screenshot": "manager-1440-original--.jpg"
+    },
+    {
+      "role": "manager",
+      "route": "/students",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Fictional directory records",
+        "Fictional directory records",
+        "Enrollment periods · not unique students",
+        "Unavailable · fee records not connected",
+        "Renewals due within 30 days · demo",
+        "Fictional enrollment periods",
+        "With active demo enrollments",
+        "Demo reference: DEMO-001",
+        "Parent: Names unavailable",
+        "00000 00001",
+        "Batch roll: 101",
+        "Active",
+        "Demo reference: DEMO-002",
+        "Parent: Names unavailable",
+        "00000 00002",
+        "Batch roll: 201",
+        "Renewal Due",
+        "Demo reference: DEMO-003",
+        "Parent: Names unavailable",
+        "00000 00003",
+        "Batch roll: 301",
+        "Renewal Due",
+        "Demo reference: DEMO-004",
+        "Parent: Names unavailable",
+        "00000 00004",
+        "Batch roll: 401",
+        "Expired Enrollment",
+        "Demo reference: DEMO-005",
+        "Parent: Names unavailable",
+        "00000 00005",
+        "Batch roll: 501",
+        "Active",
+        "5 of 5 fictional students · showing 5 on this page",
+        "Demo Student IDs are illustrative only. Permanent Student IDs and batch rolls require secure centre-scoped backend allocation; Registration Numbers are entered manually by centre staff."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Students",
+          "top": 101.9921875
+        },
+        {
+          "text": "Student overview",
+          "top": 157.01821899414062
+        },
+        {
+          "text": "Student directory",
+          "top": 483.0338439941406
+        }
+      ],
+      "theme": "light",
+      "title": "Students",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 530.8333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/students/new",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Demo preview — admission is not saved.",
+        "Period ends —",
+        "Optional for cash; required for other modes.",
+        "Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Add Student",
+          "top": 101.9921875
+        },
+        {
+          "text": "Fees & Payment",
+          "top": 702.7734375
+        }
+      ],
+      "theme": "light",
+      "title": "Add Student",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 103.76301956176758,
+              "height": 40,
+              "left": 406.5755004882813,
+              "right": 826.7447509765625,
+              "top": 63.76301956176758,
+              "width": 420.1692504882813,
+              "x": 406.5755004882813,
+              "y": 63.76301956176758
+            },
+            "text": "Student Full Name"
+          },
+          {
+            "rect": {
+              "bottom": 103.76301956176758,
+              "height": 40,
+              "left": 840.7421875,
+              "right": 1260.9244689941406,
+              "top": 63.76301956176758,
+              "width": 420.1822814941406,
+              "x": 840.7421875,
+              "y": 63.76301956176758
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 206.66665649414065
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/students/DEMO-001",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Fictional demo profile · DEMO-001 is a preview reference, not an official student ID. No records are connected.",
+        "Unsaved request only. A centre Admin/Manager must have permission; the destination teacher may need to confirm. No batch or history changes are made.",
+        "A real transfer must close the old membership, append a destination membership and roll history, preserve fees/attendance/results, and write an audit event atomically. The permanent Student ID must remain unchanged.",
+        "No historical renewal events are included in this fictional fixture. Real renewals must append history and preserve previous periods and roll assignments.",
+        "No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.",
+        "Both exports are marked DEMO DATA. The summary shows unavailable values; payment history contains no transaction rows, receipts or staff identities.",
+        "No live attendance register or percentage is available.",
+        "No live assessments or published marks are available.",
+        "No student-specific notices are available in this demo.",
+        "Fictional unsaved preview. Real conduct records require verified centre authorization and batch-scoped teacher access. This client interface does not enforce permissions.",
+        "Not shown in this demo. Access requires an explicit centre authorization."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Aarav Example",
+          "top": 161.47134399414062
+        },
+        {
+          "text": "Personal details",
+          "top": 320.01300048828125
+        },
+        {
+          "text": "Academic & admission details",
+          "top": 730.1041259765625
+        },
+        {
+          "text": "Current batch enrollment",
+          "top": 1140.1953125
+        },
+        {
+          "text": "Batch transfer",
+          "top": 1485.3385009765625
+        },
+        {
+          "text": "Batch & renewal history",
+          "top": 1635.325439453125
+        },
+        {
+          "text": "Fees & payments",
+          "top": 1872.278564453125
+        },
+        {
+          "text": "Attendance",
+          "top": 2338.359375
+        },
+        {
+          "text": "Tests & Results",
+          "top": 2508.65869140625
+        },
+        {
+          "text": "Notices & Updates",
+          "top": 2678.958251953125
+        },
+        {
+          "text": "Conduct Reports",
+          "top": 2849.2578125
+        },
+        {
+          "text": "Internal notes",
+          "top": 2999.24462890625
+        }
+      ],
+      "theme": "light",
+      "title": "Aarav Example",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1165
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/students/DEMO-001/edit",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Aarav Example · Fictional demo record",
+        "Demo preview — admission is not saved.",
+        "Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Edit student details",
+          "top": 155.9895782470703
+        }
+      ],
+      "theme": "light",
+      "title": "Edit student details",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/batches",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO DATA Batch dates and counts below are fictional previews. No dates, capacity or assignments are saved.",
+        "Four default batches plus the existing fictional custom batch. No sub-batches.",
+        "Scheduled batch dates do not rewrite each student's enrollment validity period.",
+        "Custom batches must be classified NEW or OLD for registration counters. No sub-batch categories are used. This preview does not create a batch.",
+        "Teacher assignment, capacity management, batch edits and enrollment records require authenticated centre permissions and backend transactions."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Batches",
+          "top": 101.9921875
+        },
+        {
+          "text": "Batch catalogue",
+          "top": 250.49478149414065
+        },
+        {
+          "text": "Preview date changes",
+          "top": 754.9478759765625
+        }
+      ],
+      "theme": "light",
+      "title": "Batches",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 52.83854007720947,
+              "height": 41.65364456176758,
+              "left": 283.99737548828125,
+              "right": 1383.5025024414062,
+              "top": 11.184895515441896,
+              "width": 1099.505126953125,
+              "x": 283.99737548828125,
+              "y": 11.184895515441896
+            },
+            "text": "DEMO DATA Batch dates and counts below are fictional previews. No dates, capacity or assignments are"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 145.8333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/attendance",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO PREVIEW No teacher assignments or attendance records are connected. Marks stay in this page session and are never submitted.",
+        "Identify a student, confirm the details, then mark a draft status.",
+        "Enter a roll number; name or demo reference also works as a fallback.",
+        "New General · 2026-10-15 · 0 marked of 1 active demo students",
+        "Roll audit: 0 missing · 0 duplicate numbers.",
+        "DEMO-001 · batch roll 101"
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rapid Attendance · preview",
+          "top": 246.4973907470703
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/tests-results",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "A single unsaved assessment workflow for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 101.9921875
+        },
+        {
+          "text": "Create test preview",
+          "top": 248.4895782470703
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 649.0625
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 954.3880004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 25.7421875,
+              "height": 20.5859375,
+              "left": 306.8229064941406,
+              "right": 595.2864379882812,
+              "top": 5.15625,
+              "width": 288.4635314941406,
+              "x": 306.8229064941406,
+              "y": 5.15625
+            },
+            "text": "Create test preview"
+          },
+          {
+            "rect": {
+              "bottom": 63.359375,
+              "height": 17.6171875,
+              "left": 306.8229064941406,
+              "right": 595.2864379882812,
+              "top": 45.7421875,
+              "width": 288.4635314941406,
+              "x": 306.8229064941406,
+              "y": 45.7421875
+            },
+            "text": "A single unsaved assessment workflow for the selected batch."
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 243.3333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/homework",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Homework and submission tracking will appear here after assigned-batch permissions are implemented."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 101.9921875
+        },
+        {
+          "text": "One place for assigned work",
+          "top": 193.8411407470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/fees",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO PREVIEW No fee balances, payment history, receipts or confirmed transactions are connected. Values entered below are fictional scenarios only.",
+        "Fee status follows promised payment dates, independently of enrollment expiry.",
+        "0 connected",
+        "0 connected",
+        "0 connected",
+        "DEMO-001 · Registration Number unavailable · New General",
+        "DEMO-002 · Registration Number unavailable · Old General",
+        "DEMO-003 · Registration Number unavailable · New Guarantee",
+        "DEMO-004 · Registration Number unavailable · Old Guarantee",
+        "DEMO-005 · Registration Number unavailable · Weekend Practice (demo custom)",
+        "Student names may be searched from the fictional directory, but fees and balances stay unavailable until authorized records are connected.",
+        "Real installment posting must be atomic, idempotent, authorized for this centre and enrollment, append-only with corrections/reversals, and audited by trusted server logic using integer paise."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Fees",
+          "top": 101.9921875
+        },
+        {
+          "text": "Fee register",
+          "top": 247.95571899414065
+        }
+      ],
+      "theme": "light",
+      "title": "Fees",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/staff",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Staff records, approved role administration and teacher assignments will live here. Access changes require reviewed authorization and audit trails."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Staff",
+          "top": 101.9921875
+        },
+        {
+          "text": "A dedicated space for your team",
+          "top": 193.8411407470703
+        }
+      ],
+      "theme": "light",
+      "title": "Staff",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/ics-updates",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Current timetable images will be pinned here, with dates and readable text alternatives.",
+        "Centre notices and WhatsApp-style photo statuses will appear here. Previous timetable images will remain available in an accessible history. Publishing, uploads and history are not connected."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "ICS Updates",
+          "top": 101.9921875
+        },
+        {
+          "text": "Pinned current timetables",
+          "top": 181.8489532470703
+        },
+        {
+          "text": "Updates, without the clutter",
+          "top": 351.875
+        }
+      ],
+      "theme": "light",
+      "title": "ICS Updates",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/chatrooms",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Access defaults to deny. An authorized backend must enforce membership on every read and send request.",
+        "Abusive language · Medium · simulated · Status: New",
+        "A fictional message excerpt for the moderator preview.",
+        "No real incident or notification is recorded. Backend review actions require audit logging and batch scope."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rooms",
+          "top": 251.6536407470703
+        },
+        {
+          "text": "New General",
+          "top": 252.65625
+        },
+        {
+          "text": "Moderation review · demo",
+          "top": 626.6536254882812
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "manager",
+      "route": "/settings",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison material, split and lighting affect these specimens only. They are not saved or applied to the workspace.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 107.109375
+        },
+        {
+          "text": "Appearance",
+          "top": 155.625
+        },
+        {
+          "text": "Centre branding",
+          "top": 681.2630004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0,
+        "settings": {
+          "bottom": 143.6328125,
+          "height": 49.6484375,
+          "left": 283.99737548828125,
+          "right": 1383.5025024414062,
+          "top": 93.984375,
+          "width": 1099.505126953125,
+          "x": 283.99737548828125,
+          "y": 93.984375
+        }
+      },
+      "status": "passed",
+      "screenshot": "manager-1440-original--settings.jpg"
+    },
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "SIMULATED No production monitoring, telemetry, reports, notifications or connected centres are available.",
+        "Fictional local report fixtures; no telemetry is connected.",
+        "Fictional demo count",
+        "Fictional demo count",
+        "Fictional demo count",
+        "Fictional demo count",
+        "Local preview state only. No report was sent.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Notes and status changes are temporary page state, not saved.",
+        "Provider-neutral future telemetry boundary.",
+        "Errors are not being collected. A future adapter must redact sensitive values, require authenticated ingestion, rate-limit and deduplicate submissions, and enforce retention.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Unconfigured services stay unknown.",
+        "Local changelog preview.",
+        "Appearance, admissions and management workflows are frontend demos. No deployment is connected.",
+        "Internal notes are not published to users.",
+        "Fictional queue, no real submissions.",
+        "No feedback has been received by a backend.",
+        "Technical alert preview with minimal metadata.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Unavailable until a secured notification service is configured."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 101.9921875
+        },
+        {
+          "text": "Reports by severity",
+          "top": 316.4713439941406
+        },
+        {
+          "text": "Bug Reports",
+          "top": 597.0051879882812
+        },
+        {
+          "text": "Application Errors",
+          "top": 1247.421875
+        },
+        {
+          "text": "System Health",
+          "top": 1507.825439453125
+        },
+        {
+          "text": "Release Updates",
+          "top": 1756.536376953125
+        },
+        {
+          "text": "Feedback",
+          "top": 1949.2838134765625
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 2069.4140625
+        },
+        {
+          "text": "Centre Overview",
+          "top": 2210.53369140625
+        },
+        {
+          "text": "Developer Settings",
+          "top": 2419.94775390625
+        }
+      ],
+      "theme": "light",
+      "title": "Developer Console",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 2.7734375,
+              "height": 13.489583015441896,
+              "left": 691.8880004882812,
+              "right": 1355.8333129882812,
+              "top": -10.716145515441896,
+              "width": 663.9453125,
+              "x": 691.8880004882812,
+              "y": -10.716145515441896
+            },
+            "text": "Notes and status changes are temporary page state, not saved."
+          },
+          {
+            "rect": {
+              "bottom": 89.24478530883789,
+              "height": 20.989582061767575,
+              "left": 299.8307189941406,
+              "right": 473.47654724121094,
+              "top": 68.25520324707031,
+              "width": 173.6458282470703,
+              "x": 299.8307189941406,
+              "y": 68.25520324707031
+            },
+            "text": "Application Errors"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1179.1666259765625
+      },
+      "status": "passed",
+      "screenshot": "developer-1440-original--developer.jpg"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 107.109375
+        },
+        {
+          "text": "Appearance",
+          "top": 155.625
+        },
+        {
+          "text": "Centre branding",
+          "top": 681.2630004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0,
+        "settings": {
+          "bottom": 143.6328125,
+          "height": 49.6484375,
+          "left": 283.99737548828125,
+          "right": 1383.5025024414062,
+          "top": 93.984375,
+          "width": 1099.505126953125,
+          "x": 283.99737548828125,
+          "y": 93.984375
+        }
+      },
+      "status": "passed",
+      "screenshot": "developer-1440-original--settings.jpg"
+    },
+    {
+      "role": "teacher",
+      "route": "/teacher-dashboard",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "TEACHER PREVIEW Assignments and rosters are not connected.",
+        "No verified assignments",
+        "Roster unavailable",
+        "No register connected",
+        "No assignments connected",
+        "No assessments connected",
+        "No assigned-batch incidents"
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Teacher Dashboard",
+          "top": 101.9921875
+        },
+        {
+          "text": "Assigned Batches",
+          "top": 252.65625
+        },
+        {
+          "text": "Students",
+          "top": 252.65625
+        },
+        {
+          "text": "Attendance",
+          "top": 252.65625
+        },
+        {
+          "text": "Homework",
+          "top": 329.6484375
+        },
+        {
+          "text": "Tests & Results",
+          "top": 329.6484375
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 329.6484375
+        }
+      ],
+      "theme": "light",
+      "title": "Teacher Dashboard",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed",
+      "screenshot": "teacher-1440-original--teacher-dashboard.jpg"
+    },
+    {
+      "role": "teacher",
+      "route": "/attendance",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "TEACHER PREVIEW No verified teacher-to-batch assignments are connected, so no student roster is available.",
+        "Rapid Attendance becomes available only after a server-verified teacher assignment is provided. Centre Admin demo workflows can preview fictional roll matching."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 101.9921875
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/tests-results",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "A single unsaved assessment workflow for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 101.9921875
+        },
+        {
+          "text": "Create test preview",
+          "top": 248.4895782470703
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 649.0625
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 954.3880004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 34.19270706176758,
+              "height": 17.6171875,
+              "left": 306.8229064941406,
+              "right": 595.2864379882812,
+              "top": 16.575519561767578,
+              "width": 288.4635314941406,
+              "x": 306.8229064941406,
+              "y": 16.575519561767578
+            },
+            "text": "A single unsaved assessment workflow for the selected batch."
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 272.5
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/homework",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Homework and submission tracking will appear here after assigned-batch permissions are implemented."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 101.9921875
+        },
+        {
+          "text": "One place for assigned work",
+          "top": 193.8411407470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/chatrooms",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Access defaults to deny. An authorized backend must enforce membership on every read and send request.",
+        "No verified teacher batch assignments or incidents are connected. No message content is exposed in this inbox."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rooms",
+          "top": 251.6536407470703
+        },
+        {
+          "text": "New General",
+          "top": 252.65625
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 626.6536254882812
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/settings",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 107.109375
+        },
+        {
+          "text": "Appearance",
+          "top": 155.625
+        },
+        {
+          "text": "Centre branding",
+          "top": 681.2630004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0,
+        "settings": {
+          "bottom": 143.6328125,
+          "height": 49.6484375,
+          "left": 283.99737548828125,
+          "right": 1383.5025024414062,
+          "top": 93.984375,
+          "width": 1099.505126953125,
+          "x": 283.99737548828125,
+          "y": 93.984375
+        }
+      },
+      "status": "passed",
+      "screenshot": "teacher-1440-original--settings.jpg"
+    },
+    {
+      "role": "studentA",
+      "route": "/student-portal",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "FICTIONAL PREVIEW No authenticated student profile or private records are connected.",
+        "Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores only; no assessments are connected.",
+        "New General · timetable not connected.",
+        "Fictional demo attendance preview.",
+        "Sample marks only; published results are not connected.",
+        "Personal fee records and payment history are not connected.",
+        "Verified profile details require secure sign-in.",
+        "Fictional completion preview; assignments are not connected.",
+        "Centre notices and current timetable images are not published.",
+        "Student records must be bound to one verified student account server-side. All visualized figures above are fictional and frontend-only."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 101.9921875
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 336.640625
+        },
+        {
+          "text": "Fees",
+          "top": 458.6848754882813
+        },
+        {
+          "text": "Attendance",
+          "top": 458.6848754882813
+        },
+        {
+          "text": "Homework",
+          "top": 713.3072509765625
+        },
+        {
+          "text": "Recent tests",
+          "top": 713.3072509765625
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 868.4244384765625
+        },
+        {
+          "text": "Attendance",
+          "top": 868.4244384765625
+        },
+        {
+          "text": "Tests & Results",
+          "top": 993.4244384765624
+        },
+        {
+          "text": "Fees",
+          "top": 993.4244384765624
+        },
+        {
+          "text": "Profile",
+          "top": 1118.4244384765625
+        },
+        {
+          "text": "Homework",
+          "top": 1118.4244384765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1243.4244384765625
+        }
+      ],
+      "theme": "light",
+      "title": "Student Home",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 545.8333129882812
+      },
+      "status": "passed",
+      "screenshot": "studentA-1440-original--student-portal.jpg"
+    },
+    {
+      "role": "studentA",
+      "route": "/chatrooms",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Access defaults to deny. An authorized backend must enforce membership on every read and send request."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rooms",
+          "top": 251.6536407470703
+        },
+        {
+          "text": "New General",
+          "top": 252.65625
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentA",
+      "route": "/settings",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 107.109375
+        },
+        {
+          "text": "Appearance",
+          "top": 155.625
+        },
+        {
+          "text": "Centre branding",
+          "top": 681.2630004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0,
+        "settings": {
+          "bottom": 143.6328125,
+          "height": 49.6484375,
+          "left": 283.99737548828125,
+          "right": 1383.5025024414062,
+          "top": 93.984375,
+          "width": 1099.505126953125,
+          "x": 283.99737548828125,
+          "y": 93.984375
+        }
+      },
+      "status": "passed",
+      "screenshot": "studentA-1440-original--settings.jpg"
+    },
+    {
+      "role": "studentB",
+      "route": "/student-portal",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "FICTIONAL PREVIEW No authenticated student profile or private records are connected.",
+        "Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores only; no assessments are connected.",
+        "New General · timetable not connected.",
+        "Fictional demo attendance preview.",
+        "Sample marks only; published results are not connected.",
+        "Personal fee records and payment history are not connected.",
+        "Verified profile details require secure sign-in.",
+        "Fictional completion preview; assignments are not connected.",
+        "Centre notices and current timetable images are not published.",
+        "Student records must be bound to one verified student account server-side. All visualized figures above are fictional and frontend-only."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 101.9921875
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 336.640625
+        },
+        {
+          "text": "Fees",
+          "top": 458.6848754882813
+        },
+        {
+          "text": "Attendance",
+          "top": 458.6848754882813
+        },
+        {
+          "text": "Homework",
+          "top": 713.3072509765625
+        },
+        {
+          "text": "Recent tests",
+          "top": 713.3072509765625
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 868.4244384765625
+        },
+        {
+          "text": "Attendance",
+          "top": 868.4244384765625
+        },
+        {
+          "text": "Tests & Results",
+          "top": 993.4244384765624
+        },
+        {
+          "text": "Fees",
+          "top": 993.4244384765624
+        },
+        {
+          "text": "Profile",
+          "top": 1118.4244384765625
+        },
+        {
+          "text": "Homework",
+          "top": 1118.4244384765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1243.4244384765625
+        }
+      ],
+      "theme": "light",
+      "title": "Student Home",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 32.981770833954215,
+              "height": 33.0078125,
+              "left": 301.9921875,
+              "right": 1365.5078125,
+              "top": -0.02604166604578495,
+              "width": 1063.515625,
+              "x": 301.9921875,
+              "y": -0.02604166604578495
+            },
+            "text": "Good morning, Aarav"
+          },
+          {
+            "rect": {
+              "bottom": 75.19530868530273,
+              "height": 37.21353912353515,
+              "left": 301.9921875,
+              "right": 921.9921875,
+              "top": 37.98176956176758,
+              "width": 620,
+              "x": 301.9921875,
+              "y": 37.98176956176758
+            },
+            "text": "Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollm"
+          }
+        ],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 336.6666564941406
+      },
+      "status": "passed",
+      "screenshot": "studentB-1440-original--student-portal.jpg"
+    },
+    {
+      "role": "studentB",
+      "route": "/chatrooms",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Access defaults to deny. An authorized backend must enforce membership on every read and send request."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 101.9921875
+        },
+        {
+          "text": "Rooms",
+          "top": 251.6536407470703
+        },
+        {
+          "text": "New General",
+          "top": 252.65625
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentB",
+      "route": "/settings",
+      "requestedWidth": 1440,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 1427,
+      "header": {
+        "bottom": 70,
+        "height": 70,
+        "left": 0,
+        "right": 1427.5,
+        "top": 0,
+        "width": 1427.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 107.109375
+        },
+        {
+          "text": "Appearance",
+          "top": 155.625
+        },
+        {
+          "text": "Centre branding",
+          "top": 681.2630004882812
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 1440,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 70,
+          "height": 70,
+          "left": 0,
+          "right": 1427.5,
+          "top": 0,
+          "width": 1427.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0,
+        "settings": {
+          "bottom": 143.6328125,
+          "height": 49.6484375,
+          "left": 283.99737548828125,
+          "right": 1383.5025024414062,
+          "top": 93.984375,
+          "width": 1099.505126953125,
+          "x": 283.99737548828125,
+          "y": 93.984375
+        }
+      },
+      "status": "passed",
+      "screenshot": "studentB-1440-original--settings.jpg"
+    },
+    {
+      "role": "studentA",
+      "route": "/student-portal",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "FICTIONAL PREVIEW No authenticated student profile or private records are connected.",
+        "Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollment not connected.",
+        "Paid",
+        "No payment or receipt is recorded.",
+        "Present",
+        "Sample attendance totals, not a real register.",
+        "8 of 10 fictional tasks complete.",
+        "Sample scores only; no assessments are connected.",
+        "New General · timetable not connected.",
+        "Fictional demo attendance preview.",
+        "Sample marks only; published results are not connected.",
+        "Personal fee records and payment history are not connected.",
+        "Verified profile details require secure sign-in.",
+        "Fictional completion preview; assignments are not connected.",
+        "Centre notices and current timetable images are not published.",
+        "Student records must be bound to one verified student account server-side. All visualized figures above are fictional and frontend-only."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Student Home",
+          "top": 83.984375
+        },
+        {
+          "text": "Good morning, Aarav",
+          "top": 339.6744689941406
+        },
+        {
+          "text": "Fees",
+          "top": 472.8125
+        },
+        {
+          "text": "Attendance",
+          "top": 727.4348754882812
+        },
+        {
+          "text": "Homework",
+          "top": 982.0572509765624
+        },
+        {
+          "text": "Recent tests",
+          "top": 1128.177001953125
+        },
+        {
+          "text": "Classes & Batch",
+          "top": 1281.2890625
+        },
+        {
+          "text": "Attendance",
+          "top": 1387.278564453125
+        },
+        {
+          "text": "Tests & Results",
+          "top": 1493.2681884765625
+        },
+        {
+          "text": "Fees",
+          "top": 1599.2578125
+        },
+        {
+          "text": "Profile",
+          "top": 1705.247314453125
+        },
+        {
+          "text": "Homework",
+          "top": 1811.2369384765625
+        },
+        {
+          "text": "ICS Updates",
+          "top": 1917.2265625
+        }
+      ],
+      "theme": "light",
+      "title": "Student Home",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 804.1666259765625
+      },
+      "status": "passed",
+      "screenshot": "studentA-320-original--student-portal.jpg"
+    },
+    {
+      "role": "studentA",
+      "route": "/chatrooms",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Access defaults to deny. An authorized backend must enforce membership on every read and send request."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 274.1796875
+        },
+        {
+          "text": "New General",
+          "top": 361.1328125
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 5.403646469116211,
+              "height": 28.0859375,
+              "left": 15.989583015441896,
+              "right": 131.0416612625122,
+              "top": -22.68229103088379,
+              "width": 115.05207824707033,
+              "x": 15.989583015441896,
+              "y": -22.68229103088379
+            },
+            "text": "Chatrooms"
+          },
+          {
+            "rect": {
+              "bottom": 127.52603912353516,
+              "height": 91.1328125,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": 36.39322662353515,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": 36.39322662353515
+            },
+            "text": "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 106.66666412353516
+      },
+      "status": "passed"
+    },
+    {
+      "role": "studentA",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison material, split and lighting affect these specimens only. They are not saved or applied to the workspace.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1033.2421875
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 285.83331298828125,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "studentA-320-original--settings.jpg"
+    },
+    {
+      "role": "teacher",
+      "route": "/teacher-dashboard",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "TEACHER PREVIEW Assignments and rosters are not connected.",
+        "No verified assignments",
+        "Roster unavailable",
+        "No register connected",
+        "No assignments connected",
+        "No assessments connected",
+        "No assigned-batch incidents"
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Teacher Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Assigned Batches",
+          "top": 242.1875
+        },
+        {
+          "text": "Students",
+          "top": 319.1796875
+        },
+        {
+          "text": "Attendance",
+          "top": 396.171875
+        },
+        {
+          "text": "Homework",
+          "top": 473.1640625
+        },
+        {
+          "text": "Tests & Results",
+          "top": 550.15625
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 627.1484375
+        }
+      ],
+      "theme": "light",
+      "title": "Teacher Dashboard",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 22.903645992279053,
+              "height": 28.0859375,
+              "left": 15.989583015441896,
+              "right": 218.94530200958252,
+              "top": -5.182291507720947,
+              "width": 202.95571899414065,
+              "x": 15.989583015441896,
+              "y": -5.182291507720947
+            },
+            "text": "Teacher Dashboard"
+          },
+          {
+            "rect": {
+              "bottom": 112.03124618530272,
+              "height": 58.13801956176758,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": 53.89322662353515,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": 53.89322662353515
+            },
+            "text": "TEACHER PREVIEW Assignments and rosters are not connected."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 89.16666412353516
+      },
+      "status": "passed",
+      "screenshot": "teacher-320-original--teacher-dashboard.jpg"
+    },
+    {
+      "role": "teacher",
+      "route": "/attendance",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "TEACHER PREVIEW No verified teacher-to-batch assignments are connected, so no student roster is available.",
+        "Rapid Attendance becomes available only after a server-verified teacher assignment is provided. Centre Admin demo workflows can preview fictional roll matching."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 83.984375
+        }
+      ],
+      "theme": "light",
+      "title": "Attendance",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/tests-results",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "A single unsaved assessment workflow for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 83.984375
+        },
+        {
+          "text": "Create test preview",
+          "top": 271.015625
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 993.6067504882812
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 1446.6796875
+        }
+      ],
+      "theme": "light",
+      "title": "Tests & Results",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 73.30728912353516,
+              "height": 38.76301956176758,
+              "left": 188.6848907470703,
+              "right": 276.67967987060547,
+              "top": 34.54426956176758,
+              "width": 87.99478912353516,
+              "x": 188.6848907470703,
+              "y": 34.54426956176758
+            },
+            "text": "Marks for Aarav Example"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 750.8333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/homework",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "Homework and submission tracking will appear here after assigned-batch permissions are implemented."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 83.984375
+        },
+        {
+          "text": "One place for assigned work",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "light",
+      "title": "Homework",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/chatrooms",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Access defaults to deny. An authorized backend must enforce membership on every read and send request.",
+        "No verified teacher batch assignments or incidents are connected. No message content is exposed in this inbox."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 274.1796875
+        },
+        {
+          "text": "New General",
+          "top": 361.1328125
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 795.1301879882812
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 60.02604293823242,
+              "height": 91.1328125,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": -31.106769561767575,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": -31.106769561767575
+            },
+            "text": "DEMO ONLY Fictional conversations and local UI state. No messages are sent, stored or moderated by a"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 174.16665649414062
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison material, split and lighting affect these specimens only. They are not saved or applied to the workspace.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1033.2421875
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 285.83331298828125,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "teacher-320-original--settings.jpg"
+    },
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "SIMULATED No production monitoring, telemetry, reports, notifications or connected centres are available.",
+        "Fictional local report fixtures; no telemetry is connected.",
+        "Fictional demo count",
+        "Fictional demo count",
+        "Fictional demo count",
+        "Fictional demo count",
+        "Local preview state only. No report was sent.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Notes and status changes are temporary page state, not saved.",
+        "Provider-neutral future telemetry boundary.",
+        "Errors are not being collected. A future adapter must redact sensitive values, require authenticated ingestion, rate-limit and deduplicate submissions, and enforce retention.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Unconfigured services stay unknown.",
+        "Local changelog preview.",
+        "Appearance, admissions and management workflows are frontend demos. No deployment is connected.",
+        "Internal notes are not published to users.",
+        "Fictional queue, no real submissions.",
+        "No feedback has been received by a backend.",
+        "Technical alert preview with minimal metadata.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Unavailable until a secured notification service is configured."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 83.984375
+        },
+        {
+          "text": "Reports by severity",
+          "top": 335
+        },
+        {
+          "text": "Bug Reports",
+          "top": 716.9921875
+        },
+        {
+          "text": "Application Errors",
+          "top": 2006.5234375
+        },
+        {
+          "text": "System Health",
+          "top": 2433.177001953125
+        },
+        {
+          "text": "Release Updates",
+          "top": 2796.302001953125
+        },
+        {
+          "text": "Feedback",
+          "top": 2996.5234375
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 3110.637939453125
+        },
+        {
+          "text": "Centre Overview",
+          "top": 3310.22119140625
+        },
+        {
+          "text": "Developer Settings",
+          "top": 3636.90087890625
+        }
+      ],
+      "theme": "light",
+      "title": "Developer Console",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1600.833251953125
+      },
+      "status": "passed",
+      "screenshot": "developer-320-original--developer.jpg"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": null,
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison material, split and lighting affect these specimens only. They are not saved or applied to the workspace.",
+        "Preview updates the workspace. Apply appearance to save for this demo user.",
+        "Reflects your live background and glass settings. Holding the floating lens pauses that lens only.",
+        "Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1033.2421875
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 285.83331298828125,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "developer-320-original--settings.jpg"
+    }
+  ],
+  "themes": {}
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "1eb401870b90c3e4db134609928077b1686a6f87",
+  "baseURL": "http://localhost:3000",
+  "updatedAt": "2026-10-14T16:02:48.034Z",
+  "summary": {
+    "passed": 3,
+    "failed": 1
+  },
+  "settingsVisualApproval": false,
+  "scenarioFilter": [
+    "manager/mobile320: valid fictional admission review and unchanged directory",
+    "manager/mobile320: batch catalogue and validation",
+    "admin/desktop: assessment validation and unpublished preview",
+    "admin/mobile320: assessment validation and unpublished preview",
+    "manager/desktop: assessment validation and unpublished preview",
+    "manager/mobile320: assessment validation and unpublished preview",
+    "admin/mobile320: OpenGlass sliders and comparison-only scope",
+    "admin/mobile320: floating lens keyboard pause/resume",
+    "admin/mobile320: floating lens pointer pause/resume",
+    "manager/mobile320: OpenGlass sliders and comparison-only scope",
+    "manager/mobile320: floating lens keyboard pause/resume",
+    "manager/mobile320: floating lens pointer pause/resume"
+  ],
+  "visualComparison": "Reference screenshots only; no pixel-diff assertion. Motion remains enabled.",
+  "results": [
+    {
+      "name": "manager/mobile320: valid fictional admission review and unchanged directory",
+      "status": "failed",
+      "durationMs": 5700,
+      "error": "AssertionError [ERR_ASSERTION]: Keyboard entry must reach the intended input\n\nfalse !== true\n\n    at enterText (C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:28:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:207:144\n    at async check (C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:43:28)\n    at async Object.workflows (C:\\Projects\\ics-hansi\\scripts\\phase1\\browser-suite.mjs:204:5)\n    at async C:\\Projects\\ics-hansi\\.node_repl_cell_50.mjs:30:306",
+      "screenshot": "failures/manager-mobile320-valid-fictional-admission-review-and-unchanged-directory.jpg"
+    },
+    {
+      "name": "manager/mobile320: batch catalogue and validation",
+      "status": "passed",
+      "durationMs": 1000
+    },
+    {
+      "name": "manager/mobile320: assessment validation and unpublished preview",
+      "status": "passed",
+      "durationMs": 3364
+    },
+    {
+      "name": "cleanup: original demo identity and viewport",
+      "status": "passed",
+      "durationMs": 1162
+    }
+  ],
+  "screenshots": [],
+  "notes": []
+}

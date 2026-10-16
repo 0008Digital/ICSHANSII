@@ -1,0 +1,11 @@
+C:\Projects\ics-hansi\qa-artifacts\phase2d\admin-desktop-lens.jpg
+C:\Projects\ics-hansi\qa-artifacts\phase2d\admin-mobile320-lens.jpg
+C:\Projects\ics-hansi\qa-artifacts\phase2d\browser-results.json
+C:\Projects\ics-hansi\qa-artifacts\phase2d\build.log
+C:\Projects\ics-hansi\qa-artifacts\phase2d\eslint.log
+C:\Projects\ics-hansi\qa-artifacts\phase2d\fresh-pointer-keyboard-results.json
+C:\Projects\ics-hansi\qa-artifacts\phase2d\manager-desktop-lens.jpg
+C:\Projects\ics-hansi\qa-artifacts\phase2d\manager-mobile320-lens.jpg
+C:\Projects\ics-hansi\qa-artifacts\phase2d\node-tests.log
+C:\Projects\ics-hansi\qa-artifacts\phase2d\results.md
+C:\Projects\ics-hansi\qa-artifacts\phase2d\typescript.log

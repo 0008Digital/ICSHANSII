@@ -6,5 +6,5 @@ import { GlassSurface } from "./glass";
 
 export function PersonalSettings() {
  const {role}=useWorkspaceRolePreview();
- return <><AppearanceCustomizer/>{role==="admin"?<><p className="demo-banner"><strong>CENTRE BRANDING</strong> Shared centre presentation is separate from your personal appearance. This demo role preview does not authorize changes.</p><BrandingEditor/></>:<GlassSurface className="personal-branding-boundary"><h2>Centre branding</h2><p>Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it.</p></GlassSurface>}</>;
+ return <><AppearanceCustomizer/>{role==="admin"?<><p className="demo-banner"><strong>CENTRE BRANDING</strong> Separate from personal appearance. Preview roles do not grant real centre permissions.</p><BrandingEditor/></>:<GlassSurface className="personal-branding-boundary"><h2>Centre branding</h2><p>Managed by the Centre Admin. Personal appearance does not change centre branding.</p></GlassSurface>}</>;
 }

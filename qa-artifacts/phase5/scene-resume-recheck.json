@@ -1,0 +1,182 @@
+{
+  "off": {
+    "backdrop": "none",
+    "clear": {
+      "background": "color(srgb 1 1 1 / 0.671985)",
+      "clip": "inset(0px 50% 0px 0px)",
+      "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+    },
+    "comparison": {
+      "background": "color(srgb 1 1 1 / 0.732)",
+      "clip": "inset(0px 0px 0px 50%)",
+      "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+      "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+    },
+    "decorative": {
+      "pointer": "none",
+      "state": "paused"
+    },
+    "header": {
+      "background": "color(srgb 1 1 1 / 0.671985)",
+      "clip": "none",
+      "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+    },
+    "image": null,
+    "lens": {
+      "animation": "landing-morph-b",
+      "pressed": "false",
+      "radius": "53.2971% 46.7029% 58.242% 41.758% / 46.9372% 48.9066% 51.0934% 53.0628%",
+      "state": "paused",
+      "transform": "none"
+    },
+    "media": [
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 1.099671
+      },
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0.499595
+      }
+    ],
+    "mode": "full",
+    "osReduced": false,
+    "pane": {
+      "background": "color(srgb 1 1 1 / 0.45)",
+      "clip": "none",
+      "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+    },
+    "scene": "motion",
+    "sceneMotion": "off",
+    "width": 320
+  },
+  "onImmediate": {
+    "backdrop": "none",
+    "clear": {
+      "background": "color(srgb 1 1 1 / 0.671985)",
+      "clip": "inset(0px 50% 0px 0px)",
+      "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+    },
+    "comparison": {
+      "background": "color(srgb 1 1 1 / 0.732)",
+      "clip": "inset(0px 0px 0px 50%)",
+      "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+      "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+    },
+    "decorative": {
+      "pointer": "none",
+      "state": "running"
+    },
+    "header": {
+      "background": "color(srgb 1 1 1 / 0.671985)",
+      "clip": "none",
+      "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+    },
+    "image": null,
+    "lens": {
+      "animation": "landing-morph-b",
+      "pressed": "false",
+      "radius": "54.6007% 45.3993% 56.8659% 43.1341% / 45.1991% 50.9344% 49.0656% 54.8009%",
+      "state": "running",
+      "transform": "none"
+    },
+    "media": [
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 1.281617
+      },
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 0.670445
+      }
+    ],
+    "mode": "full",
+    "osReduced": false,
+    "pane": {
+      "background": "color(srgb 1 1 1 / 0.45)",
+      "clip": "none",
+      "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+    },
+    "scene": "motion",
+    "sceneMotion": "on",
+    "width": 320
+  },
+  "onSettled": {
+    "backdrop": "none",
+    "clear": {
+      "background": "color(srgb 1 1 1 / 0.671985)",
+      "clip": "inset(0px 50% 0px 0px)",
+      "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+    },
+    "comparison": {
+      "background": "color(srgb 1 1 1 / 0.732)",
+      "clip": "inset(0px 0px 0px 50%)",
+      "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+      "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+    },
+    "decorative": {
+      "pointer": "none",
+      "state": "running"
+    },
+    "header": {
+      "background": "color(srgb 1 1 1 / 0.671985)",
+      "clip": "none",
+      "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+    },
+    "image": null,
+    "lens": {
+      "animation": "landing-morph-b",
+      "pressed": "false",
+      "radius": "55.1441% 44.8559% 56.2924% 43.7076% / 44.4746% 51.7797% 48.2203% 55.5254%",
+      "state": "running",
+      "transform": "none"
+    },
+    "media": [
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 1.349283
+      },
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 0.738164
+      }
+    ],
+    "mode": "full",
+    "osReduced": false,
+    "pane": {
+      "background": "color(srgb 1 1 1 / 0.45)",
+      "clip": "none",
+      "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+      "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+      "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+    },
+    "scene": "motion",
+    "sceneMotion": "on",
+    "width": 320
+  }
+}

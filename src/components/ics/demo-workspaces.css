@@ -1,6 +1,8 @@
 /* Role previews, support surfaces and chart primitives remain app-owned. */
-.workspace-role-preview { display:grid; gap:2px; min-width:0; color:var(--muted); font-size:8px; letter-spacing:.06em; }
-.workspace-role-preview select { max-width:145px; min-height:32px; padding:5px 25px 5px 8px; border:1px solid var(--line); border-radius:9px; background:color-mix(in srgb,var(--surface) 86%,transparent); color:var(--text); font:600 10px var(--font-geist-sans),sans-serif; }
+.student-home-content:not([hidden]) { display:grid; gap:13px; }
+.workspace-role-preview { display:grid; flex:none; width:145px; min-width:0; color:var(--muted); font-size:8px; letter-spacing:.06em; }
+.workspace-role-preview > span { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.workspace-role-preview select { width:100%; max-width:145px; min-height:40px; padding:5px 25px 5px 8px; border:1px solid var(--line); border-radius:9px; background:color-mix(in srgb,var(--surface) 86%,transparent); color:var(--text); font:600 10px var(--font-geist-sans),sans-serif; }
 .workspace-role-preview:focus-within select { outline:2px solid var(--ics-focus); outline-offset:2px; }
 .ics-color-picker { position:relative; display:grid; gap:4px; min-width:0; color:var(--text); }
 .ics-color-picker-label { font-size:10px; font-weight:600; }
@@ -131,6 +133,10 @@
 .developer-report-detail h3 { margin:0; font-size:12px; }
 .developer-report-detail header span,.developer-report-detail > p { color:var(--muted); font-size:9px; }
 .developer-report-detail select { width:auto; min-width:125px; }
+@media(max-width:767px) {
+ .developer-report-detail > header { flex-direction:column; align-items:stretch; }
+ .developer-report-detail select { width:100%; min-height:44px; }
+}
 .developer-empty { padding:18px; color:var(--muted); font-size:10px; text-align:center; }
 .developer-error-types { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px; }
 .developer-error-types span { display:grid; gap:4px; padding:9px; border:1px solid var(--line); border-radius:9px; font-size:9px; }
@@ -217,8 +223,8 @@
 .app-error-panel > div { display:flex; flex-wrap:wrap; gap:8px; }
 .app-error-panel button { min-height:40px; padding:8px 12px; border:1px solid var(--line); border-radius:10px; background:var(--wash); color:var(--text); font:600 11px var(--font-geist-sans),sans-serif; }
 @media(max-width:900px){.room-overrides>div{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:767px){
- .workspace-role-preview span{display:none}.workspace-role-preview select{max-width:90px;min-height:30px;font-size:9px}
+@media(width < 768px){
+ .workspace-role-preview{width:90px}.workspace-role-preview span{display:none}.workspace-role-preview select{max-width:90px;min-height:30px;font-size:9px}
  .bug-report-panel{padding:15px}.bug-report-form{grid-template-columns:minmax(0,1fr)}.bug-report-form>label,.bug-report-form>label:nth-child(2),.bug-report-form>label:nth-child(3),.bug-report-form>label:nth-child(5),.bug-report-form>label:nth-child(6),.bug-report-form .form-actions{grid-column:auto}.bug-report-preview dl{grid-template-columns:minmax(0,1fr)}
  .chat-layout{grid-template-columns:minmax(0,1fr)}.chat-room-list{display:flex;gap:6px;overflow-x:auto;align-items:stretch}.chat-room-list h2{position:absolute;clip:rect(0,0,0,0)}.chat-room-option{flex:0 0 145px;margin:0}.chat-thread{min-height:420px}.chat-thread-heading{flex-direction:column}.chat-thread-heading label{width:100%}.chat-timeline article{width:95%}.chat-composer>div{flex-direction:column}.chat-composer button{align-self:flex-end}.chat-permissions-panel{padding:12px}.permission-table-wrap{max-width:100%}.permission-table-wrap table{min-width:570px}.room-overrides>div{grid-template-columns:repeat(2,minmax(0,1fr))}.moderation-incident{align-items:flex-start;flex-direction:column}
  .developer-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.developer-bug-grid{grid-template-columns:minmax(0,1fr)}.developer-report-list{grid-template-columns:repeat(2,minmax(0,1fr))}.developer-error-types{grid-template-columns:repeat(2,minmax(0,1fr))}.developer-health-list{grid-template-columns:minmax(0,1fr)}.developer-section{padding:12px}.developer-centre-metadata{grid-template-columns:minmax(0,1fr)}

@@ -1,0 +1,68 @@
+[
+  {
+    "role": "admin",
+    "actual": "demo-centre-admin",
+    "theme": "dark"
+  },
+  {
+    "role": "manager",
+    "actual": "demo-manager",
+    "theme": "light"
+  },
+  {
+    "role": "developer",
+    "actual": "demo-platform-owner",
+    "theme": "dark"
+  },
+  {
+    "role": "teacher",
+    "actual": "demo-teacher",
+    "theme": "dark"
+  },
+  {
+    "role": "studentA",
+    "actual": "demo-student-a",
+    "theme": "dark"
+  },
+  {
+    "role": "studentB",
+    "actual": "demo-student-b",
+    "theme": "dark"
+  },
+  {
+    "role": "admin",
+    "width": 768,
+    "actual": "demo-centre-admin",
+    "theme": "light"
+  },
+  {
+    "role": "manager",
+    "width": 768,
+    "actual": "demo-manager",
+    "theme": "light"
+  },
+  {
+    "role": "developer",
+    "width": 768,
+    "actual": "demo-platform-owner",
+    "theme": "light"
+  },
+  {
+    "role": "teacher",
+    "width": 768,
+    "actual": "demo-teacher",
+    "theme": "light"
+  },
+  {
+    "role": "studentA",
+    "width": 768,
+    "actual": "demo-student-a",
+    "theme": "light"
+  },
+  {
+    "role": "studentB",
+    "width": 768,
+    "actual": "demo-student-b",
+    "theme": "light"
+  }
+]

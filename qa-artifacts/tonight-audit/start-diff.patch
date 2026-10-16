@@ -1,0 +1,695 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index af3b7c8..176e003 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -7,3 +7,35 @@ This version has breaking changes — APIs, conventions, and file structure may
+ This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+ 
+ <!-- END:nextjs-agent-rules -->
++
++## Permanent ICS Hansi development standards
++
++These standards apply to all future Codex work in this project. Keep changes scoped to the authorized task and preserve existing valid instructions.
++
++### Preserve approved behavior and design
++
++- Preserve the approved OpenGlass visual design, existing Centre Admin and Manager functionality, and restored Settings UI.
++- Never modify protected UI components, global styles, navigation, or animations during unrelated feature tasks. A task requiring such changes must explicitly authorize that scope; use the smallest necessary change.
++- Preserve existing visual baselines unless the user explicitly approves the corresponding UI change. Do not automatically regenerate screenshot baselines or update preservation manifests to make checks pass.
++- Preserve Git history, existing project assets, and unrelated work already present in the working tree. Do not delete, reset, overwrite, or replace them as a shortcut.
++
++### Implementation boundaries and quality
++
++- Keep Developer / Platform Owner, Centre Admin, Manager, Teacher, and Student features appropriately isolated. Preserve Student A/B identity separation when working on Student features.
++- Reuse existing shared components rather than generating parallel versions. Before modifying a shared component, inspect its consumers and assess effects on all affected roles.
++- Avoid duplicated components, conflicting CSS, dead code, unnecessary dependencies, temporary hacks, and abandoned debugging work. Do not leave task-created debugging scaffolding or unused implementations behind.
++- Do not conduct broad codebase cleanup until all five roles are stable. Fix only issues necessary for the authorized task; propose unrelated cleanup separately.
++
++### Required regression verification
++
++- After relevant changes, perform targeted browser interaction and responsive regression tests, including desktop and 320px mobile coverage for affected UI. Verify actual interaction and resulting state, not only rendering or URL changes.
++- Test navigation changes across all five roles: Developer / Platform Owner, Centre Admin, Manager, Teacher, and Student, including both Student A and Student B. Include rapid successive clicks, repeated activation, role switches, active indicators, mobile More menus, direct navigation, reloads, and browser Back/Forward where relevant.
++- Run the existing Admin/Manager preservation checks when changes can affect their shared dependencies. Preserve OpenGlass animation and Settings interaction coverage when those areas are affected.
++- Report exact changes, passing and failing checks, and remaining risks honestly. If browser interaction is unavailable, state that limitation; do not claim browser verification. Do not change application behavior or approved baselines merely to make tests pass.
++
++### Strict local development and deployment freeze
++
++- Keep development, recovery, rebuilding, and testing local. Use localhost for browser testing. Local development servers, tests, linting, TypeScript checks, and production build validation are allowed; a local production build is not a deployment.
++- Without explicit user authorization for the specific action, never create commits, push to GitHub or another remote, switch branches, deploy to Vercel or any other hosting provider, or create preview deployments.
++- Without explicit user authorization for the specific action, never run production Supabase migrations, modify live Supabase data or policies, change real records, or change production environment variables, DNS, or hosting settings.
++- Do not infer authorization for any restricted action from a successful build, passing tests, or approval of an implementation plan. Final release deployment requires explicit user approval.
+diff --git a/src/components/ics/academic-preview.tsx b/src/components/ics/academic-preview.tsx
+index a80a5bc..8649acd 100644
+--- a/src/components/ics/academic-preview.tsx
++++ b/src/components/ics/academic-preview.tsx
+@@ -30,7 +30,7 @@ export function AcademicPreview() {
+  return <div className="academic-workspace">
+   <p className="demo-banner"><strong>DEMO WORKSPACE</strong> Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.</p>
+   <section className="directory academic-assessment" aria-labelledby="assessment-preview-title">
+-   <header className="directory-heading"><div><h2 id="assessment-preview-title">Create test preview</h2><p className="section-footnote">A single unsaved assessment workflow for the selected batch.</p></div></header>
++   <header className="directory-heading"><div><h2 id="assessment-preview-title">Create test preview</h2><p className="section-footnote">Unsaved assessment for the selected batch.</p></div></header>
+    <div className="academic-fields">
+     <ChoiceSelect label="Batch" value={batch} onChange={changeBatch} options={batches.map(value=>({value,label:value}))}/>
+     <label>Subject<input value={subject} maxLength={80} onChange={event=>{setSubject(event.currentTarget.value);setReview(false);setPublicationPreview(false);}} aria-invalid={attempted&&!!reviewErrors.subject}/>{attempted&&reviewErrors.subject&&<span className="field-error">{reviewErrors.subject}</span>}</label>
+@@ -47,7 +47,7 @@ export function AcademicPreview() {
+    {proposed&&<section className="academic-result-preview" aria-labelledby="proposed-results-title"><div className="academic-result-heading"><div><h3 id="proposed-results-title">Proposed order · unpublished preview</h3><p>{subject.trim()} · {batch} · {testDate} · out of {maximumMarks}</p></div><button className="secondary-button" type="button" onClick={()=>setPublicationPreview(true)}>Preview publication</button></div>
+     {proposed.ranked.length>0?<div className="history-table"><table><thead><tr><th>Proposed rank</th><th>Student</th><th>Marks</th><th>Percentage</th></tr></thead><tbody>{proposed.ranked.map(result=><tr key={result.studentId}><td>{result.rank}{proposed.ranked.filter(item=>item.rank===result.rank).length>1?" (tie)":""}</td><th scope="row">{result.name}</th><td>{result.marks} / {maximumMarks}</td><td>{(result.marks/Number(maximumMarks)*100).toFixed(2)}%</td></tr>)}</tbody></table></div>:<p className="no-results">No scored students. Absent students remain outside the proposed order.</p>}
+     <p className="section-footnote">Absent: {proposed.absent.map(row=>row.name).join(", ")||"None"} · Not marked: {proposed.notMarked.map(row=>row.name).join(", ")||"None"}. Equal marks share competition rank; the next rank skips tied positions.</p>
+-    {publicationPreview&&<p className="renewal-preview" role="status"><strong>UNSAVED PUBLICATION PREVIEW</strong> This result is still unpublished. Actual publishing requires authenticated centre permissions, complete batch data and an audited backend transaction.</p>}
++    {publicationPreview&&<p className="renewal-preview" role="status"><strong>UNSAVED PUBLICATION PREVIEW</strong> Results remain unpublished. Publishing requires verified centre permissions and complete batch records.</p>}
+    </section>}
+   </section>
+ 
+@@ -60,7 +60,7 @@ export function AcademicPreview() {
+   <section className="directory academic-leaderboards" aria-labelledby="weekly-leaderboard-title">
+    <header className="directory-heading"><div><h2 id="weekly-leaderboard-title">Weekly leaderboard</h2><p className="section-footnote">Scoring rule: average percentage across the same complete set of published tests.</p></div></header>
+    <div className="academic-fields academic-filter-fields"><ChoiceSelect label="Batch" value={weeklyBatch} onChange={setWeeklyBatch} options={[{value:"all-demo",label:"All demo batches · fictional only"},...batches.map(value=>({value,label:value}))]}/><DatePicker label="Week starting" value={weekStart} onChange={setWeekStart} max={localToday()} showToday={false}/></div>
+-   <p className="student-view-empty"><strong>{weeklyPreview.reason}</strong> Scoring uses average percentage across the same complete set of published tests, so differing maximum marks are normalized. Students absent from a test are omitted; equal averages share competition rank. No publication or ranking is available until real authorized data is connected.</p>
++   <p className="student-view-empty"><strong>{weeklyPreview.reason}</strong> Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected.</p>
+   </section>
+  </div>;
+ }
+diff --git a/src/components/ics/app-navigation.tsx b/src/components/ics/app-navigation.tsx
+index 22b2de4..0c3297a 100644
+--- a/src/components/ics/app-navigation.tsx
++++ b/src/components/ics/app-navigation.tsx
+@@ -13,9 +13,10 @@ import { GlassSurface } from "./glass";
+ import { useAppMotionReduced } from "@/app/providers";
+ import { useWorkspaceRolePreview } from "./workspace-role-preview";
+ import { isCurrentNavigationHref, mobileNavigationLabel } from "./navigation-current.mjs";
++import {subscribeSectionLocation} from "./section-navigation.mjs";
++import {useRoleSectionNavigation} from "./use-role-section-navigation";
+ const subscribe=()=>()=>{};
+ const clientSnapshot=()=>true,serverSnapshot=()=>false;
+-const subscribeHash=(listener:()=>void)=>{window.addEventListener("hashchange",listener);return()=>window.removeEventListener("hashchange",listener);};
+ const currentHash=()=>window.location.hash,serverHash=()=>"";
+ const MotionLink=motion.create(Link);
+ const primary=["/","/students","/batches","/attendance"];
+@@ -25,7 +26,8 @@ const teacherDockIds=["teacher-dashboard","assigned-students","attendance","home
+ const ownerDockIds=["developer-console","bug-reports","application-errors","system-health"];
+ export function AppNavigation({mode,role=DEMO_WORKSPACE.role,placement="main"}:{mode:"desktop"|"mobile";role?:WorkspaceRole;placement?:"main"|"bottom"}) {
+  const pathname=usePathname();
+- const hash=useSyncExternalStore(subscribeHash,currentHash,serverHash);
++ const hash=useSyncExternalStore(subscribeSectionLocation,currentHash,serverHash);
++ useRoleSectionNavigation(role,mode==="mobile");
+  const navigation=roleFeatures(role);const indicator=useId();
+  const reduced=useAppMotionReduced();
+  const dock=useRef<HTMLElement>(null);
+@@ -37,7 +39,9 @@ export function AppNavigation({mode,role=DEMO_WORKSPACE.role,placement="main"}:{
+  const moreScope=`${userId}:${role}:${pathname}:${hash}`;
+  const [moreState,setMoreState]=useState({scope:"",open:false});
+  const moreOpen=moreState.scope===moreScope&&moreState.open;
+- const setMoreOpen=(open:boolean)=>setMoreState({scope:moreScope,open});
++ // Next can commit a cross-route hash removal after this render. Capture the
++ // actual location at interaction time so the first More click stays open.
++ const setMoreOpen=(open:boolean)=>setMoreState({scope:role==="admin"||role==="manager"?moreScope:`${userId}:${role}:${window.location.pathname}:${window.location.hash}`,open});
+  const {settings}=useAppearance();
+  useEffect(()=>{
+   const desktop=window.matchMedia("(min-width: 768px)");
+diff --git a/src/components/ics/appearance/customizer.tsx b/src/components/ics/appearance/customizer.tsx
+index 3657ac7..ee44148 100644
+--- a/src/components/ics/appearance/customizer.tsx
++++ b/src/components/ics/appearance/customizer.tsx
+@@ -23,20 +23,20 @@ function BackgroundSource() {
+ export function AppearanceCustomizer() {
+  const {settings,persistedSettings,previewSettings,applyPreview,discardPreview,previewDirty,userId}=useAppearance();
+  const runtime=useGlassRuntime();
+- return <section className="appearance-settings" aria-labelledby="appearance-title"><h2 id="appearance-title">Appearance</h2>
++ return <section className="appearance-settings appearance-settings--compact" aria-labelledby="appearance-title"><h2 id="appearance-title">Appearance</h2>
+  <div className="appearance-editor"><GlassSurface className="appearance-controls" style={{ color: "var(--text)" }} look={{ shadow: 0.35, lensing: 0.7 }}>
+  <div className="appearance-background-group"><div className="appearance-field"><h3>Theme</h3><ThemeControl/></div>
+  <div className="appearance-field appearance-source"><h3>Background source</h3><BackgroundSource/></div>
+  </div><div className="appearance-glass-group"><div className="appearance-field"><h3>Glass material</h3><SegmentedControl aria-label="Glass material" value={settings.material} onValueChange={(material:MaterialPresetName)=>previewSettings({material,frost:Math.round(getMaterialPreset(material).frost*100)})} items={[{value:"clear",label:"Clear"},{value:"regular",label:"Regular"},{value:"frosted",label:"Frosted"}]}/></div>
+  <fieldset className="appearance-field accent-field"><legend>Accent</legend><div className="accent-swatches">{ACCENTS.map(option=><button key={option.id} type="button" aria-label={`${option.label} accent`} aria-pressed={!settings.customAccent&&settings.accent===option.id} onClick={()=>previewSettings({accent:option.id,customAccent:""})} style={{"--swatch":option.color} as CSSProperties}><i aria-hidden="true"/></button>)}<ColorPicker label="Custom accent" value={settings.customAccent||"#7896ff"} onChange={customAccent=>previewSettings({customAccent})}/></div></fieldset>
+  <Switch label="Scene Motion" description={runtime.capabilities.reducedMotion?"Paused by your device preference":"Enable background animations"} checked={settings.motion && !runtime.capabilities.reducedMotion} disabled={runtime.capabilities.reducedMotion} onCheckedChange={motion=>previewSettings({motion})}/>
+- <div className="appearance-field"><h3>Interface animation</h3><SegmentedControl aria-label="Interface animation preference" value={settings.animationPreference} onValueChange={(animationPreference:"full"|"reduced"|"off")=>previewSettings({animationPreference})} items={[{value:"full",label:"Full"},{value:"reduced",label:"Reduced"},{value:"off",label:"Off"}]}/><p className="appearance-scope">Full respects your device preference. Reduced limits transitions; Off disables decorative motion.</p></div>
+- <div className="appearance-preference-actions"><button type="button" className="secondary-button" onClick={()=>previewSettings(DEFAULT_SETTINGS)}>Reset to Default</button><button type="button" className="primary-link" disabled={!previewDirty} onClick={()=>{if(!applyPreview())return;}}>Apply appearance</button><button type="button" className="secondary-button" disabled={!previewDirty} onClick={discardPreview}>Discard preview</button><span role="status">{previewDirty?"Previewing changes for this demo user; changes are not saved yet.":`Applied for this demo user. Centre branding is separate. ${persistedSettings.animationPreference.toUpperCase()} motion.`}</span></div>
+- </div>{settings.scene==="custom"&&<CustomEditor key={userId}/>}</GlassSurface><details className="appearance-preview-disclosure appearance-advanced"><DisclosureSummary>Advanced Glass Settings</DisclosureSummary>
++ </div><details className="appearance-animation-options"><DisclosureSummary>Interface animation</DisclosureSummary><div className="appearance-field"><SegmentedControl aria-label="Interface animation preference" value={settings.animationPreference} onValueChange={(animationPreference:"full"|"reduced"|"off")=>previewSettings({animationPreference})} items={[{value:"full",label:"Full"},{value:"reduced",label:"Reduced"},{value:"off",label:"Off"}]}/><p className="appearance-scope">Full respects your device preference. Reduced limits transitions; Off disables decorative motion.</p></div></details>
++ <div className="appearance-preference-actions"><button type="button" className="secondary-button" onClick={()=>previewSettings(DEFAULT_SETTINGS)}>Reset to Default</button><button type="button" className="primary-link" disabled={!previewDirty} onClick={()=>{if(!applyPreview())return;}}>Apply appearance</button><button type="button" className="secondary-button" disabled={!previewDirty} onClick={discardPreview}>Discard preview</button><span role="status">{previewDirty?"Unsaved appearance preview.":`Applied on this device for this demo user. ${persistedSettings.animationPreference.toUpperCase()} motion.`}</span></div>
++ {settings.scene==="custom"&&<details className="appearance-custom-options"><DisclosureSummary>Custom background</DisclosureSummary><CustomEditor key={userId}/></details>}</GlassSurface><details className="appearance-preview-disclosure appearance-advanced"><DisclosureSummary>Advanced Glass Settings</DisclosureSummary>
+  <div className="appearance-advanced-body">
+- <section className="appearance-comparison-section" aria-labelledby="material-preview-title"><h3 id="material-preview-title">Material &amp; scene preview</h3><p className="appearance-scope">Comparison material, split and lighting affect these specimens only. They are not saved or applied to the workspace.</p><MaterialComparison liveControls={<section className="appearance-live-controls" aria-labelledby="live-glass-title"><h3 id="live-glass-title">Live application settings</h3><p className="appearance-scope">Preview updates the workspace. Apply appearance to save for this demo user.</p><div className="appearance-live-sliders"> <Slider label="Optical intensity" min={35} max={100} value={settings.intensity} unit="%" onInput={event=>previewSettings({intensity:Number(event.currentTarget.value)})}/>
++ <section className="appearance-comparison-section" aria-labelledby="material-preview-title"><h3 id="material-preview-title">Material &amp; scene preview</h3><p className="appearance-scope">Comparison controls affect this preview only and are not saved.</p><MaterialComparison liveControls={<section className="appearance-live-controls" aria-labelledby="live-glass-title"><h3 id="live-glass-title">Live application settings</h3><p className="appearance-scope">Preview changes live; Apply saves for this demo user.</p><div className="appearance-live-sliders"> <Slider label="Optical intensity" min={35} max={100} value={settings.intensity} unit="%" onInput={event=>previewSettings({intensity:Number(event.currentTarget.value)})}/>
+  <Slider label="Frost" min={0} max={100} value={settings.frost} unit="%" onInput={event=>previewSettings({frost:Number(event.currentTarget.value)})}/>
+-</div></section>} scenePreview={<details className="appearance-scene-disclosure" open><DisclosureSummary>Scene interaction preview</DisclosureSummary><p className="appearance-scope">Reflects your live background and glass settings. Holding the floating lens pauses that lens only.</p><AppearanceScene preview/></details>}/></section>
++</div></section>} scenePreview={<details className="appearance-scene-disclosure" open><DisclosureSummary>Scene interaction preview</DisclosureSummary><p className="appearance-scope">Live scene preview. Hold the lens to pause it.</p><AppearanceScene preview/></details>}/></section>
+ 
+  </div></details></div>
+  </section>;
+diff --git a/src/components/ics/attendance-preview.tsx b/src/components/ics/attendance-preview.tsx
+index 24866b2..df32adf 100644
+--- a/src/components/ics/attendance-preview.tsx
++++ b/src/components/ics/attendance-preview.tsx
+@@ -13,7 +13,7 @@ import { lookupAttendanceRoster } from "./attendance-model.mjs";
+ type Mark="Present"|"Absent"|"Leave";
+ export function AttendancePreview(){
+  const {role}=useWorkspaceRolePreview();
+- if(role==="teacher")return <section className="directory attendance-rapid"><p className="demo-banner"><strong>TEACHER PREVIEW</strong> No verified teacher-to-batch assignments are connected, so no student roster is available.</p><p className="section-footnote">Rapid Attendance becomes available only after a server-verified teacher assignment is provided. Centre Admin demo workflows can preview fictional roll matching.</p></section>;
++ if(role==="teacher")return <section className="directory attendance-rapid"><p className="demo-banner"><strong>TEACHER PREVIEW</strong> Teacher assignments and rosters are not connected.</p><p className="section-footnote">Attendance requires a verified batch assignment.</p></section>;
+  return <AttendanceForm/>;
+ }
+ function AttendanceForm(){
+@@ -39,7 +39,7 @@ function AttendanceForm(){
+  function markStudent(mark:Mark){if(!selected)return;setMarks(current=>({...current,[selected.id]:mark}));setReview(false);setSelectedId("");setLookup("");requestAnimationFrame(()=>lookupInput.current?.focus());}
+  const marked=Object.keys(marks).length;
+  return <div className="attendance-preview-workspace">
+-  <p className="demo-banner"><strong>DEMO PREVIEW</strong> No teacher assignments or attendance records are connected. Marks stay in this page session and are never submitted.</p>
++  <p className="demo-banner"><strong>DEMO PREVIEW</strong> Attendance is not connected. Draft marks are not submitted and clear on refresh.</p>
+   <section className="directory attendance-rapid" aria-labelledby="rapid-attendance-title">
+    <header className="directory-heading"><div><h2 id="rapid-attendance-title">Rapid Attendance · preview</h2><p>Identify a student, confirm the details, then mark a draft status.</p></div></header>
+    <div className="attendance-setup"><ChoiceSelect label="Preview batch" value={batch} onChange={value=>{setBatch(value);setSelectedId("");setLookup("");setMarks({});setReview(false);}} options={batches.map(value=>({value,label:`${value} · ${students.filter(student=>student.batch===value).length} demo`}))}/><DatePicker label="Attendance Date" value={date} onChange={value=>{setDate(value);setMarks({});setReview(false);}} max={today}/></div>
+@@ -50,7 +50,7 @@ function AttendanceForm(){
+    <section className="attendance-register-preview" aria-labelledby="attendance-register-title"><header><div><h3 id="attendance-register-title">Batch register preview</h3><p>{batch} · {date} · {marked} marked of {activeRoster.length} active demo students</p><small role="status">Roll audit: {missingRollCount} missing · {duplicateRollCount} duplicate numbers.</small></div><button type="button" className="primary-link" disabled={marked===0} onClick={()=>setReview(true)}>Review register</button></header>
+     <ul>{activeRoster.map(student=><li key={student.id}><span><strong>{student.name}</strong><small>{student.id} · batch roll {student.batchRollNumber??"not issued"}</small></span><span>{marks[student.id]??"Not marked"}</span></li>)}</ul>
+     {expiredRoster.length>0&&<div className="attendance-expired-roster"><strong>Expired or completed enrollments · separate from active register</strong><ul>{expiredRoster.map(student=><li key={student.id}>{student.name} · {student.id} · {enrollmentDisplayStatus(enrollmentSnapshotFor(student.id,today).status)}</li>)}</ul></div>}
+-    {review&&<div className="attendance-review" role="status"><strong>Unsaved register review</strong><span>Present {Object.values(marks).filter(mark=>mark==="Present").length} · Absent {Object.values(marks).filter(mark=>mark==="Absent").length} · Leave {Object.values(marks).filter(mark=>mark==="Leave").length}.</span><p>This preview is not submitted. Duplicate posting prevention, teacher assignment checks and final confirmation require an authorized backend transaction.</p></div>}
++    {review&&<div className="attendance-review" role="status"><strong>Unsaved register review</strong><span>Present {Object.values(marks).filter(mark=>mark==="Present").length} · Absent {Object.values(marks).filter(mark=>mark==="Absent").length} · Leave {Object.values(marks).filter(mark=>mark==="Leave").length}.</span><p>Not submitted. Recording attendance requires verified permissions and final confirmation.</p></div>}
+    </section>
+   </section>
+  </div>;
+diff --git a/src/components/ics/audit-ledger.tsx b/src/components/ics/audit-ledger.tsx
+index cddfa6b..269f634 100644
+--- a/src/components/ics/audit-ledger.tsx
++++ b/src/components/ics/audit-ledger.tsx
+@@ -21,15 +21,15 @@ export function AuditLogs({ role=DEMO_WORKSPACE.role }: { role?: WorkspaceRole }
+  const actors=[...new Set(demoAuditEvents.map(event=>event.actor))],modules=[...new Set(demoAuditEvents.map(event=>event.module))],actions=[...new Set(demoAuditEvents.map(event=>event.action))];
+  const filtered=useMemo(()=>demoAuditEvents.filter(event=>{const text=`${event.id} ${event.actor} ${event.module} ${event.action} ${event.target}`.toLowerCase();const date=event.timestamp.slice(0,10);return (!query||text.includes(query.trim().toLowerCase()))&&(!actor||event.actor===actor)&&(!module||event.module===module)&&(!action||event.action===action)&&(!from||date>=from)&&(!to||date<=to);}),[query,actor,module,action,from,to]);
+  const pageSize=5,pages=Math.max(1,Math.ceil(filtered.length/pageSize)),visible=filtered.slice(page*pageSize,(page+1)*pageSize);
+- if(!canView)return <section className="empty-state"><h2>Centre permission required</h2><p>Audit log access requires an explicit centre grant. This presentation layer does not infer permissions from a role label.</p></section>;
+- return <div className="lifecycle-page"><p className="demo-banner"><strong>DEMO EVENTS</strong> These fictional examples are not actual user activity. Real security events must be append-only and recorded by trusted server logic.</p>
++ if(!canView)return <section className="empty-state"><h2>Centre permission required</h2><p>Audit logs require an explicit centre permission. A preview role does not grant access.</p></section>;
++ return <div className="lifecycle-page"><p className="demo-banner"><strong>DEMO EVENTS</strong> Sample activity only. Real audit events are not connected.</p>
+   <section className="directory audit-workspace" aria-label="Audit log examples"><header className="directory-heading"><div><h2>Activity history</h2><p className="section-footnote">Centre-local timestamps · no passwords, tokens or private contact details</p></div><div className="audit-view-toggle" role="group" aria-label="Audit display"><button type="button" aria-pressed={view==="timeline"} onClick={()=>setView("timeline")}>Timeline</button><button type="button" aria-pressed={view==="table"} onClick={()=>setView("table")}>Table</button></div></header>
+    <div className="directory-toolbar audit-filters"><label>Search events<input type="search" value={query} onChange={event=>{setQuery(event.currentTarget.value);setPage(0);}} placeholder="Action, module, event or target"/></label><ChoiceSelect label="Actor" value={actor} onChange={value=>{setActor(value);setPage(0);}} options={[{value:"",label:"All actors"},...actors.map(value=>({value,label:value}))]}/><ChoiceSelect label="Module" value={module} onChange={value=>{setModule(value);setPage(0);}} options={[{value:"",label:"All modules"},...modules.map(value=>({value,label:value}))]}/><ChoiceSelect label="Action" value={action} onChange={value=>{setAction(value);setPage(0);}} options={[{value:"",label:"All actions"},...actions.map(value=>({value,label:value}))]}/><DatePicker label="From" value={from} onChange={value=>{setFrom(value);setPage(0);}} max={to||"2100-12-31"} showToday={false}/><DatePicker label="To" value={to} onChange={value=>{setTo(value);setPage(0);}} min={from||"1900-01-01"} max="2100-12-31" showToday={false}/></div>
+    {visible.length===0?<p className="no-results">No fictional events match these filters.</p>:view==="timeline"?<ol className="audit-timeline">{visible.map(event=><li key={event.id}><span className="audit-dot" aria-hidden="true"/><div><div className="audit-event-heading"><strong>{event.action}</strong><span className={`record-status ${event.outcome==="Failure"?"pending":""}`}>{event.outcome}</span></div><p>{event.module} · {event.actor} ({event.role}) · {event.target}</p><time dateTime={event.timestamp}>{new Date(event.timestamp).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})}</time><button className="text-link audit-detail-link" type="button" onClick={interaction=>{detailTrigger.current=interaction.currentTarget;setDetail(event);}}>View event details</button></div></li>)}</ol>:<div className="history-table" role="region" aria-label="Audit events"><table><thead><tr><th>Timestamp</th><th>Actor</th><th>Module</th><th>Action</th><th>Target</th><th>Outcome</th><th></th></tr></thead><tbody>{visible.map(event=><tr key={event.id}><td>{new Date(event.timestamp).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})}</td><td>{event.actor}</td><td>{event.module}</td><td>{event.action}</td><td>{event.target}</td><td>{event.outcome}</td><td><button type="button" className="text-link" onClick={interaction=>{detailTrigger.current=interaction.currentTarget;setDetail(event);}}>Details</button></td></tr>)}</tbody></table></div>}
+    <footer className="list-pagination"><span>{filtered.length} fictional events</span><div><button type="button" className="secondary-button" disabled={page===0} onClick={()=>setPage(value=>Math.max(0,value-1))}>Previous</button><span>Page {page+1} of {pages}</span><button type="button" className="secondary-button" disabled={page+1>=pages} onClick={()=>setPage(value=>Math.min(pages-1,value+1))}>Next</button></div></footer>
+-   <footer className="audit-export"><button type="button" className="secondary-button" onClick={()=>downloadCsv(buildDemoAuditCsv(filtered),"DEMO-DATA-audit-log.csv")}><Icon name="download"/> Export filtered CSV</button><span>Authorized Admin demo only · no real audit log is connected</span></footer>
++   <footer className="audit-export"><button type="button" className="secondary-button" onClick={()=>downloadCsv(buildDemoAuditCsv(filtered),"DEMO-DATA-audit-log.csv")}><Icon name="download"/> Export filtered CSV</button><span>Sample export · no live audit log</span></footer>
+   </section>
+-  {detail&&<div className="event-drawer-backdrop" role="presentation" onMouseDown={event=>{if(event.target===event.currentTarget)setDetail(null);}}><aside ref={drawer} tabIndex={-1} className="event-drawer" role="dialog" aria-modal="true" aria-labelledby="event-detail-title"><header><div><p className="eyebrow">DEMO EVENT</p><h2 id="event-detail-title">{detail.action}</h2></div><button type="button" className="icon-button" aria-label="Close event details" onClick={()=>setDetail(null)}>×</button></header><dl><div><dt>Event ID</dt><dd>{detail.id}</dd></div><div><dt>Timestamp</dt><dd>{detail.timestamp}</dd></div><div><dt>Tenant/Centre ID</dt><dd>Not included in fictional client fixtures</dd></div><div><dt>Actor ID / role</dt><dd>Not issued in demo · {detail.actor} ({detail.role})</dd></div><div><dt>Module</dt><dd>{detail.module}</dd></div><div><dt>Target record type / ID</dt><dd>{detail.targetType} · {detail.targetId}</dd></div><div><dt>Target summary</dt><dd>{detail.target}</dd></div><div><dt>Outcome / reason</dt><dd>{detail.outcome} · {detail.reason}</dd></div><div><dt>Change summary</dt><dd>{detail.beforeAfter}</dd></div></dl><p className="section-footnote">Live event IDs, tenant scope, before/after data and actor identity must be generated and verified server-side.</p></aside></div>}
++  {detail&&<div className="event-drawer-backdrop" role="presentation" onMouseDown={event=>{if(event.target===event.currentTarget)setDetail(null);}}><aside ref={drawer} tabIndex={-1} className="event-drawer" role="dialog" aria-modal="true" aria-labelledby="event-detail-title"><header><div><p className="eyebrow">DEMO EVENT</p><h2 id="event-detail-title">{detail.action}</h2></div><button type="button" className="icon-button" aria-label="Close event details" onClick={()=>setDetail(null)}>×</button></header><dl><div><dt>Event ID</dt><dd>{detail.id}</dd></div><div><dt>Timestamp</dt><dd>{detail.timestamp}</dd></div><div><dt>Tenant/Centre ID</dt><dd>Not included in fictional client fixtures</dd></div><div><dt>Actor ID / role</dt><dd>Not issued in demo · {detail.actor} ({detail.role})</dd></div><div><dt>Module</dt><dd>{detail.module}</dd></div><div><dt>Target record type / ID</dt><dd>{detail.targetType} · {detail.targetId}</dd></div><div><dt>Target summary</dt><dd>{detail.target}</dd></div><div><dt>Outcome / reason</dt><dd>{detail.outcome} · {detail.reason}</dd></div><div><dt>Change summary</dt><dd>{detail.beforeAfter}</dd></div></dl><p className="section-footnote">Sample event only; identity and centre details are not verified.</p></aside></div>}
+  </div>;
+ }
+ 
+@@ -41,12 +41,12 @@ export function FinancialLedger({ role=DEMO_WORKSPACE.role }: { role?: Workspace
+  const totals=reconcileLedger(rows);
+  function exportRows(){const header=["Transaction ID","Date","Entry type","Category","Amount (INR)","Method","Reference","Student reference","Description","Recorded by","Status","Reversal of"] as const;const csv=["DEMO DATA — fictional ledger only; not institutional financial records",header,...rows.map(row=>[row.id,row.date,row.type,row.category,(row.amountMinor/100).toFixed(2),row.method,row.reference,row.studentId,row.description,row.recordedBy,row.status,row.reversalOf??""])].map(row=>Array.isArray(row)?row.map(value=>{const text=String(value??""),safe=/^[\u0000-\u0020\u007f]*[=+\-@]/.test(text)?`'${text}`:text;return `"${safe.replaceAll('"','""')}"`;}).join(","):`"${row}"`).join("\r\n");downloadCsv(csv,"DEMO-DATA-transaction-ledger.csv");}
+  if(!canView)return <section className="empty-state"><h2>Financial permission required</h2><p>Manager ledger visibility must be explicitly granted by the centre. Platform Owner, Teacher and Student roles have no general access here.</p></section>;
+- return <div className="lifecycle-page"><p className="demo-banner"><strong>DEMO LEDGER</strong> Fictional entries only. A fee invoice is not income; only transaction examples appear below. No backend or real payment source is connected.</p>
++ return <div className="lifecycle-page"><p className="demo-banner"><strong>DEMO LEDGER</strong> Sample transactions only; no payment source is connected. A fee invoice is not income.</p>
+   <section className="ledger-summaries" aria-label="Filtered demo ledger summary"><GlassSurface><span>Total Income</span><strong>{formatMinor(totals.incomeMinor)}</strong></GlassSurface><GlassSurface><span>Total Expenses</span><strong>{formatMinor(totals.expensesMinor)}</strong></GlassSurface><GlassSurface><span>Net Cash Flow</span><strong>{formatMinor(totals.netMinor)}</strong></GlassSurface></section>
+-  <section className="directory ledger-workspace"><header className="directory-heading"><div><h2>Transaction history</h2><p className="section-footnote">Append-only design preview · reversals keep the original entry visible</p></div><button type="button" className="secondary-button" onClick={exportRows}><Icon name="download"/> Export DEMO CSV</button></header>
++  <section className="directory ledger-workspace"><header className="directory-heading"><div><h2>Transaction history</h2><p className="section-footnote">Reversals retain the original entry.</p></div><button type="button" className="secondary-button" onClick={exportRows}><Icon name="download"/> Export DEMO CSV</button></header>
+    <div className="directory-toolbar ledger-filters"><label>Search transactions<input type="search" value={query} onChange={event=>setQuery(event.currentTarget.value)} placeholder="Reference, category or description"/></label><ChoiceSelect label="Financial period" value={period} onChange={setPeriod} options={[{value:"all",label:"All demo periods"},{value:"2026-10",label:"October 2026"},{value:"2026-09",label:"September 2026"}]}/><ChoiceSelect label="Entry type" value={type} onChange={setType} options={[{value:"",label:"All types"},...(["income","expense","adjustment"] as const).map(value=>({value,label:value}))]}/><ChoiceSelect label="Category" value={category} onChange={setCategory} options={[{value:"",label:"All categories"},...categories.map(value=>({value,label:value}))]}/><ChoiceSelect label="Payment method" value={method} onChange={setMethod} options={[{value:"",label:"All methods"},...methods.map(value=>({value,label:value}))]}/><DatePicker label="From" value={from} onChange={setFrom} max={to||"2100-12-31"} showToday={false}/><DatePicker label="To" value={to} onChange={setTo} min={from||"1900-01-01"} max="2100-12-31" showToday={false}/></div>
+    {rows.length?<><div className="history-table ledger-table" role="region" aria-label="Fictional financial transactions"><table><thead><tr><th>Date</th><th>Transaction</th><th>Type</th><th>Category / Description</th><th>Amount</th><th>Method / Reference</th><th>Student reference</th><th>Recorded by</th><th>Status</th></tr></thead><tbody>{rows.map(entry=><tr key={entry.id}><td>{entry.date}</td><td>{entry.id}</td><td>{entry.type}</td><td>{entry.category}<small>{entry.description}</small></td><td className={entry.amountMinor<0?"amount-negative":"amount-positive"}>{formatMinor(entry.amountMinor)}</td><td>{entry.method}<small>{entry.reference}</small></td><td>{entry.studentId||"—"}</td><td>{entry.recordedBy}</td><td>{entry.status}{entry.reversalOf&&<small>Ref. {entry.reversalOf}</small>}</td></tr>)}</tbody></table></div><ul className="ledger-mobile-list">{rows.map(entry=><li key={entry.id}><div><strong>{entry.category}</strong><span className={entry.amountMinor<0?"amount-negative":"amount-positive"}>{formatMinor(entry.amountMinor)}</span></div><p>{entry.date} · {entry.type} · {entry.status}</p><p>{entry.description}</p><small>{entry.reference}{entry.reversalOf?` · Reversal of ${entry.reversalOf}`:""}</small></li>)}</ul></>:<p className="no-results">No fictional transactions match these filters.</p>}
+    <footer className="table-footer">{rows.length} fictional transaction{rows.length===1?"":"s"} · unpaid invoices are excluded from income</footer>
+-  </section><p className="section-footnote">Real admissions, fees, renewals, receipts, corrections and refunds must post atomically to a tenant-scoped ledger with idempotency keys, server authorization, reversals and audit events.</p>
++  </section><p className="section-footnote">Preview only. No financial records or payments are posted.</p>
+  </div>;
+ }
+diff --git a/src/components/ics/branding/branding-editor.tsx b/src/components/ics/branding/branding-editor.tsx
+index d1c4fd0..f58adb1 100644
+--- a/src/components/ics/branding/branding-editor.tsx
++++ b/src/components/ics/branding/branding-editor.tsx
+@@ -51,7 +51,7 @@ function BrandingEditorForm({ branding, logoUrl, storageIssue, applyBranding }:
+ 
+   return <section className="branding-settings" aria-labelledby="branding-title">
+     <h2 id="branding-title">Centre branding</h2>
+-    <p className="branding-scope">Centre Admin preview · Current demo centre only. Changes are stored on this device and are not saved to Supabase, shared with other devices or authorized by a real sign-in.</p>
++    <p className="branding-scope">Local centre preview only. Changes stay on this device, do not sync, and do not grant real centre access.</p>
+     <div className="branding-editor">
+       <form className="branding-fields" onSubmit={event => { event.preventDefault(); void apply(); }} noValidate>
+         <label htmlFor="brand-centre-name">Centre display name<input id="brand-centre-name" maxLength={80} required value={draft.displayName} aria-invalid={!!errors.displayName} aria-describedby={errors.displayName ? "brand-centre-name-error" : undefined} onChange={event => change("displayName", event.currentTarget.value)}/>{errors.displayName && <span id="brand-centre-name-error" className="field-error">{errors.displayName}</span>}</label>
+@@ -60,7 +60,7 @@ function BrandingEditorForm({ branding, logoUrl, storageIssue, applyBranding }:
+         <div className="branding-accent-field"><ColorPicker label="Brand mark accent" description="Optional · does not change the app accent" value={draft.brandAccent || "#7896ff"} onChange={value => change("brandAccent", value)}/><button type="button" className="secondary-action" onClick={() => change("brandAccent", "")}>Use application accent</button></div>
+         <label className="branding-logo-field" htmlFor="brand-logo">Logo <span className="branding-optional">PNG, JPG or WebP · up to 1 MB · stays in this browser</span><input id="brand-logo" type="file" accept="image/png,image/jpeg,image/webp,.png,.jpg,.jpeg,.webp" onChange={event => void chooseLogo(event)}/>{errors.logo && <span className="field-error">{String(errors.logo)}</span>}</label>
+         <div className="branding-actions"><button type="submit" disabled={busy}>{busy ? "Applying…" : "Apply branding"}</button><button type="button" className="secondary-action" disabled={busy} onClick={() => { setDraft(branding); setLogoFile(null); setRemoveLogo(false); setErrors({}); setMessage("Draft reset to the branding currently applied on this device."); }}>Reset draft</button>{(logoFile || branding.logoId) && <button type="button" className="secondary-action" disabled={busy} onClick={() => { setLogoFile(null); setRemoveLogo(true); setMessage("Logo removal is in the draft. Apply branding to confirm it."); }}>Remove logo</button>}</div>
+-        <p className="branding-message" role="status" aria-live="polite">{message || storageIssue || "Preview your draft first. Apply updates this device-local demo only."}</p>
++        <p className="branding-message" role="status" aria-live="polite">{message || storageIssue || "Apply saves this preview on this device only."}</p>
+       </form>
+       <aside className="branding-preview" aria-label="Centre branding preview">
+         <span className="branding-preview-label">Preview</span>
+@@ -68,7 +68,7 @@ function BrandingEditorForm({ branding, logoUrl, storageIssue, applyBranding }:
+           {previewUrl ? <Image src={previewUrl} width={48} height={48} alt="" unoptimized className="branding-preview-logo"/> : <span className="brand-symbol branding-preview-mark" aria-hidden="true">{brandInitials(draft)}</span>}
+           <span><strong>{draft.displayName || "Centre name"}</strong><small>{draft.branchName || "Branch name"}</small></span>
+         </div>
+-        <p>The sidebar and workspace header use applied branding for this browser.</p>
++        <p>Applied branding appears in this browser.</p>
+       </aside>
+     </div>
+   </section>;
+diff --git a/src/components/ics/chatrooms-workspace.tsx b/src/components/ics/chatrooms-workspace.tsx
+index 776420a..51bacb6 100644
+--- a/src/components/ics/chatrooms-workspace.tsx
++++ b/src/components/ics/chatrooms-workspace.tsx
+@@ -29,21 +29,21 @@ export function ChatroomsWorkspace(){
+  function toggleFeature(target:ChatRole,key:string){setPermissions(value=>({...value,grants:{...value.grants,[target]:{...value.grants[target],[key]:!value.grants[target][key]}}}));}
+  function toggleOverride(id:string,key:string,value:boolean,targetRole:ChatRole=chatRole??"admin"){setOverrides(current=>({...current,[id]:{...current[id],[key]:{...current[id]?.[key],[targetRole]:value}}}));}
+  function send(event:FormEvent){event.preventDefault();if(!visibleRoom||!chatRole){setStatus("This demo role does not have access to the selected room.");return;}const senderCanPost=chatRole==="admin"||chatRole==="manager"||(chatRole==="teacher"&&permissions.grants.teacher.teacherSend&&currentRoom.type!=="announcements")||(chatRole==="student"&&permissions.grants.student.studentSend&&["batch","support"].includes(currentRoom.type));if(!senderCanPost){setStatus("Sending is unavailable for this preview role or room.");return;}const decision=moderateMessage(message);if(decision.action!=="allow"){setStatus(decision.action==="block"?"This message was blocked in the moderation simulation. No message was published.":"This message was held for simulated human review. No message was published.");return;}const sender=chatRole==="student"?"Aarav Example":chatRole==="teacher"?"Ms. Meera Example":chatRole==="manager"?"Manager Example":"Centre Admin Example";setLocalMessages(items=>[...items,{id:`local-${items.length+1}`,room:roomId,sender,role:roleLabels[chatRole],text:message.trim(),time:"Local preview"}]);setMessage("");setStatus("Message added to this local demo preview only; it was not delivered.");}
+- return <div className="chat-workspace content-container"><PageHeading title="Chatrooms"/><p className="demo-banner"><strong>DEMO ONLY</strong> Fictional conversations and local UI state. No messages are sent, stored or moderated by a service.</p>
++ return <div className="chat-workspace content-container"><PageHeading title="Chatrooms"/><p className="demo-banner"><strong>DEMO ONLY</strong> Sample conversations only. Messages are not delivered or saved.</p>
+   <div className="chat-layout"><GlassSurface className="chat-room-list"><h2>Rooms</h2>{visibleRooms.length?visibleRooms.map(room=><button key={room.id} type="button" className="chat-room-option" aria-pressed={room.id===roomId} onClick={()=>{setRoomId(room.id);setStatus("");}}><strong>{room.name}</strong><small>{room.context}</small></button>):<p className="section-footnote">No rooms are enabled for this preview role.</p>}</GlassSurface>
+    <GlassSurface className="chat-thread"><header className="chat-thread-heading"><div><h2>{visibleRoom?.name??currentRoom.name}</h2><p>{visibleRoom?.context??"Access is denied by the demo permission preview."} · sender names are fictional profile references</p></div><label>Search messages<input value={query} onChange={event=>setQuery(event.target.value)} placeholder="Search this room"/></label></header>
+-    {!visibleRoom?<div className="chat-empty"><strong>Room unavailable</strong><p>Access defaults to deny. An authorized backend must enforce membership on every read and send request.</p></div>:<><ol className="chat-timeline"><li className="chat-date-divider">Today · fictional demo timeline · delivery/read status is not connected</li>{allMessages.map(item=><li key={item.id}><article><header><strong>{item.sender}</strong><span>{item.role}</span><time>{item.time}</time></header><p>{item.text}</p><small>{visibleRoom.name} · fictional demo identity</small><div className="chat-message-actions"><button type="button" disabled={reportedMessageIds.includes(item.id)} onClick={()=>{setReportedMessageIds(items=>[...items,item.id]);setStatus("Message report preview created locally. No moderator was notified.");}}>{reportedMessageIds.includes(item.id)?"Reported in preview":"Report message"}</button>{(admin||role==="manager")&&<button type="button" onClick={()=>{setHiddenMessageIds(items=>[...items,item.id]);setStatus("Message hidden in this local preview only. No persistent moderation action was recorded.");}}>Hide in preview</button>}</div></article></li>)}</ol>{allMessages.length===0&&<div className="chat-empty">No matching demo messages.</div>}
++    {!visibleRoom?<div className="chat-empty"><strong>Room unavailable</strong><p>Room access requires verified membership.</p></div>:<><ol className="chat-timeline"><li className="chat-date-divider">Today · fictional demo timeline · delivery/read status is not connected</li>{allMessages.map(item=><li key={item.id}><article><header><strong>{item.sender}</strong><span>{item.role}</span><time>{item.time}</time></header><p>{item.text}</p><small>{visibleRoom.name} · fictional demo identity</small><div className="chat-message-actions"><button type="button" disabled={reportedMessageIds.includes(item.id)} onClick={()=>{setReportedMessageIds(items=>[...items,item.id]);setStatus("Message report preview created locally. No moderator was notified.");}}>{reportedMessageIds.includes(item.id)?"Reported in preview":"Report message"}</button>{(admin||role==="manager")&&<button type="button" onClick={()=>{setHiddenMessageIds(items=>[...items,item.id]);setStatus("Message hidden in this local preview only. No persistent moderation action was recorded.");}}>Hide in preview</button>}</div></article></li>)}</ol>{allMessages.length===0&&<div className="chat-empty">No matching demo messages.</div>}
+      <form className="chat-composer" onSubmit={send}><label htmlFor="chat-message">Message preview</label><div><textarea id="chat-message" maxLength={1500} rows={2} value={message} onChange={event=>setMessage(event.target.value)} placeholder="Type a fictional preview message…"/><button type="submit" disabled={!message.trim()}>Preview send</button></div><small>Text only. Attachments are disabled. Sending will not deliver or persist.</small></form></>}
+     {status&&<p className="chat-status" role="status">{status}</p>}
+    </GlassSurface>
+   </div>
+-  {role==="teacher"&&<GlassSurface as="section" className="chat-moderation-inbox"><header><h2>Chat Moderation</h2><span>Assigned batches only</span></header><p>No verified teacher batch assignments or incidents are connected. No message content is exposed in this inbox.</p></GlassSurface>}
+-  {(admin||role==="manager")&&<GlassSurface as="section" className="chat-moderation-inbox"><header><h2>Moderation review · demo</h2><span>{reportedMessageIds.length?`${reportedMessageIds.length} local report(s)`:"Centre scope · fictional"}</span></header><div className="moderation-incident"><div><strong>{incidents[0].student}</strong><span>{incidents[0].batch} · {incidents[0].room} · {incidents[0].time}</span><small>{incidents[0].category} · {incidents[0].severity} · simulated · Status: {incidentState}</small><p>{incidents[0].excerpt}</p></div><select aria-label="Incident status" value={incidentState} onChange={event=>setIncidentState(event.target.value)}><option>New</option><option>Reviewing</option><option>Resolved</option><option>Dismissed</option></select></div><p className="section-footnote">No real incident or notification is recorded. Backend review actions require audit logging and batch scope.</p></GlassSurface>}
++  {role==="teacher"&&<GlassSurface as="section" className="chat-moderation-inbox"><header><h2>Chat Moderation</h2><span>Assigned batches only</span></header><p>No verified batch assignments or incidents connected. Private messages are not shown.</p></GlassSurface>}
++  {(admin||role==="manager")&&<GlassSurface as="section" className="chat-moderation-inbox"><header><h2>Moderation review · demo</h2><span>{reportedMessageIds.length?`${reportedMessageIds.length} local report(s)`:"Centre scope · fictional"}</span></header><div className="moderation-incident"><div><strong>{incidents[0].student}</strong><span>{incidents[0].batch} · {incidents[0].room} · {incidents[0].time}</span><small>{incidents[0].category} · {incidents[0].severity} · simulated · Status: {incidentState}</small><p>{incidents[0].excerpt}</p></div><select aria-label="Incident status" value={incidentState} onChange={event=>setIncidentState(event.target.value)}><option>New</option><option>Reviewing</option><option>Resolved</option><option>Dismissed</option></select></div><p className="section-footnote">Review changes are not saved. No notification is sent.</p></GlassSurface>}
+   {(admin||owner)&&<GlassSurface as="section" className="chat-permissions-panel"><header><div><h2>Chat Permissions</h2><p>{admin?"Centre-wide defaults and room overrides":"Permission configuration preview; no centre messages are included."}</p></div><span>LOCAL DEMO STATE</span></header>
+     <div className="chat-permission-roles"><h3>Role access</h3>{roleRows.map(target=><label key={target}><input type="checkbox" checked={permissions.access[target]} onChange={()=>toggleAccess(target)}/><span>{roleLabels[target]}</span></label>)}</div>
+     <div className="chat-permission-matrix"><h3>Centre defaults</h3><div className="permission-table-wrap"><table><thead><tr><th scope="col">Capability</th>{roleRows.map(target=><th scope="col" key={target}>{roleLabels[target]}</th>)}</tr></thead><tbody>{featureRows.map(key=><tr key={key}><th scope="row">{labels[key]}</th>{roleRows.map(target=><td key={target}><label className="chat-permission-toggle"><input type="checkbox" aria-label={`${labels[key]} for ${roleLabels[target]}`} checked={permissions.grants[target][key]} disabled={target==="admin"} onChange={()=>toggleFeature(target,key)}/></label></td>)}</tr>)}</tbody></table></div></div>
+     <div className="room-overrides"><h3>Individual room overrides</h3>{rooms.map(room=><div key={room.id} className="room-override-card"><strong>{room.name}</strong>{roleRows.map(target=><label key={target}><span>{roleLabels[target]} room access</span><select value={String(overrides[room.id]?.chatrooms?.[target]??permissions.grants[target].chatrooms)} onChange={event=>toggleOverride(room.id,"chatrooms",event.target.value==="true",target)}><option value="true">Allow</option><option value="false">Deny</option></select></label>)}<label><span>Student read override</span><select value={String(overrides[room.id]?.studentRead?.student??permissions.grants.student.studentRead)} onChange={event=>toggleOverride(room.id,"studentRead",event.target.value==="true","student")}><option value="true">Allow</option><option value="false">Deny</option></select></label><label><span>Teacher read override</span><select value={String(overrides[room.id]?.teacherRead?.teacher??permissions.grants.teacher.teacherRead)} onChange={event=>toggleOverride(room.id,"teacherRead",event.target.value==="true","teacher")}><option value="true">Allow</option><option value="false">Deny</option></select></label></div>)}</div>
+-     <p className="section-footnote">These controls affect only this page&apos;s preview state. They do not authorize access. Supabase must enforce role grants, tenant and batch membership, server-side reads/sends, rate limits and audited moderation.</p>
++     <p className="section-footnote">Preview controls only. Changes are not saved and do not grant room access.</p>
+   </GlassSurface>}
+   {owner&&<GlassSurface className="chat-owner-boundary"><h2>Developer support boundary</h2><p>Platform Owner sees only technical moderation status and minimum metadata by default. Private message content requires explicit centre authorization and an auditable support-access event.</p></GlassSurface>}
+  </div>;
+diff --git a/src/components/ics/dashboard-charts.tsx b/src/components/ics/dashboard-charts.tsx
+index 5f98db8..28f2233 100644
+--- a/src/components/ics/dashboard-charts.tsx
++++ b/src/components/ics/dashboard-charts.tsx
+@@ -12,13 +12,13 @@ const toneStyle=(tone:Tone|undefined)=>({"--chart-color":`var(--chart-${tone??"b
+ function Chart({title,points,unit="",maxValue}: {title:string;points:readonly Point[];unit?:string;maxValue?:number}){
+  const reduced=useAppMotionReduced();const {settings}=useAppearance();const off=settings.animationPreference==="off";const max=Math.max(1,maxValue??Math.max(...points.map(item=>item.value)));
+  const duration=off?0:(reduced||settings.animationPreference==="reduced"?0.16:0.55);
+- return <article className="dashboard-chart"><header><h2>{title}</h2><span>SIMULATED</span></header><ul>{points.map((item,index)=><li key={item.label}><span>{item.label}</span><span className="dashboard-chart-track"><motion.i data-tone={item.tone??"blue"} style={{...toneStyle(item.tone),width:"100%",transformOrigin:"left center"}} initial={off||reduced||settings.animationPreference!=="full"?false:{scaleX:0}} animate={{scaleX:chartFraction(item.value,max)}} transition={{duration,delay:off||reduced?0:settings.animationPreference==="full"?index*.04:0}}/></span><strong>{unit==="%"?`${item.value}%`:`${unit}${item.value.toLocaleString("en-IN")}${unit===""&&title.toLowerCase().includes("attendance")?"%":""}`}</strong></li>)}</ul><p>Fictional preview values. No live operational data is connected.</p></article>;
++ return <article className="dashboard-chart"><header><h2>{title}</h2><span>SIMULATED</span></header><ul>{points.map((item,index)=><li key={item.label}><span>{item.label}</span><span className="dashboard-chart-track"><motion.i data-tone={item.tone??"blue"} style={{...toneStyle(item.tone),width:"100%",transformOrigin:"left center"}} initial={off||reduced||settings.animationPreference!=="full"?false:{scaleX:0}} animate={{scaleX:chartFraction(item.value,max)}} transition={{duration,delay:off||reduced?0:settings.animationPreference==="full"?index*.04:0}}/></span><strong>{unit==="%"?`${item.value}%`:`${unit}${item.value.toLocaleString("en-IN")}${unit===""&&title.toLowerCase().includes("attendance")?"%":""}`}</strong></li>)}</ul><p>Sample data · not live.</p></article>;
+ }
+ function FinancialChart({rows}:{rows:readonly {label:string;income:number;expenses:number;outstanding:number}[]}){
+  const reduced=useAppMotionReduced();const {settings}=useAppearance();const animate=settings.animationPreference==="full"&&!reduced;const duration=settings.animationPreference==="off"?0:(animate?0.55:0.16);
+  const series=[{key:"income" as const,label:"Collections",tone:"green" as const},{key:"expenses" as const,label:"Expenses",tone:"red" as const},{key:"outstanding" as const,label:"Outstanding fees",tone:"amber" as const}];
+  const max=Math.max(1,...rows.flatMap(row=>series.map(item=>row[item.key])));
+- return <article className="dashboard-chart"><header><h2>Financial overview</h2><span>SIMULATED</span></header><div className="financial-series-legend">{series.map(item=><span key={item.key} style={toneStyle(item.tone)}><i aria-hidden="true"/>{item.label}</span>)}</div><ul>{rows.map(row=><li className="financial-chart-row" key={row.label}><span>{row.label}</span><span className="financial-bar-stack" role="img" aria-label={`${row.label}: collections ₹${row.income.toLocaleString("en-IN")}; expenses ₹${row.expenses.toLocaleString("en-IN")}; outstanding fees ₹${row.outstanding.toLocaleString("en-IN")}`}>{series.map(item=><motion.i key={item.key} style={{...toneStyle(item.tone),width:"100%",transformOrigin:"left center"}} initial={animate?{scaleX:0}:false} animate={{scaleX:chartFraction(row[item.key],max)}} transition={{duration}}/>)}</span><span className="sr-only">Collections ₹{row.income}; expenses ₹{row.expenses}; outstanding fees ₹{row.outstanding}</span></li>)}</ul><p>Fictional preview; collections are not verified income and expenses are not ledger records.</p></article>;
++ return <article className="dashboard-chart"><header><h2>Financial overview</h2><span>SIMULATED</span></header><div className="financial-series-legend">{series.map(item=><span key={item.key} style={toneStyle(item.tone)}><i aria-hidden="true"/>{item.label}</span>)}</div><ul>{rows.map(row=><li className="financial-chart-row" key={row.label}><span>{row.label}</span><span className="financial-bar-stack" role="img" aria-label={`${row.label}: collections ₹${row.income.toLocaleString("en-IN")}; expenses ₹${row.expenses.toLocaleString("en-IN")}; outstanding fees ₹${row.outstanding.toLocaleString("en-IN")}`}>{series.map(item=><motion.i key={item.key} style={{...toneStyle(item.tone),width:"100%",transformOrigin:"left center"}} initial={animate?{scaleX:0}:false} animate={{scaleX:chartFraction(row[item.key],max)}} transition={{duration}}/>)}</span><span className="sr-only">Collections ₹{row.income}; expenses ₹{row.expenses}; outstanding fees ₹{row.outstanding}</span></li>)}</ul><p>Sample figures only; collections and expenses are not verified financial records.</p></article>;
+ }
+ export function DashboardCharts({role}:{role:WorkspaceRole}){
+  if(role==="admin"){const data=dashboardPreview.admin;return <section className="dashboard-charts" aria-label="Simulated dashboard charts"><Chart title="Admissions trend" points={asPoints(data.enrollment)}/><Chart title="Attendance trend" points={asPoints(data.attendance)} maxValue={100} unit="%"/><FinancialChart rows={data.financial}/></section>;}
+diff --git a/src/components/ics/demo-workspaces.css b/src/components/ics/demo-workspaces.css
+index 977701e..589d2a1 100644
+--- a/src/components/ics/demo-workspaces.css
++++ b/src/components/ics/demo-workspaces.css
+@@ -131,6 +131,10 @@
+ .developer-report-detail h3 { margin:0; font-size:12px; }
+ .developer-report-detail header span,.developer-report-detail > p { color:var(--muted); font-size:9px; }
+ .developer-report-detail select { width:auto; min-width:125px; }
++@media(max-width:767px) {
++ .developer-report-detail > header { flex-direction:column; align-items:stretch; }
++ .developer-report-detail select { width:100%; min-height:44px; }
++}
+ .developer-empty { padding:18px; color:var(--muted); font-size:10px; text-align:center; }
+ .developer-error-types { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px; }
+ .developer-error-types span { display:grid; gap:4px; padding:9px; border:1px solid var(--line); border-radius:9px; font-size:9px; }
+diff --git a/src/components/ics/developer-console.tsx b/src/components/ics/developer-console.tsx
+index 33acb0f..0fda798 100644
+--- a/src/components/ics/developer-console.tsx
++++ b/src/components/ics/developer-console.tsx
+@@ -13,25 +13,25 @@ const bugSeed=[
+ ];
+ const unknownServices=["Website availability","API","Database","Authentication","Payments","Messaging","Background jobs"];
+ export function DeveloperConsole(){
+- const {role}=useWorkspaceRolePreview();const [reports,setReports]=useState(bugSeed);const [statusFilter,setStatusFilter]=useState("");const [severityFilter,setSeverityFilter]=useState("");const [roleFilter,setRoleFilter]=useState("");const [centreFilter,setCentreFilter]=useState("");const [dateFilter,setDateFilter]=useState("");const [query,setQuery]=useState("");const [selected,setSelected]=useState<string|null>(bugSeed[0]?.id??null);const [notes,setNotes]=useState("");
++ const {role}=useWorkspaceRolePreview();const [reports,setReports]=useState(bugSeed);const [statusFilter,setStatusFilter]=useState("");const [severityFilter,setSeverityFilter]=useState("");const [roleFilter,setRoleFilter]=useState("");const [centreFilter,setCentreFilter]=useState("");const [dateFilter,setDateFilter]=useState("");const [query,setQuery]=useState("");const [selected,setSelected]=useState<string|null>(bugSeed[0]?.id??null);const [notes,setNotes]=useState<Record<string,string>>({});
+  const reduced=useAppMotionReduced();const {settings}=useAppearance();const fullMotion=settings.animationPreference==="full"&&!reduced;const duration=settings.animationPreference==="off"?0:(fullMotion?0.5:0.16);
+  const filtered=useMemo(()=>reports.filter(item=>(!statusFilter||item.status===statusFilter)&&(!severityFilter||item.severity===severityFilter)&&(!roleFilter||item.role===roleFilter)&&(!centreFilter||item.centre===centreFilter)&&(!dateFilter||item.date===dateFilter)&&(!query||`${item.id} ${item.title} ${item.route} ${item.centre}`.toLowerCase().includes(query.toLowerCase()))),[reports,statusFilter,severityFilter,roleFilter,centreFilter,dateFilter,query]);
+- if(role!=="platform-owner")return <div className="content-container"><PageHeading title="Developer Console"/><GlassSurface className="developer-restricted"><h2>Platform Owner preview required</h2><p>Switch to the clearly labeled demo role preview to inspect fictional technical screens. This is not authentication or an authorization boundary.</p></GlassSurface></div>;
++ if(role!=="platform-owner")return <div className="content-container"><PageHeading title="Developer Console"/><GlassSurface className="developer-restricted"><h2>Platform Owner preview required</h2><p>Select Developer / Owner to view sample reports. Role preview does not grant access to real records.</p></GlassSurface></div>;
+  const current=reports.find(item=>item.id===selected);const severity=severityCounts(reports);const severityMax=Math.max(1,...severity.map(item=>item.value));
+  const status=(id:string,next:string)=>setReports(items=>items.map(item=>item.id===id?{...item,status:next}:item));
+- return <div className="developer-console content-container"><PageHeading title="Developer Console"/><p className="demo-banner"><strong>SIMULATED</strong> No production monitoring, telemetry, reports, notifications or connected centres are available.</p>
++ return <div className="developer-console content-container"><PageHeading title="Developer Console"/><p className="demo-banner"><strong>SIMULATED</strong> Sample reports only. Live monitoring and centres are not connected.</p>
+   <nav className="developer-section-nav" aria-label="Developer Console sections">{["Overview","Bug Reports","Application Errors","System Health","Release Updates","Feedback","Chatroom Moderation","Centre Overview","Developer Settings"].map((label,index)=><a key={label} href={`#${["overview","bug-reports","application-errors","system-health","release-updates","feedback","chat-moderation","centres","developer-settings"][index]}`}>{label}</a>)}</nav>
+-  <section className="developer-severity-chart" aria-label="Fictional reports by severity"><h2>Reports by severity</h2><ul>{severity.map(item=><li key={item.label}><span>{item.label}</span><span className="developer-severity-track"><motion.i data-tone={item.tone} style={{width:"100%",transformOrigin:"left center"}} initial={fullMotion?{scaleX:0}:false} animate={{scaleX:chartFraction(item.value,severityMax)}} transition={{duration,delay:fullMotion?severity.indexOf(item)*.04:0}}/></span><strong>{item.value}</strong></li>)}</ul><p>Fictional local report fixtures; no telemetry is connected.</p></section>
+-  <section id="overview" className="developer-summary-grid" aria-label="Fictional developer metrics">{[["Total reports",reports.length],["Open reports",reports.filter(item=>!(["Fixed","Closed","Duplicate"].includes(item.status))).length],["Critical reports",reports.filter(item=>item.severity==="Critical").length],["Resolved reports",reports.filter(item=>item.status==="Fixed").length]].map(([label,value])=><GlassSurface key={label} className="developer-summary"><span>{label}</span><strong>{value}</strong><small>Fictional demo count</small></GlassSurface>)}</section>
+-   <section id="bug-reports" className="developer-section"><header><div><h2>Bug Reports</h2><p>Local preview state only. No report was sent.</p></div><span>DEMO DATA</span></header><div className="developer-filters"><label>Search<input value={query} onChange={event=>setQuery(event.target.value)} placeholder="Title, route or report ID"/></label><label>Status<select value={statusFilter} onChange={event=>setStatusFilter(event.target.value)}><option value="">All statuses</option>{["New","Investigating","In Progress","Fixed","Closed","Duplicate"].map(item=><option key={item}>{item}</option>)}</select></label><label>Severity<select value={severityFilter} onChange={event=>setSeverityFilter(event.target.value)}><option value="">All severities</option>{["Low","Medium","High","Critical"].map(item=><option key={item}>{item}</option>)}</select></label><label>Role<select value={roleFilter} onChange={event=>setRoleFilter(event.target.value)}><option value="">All roles</option>{["Admin","Manager","Teacher","Student"].map(item=><option key={item}>{item}</option>)}</select></label><label>Centre<select value={centreFilter} onChange={event=>setCentreFilter(event.target.value)}><option value="">All centres</option><option>Demo centre</option></select></label><label>Date<input type="date" value={dateFilter} onChange={event=>setDateFilter(event.target.value)}/></label></div>
+-    <div className="developer-bug-grid"><ul className="developer-report-list">{filtered.map(item=><li key={item.id}><button type="button" aria-pressed={item.id===selected} onClick={()=>setSelected(item.id)}><strong>{item.title}</strong><span>{item.id} · {item.severity}</span><small>{item.status} · {item.role} · {item.route}</small></button></li>)}{!filtered.length&&<li className="developer-empty">No matching fictional reports.</li>}</ul>{current?<article className="developer-report-detail"><header><div><h3>{current.title}</h3><span>{current.id} · {current.category} · {current.time}</span></div><select aria-label="Report status" value={current.status} onChange={event=>status(current.id,event.target.value)}>{["New","Investigating","In Progress","Fixed","Closed","Duplicate"].map(item=><option key={item}>{item}</option>)}</select></header><p>{current.description}</p><dl><div><dt>Reporting role</dt><dd>{current.role}</dd></div><div><dt>Reporter reference</dt><dd>{current.reporter}</dd></div><div><dt>Centre</dt><dd>{current.centre} metadata only</dd></div><div><dt>Affected route</dt><dd>{current.route}</dd></div><div><dt>Date</dt><dd>{current.date}</dd></div><div><dt>Device</dt><dd>{current.device}</dd></div><div><dt>Attachment metadata</dt><dd>{current.screenshot}</dd></div><div><dt>Reproduction</dt><dd>{current.steps}</dd></div></dl><label>Developer notes<textarea value={notes} onChange={event=>setNotes(event.target.value)} rows={3} maxLength={1000}/></label><p>Notes and status changes are temporary page state, not saved.</p></article>:<div className="developer-empty">Select a report.</div>}</div>
++  <section className="developer-severity-chart" aria-label="Fictional reports by severity"><h2>Reports by severity</h2><ul>{severity.map(item=><li key={item.label}><span>{item.label}</span><span className="developer-severity-track"><motion.i data-tone={item.tone} style={{width:"100%",transformOrigin:"left center"}} initial={fullMotion?{scaleX:0}:false} animate={{scaleX:chartFraction(item.value,severityMax)}} transition={{duration,delay:fullMotion?severity.indexOf(item)*.04:0}}/></span><strong>{item.value}</strong></li>)}</ul></section>
++  <section id="overview" className="developer-summary-grid" aria-label="Fictional developer metrics">{[["Total reports",reports.length],["Open reports",reports.filter(item=>!(["Fixed","Closed","Duplicate"].includes(item.status))).length],["Critical reports",reports.filter(item=>item.severity==="Critical").length],["Resolved reports",reports.filter(item=>item.status==="Fixed").length]].map(([label,value])=><GlassSurface key={label} className="developer-summary"><span>{label}</span><strong>{value}</strong><small>Sample count</small></GlassSurface>)}</section>
++   <section id="bug-reports" className="developer-section"><header><div><h2>Bug Reports</h2><p>Sample reports · changes are not saved.</p></div><span>DEMO DATA</span></header><div className="developer-filters"><label>Search<input value={query} onChange={event=>setQuery(event.target.value)} placeholder="Title, route or report ID"/></label><label>Status<select value={statusFilter} onChange={event=>setStatusFilter(event.target.value)}><option value="">All statuses</option>{["New","Investigating","In Progress","Fixed","Closed","Duplicate"].map(item=><option key={item}>{item}</option>)}</select></label><label>Severity<select value={severityFilter} onChange={event=>setSeverityFilter(event.target.value)}><option value="">All severities</option>{["Low","Medium","High","Critical"].map(item=><option key={item}>{item}</option>)}</select></label><label>Role<select value={roleFilter} onChange={event=>setRoleFilter(event.target.value)}><option value="">All roles</option>{["Admin","Manager","Teacher","Student"].map(item=><option key={item}>{item}</option>)}</select></label><label>Centre<select value={centreFilter} onChange={event=>setCentreFilter(event.target.value)}><option value="">All centres</option><option>Demo centre</option></select></label><label>Date<input type="date" value={dateFilter} onChange={event=>setDateFilter(event.target.value)}/></label></div>
++    <div className="developer-bug-grid"><ul className="developer-report-list">{filtered.map(item=><li key={item.id}><button type="button" aria-pressed={item.id===selected} onClick={()=>setSelected(item.id)}><strong>{item.title}</strong><span>{item.id} · {item.severity}</span><small>{item.status} · {item.role} · {item.route}</small></button></li>)}{!filtered.length&&<li className="developer-empty">No matching fictional reports.</li>}</ul>{current?<article className="developer-report-detail"><header><div><h3>{current.title}</h3><span>{current.id} · {current.category} · {current.time}</span></div><select aria-label="Report status" value={current.status} onChange={event=>status(current.id,event.target.value)}>{["New","Investigating","In Progress","Fixed","Closed","Duplicate"].map(item=><option key={item}>{item}</option>)}</select></header><p>{current.description}</p><dl><div><dt>Reporting role</dt><dd>{current.role}</dd></div><div><dt>Reporter reference</dt><dd>{current.reporter}</dd></div><div><dt>Centre</dt><dd>{current.centre} metadata only</dd></div><div><dt>Affected route</dt><dd>{current.route}</dd></div><div><dt>Date</dt><dd>{current.date}</dd></div><div><dt>Device</dt><dd>{current.device}</dd></div><div><dt>Attachment metadata</dt><dd>{current.screenshot}</dd></div><div><dt>Reproduction</dt><dd>{current.steps}</dd></div></dl><label>Developer notes<textarea value={notes[current.id]??""} onChange={event=>{const value=event.target.value;setNotes(items=>({...items,[current.id]:value}));}} rows={3} maxLength={1000}/></label><p>Changes are not saved.</p></article>:<div className="developer-empty">Select a report.</div>}</div>
+   </section>
+-  <section id="application-errors" className="developer-section"><header><div><h2>Application Errors</h2><p>Provider-neutral future telemetry boundary.</p></div><span>NO INGESTION</span></header><p>Errors are not being collected. A future adapter must redact sensitive values, require authenticated ingestion, rate-limit and deduplicate submissions, and enforce retention.</p><div className="developer-error-types">{["Frontend runtime","Failed API request","Authentication","Database","Payments","Background job","Chat delivery"].map(item=><span key={item}>{item}<small>Not connected</small></span>)}</div><p>Never capture credentials, payment secrets, student data or page contents.</p></section>
+-  <section id="system-health" className="developer-section"><header><div><h2>System Health</h2><p>Unconfigured services stay unknown.</p></div><span>UNKNOWN</span></header><ul className="developer-health-list">{unknownServices.map(item=><li key={item}><span>{item}</span><strong>Not configured</strong></li>)}</ul></section>
+-  <section id="release-updates" className="developer-section"><header><div><h2>Release Updates</h2><p>Local changelog preview.</p></div><span>DEMO</span></header><article className="developer-release"><strong>0.1.0 · UI foundation</strong><span>Preview · deployment status unknown</span><p>Appearance, admissions and management workflows are frontend demos. No deployment is connected.</p><small>Internal notes are not published to users.</small></article></section>
+-  <section id="feedback" className="developer-section"><header><div><h2>Feedback</h2><p>Fictional queue, no real submissions.</p></div><span>0 REAL ITEMS</span></header><p>No feedback has been received by a backend.</p></section>
+-  <section id="chat-moderation" className="developer-section"><header><div><h2>Chatroom Moderation</h2><p>Technical alert preview with minimal metadata.</p></div><span>CONTENT ACCESS DENIED BY DEFAULT</span></header><p>No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.</p><a href="/chatrooms">Open Chat Permissions preview</a></section>
++  <section id="application-errors" className="developer-section"><header><div><h2>Application Errors</h2><p>Error collection is not connected.</p></div><span>NO INGESTION</span></header><p>No errors are being collected.</p><div className="developer-error-types">{["Frontend runtime","Failed API request","Authentication","Database","Payments","Background job","Chat delivery"].map(item=><span key={item}>{item}<small>Not connected</small></span>)}</div><p>Never capture credentials, payment secrets, student data or page contents.</p></section>
++  <section id="system-health" className="developer-section"><header><div><h2>System Health</h2><p>Service status is unavailable.</p></div><span>UNKNOWN</span></header><ul className="developer-health-list">{unknownServices.map(item=><li key={item}><span>{item}</span><strong>Not configured</strong></li>)}</ul></section>
++  <section id="release-updates" className="developer-section"><header><div><h2>Release Updates</h2><p>Local changelog preview.</p></div><span>DEMO</span></header><article className="developer-release"><strong>0.1.0 · UI foundation</strong><span>Preview · deployment status unknown</span><p>Interface preview · no deployment is connected.</p><small>Internal notes are not published to users.</small></article></section>
++  <section id="feedback" className="developer-section"><header><div><h2>Feedback</h2><p>No submissions connected.</p></div><span>0 REAL ITEMS</span></header><p>No feedback available.</p></section>
++  <section id="chat-moderation" className="developer-section"><header><div><h2>Chatroom Moderation</h2><p>Moderation is not connected.</p></div><span>CONTENT ACCESS DENIED BY DEFAULT</span></header><p>No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.</p><a href="/chatrooms">Open Chat Permissions preview</a></section>
+   <section id="centres" className="developer-section"><header><div><h2>Centre Overview</h2><p>Tenant metadata only.</p></div><span>NO STUDENT RECORDS</span></header><dl className="developer-centre-metadata"><div><dt>Demo workspace</dt><dd>ICS Hansi preview</dd></div><div><dt>Branch</dt><dd>Demo branch</dd></div><div><dt>Provisioning</dt><dd>Not configured</dd></div><div><dt>Centre administrators</dt><dd>Not connected</dd></div></dl></section>
+-  <section id="developer-settings" className="developer-section"><header><div><h2>Developer Settings</h2><p>Preferences preview only.</p></div></header><label className="developer-toggle"><input type="checkbox" disabled/><span>Automatic notifications</span><small>Unavailable until a secured notification service is configured.</small></label></section>
++  <section id="developer-settings" className="developer-section"><header><div><h2>Developer Settings</h2><p>Preferences preview only.</p></div></header><label className="developer-toggle"><input type="checkbox" disabled/><span>Automatic notifications</span><small>Notification service not connected.</small></label></section>
+  </div>;
+ }
+diff --git a/src/components/ics/management-page.tsx b/src/components/ics/management-page.tsx
+index dcf6ac2..d38ff7c 100644
+--- a/src/components/ics/management-page.tsx
++++ b/src/components/ics/management-page.tsx
+@@ -12,13 +12,13 @@ const routes = navigation.filter(e=>e.href!=="/");
+ const empty:Record<string,{title:string;description:string}>={
+  fees:{title:"Your fee register will live here",description:"Receipts and balances will be available after secure financial workflows are implemented. No payment or balance is recorded in this preview."},
+  attendance:{title:"Ready for the class register",description:"Choose a batch and session here once authorized attendance workflows are connected. No attendance has been recorded."},
+- staff:{title:"A dedicated space for your team",description:"Staff records, approved role administration and teacher assignments will live here. Access changes require reviewed authorization and audit trails."},
++ staff:{title:"Staff records unavailable",description:"Staff records and teacher assignments are not connected. Access changes require centre authorization."},
+  "tests-results":{title:"Make progress easy to follow",description:"Tests, marks entry and published results will share this canonical academic workflow. There are no live assessments yet."},
+- homework:{title:"One place for assigned work",description:"Homework and submission tracking will appear here after assigned-batch permissions are implemented."},
++ homework:{title:"No homework connected",description:"Homework and submissions are unavailable until batch assignments are connected."},
+ };
+ export function ManagementPage({section}:{section:string}){
+  const entry=routes.find(e=>e.href===`/${section}`);if(!entry)notFound();
+  return <>{section==="settings"?<SettingsHeading/>:<PageHeading title={entry.label}/>}
+- {section==="batches"?<BatchManagement/>:section==="audit-logs"?<AuditLogs/>:section==="ledger"?<FinancialLedger/>:section==="fees"?<FeeManagement/>:section==="attendance"?<AttendancePreview/>:section==="tests-results"?<AcademicPreview/>:section==="settings"?<PersonalSettings/>:section==="ics-updates"?<><section className="updates-section"><div className="section-heading"><h2>Pinned current timetables</h2><span className="quiet-label">No images published</span></div><p>Current timetable images will be pinned here, with dates and readable text alternatives.</p></section><EmptyState title="Updates, without the clutter">Centre notices and WhatsApp-style photo statuses will appear here. Previous timetable images will remain available in an accessible history. Publishing, uploads and history are not connected.</EmptyState></>:<EmptyState title={empty[section].title}>{empty[section].description}</EmptyState>}
++ {section==="batches"?<BatchManagement/>:section==="audit-logs"?<AuditLogs/>:section==="ledger"?<FinancialLedger/>:section==="fees"?<FeeManagement/>:section==="attendance"?<AttendancePreview/>:section==="tests-results"?<AcademicPreview/>:section==="settings"?<PersonalSettings/>:section==="ics-updates"?<><section className="updates-section"><div className="section-heading"><h2>Pinned current timetables</h2><span className="quiet-label">No images published</span></div><p>No current timetable is published.</p></section><EmptyState title="No updates published">Notices, timetable uploads and history are not connected.</EmptyState></>:<EmptyState title={empty[section].title}>{empty[section].description}</EmptyState>}
+  </>;
+ }
+diff --git a/src/components/ics/personal-settings.tsx b/src/components/ics/personal-settings.tsx
+index 68e0049..c2d3f49 100644
+--- a/src/components/ics/personal-settings.tsx
++++ b/src/components/ics/personal-settings.tsx
+@@ -6,5 +6,5 @@ import { GlassSurface } from "./glass";
+ 
+ export function PersonalSettings() {
+  const {role}=useWorkspaceRolePreview();
+- return <><AppearanceCustomizer/>{role==="admin"?<><p className="demo-banner"><strong>CENTRE BRANDING</strong> Shared centre presentation is separate from your personal appearance. This demo role preview does not authorize changes.</p><BrandingEditor/></>:<GlassSurface className="personal-branding-boundary"><h2>Centre branding</h2><p>Shared centre branding is managed separately by the Centre Admin. Your appearance preferences do not change it.</p></GlassSurface>}</>;
++ return <><AppearanceCustomizer/>{role==="admin"?<><p className="demo-banner"><strong>CENTRE BRANDING</strong> Separate from personal appearance. Preview roles do not grant real centre permissions.</p><BrandingEditor/></>:<GlassSurface className="personal-branding-boundary"><h2>Centre branding</h2><p>Managed by the Centre Admin. Personal appearance does not change centre branding.</p></GlassSurface>}</>;
+ }
+diff --git a/src/components/ics/role-dashboard.tsx b/src/components/ics/role-dashboard.tsx
+index 4ab58f3..e17786d 100644
+--- a/src/components/ics/role-dashboard.tsx
++++ b/src/components/ics/role-dashboard.tsx
+@@ -22,5 +22,5 @@ export function RoleDashboard({role:explicitRole}:{role?:WorkspaceRole}={}) {
+  const expired=snapshots.filter(item=>item.status==="Expired").length;
+  return <><PageHeading title="Dashboard"/><div className="dashboard-layout"><dl className="dashboard-summaries" aria-label="Operational summary">
+  {dashboardSummaries[role].map(summary=><GlassSurface key={summary.label} className="dashboard-summary"><dt><Icon name={summary.icon}/><span>{summary.label}</span></dt><dd><span aria-hidden="true">—</span><span className="sr-only">Unavailable</span></dd></GlassSurface>)}
+- </dl>{renewals&&<GlassSurface as="section" className="dashboard-renewal-insights" aria-labelledby="renewal-insights-title"><div className="section-heading"><h2 id="renewal-insights-title">Enrollment renewals</h2><span>DEMO FIXTURES · NOT LIVE</span></div><dl><div><dt>Students expiring soon</dt><dd>{today?expiring:"—"}</dd><Link href="/students?enrollment=Expiring%20Soon">Review demo enrollments</Link></div><div><dt>Expired enrollments</dt><dd>{today?expired:"—"}</dd><Link href="/students?enrollment=Expired">Review demo enrollments</Link></div><div><dt>Renewals due</dt><dd>{today?expiring+expired:"—"}</dd><Link href="/students?enrollment=Expiring%20Soon">Open Students</Link></div><div><dt>Renewals completed</dt><dd>No demo history</dd></div><div><dt>Pending renewal payments</dt><dd>No demo payments</dd></div></dl><p>These date calculations use fictional fixtures for interface preview. No operational counts, payment totals or renewal history are connected.</p></GlassSurface>}<DashboardCharts role={role}/><GlassSurface as="section" className="dashboard-activity" aria-labelledby="recent-activity-title"><h2 id="recent-activity-title">Recent Activity</h2><p>No activity available yet.</p></GlassSurface></div></>;
++ </dl>{renewals&&<GlassSurface as="section" className="dashboard-renewal-insights" aria-labelledby="renewal-insights-title"><div className="section-heading"><h2 id="renewal-insights-title">Enrollment renewals</h2><span>DEMO FIXTURES · NOT LIVE</span></div><dl><div><dt>Students expiring soon</dt><dd>{today?expiring:"—"}</dd><Link href="/students?enrollment=Expiring%20Soon">Review demo enrollments</Link></div><div><dt>Expired enrollments</dt><dd>{today?expired:"—"}</dd><Link href="/students?enrollment=Expired">Review demo enrollments</Link></div><div><dt>Renewals due</dt><dd>{today?expiring+expired:"—"}</dd><Link href="/students?enrollment=Expiring%20Soon">Open Students</Link></div><div><dt>Renewals completed</dt><dd>No demo history</dd></div><div><dt>Pending renewal payments</dt><dd>No demo payments</dd></div></dl><p>Sample enrollments only. Live totals, payments and renewal history are not connected.</p></GlassSurface>}<DashboardCharts role={role}/><GlassSurface as="section" className="dashboard-activity" aria-labelledby="recent-activity-title"><h2 id="recent-activity-title">Recent Activity</h2><p>No activity available yet.</p></GlassSurface></div></>;
+ }
+diff --git a/src/components/ics/saas-layout.css b/src/components/ics/saas-layout.css
+index 7809ce8..1c22ef0 100644
+--- a/src/components/ics/saas-layout.css
++++ b/src/components/ics/saas-layout.css
+@@ -23,6 +23,8 @@ html[data-appearance="light"] .appearance-advanced { background:color-mix(in srg
+ .form-grid > label { min-width:0; }
+ .form-grid input { width:100%; min-width:0; min-height:44px; }
+ .form-grid > label:last-child { grid-column:1 / -1; }
++/* Form actions use the existing primary hierarchy without native outset borders. */
++.form-actions > button.primary-link { border:1px solid var(--accent); }
+ .parent-contact-help { margin:0 0 16px; font-size:13px; color:var(--muted); line-height:1.5; }
+ .choice-overlay { overflow:visible; border-radius:14px; max-height:none; z-index:80; }
+ .choice-overlay .picker-frame { padding:6px; border-radius:14px; background:var(--surface) !important; }
+@@ -353,9 +355,10 @@ html { scrollbar-width:thin; scrollbar-color:color-mix(in srgb,var(--accent) 30%
+  .student-metric--interactive:hover { transform:none; }
+ }
+ .academic-workspace { display:grid; gap:16px; min-width:0; }
+-.academic-fields { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; align-items:end; padding:0 20px 18px; }
++.academic-fields { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; align-items:start; padding:0 20px 18px; }
+ .academic-fields > * { min-width:0; }
+-.academic-fields > label { display:grid; gap:5px; font-size:11px; font-weight:600; }
++.academic-fields > label { display:flex; flex-direction:column; gap:8px; font-size:13px; font-weight:600; }
++.academic-fields > label > input,.academic-fields .picker-trigger { min-height:46px; padding-block:10px; }
+ .academic-roster-heading,.academic-result-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:0 20px 10px; }
+ .academic-roster-heading h3,.academic-result-heading h3 { margin:0; font-size:13px; }
+ .academic-roster-heading > span { color:var(--muted); font-size:10px; }
+@@ -368,7 +371,8 @@ html { scrollbar-width:thin; scrollbar-color:color-mix(in srgb,var(--accent) 30%
+ .academic-roster-row input:not([type="checkbox"]) { min-height:38px; }
+ .academic-roster-row .academic-absent { display:flex; align-items:center; gap:7px; min-height:38px; }
+ .academic-roster-row .academic-absent input { width:16px; height:16px; min-height:16px; accent-color:var(--accent); }
+-.academic-assessment > .form-actions { padding:14px 20px 4px; }
++.academic-assessment > .form-actions { padding:14px 20px; gap:12px; }
++.academic-assessment > .form-actions > .secondary-button { min-height:44px; }
+ .academic-assessment > .section-footnote { padding:0 20px; }
+ .academic-result-preview { margin:10px 20px 20px; padding:14px; border:1px solid var(--line); border-radius:14px; background:color-mix(in srgb,var(--surface) 78%,transparent); }
+ .academic-result-heading { padding:0 0 12px; }
+diff --git a/src/components/ics/settings-layout.css b/src/components/ics/settings-layout.css
+index 3e5cdad..d23678a 100644
+--- a/src/components/ics/settings-layout.css
++++ b/src/components/ics/settings-layout.css
+@@ -83,3 +83,31 @@
+ @media(min-width:1200px) { .appearance-source > .ogui-segments { grid-template-columns:repeat(5,minmax(0,1fr)); } }
+ @media(prefers-reduced-motion:reduce) { .ics-mobile-dock > .ics-dock-selection { transition:none; } }
+ @media(forced-colors:active) { .ics-mobile-dock > .ics-dock-selection { border-color:Highlight; background:Canvas; } }
++
++/* Settings-only restoration. Shared dashboard surfaces and appearance state stay intact. */
++.workspace-main .settings-heading { min-height:48px; padding:7px 14px; border-radius:15px; }
++.workspace-main .settings-heading h1 { font-size:18px; line-height:1.3; }
++.appearance-settings.appearance-settings--compact .appearance-controls {
++ grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 24px; padding:18px;
++ border:1px solid var(--line); border-radius:18px;
++ background:color-mix(in srgb,var(--surface) 65%,transparent);
++}
++.appearance-settings--compact .appearance-background-group,
++.appearance-settings--compact .appearance-glass-group { gap:14px; }
++.appearance-settings--compact .appearance-field h3,
++.appearance-settings--compact .appearance-field legend { font-size:13px; margin:0 0 8px; }
++.appearance-settings--compact .appearance-animation-options,
++.appearance-settings--compact .appearance-custom-options { grid-column:1 / -1; min-width:0; border-top:1px solid var(--line); }
++.appearance-settings--compact :is(.appearance-animation-options,.appearance-custom-options) > summary { min-height:44px; padding:10px 0; font-size:13px; cursor:pointer; }
++.appearance-settings--compact .appearance-animation-options > .appearance-field { max-width:440px; }
++.appearance-settings--compact .appearance-preference-actions { grid-column:1 / -1; margin:0; padding:0; }
++.appearance-settings--compact .appearance-preference-actions [role="status"] { flex-basis:100%; font-size:12px; }
++.appearance-settings--compact .appearance-custom-options .custom-editor { border-top:0; padding-top:0; }
++.appearance-settings.appearance-settings--compact .appearance-advanced { background:color-mix(in srgb,var(--surface) 65%,transparent); }
++/* The aria-hidden decoration must not intercept the preview lens button. */
++.appearance-settings .appearance-preview .landing-shape--clear { pointer-events:none; }
++@media(max-width:767px) {
++ .workspace-main .settings-heading { padding:6px 11px; border-radius:13px; }
++ .workspace-main .settings-heading h1 { font-size:16px; }
++ .appearance-settings.appearance-settings--compact .appearance-controls { grid-template-columns:minmax(0,1fr); gap:12px; padding:12px; }
++}
+diff --git a/src/components/ics/smart-workspace-bar.tsx b/src/components/ics/smart-workspace-bar.tsx
+index 57ad4f2..cee70b2 100644
+--- a/src/components/ics/smart-workspace-bar.tsx
++++ b/src/components/ics/smart-workspace-bar.tsx
+@@ -23,6 +23,7 @@ import { DEMO_IDENTITIES, roleForDemoIdentity, workspaceRoleLanding, type DemoId
+ import { BugReportDialog } from "./bug-report";
+ import { useAppMotionReduced } from "@/app/providers";
+ import { lockDocumentScroll } from "./document-scroll-lock.mjs";
++import {commitRoleSection,resetRoleSectionForIdentity} from "./section-navigation.mjs";
+ 
+ const noSubscribe=()=>()=>{};
+ const clientReady=()=>true;
+@@ -45,7 +46,7 @@ function CommandPalette({role,onClose,trigger}:{role:WorkspaceRole;onClose:()=>v
+   if(event.key==="ArrowUp"){event.preventDefault();setActive(current=>results.length?(current-1+results.length)%results.length:0);}
+   if(event.key==="Home"&&results.length){event.preventDefault();setActive(0);}
+   if(event.key==="End"&&results.length){event.preventDefault();setActive(results.length-1);}
+-  if(event.key==="Enter"&&results[active]){event.preventDefault();router.push(results[active].href);onClose();}
++  if(event.key==="Enter"&&results[active]){event.preventDefault();const sectionRole=role!=="admin"&&role!=="manager";if(!sectionRole||!commitRoleSection(results[active].href,window,document,workspaceRoleLanding(role)))router.push(results[active].href);onClose();}
+  }
+  return <dialog ref={dialog} className="workspace-dialog command-dialog" aria-labelledby="command-title" onCancel={event=>{event.preventDefault();onClose();}}>
+    <motion.div className="workspace-dialog-surface" initial={{opacity:reduced?1:0,y:reduced?0:8,scale:reduced?1:.99}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:reduced?1:0,y:reduced?0:5}} transition={{duration:reduced?0:.16,ease:[.22,1,.36,1]}}>
+@@ -162,7 +163,7 @@ export function SmartWorkspaceBar({role,platform,name,branch,logoUrl,initials}:{
+        <button role="menuitem" type="button" onClick={event=>openBug(actionButton.current??event.currentTarget)}><Icon name="bug"/>Report a Bug</button>
+       </motion.div>}</AnimatePresence>
+      </div>
+-     {process.env.NODE_ENV!="production"?<label className="workspace-role-preview"><span>DEMO USER</span><select aria-label="Demo user preview" value={rolePreview.userId} onChange={event=>{const identity=event.currentTarget.value as DemoIdentityId;const next=roleForDemoIdentity(identity);rolePreview.setIdentity(identity);setActionsOpen(false);setCommandOpen(false);setExportOpen(false);setBugOpen(false);router.replace(workspaceRoleLanding(next));}}>{DEMO_IDENTITIES.map(identity=><option key={identity.id} value={identity.id}>{identity.label}</option>)}</select></label>:<div className="workspace-role-chip" aria-label={`Current role: ${roleLabels[role]}`} title={roleLabels[role]}><span aria-hidden="true">{role.slice(0,2).toUpperCase()}</span><small>{roleLabels[role]}</small></div>}
++     {process.env.NODE_ENV!="production"?<label className="workspace-role-preview"><span>DEMO USER</span><select aria-label="Demo user preview" value={rolePreview.userId} onChange={event=>{const identity=event.currentTarget.value as DemoIdentityId;const next=roleForDemoIdentity(identity);rolePreview.setIdentity(identity);setActionsOpen(false);setCommandOpen(false);setExportOpen(false);setBugOpen(false);if(next!=="admin"&&next!=="manager")resetRoleSectionForIdentity(window,workspaceRoleLanding(next));router.replace(workspaceRoleLanding(next));}}>{DEMO_IDENTITIES.map(identity=><option key={identity.id} value={identity.id}>{identity.label}</option>)}</select></label>:<div className="workspace-role-chip" aria-label={`Current role: ${roleLabels[role]}`} title={roleLabels[role]}><span aria-hidden="true">{role.slice(0,2).toUpperCase()}</span><small>{roleLabels[role]}</small></div>}
+      <span className="workspace-connection" role="status" aria-label="Backend not connected" title="No backend connection is configured"><span className="note-dot" aria-hidden="true"/><span aria-hidden="true">Not connected</span></span>
+     </div>
+    </GlassSurface>
+diff --git a/src/components/ics/student-directory.tsx b/src/components/ics/student-directory.tsx
+index da0bd39..5191486 100644
+--- a/src/components/ics/student-directory.tsx
++++ b/src/components/ics/student-directory.tsx
+@@ -102,12 +102,12 @@ export function StudentDirectory() {
+   </section>
+ 
+   {admissionOpen&&<motion.section ref={panel} className="directory inline-admission" aria-labelledby="inline-admission-title" initial={reduced?false:{opacity:0,y:-8}} animate={{opacity:1,y:0}} transition={{duration:reduced?0:.18,ease:[.22,1,.36,1]}}>
+-   <header className="directory-heading"><div><h2 id="inline-admission-title">Add Student</h2><p className="section-footnote">Review a fictional admission draft. No record is saved.</p></div><button className="secondary-button" type="button" onClick={closeAdmission}>Close admission</button></header>
++   <header className="directory-heading"><div><h2 id="inline-admission-title">Add Student</h2><p className="section-footnote">Unsaved admission draft.</p></div><button className="secondary-button" type="button" onClick={closeAdmission}>Close admission</button></header>
+    <StudentForm onClose={()=>setAdmissionOpen(false)}/>
+   </motion.section>}
+ 
+   <section ref={directoryPanel} className="directory student-directory" aria-label="Fictional student directory">
+-   <div className="directory-heading"><div><h2>Student directory</h2><span className="quiet-label">Fictional demo records · not saved to a backend</span></div><div className="student-directory-heading-actions"><span className="quiet-label">{students.length} demo records</span><button className="primary-link" type="button" aria-expanded={admissionOpen} onClick={()=>admissionOpen?closeAdmission():setAdmissionOpen(true)}>{admissionOpen?"Hide admission":"Add Student"}</button></div></div>
++   <div className="directory-heading"><div><h2>Student directory</h2><span className="quiet-label">Sample records · not connected</span></div><div className="student-directory-heading-actions"><span className="quiet-label">{students.length} demo records</span><button className="primary-link" type="button" aria-expanded={admissionOpen} onClick={()=>admissionOpen?closeAdmission():setAdmissionOpen(true)}>{admissionOpen?"Hide admission":"Add Student"}</button></div></div>
+    <div className="student-view-tabs" role="group" aria-label="Student directory views">
+     <button type="button" aria-pressed={view==="all"} onClick={()=>selectView("all")}>All Students</button>
+     <button type="button" aria-pressed={view==="batch"} onClick={()=>selectView("batch")}>By Batch</button>
+@@ -144,6 +144,6 @@ export function StudentDirectory() {
+    </>}
+    {view!=="fees"&&view!=="archive"&&<p className="table-footer" role="status">{view==="enrollments"?`${enrollmentRecords.length} fictional enrollment ${enrollmentRecords.length===1?"record":"records"}`:`${rows.length} of ${students.length} fictional students · showing ${visibleRows.length} on this page`}</p>}
+   </section>
+-  <p className="section-footnote">Demo Student IDs are illustrative only. Permanent Student IDs and batch rolls require secure centre-scoped backend allocation; Registration Numbers are entered manually by centre staff.</p>
++  <p className="section-footnote">Demo references are not official Student IDs or roll numbers. Staff enter Registration Numbers manually.</p>
+  </div>;
+ }
+diff --git a/src/components/ics/student-portal.tsx b/src/components/ics/student-portal.tsx
+index 5c06f60..ceca276 100644
+--- a/src/components/ics/student-portal.tsx
++++ b/src/components/ics/student-portal.tsx
+@@ -3,36 +3,39 @@ import Link from "next/link";
+ import { motion } from "motion/react";
+ import { GlassSurface } from "./glass";
+ import { PageHeading } from "./page-heading";
++import { useWorkspaceRolePreview } from "./workspace-role-preview";
++import { DEMO_IDENTITIES } from "./workspace-role-model";
+ import { chartFraction, percentageSegments, studentChartSegments, studentPreview, studentProgress } from "./analytics-model.mjs";
+ import { useAppMotionReduced, useAppearance } from "@/app/providers";
+ 
+ const sections=[
+  {id:"batch",title:"Classes & Batch",text:"New General · timetable not connected."},
+- {id:"attendance",title:"Attendance",text:"Fictional demo attendance preview."},
+- {id:"results",title:"Tests & Results",text:"Sample marks only; published results are not connected."},
+- {id:"fees",title:"Fees",text:"Personal fee records and payment history are not connected."},
++ {id:"attendance",title:"Attendance",text:"Sample attendance only."},
++ {id:"results",title:"Tests & Results",text:"Published results not connected."},
++ {id:"fees",title:"Fees",text:"Personal fees and payments not connected."},
+  {id:"profile",title:"Profile",text:"Verified profile details require secure sign-in."},
+- {id:"homework",title:"Homework",text:"Fictional completion preview; assignments are not connected."},
+- {id:"updates",title:"ICS Updates",text:"Centre notices and current timetable images are not published."},
++ {id:"homework",title:"Homework",text:"Assignments not connected."},
++ {id:"updates",title:"ICS Updates",text:"No notices or timetables published."},
+ ];
+ function Ring({value,label,detail,segments}:{value:number|null;label:string;detail:string;segments:readonly {label:string;value:number;tone:string}[]}){
+  const reduced=useAppMotionReduced();const {settings}=useAppearance();const radius=38,circumference=2*Math.PI*radius;const chart: {label:string;value:number;percent:number;offset:number;tone:string}[]=percentageSegments(segments);const off=settings.animationPreference==="off";const animate=settings.animationPreference==="full"&&!reduced;
+  return <div className="student-progress-ring"><svg viewBox="0 0 100 100" role="img" aria-label={`${label}: ${value===null?"Not available":`${value}%`}`}><circle className="student-ring-track" cx="50" cy="50" r={radius}/>{chart.map((segment,index)=><motion.circle key={segment.label} className="student-ring-segment" data-tone={segment.tone} cx="50" cy="50" r={radius} transform="rotate(-90 50 50)" strokeDashoffset={-circumference*segment.offset/100} initial={animate?{strokeDasharray:`0 ${circumference}`} : false} animate={{strokeDasharray:`${circumference*segment.percent/100} ${circumference}`}} transition={{duration:off?0:(animate?0.78:0.16),delay:animate?index*.06:0,ease:[.22,1,.36,1]}} aria-hidden="true"/> )}</svg><span className="student-ring-copy"><strong>{value===null?"—":`${value}%`}</strong><small>{label}</small></span><span className="sr-only">{detail} {segments.map(item=>`${item.label} ${item.value}%`).join(", ")}.</span></div>;
+ }
+ export function StudentPortal(){
++ const {userId}=useWorkspaceRolePreview();const identityLabel=DEMO_IDENTITIES.find(identity=>identity.id===userId)?.label;
+  const progress=studentProgress();const reduced=useAppMotionReduced();const {settings}=useAppearance();const off=settings.animationPreference==="off";const full=settings.animationPreference==="full"&&!reduced;const barDuration=off?0:(full?0.7:0.16);
+  return <div className="student-portal content-container">
+   <PageHeading title="Student Home"/>
+-  <p className="demo-banner"><strong>FICTIONAL PREVIEW</strong> No authenticated student profile or private records are connected.</p>
++  <p className="demo-banner"><strong>FICTIONAL PREVIEW</strong> Sample data only. Your private records are not connected.</p>
+   <nav className="student-portal-nav" aria-label="Student portal sections">{sections.map(item=><a key={item.id} href={`#${item.id}`}>{item.title}</a>)}<Link href="/chatrooms">Chatrooms</Link><Link href="/settings">Help &amp; Settings</Link></nav>
+-  <GlassSurface className="student-portal-welcome"><span>STUDENT WORKSPACE · DEMO</span><h2>Good morning, Aarav</h2><p>Fictional student preview · Student ID not issued · New General · Roll number not assigned · Enrollment not connected.</p></GlassSurface>
++  <GlassSurface className="student-portal-welcome"><span>STUDENT WORKSPACE · DEMO</span><h2>Good morning, {identityLabel}</h2><p>Sample student · New General · Enrollment not connected.</p></GlassSurface>
+   <section className="student-portal-overview" aria-label="Student progress preview">
+    <article className="student-visual-card"><header><h2>Fees</h2><span>DEMO DATA</span></header><Ring value={progress.paidPercent} label="Paid" detail={`Total ₹${(studentPreview.fees.totalMinor/100).toLocaleString("en-IN")}; paid ₹${(studentPreview.fees.paidMinor/100).toLocaleString("en-IN")}; remaining ₹${(progress.remainingMinor/100).toLocaleString("en-IN")}.`} segments={studentChartSegments.fees}/><div className="student-chart-legend">{studentChartSegments.fees.map(item=><span key={item.label} data-tone={item.tone}><i aria-hidden="true"/>{item.label} {item.value}%</span>)}</div><dl><div><dt>Total</dt><dd>₹{(studentPreview.fees.totalMinor/100).toLocaleString("en-IN")}</dd></div><div><dt>Paid</dt><dd>₹{(studentPreview.fees.paidMinor/100).toLocaleString("en-IN")}</dd></div><div><dt>Remaining</dt><dd>₹{(progress.remainingMinor/100).toLocaleString("en-IN")}</dd></div></dl><p>No payment or receipt is recorded.</p></article>
+    <article className="student-visual-card"><header><h2>Attendance</h2><span>DEMO DATA</span></header><Ring value={progress.attendancePercent} label="Present" detail={`${studentPreview.attendance.present} present, ${studentPreview.attendance.absent} absent, ${studentPreview.attendance.leave} leave.`} segments={studentChartSegments.attendance}/><div className="student-chart-legend">{studentChartSegments.attendance.map(item=><span key={item.label} data-tone={item.tone}><i aria-hidden="true"/>{item.label} {item.value}%</span>)}</div><dl><div><dt>Present</dt><dd>{studentPreview.attendance.present}</dd></div><div><dt>Absent</dt><dd>{studentPreview.attendance.absent}</dd></div><div><dt>Leave</dt><dd>{studentPreview.attendance.leave}</dd></div></dl><p>Sample attendance totals, not a real register.</p></article>
+    <article className="student-visual-card"><header><h2>Homework</h2><span>DEMO DATA</span></header><div className="student-bar-value"><span>Completion</span><strong>{progress.homeworkPercent}%</strong></div><div className="student-progress-track" role="img" aria-label={`Homework completion ${progress.homeworkPercent}%`}><motion.span data-tone="green" style={{width:"100%",transformOrigin:"left center"}} initial={full?{scaleX:0}:false} animate={{scaleX:chartFraction(progress.homeworkPercent)}} transition={{duration:barDuration}}/></div><p>{studentPreview.homework.completed} of {studentPreview.homework.assigned} fictional tasks complete.</p><Link href="/student-portal#homework">View homework</Link></article>
+-   <article className="student-visual-card"><header><h2>Recent tests</h2><span>DEMO DATA</span></header><ul className="student-test-bars">{studentPreview.tests.map((test,index)=><li key={test.label}><span>{test.label}</span><span className="student-progress-track" role="img" aria-label={`${test.label} sample score ${test.score}%`}><motion.span data-tone={(["blue","violet","teal"] as const)[index%3]} style={{width:"100%",transformOrigin:"left center"}} initial={full?{scaleX:0}:false} animate={{scaleX:chartFraction(test.score)}} transition={{duration:barDuration,delay:full?index*.04:0}}/></span><strong>{test.score}%</strong></li>)}</ul><p>Sample scores only; no assessments are connected.</p></article>
++   <article className="student-visual-card"><header><h2>Recent tests</h2><span>DEMO DATA</span></header><ul className="student-test-bars">{studentPreview.tests.map((test,index)=><li key={test.label}><span>{test.label}</span><span className="student-progress-track" role="img" aria-label={`${test.label} sample score ${test.score}%`}><motion.span data-tone={(["blue","violet","teal"] as const)[index%3]} style={{width:"100%",transformOrigin:"left center"}} initial={full?{scaleX:0}:false} animate={{scaleX:chartFraction(test.score)}} transition={{duration:barDuration,delay:full?index*.04:0}}/></span><strong>{test.score}%</strong></li>)}</ul><p>Sample scores · assessments not connected.</p></article>
+   </section>
+   <div className="student-portal-grid">{sections.map(item=><section id={item.id} className="student-portal-card" key={item.id} aria-labelledby={`${item.id}-heading`}><div><h2 id={`${item.id}-heading`}>{item.title}</h2><span>Not connected</span></div><p>{item.text}</p></section>)}</div>
+-  <p className="section-footnote">Student records must be bound to one verified student account server-side. All visualized figures above are fictional and frontend-only.</p>
++  <p className="section-footnote">Private student records require secure sign-in. Figures shown here are sample data.</p>
+  </div>;
+ }
+diff --git a/src/components/ics/students/batch-management.tsx b/src/components/ics/students/batch-management.tsx
+index cb03a5b..8f75caf 100644
+--- a/src/components/ics/students/batch-management.tsx
++++ b/src/components/ics/students/batch-management.tsx
+@@ -29,19 +29,19 @@ export function BatchManagement() {
+  }, [current.name]);
+  const today=localToday(),batchStatus=today<current.startDate?"Upcoming":today>current.endDate?"Completed":"Active";
+  return <div className="lifecycle-page">
+-  <p className="demo-banner"><strong>DEMO DATA</strong> Batch dates and counts below are fictional previews. No dates, capacity or assignments are saved.</p>
++  <p className="demo-banner"><strong>DEMO DATA</strong> Sample batches only. Changes are not saved.</p>
+   <section className="directory batch-management" aria-labelledby="batch-catalog-title">
+-   <header className="directory-heading"><div><h2 id="batch-catalog-title">Batch catalogue</h2><p className="section-footnote">Four default batches plus the existing fictional custom batch. No sub-batches.</p></div><span className="quiet-label">Preview only</span></header>
++   <header className="directory-heading"><div><h2 id="batch-catalog-title">Batch catalogue</h2><p className="section-footnote">Sample batch catalogue.</p></div><span className="quiet-label">Preview only</span></header>
+    <div className="batch-preview-picker"><ChoiceSelect label="Batch" value={selected} onChange={name=>{const item=schedules.find(batch=>batch.name===name)!;setSelected(name);setStart(item.startDate);setEnd(item.endDate);setMessage("");}} options={schedules.map(batch=>({value:batch.name,label:batch.name}))}/></div>
+    <div className="batch-facts"><div><span>Batch type</span><strong>{current.type}</strong></div><div><span>Batch status</span><strong>{batchStatus} · demo schedule</strong></div><div><span>Scheduled start</span><strong>{current.startDate}</strong></div><div><span>Scheduled end</span><strong>{current.endDate}</strong></div><div><span>Duration</span><strong>{durationLabel(current.startDate,current.endDate)}</strong></div><div><span>Capacity</span><strong>{current.capacity}</strong></div><div><span>Assigned teachers</span><strong>Not configured</strong></div><div><span>Active demo enrollments</span><strong>{counts.active}</strong></div><div><span>Expiring demo enrollments</span><strong>{counts.expiring}</strong></div><div><span>Completed demo enrollments</span><strong>{counts.completed}</strong></div></div>
+   </section>
+-  <section className="directory batch-date-preview" aria-labelledby="batch-date-title"><header className="directory-heading"><div><h2 id="batch-date-title">Preview date changes</h2><p className="section-footnote">Scheduled batch dates do not rewrite each student&apos;s enrollment validity period.</p></div></header>
++  <section className="directory batch-date-preview" aria-labelledby="batch-date-title"><header className="directory-heading"><div><h2 id="batch-date-title">Preview date changes</h2><p className="section-footnote">Batch dates do not change student enrollment periods.</p></div></header>
+    <div className="batch-date-fields"><DatePicker label="Scheduled start date" value={start} onChange={setStart} max="2100-12-31" showToday={false}/><DatePicker label="Scheduled end date" value={end} onChange={setEnd} min={start} max="2100-12-31" showToday={false}/><div className="batch-duration"><span>Preview duration</span><strong>{validity.valid ? durationLabel(start,end) : "—"}</strong></div></div>
+    {!validity.valid&&<p className="field-error" role="alert">{validity.error}</p>}
+    <div className="form-actions"><button className="primary-link" type="button" disabled={!validity.valid} onClick={()=>setMessage("Date preview checked. No batch dates were saved or historical enrollments changed.")}>Validate preview</button><button className="secondary-button" type="button" onClick={()=>{setStart(current.startDate);setEnd(current.endDate);setMessage("");}}>Reset</button></div>
+    {message&&<p className="section-footnote" role="status">{message}</p>}
+   </section>
+-  <details className="directory custom-batch-preview"><DisclosureSummary>Preview a custom batch</DisclosureSummary><div className="custom-batch-form"><p className="section-footnote">Custom batches must be classified NEW or OLD for registration counters. No sub-batch categories are used. This preview does not create a batch.</p><div className="form-grid"><label>Batch name<input value={customName} maxLength={80} onChange={event=>{setCustomName(event.currentTarget.value);setCustomPreview(false);}} aria-invalid={!!validateCustomBatch({name:customName,startDate:customStart,endDate:customEnd,capacity}).name}/></label><ChoiceSelect label="Registration group" value={customType} onChange={setCustomType} options={[{value:"NEW",label:"NEW"},{value:"OLD",label:"OLD"}]}/><DatePicker label="Start date" value={customStart} onChange={value=>{setCustomStart(value);setCustomPreview(false);}} max="2100-12-31" showToday={false}/><DatePicker label="End date" value={customEnd} onChange={value=>{setCustomEnd(value);setCustomPreview(false);}} min={customStart} max="2100-12-31" showToday={false}/><label>Capacity (optional)<input inputMode="numeric" value={capacity} onChange={event=>{setCapacity(event.currentTarget.value);setCustomPreview(false);}} aria-invalid={!!validateCustomBatch({name:customName,startDate:customStart,endDate:customEnd,capacity}).capacity}/></label></div><div className="form-actions"><button className="primary-link" type="button" disabled={Object.keys(validateCustomBatch({name:customName,startDate:customStart,endDate:customEnd,capacity})).length>0} onClick={()=>setCustomPreview(true)}>Preview custom batch</button></div>{customPreview&&<p className="renewal-preview" role="status"><strong>UNSAVED BATCH PREVIEW</strong>{customName.trim()} · {customType} · {customStart} to {customEnd} · {durationLabel(customStart,customEnd)} · capacity {capacity||"not set"}. Teachers are not assigned. No batch or student records were created.</p>}</div></details>
+-  <GlassSurface as="section" className="backend-note"><p>Teacher assignment, capacity management, batch edits and enrollment records require authenticated centre permissions and backend transactions.</p></GlassSurface>
++  <details className="directory custom-batch-preview"><DisclosureSummary>Preview a custom batch</DisclosureSummary><div className="custom-batch-form"><p className="section-footnote">Choose NEW or OLD for registration numbering. This preview does not create a batch.</p><div className="form-grid"><label>Batch name<input value={customName} maxLength={80} onChange={event=>{setCustomName(event.currentTarget.value);setCustomPreview(false);}} aria-invalid={!!validateCustomBatch({name:customName,startDate:customStart,endDate:customEnd,capacity}).name}/></label><ChoiceSelect label="Registration group" value={customType} onChange={setCustomType} options={[{value:"NEW",label:"NEW"},{value:"OLD",label:"OLD"}]}/><DatePicker label="Start date" value={customStart} onChange={value=>{setCustomStart(value);setCustomPreview(false);}} max="2100-12-31" showToday={false}/><DatePicker label="End date" value={customEnd} onChange={value=>{setCustomEnd(value);setCustomPreview(false);}} min={customStart} max="2100-12-31" showToday={false}/><label>Capacity (optional)<input inputMode="numeric" value={capacity} onChange={event=>{setCapacity(event.currentTarget.value);setCustomPreview(false);}} aria-invalid={!!validateCustomBatch({name:customName,startDate:customStart,endDate:customEnd,capacity}).capacity}/></label></div><div className="form-actions"><button className="primary-link" type="button" disabled={Object.keys(validateCustomBatch({name:customName,startDate:customStart,endDate:customEnd,capacity})).length>0} onClick={()=>setCustomPreview(true)}>Preview custom batch</button></div>{customPreview&&<p className="renewal-preview" role="status"><strong>UNSAVED BATCH PREVIEW</strong>{customName.trim()} · {customType} · {customStart} to {customEnd} · {durationLabel(customStart,customEnd)} · capacity {capacity||"not set"}. Teachers are not assigned. No batch or student records were created.</p>}</div></details>
++  <GlassSurface as="section" className="backend-note"><p>Assignments and batch updates are unavailable until centre records and permissions are connected.</p></GlassSurface>
+  </div>;
+ }
+diff --git a/src/components/ics/students/fee-management.tsx b/src/components/ics/students/fee-management.tsx
+index a918120..a9afd10 100644
+--- a/src/components/ics/students/fee-management.tsx
++++ b/src/components/ics/students/fee-management.tsx
+@@ -69,13 +69,13 @@ export function FeeManagement(){
+   download("DEMO-DATA-fee-summary.csv",buildDemoFeeSummaryCsv(rows));
+  }
+  return <div className="fee-management-workspace">
+-  <p className="demo-banner"><strong>DEMO PREVIEW</strong> No fee balances, payment history, receipts or confirmed transactions are connected. Values entered below are fictional scenarios only.</p>
++  <p className="demo-banner"><strong>DEMO PREVIEW</strong> Sample scenarios only. Balances, payments and receipts are not connected.</p>
+   <section className="directory fee-register" aria-labelledby="fee-register-title">
+    <header className="directory-heading"><div><h2 id="fee-register-title">Fee register</h2><p>Fee status follows promised payment dates, independently of enrollment expiry.</p></div><button type="button" className="primary-link" onClick={()=>{if(requestedStudentValid&&effectiveFormOpen)setDismissedRequestedStudent(true);else setFormOpen(value=>!value);setNotice("");}}> {effectiveFormOpen?"Close preview":"Preview Collect Fee"}</button></header>
+    <div className="fee-status-tabs" role="group" aria-label="Fee status view">{(["Pending","Expired Fees","Paid"] as const).map(item=><button key={item} type="button" aria-pressed={view===item} onClick={()=>setView(item)}>{item}<small>0 connected</small></button>)}</div>
+    <div className="directory-toolbar fee-filters"><label>Search fees<input type="search" value={search} onChange={event=>setSearch(event.currentTarget.value)} placeholder="Name, student ID, registration number or batch"/></label><ChoiceSelect label="Batch" value={batch} onChange={setBatch} options={[{value:"",label:"All batches"},...batches.map(value=>({value,label:value}))]}/></div>
+    <ul className="fee-student-preview-list" aria-label="Matching fictional students">{filtered.map(item=><li key={item.id}><span><strong>{item.name}</strong><small>{item.id} · {item.paperRegistrationNumber||"Registration Number unavailable"} · {item.batch}</small></span><button type="button" className="secondary-button" aria-pressed={studentId===item.id} onClick={()=>{setStudentOverride(item.id);setDrafts([]);resetForm();}}>{studentId===item.id?"Selected":"Select"}</button></li>)}</ul>
+-   <div className="fee-empty-state"><strong>No connected {view.toLowerCase()} fee records</strong><p>Student names may be searched from the fictional directory, but fees and balances stay unavailable until authorized records are connected.</p></div>
++   <div className="fee-empty-state"><strong>No connected {view.toLowerCase()} fee records</strong><p>Search sample students above. Real fees and balances are not connected.</p></div>
+    {effectiveFormOpen&&<section className="fee-preview-form" aria-labelledby="collect-fee-preview-title">
+     <header><div><h3 id="collect-fee-preview-title">Collect Fee · unsaved preview</h3><p>No transaction is confirmed, receipt issued or ledger updated.</p></div></header>
+     <div className="admission-field-grid fee-collect-grid">
+@@ -92,10 +92,10 @@ export function FeeManagement(){
+     </div>
+     <div className="form-actions"><button className="primary-link" type="button" onClick={previewPayment} disabled={!previewable}>Preview installment</button><button className="secondary-button" type="button" onClick={previewPromise}>Preview promised-date update</button><button className="secondary-button" type="button" onClick={()=>{setDrafts([]);resetForm();}}>Reset preview</button></div>
+     {notice&&<p role="status" className="fee-preview-status">{notice}</p>}
+-    {drafts.length>0&&<div className="fee-draft-history"><h4>Unsaved installment previews</h4><ol>{drafts.map(item=><li key={item.id}><strong>Draft {item.id} · {item.studentName}</strong><span>{formatMoneyMinor(item.amountMinor)} · {displayDate(item.paymentDate)} · {item.mode}</span><span>Remaining {formatMoneyMinor(item.remainingMinor)} · {item.status}</span>{item.status==="Expired Fees"&&<small>{daysOverdue(item.promisedDate,today)} days overdue</small>}<small>{item.reference?`Reference ${item.reference}`:"No transaction reference"} · no receipt issued</small></li>)}</ol><p>Each preview is a separate draft item in this page session only. Refreshing clears them.</p></div>}
++    {drafts.length>0&&<div className="fee-draft-history"><h4>Unsaved installment previews</h4><ol>{drafts.map(item=><li key={item.id}><strong>Draft {item.id} · {item.studentName}</strong><span>{formatMoneyMinor(item.amountMinor)} · {displayDate(item.paymentDate)} · {item.mode}</span><span>Remaining {formatMoneyMinor(item.remainingMinor)} · {item.status}</span>{item.status==="Expired Fees"&&<small>{daysOverdue(item.promisedDate,today)} days overdue</small>}<small>{item.reference?`Reference ${item.reference}`:"No transaction reference"} · no receipt issued</small></li>)}</ol><p>Draft installments clear on refresh.</p></div>}
+    </section>}
+    <div className="fee-export-actions"><button type="button" className="secondary-button" onClick={exportSummary}>Export fee summary · DEMO CSV</button><button type="button" className="secondary-button" onClick={()=>download("DEMO-DATA-payment-history.csv",buildDemoPaymentHistoryCsv([]))}>Export payment history · DEMO CSV</button><span>Summary rows show “Not connected”; payment-history export has no transaction rows.</span></div>
+-   <p className="section-footnote">Real installment posting must be atomic, idempotent, authorized for this centre and enrollment, append-only with corrections/reversals, and audited by trusted server logic using integer paise.</p>
++   <p className="section-footnote">Preview only. No installment is posted and no receipt is issued.</p>
+   </section>
+  </div>;
+ }
+diff --git a/src/components/ics/students/student-form.tsx b/src/components/ics/students/student-form.tsx
+index 701d397..8babe49 100644
+--- a/src/components/ics/students/student-form.tsx
++++ b/src/components/ics/students/student-form.tsx
+@@ -109,7 +109,7 @@ export function StudentForm({student,onClose}:{student?:DemoStudent;onClose?:()=
+      {remaining!==null&&remaining>0&&<div className="form-wide promise-date-control"><label><input type="checkbox" checked={promiseOpen} onChange={event=>{const checked=event.currentTarget.checked;setPromiseOpen(checked);setValue(current=>({...current,promiseDateRequested:checked,...(!checked?{promisedPaymentDate:""}:{})}));setDirty(true);setPreview(null);if(!checked)setErrors(current=>({...current,promisedPaymentDate:undefined}));}}/>Add a promised payment date</label>{promiseOpen&&<div className="form-date-row"><DatePicker id="promisedPaymentDate" label="Promised Payment Date" required value={value.promisedPaymentDate??""} onChange={next=>change("promisedPaymentDate",next)} min={admissionDate||today||"1900-01-01"} max="2100-12-31" error={errors.promisedPaymentDate}/></div>}</div>}
+     </div>
+    </section>}
+-   <p className="section-footnote">Permanent Student ID and batch roll numbers are issued only by trusted backend workflows. Registration Number is manually entered by centre staff. Enrollment expiry and promised payment dates are separate.</p>
++   <p className="section-footnote">Official IDs and roll numbers are not issued in this preview. Staff enter Registration Numbers. Enrollment expiry and payment due dates are separate.</p>
+    <div className="form-actions"><Button type="submit" variant="primary">{student?"Preview changes":"Review Admission"}</Button>{onClose?<button className="secondary-button" type="button" onClick={cancel}>Cancel</button>:<Link className="text-link" href={student?`/students/${student.id}`:"/students"}>Cancel</Link>}</div>
+   </form>
+   {preview&&!student&&<AdmissionPreview draft={preview}/>}
+diff --git a/src/components/ics/students/student-profile.tsx b/src/components/ics/students/student-profile.tsx
+index d2ba0d6..d0e6f21 100644
+--- a/src/components/ics/students/student-profile.tsx
++++ b/src/components/ics/students/student-profile.tsx
+@@ -34,7 +34,7 @@ export function StudentProfile({ student }: { student: DemoStudent }) {
+  </section>}
+  </section>
+  <section className="profile-section"><h2>Batch transfer</h2><TransferRequestPreview student={student}/></section>
+- <section className="profile-section"><h2>Batch &amp; renewal history</h2><div className="history-table" role="region" aria-label="Fictional enrollment history"><table><thead><tr><th>Event</th><th>Validity period</th><th>Batch</th><th>Reference</th><th>Status</th></tr></thead><tbody><tr><th>Original enrollment</th><td>{enrollment?`${enrollment.startDate} – ${enrollment.endDate}`:"Not available"}</td><td>{student.batch}</td><td>Fictional fixture</td><td>{snapshot.status}</td></tr></tbody></table></div><p className="section-footnote">No historical renewal events are included in this fictional fixture. Real renewals must append history and preserve previous periods and roll assignments.</p></section>
+- <section className="profile-section fee-profile-section"><h2>Fees &amp; payments</h2><p className="section-footnote">No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.</p><dl className="details-list fee-profile-totals"><div><dt>Total Fees</dt><dd>Not connected</dd></div><div><dt>Total Paid</dt><dd>Not connected</dd></div><div><dt>Remaining Balance</dt><dd>Not connected</dd></div><div><dt>Fee Status</dt><dd>Not connected</dd></div><div><dt>Promised Payment Date</dt><dd>Not connected</dd></div></dl><h3>Payment History</h3><div className="empty-payment-history">No payment transactions are connected. Each future installment must be retained as a separate immutable transaction.</div><div className="fee-profile-actions"><Link className="primary-link" href={`/fees?student=${encodeURIComponent(student.id)}`}>Open Fees / Collect Fee preview</Link><button className="secondary-button" type="button" onClick={()=>downloadDemoCsv("DEMO-DATA-student-fee-summary.csv",buildDemoFeeSummaryCsv([{id:student.id,permanentStudentId:student.permanentStudentId,registrationNumber:student.paperRegistrationNumber,batch:student.batch,totalFeeMinor:null,totalPaidMinor:null,remainingMinor:null,promisedPaymentDate:null,status:"Not connected"}]))}>Export fee summary · DEMO CSV</button><button className="secondary-button" type="button" onClick={()=>downloadDemoCsv("DEMO-DATA-student-payment-history.csv",buildDemoPaymentHistoryCsv([]))}>Export payment history · DEMO CSV</button></div><p className="section-footnote">Both exports are marked DEMO DATA. The summary shows unavailable values; payment history contains no transaction rows, receipts or staff identities.</p></section><section className="profile-section"><h2>Attendance</h2><p>No live attendance register or percentage is available.</p><Link className="text-link" href="/attendance">Open Attendance</Link></section><section className="profile-section"><h2>Tests &amp; Results</h2><p>No live assessments or published marks are available.</p><Link className="text-link" href="/tests-results">Open Tests &amp; Results</Link></section><section className="profile-section"><h2>Notices &amp; Updates</h2><p>No student-specific notices are available in this demo.</p><Link className="text-link" href="/ics-updates">Open ICS Updates</Link></section><section className="profile-section"><h2>Conduct Reports</h2><DisciplineReportPreview student={student}/></section><section className="profile-section"><h2>Internal notes</h2><p>Not shown in this demo. Access requires an explicit centre authorization.</p></section>
++ <section className="profile-section"><h2>Batch &amp; renewal history</h2><div className="history-table" role="region" aria-label="Fictional enrollment history"><table><thead><tr><th>Event</th><th>Validity period</th><th>Batch</th><th>Reference</th><th>Status</th></tr></thead><tbody><tr><th>Original enrollment</th><td>{enrollment?`${enrollment.startDate} – ${enrollment.endDate}`:"Not available"}</td><td>{student.batch}</td><td>Fictional fixture</td><td>{snapshot.status}</td></tr></tbody></table></div><p className="section-footnote">No renewal history is connected.</p></section>
++ <section className="profile-section fee-profile-section"><h2>Fees &amp; payments</h2><p className="section-footnote">No connected fee obligation or confirmed payment history is available. Enrollment expiry and fee promises are tracked independently.</p><dl className="details-list fee-profile-totals"><div><dt>Total Fees</dt><dd>Not connected</dd></div><div><dt>Total Paid</dt><dd>Not connected</dd></div><div><dt>Remaining Balance</dt><dd>Not connected</dd></div><div><dt>Fee Status</dt><dd>Not connected</dd></div><div><dt>Promised Payment Date</dt><dd>Not connected</dd></div></dl><h3>Payment History</h3><div className="empty-payment-history">No payment transactions are connected.</div><div className="fee-profile-actions"><Link className="primary-link" href={`/fees?student=${encodeURIComponent(student.id)}`}>Open Fees / Collect Fee preview</Link><button className="secondary-button" type="button" onClick={()=>downloadDemoCsv("DEMO-DATA-student-fee-summary.csv",buildDemoFeeSummaryCsv([{id:student.id,permanentStudentId:student.permanentStudentId,registrationNumber:student.paperRegistrationNumber,batch:student.batch,totalFeeMinor:null,totalPaidMinor:null,remainingMinor:null,promisedPaymentDate:null,status:"Not connected"}]))}>Export fee summary · DEMO CSV</button><button className="secondary-button" type="button" onClick={()=>downloadDemoCsv("DEMO-DATA-student-payment-history.csv",buildDemoPaymentHistoryCsv([]))}>Export payment history · DEMO CSV</button></div><p className="section-footnote">Exports contain sample references only; no payments or receipts.</p></section><section className="profile-section"><h2>Attendance</h2><p>No live attendance register or percentage is available.</p><Link className="text-link" href="/attendance">Open Attendance</Link></section><section className="profile-section"><h2>Tests &amp; Results</h2><p>No live assessments or published marks are available.</p><Link className="text-link" href="/tests-results">Open Tests &amp; Results</Link></section><section className="profile-section"><h2>Notices &amp; Updates</h2><p>No student-specific notices are available in this demo.</p><Link className="text-link" href="/ics-updates">Open ICS Updates</Link></section><section className="profile-section"><h2>Conduct Reports</h2><DisciplineReportPreview student={student}/></section><section className="profile-section"><h2>Internal notes</h2><p>Not shown in this demo. Access requires an explicit centre authorization.</p></section>
+  </div>;
+ }
+diff --git a/src/components/ics/students/student-record-previews.tsx b/src/components/ics/students/student-record-previews.tsx
+index bafefed..eb2d5b1 100644
+--- a/src/components/ics/students/student-record-previews.tsx
++++ b/src/components/ics/students/student-record-previews.tsx
+@@ -14,7 +14,7 @@ export function TransferRequestPreview({student}:{student:DemoStudent}) {
+  const [preview,setPreview]=useState(false);
+  const valid=!!destination&&destination!==student.batch&&reason.trim().length>=10&&!!effectiveDate;
+  return <details className="directory profile-workflow-disclosure"><DisclosureSummary>Preview batch transfer</DisclosureSummary><div className="profile-workflow-body">
+-  <p className="section-footnote">Unsaved request only. A centre Admin/Manager must have permission; the destination teacher may need to confirm. No batch or history changes are made.</p>
++  <p className="section-footnote">Unsaved request. Centre permission and teacher confirmation may be required; no records change.</p>
+   <div className="form-grid">
+    <label>Student<input value={`${student.name} · ${student.id}`} readOnly/></label>
+    <label>Current batch<input value={student.batch} readOnly/></label>
+@@ -26,7 +26,7 @@ export function TransferRequestPreview({student}:{student:DemoStudent}) {
+   <div className="workflow-checks"><span>Destination exists: {destination?"Yes · demo catalogue":"Choose a batch"}</span><span>Active status: Not verified</span><span>Capacity: Not configured</span><span>Conflicting enrollment: Requires backend check</span><span>Centre staff confirmation: Pending · not configured</span><span>Teacher acknowledgment: Pending · required status unknown</span></div>
+   <button type="button" className="primary-link" disabled={!valid} onClick={()=>setPreview(true)}>Preview transfer request</button>
+   {preview&&<p className="renewal-preview" role="status"><strong>UNSAVED TRANSFER REQUEST</strong>{student.name} · {student.batch} → {destination} · {effectiveDate} · {reason.trim()}. Approval, capacity, teacher confirmation and roll allocation remain unverified; no record was submitted.</p>}
+-  <p className="section-footnote">A real transfer must close the old membership, append a destination membership and roll history, preserve fees/attendance/results, and write an audit event atomically. The permanent Student ID must remain unchanged.</p>
++  <p className="section-footnote">Transfers must preserve the Student ID and existing records. This preview submits no transfer.</p>
+  </div></details>;
+ }
+ 
+@@ -44,7 +44,7 @@ export function DisciplineReportPreview({student}:{student:DemoStudent}) {
+  const [preview,setPreview]=useState(false);
+  const valid=!!incidentDate&&!!incidentTime&&!!category&&description.trim().length>=10&&reporter.trim().length>=2;
+  return <details className="directory profile-workflow-disclosure"><DisclosureSummary>Conduct report · restricted staff workflow</DisclosureSummary><div className="profile-workflow-body">
+-  <p className="form-notice">Fictional unsaved preview. Real conduct records require verified centre authorization and batch-scoped teacher access. This client interface does not enforce permissions.</p>
++  <p className="form-notice">Unsaved sample report. Real conduct records require verified centre and teacher permissions; this preview does not grant access.</p>
+   <div className="form-grid">
+    <div className="form-date-row"><DatePicker label="Incident date" value={incidentDate} onChange={value=>{setIncidentDate(value);setPreview(false);}} max={localToday()} showToday={false}/></div>
+    <label>Incident time<input type="time" value={incidentTime} onChange={event=>{setIncidentTime(event.currentTarget.value);setPreview(false);}}/></label>

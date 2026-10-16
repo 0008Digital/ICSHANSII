@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "name": "developer/320/Dark: Scene Motion stops and resumes rendered media independently",
+      "status": "failed",
+      "error": "Error: Error: Playwright selector deadline exceeded\nlocator.waitFor(attached) timed out for selector .application-scene[data-motion=\"on\"]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\".application-scene[data-motion=\\\"on\\\"]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+      "screenshot": "developer-320-Dark-Scene-Motion-stops-and-resumes-rendered-media-independently.jpg"
+    }
+  ],
+  "originals": {
+    "admin": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 79,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "manager": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "developer": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    }
+  },
+  "scenarioFilter": [
+    "developer/320/Dark: Scene Motion stops and resumes rendered media independently"
+  ]
+}

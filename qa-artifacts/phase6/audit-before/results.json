@@ -1,0 +1,47 @@
+[
+  {
+    "name": "teacher/1440/Light: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: assessment validation preview reset and batch isolation",
+    "status": "failed",
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.fill failed for selector internal:role=textbox[name=\"Subject\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"fill\",\"locator\":\"internal:role=textbox[name=\\\"Subject\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "teacher-1440-Light-assessment-validation-preview-reset-and-batch-isolation.jpg"
+  },
+  {
+    "name": "teacher/1440/Light: leaderboard dropdowns calendar and empty statuses",
+    "status": "failed",
+    "error": "Error: Error: Timed out after 3000ms waiting for selector internal:role=dialog[name=\"Published test\"s]: Browser Use encountered an error interacting with this webpage: Error: Element is not attached\n    at <anonymous>:227:263\n    at <anonymous>:227:479\n    at <anonymous>:228:11\n    at <anonymous>:229:11\nlocator.waitFor(visible) timed out for selector internal:role=dialog[name=\"Published test\"s]\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"waitFor\",\"locator\":\"internal:role=dialog[name=\\\"Published test\\\"s]\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "screenshot": "teacher-1440-Light-leaderboard-dropdowns-calendar-and-empty-statuses.jpg"
+  },
+  {
+    "name": "teacher/1440/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  }
+]

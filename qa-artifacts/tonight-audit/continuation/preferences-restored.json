@@ -1,0 +1,32 @@
+[
+  {
+    "role": "admin",
+    "expected": "Dark",
+    "actual": "Dark"
+  },
+  {
+    "role": "developer",
+    "expected": "System",
+    "actual": "System"
+  },
+  {
+    "role": "teacher",
+    "expected": "System",
+    "actual": "System"
+  },
+  {
+    "role": "studentA",
+    "expected": "System",
+    "actual": "System"
+  },
+  {
+    "role": "studentB",
+    "expected": "System",
+    "actual": "System"
+  },
+  {
+    "role": "manager",
+    "expected": "System",
+    "actual": "System"
+  }
+]

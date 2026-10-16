@@ -1,0 +1,38 @@
+[
+  {
+    "href": "/student-portal#profile",
+    "expanded": "false",
+    "url": "http://localhost:3000/student-portal#results",
+    "menu": 0
+  },
+  {
+    "href": "/student-portal#homework",
+    "expanded": "false",
+    "url": "http://localhost:3000/student-portal#profile",
+    "menu": 0
+  },
+  {
+    "href": "/student-portal#fees",
+    "expanded": "false",
+    "url": "http://localhost:3000/student-portal#homework",
+    "menu": 0
+  },
+  {
+    "href": "/student-portal#updates",
+    "expanded": "false",
+    "url": "http://localhost:3000/student-portal#fees",
+    "menu": 0
+  },
+  {
+    "href": "/chatrooms",
+    "expanded": "false",
+    "url": "http://localhost:3000/student-portal#updates",
+    "menu": 0
+  },
+  {
+    "href": "/settings",
+    "expanded": "false",
+    "url": "http://localhost:3000/chatrooms",
+    "menu": 0
+  }
+]

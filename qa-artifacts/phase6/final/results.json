@@ -1,0 +1,1088 @@
+[
+  {
+    "name": "developer/320/Dark: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/320/Dark: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/320/Dark: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/320/Dark: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: assessment validation preview reset and batch isolation",
+    "status": "passed",
+    "evidence": {
+      "validation": true,
+      "unpublished": true,
+      "reset": true,
+      "batchIsolation": true,
+      "absence": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentA/320/Dark: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-a",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentA/320/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentA/320/Light: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-a",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentA/320/Light: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/320/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/320/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/320/Dark: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-b",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentB/320/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/320/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/320/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/320/Light: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-b",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentB/320/Light: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/320/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/320/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "developer/320/Light: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/320/Light: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/320/Light: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/320/Light: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/320/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/320/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/320/Light: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/320/Light: assessment validation preview reset and batch isolation",
+    "status": "passed",
+    "evidence": {
+      "validation": true,
+      "unpublished": true,
+      "reset": true,
+      "batchIsolation": true,
+      "absence": true
+    }
+  },
+  {
+    "name": "teacher/320/Light: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/320/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/320/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentA/1440/Light: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-a",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentA/1440/Light: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/1440/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/1440/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentA/1440/Dark: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-a",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentA/1440/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/1440/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/1440/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/1440/Light: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-b",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentB/1440/Light: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/1440/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/1440/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/1440/Dark: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-b",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentB/1440/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/1440/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/1440/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "developer/1440/Light: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/1440/Light: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/1440/Light: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/1440/Light: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/1440/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/1440/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "developer/1440/Dark: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/1440/Dark: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/1440/Dark: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/1440/Dark: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/1440/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/1440/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: assessment validation preview reset and batch isolation",
+    "status": "passed",
+    "evidence": {
+      "validation": true,
+      "unpublished": true,
+      "reset": true,
+      "batchIsolation": true,
+      "absence": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/1440/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/1440/Dark: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/1440/Dark: assessment validation preview reset and batch isolation",
+    "status": "passed",
+    "evidence": {
+      "validation": true,
+      "unpublished": true,
+      "reset": true,
+      "batchIsolation": true,
+      "absence": true
+    }
+  },
+  {
+    "name": "teacher/1440/Dark: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/1440/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/1440/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentA/1024/Light: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-a",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentA/1024/Light: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/1024/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/1024/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentA/1024/Dark: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-a",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentA/1024/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentA/1024/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentA/1024/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/1024/Light: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-b",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentB/1024/Light: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/1024/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/1024/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "studentB/1024/Dark: greeting matches selected demo identity",
+    "status": "passed",
+    "evidence": {
+      "identity": "demo-student-b",
+      "welcome": "STUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected."
+    }
+  },
+  {
+    "name": "studentB/1024/Dark: all student section tabs and homework action",
+    "status": "passed",
+    "evidence": {
+      "tabs": [
+        "#batch",
+        "#attendance",
+        "#results",
+        "#fees",
+        "#profile",
+        "#homework",
+        "#updates"
+      ]
+    }
+  },
+  {
+    "name": "studentB/1024/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "studentB/1024/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "developer/1024/Light: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/1024/Light: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/1024/Light: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/1024/Light: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/1024/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/1024/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "developer/1024/Dark: notes belong to selected report",
+    "status": "passed",
+    "evidence": {
+      "independentDrafts": true
+    }
+  },
+  {
+    "name": "developer/1024/Dark: all report filters and empty search",
+    "status": "passed",
+    "evidence": {
+      "filters": 5,
+      "emptyState": true,
+      "dateAutomation": "Native fill does not commit React date state; not verified"
+    }
+  },
+  {
+    "name": "developer/1024/Dark: report status updates list and metrics but is unsaved",
+    "status": "passed",
+    "evidence": {
+      "reloadClearsDrafts": true
+    }
+  },
+  {
+    "name": "developer/1024/Dark: notifications remain unavailable",
+    "status": "passed",
+    "evidence": {
+      "backend": "disconnected"
+    }
+  },
+  {
+    "name": "developer/1024/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "developer/1024/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/1024/Light: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/1024/Light: assessment validation preview reset and batch isolation",
+    "status": "passed",
+    "evidence": {
+      "validation": true,
+      "unpublished": true,
+      "reset": true,
+      "batchIsolation": true,
+      "absence": true
+    }
+  },
+  {
+    "name": "teacher/1024/Light: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/1024/Light: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/1024/Light: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  },
+  {
+    "name": "teacher/1024/Dark: Teacher tools links and unavailable assignments",
+    "status": "passed",
+    "evidence": {
+      "tools": [
+        "/attendance",
+        "/homework",
+        "/tests-results",
+        "/chatrooms"
+      ],
+      "unavailableControlsAbsent": true
+    }
+  },
+  {
+    "name": "teacher/1024/Dark: assessment validation preview reset and batch isolation",
+    "status": "passed",
+    "evidence": {
+      "validation": true,
+      "unpublished": true,
+      "reset": true,
+      "batchIsolation": true,
+      "absence": true
+    }
+  },
+  {
+    "name": "teacher/1024/Dark: leaderboard dropdowns calendar and empty statuses",
+    "status": "passed",
+    "evidence": {
+      "emptyLeaderboards": true
+    }
+  },
+  {
+    "name": "teacher/1024/Dark: chat denies content and sending consistently",
+    "status": "passed",
+    "evidence": {
+      "composerAbsent": true,
+      "disconnected": true
+    }
+  },
+  {
+    "name": "teacher/1024/Dark: Quick actions and search keyboard navigation",
+    "status": "passed",
+    "evidence": {
+      "menuItems": [
+        "Rapid Attendance",
+        "Export",
+        "Report a Bug"
+      ],
+      "searchNavigated": true
+    }
+  }
+]

@@ -1,0 +1,3001 @@
+{
+  "results": [
+    {
+      "name": "admin/1440/Light: saved Motion source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "45.5769% 54.4231% 66.391% 33.609% / 57.2308% 36.8974% 63.1026% 42.7692%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.848234
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.869321
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Motion",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 79,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.3983% 38.6017% 49.6907% 50.3093% / 36.1356% 61.5084% 38.4916% 63.8644%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.683541
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.74113
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "admin/1440/Light: saved Photo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1118) contrast(1.0543)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "53.4854% 46.5146% 58.0432% 41.9568% / 46.6861% 49.1996% 50.8004% 53.3139%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Photo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 79,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1118) contrast(1.0543)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.3374% 38.6626% 49.7549% 50.2451% / 36.2168% 61.4138% 38.5862% 63.7832%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "admin/1440/Light: saved Topo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "54.399% 45.601% 57.0788% 42.9212% / 45.468% 50.6207% 49.3793% 54.532%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Topo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 79,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.4563% 38.5437% 49.6294% 50.3706% / 36.0582% 61.5988% 38.4012% 63.9418%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "admin/1440/Light: saved Chroma source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "51.3059% 48.6941% 60.3438% 39.6562% / 49.5921% 45.8092% 54.1908% 50.4079%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Chroma",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 79,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.8268% 38.1732% 49.2384% 50.7616% / 35.5643% 62.175% 37.825% 64.4357%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.76) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16.2048px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Motion source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "47.9589% 52.0411% 63.8767% 36.1233% / 54.0548% 40.6027% 59.3973% 45.9452%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.062983
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.082414
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Motion",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.133% 37.867% 48.9151% 51.0849% / 35.156% 62.6514% 37.3486% 64.844%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.542984
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.550858
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Photo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.7185% 43.2815% 54.6305% 45.3695% / 42.3753% 54.2288% 45.7712% 57.6247%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Photo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.3164% 37.6836% 48.7215% 51.2785% / 34.9114% 62.9367% 37.0633% 65.0886%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Topo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "58.1443% 41.8557% 53.1254% 46.8746% / 40.4742% 56.4467% 43.5533% 59.5258%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Topo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.4438% 37.5562% 48.5871% 51.4129% / 34.7417% 63.1347% 36.8653% 65.2583%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "manager/1440/Light: saved Chroma source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.5842% 43.4158% 54.7722% 45.2278% / 42.5544% 54.0199% 45.9801% 57.4456%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Chroma",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.133% 37.867% 48.9152% 51.0848% / 35.156% 62.6514% 37.3486% 64.844%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Motion source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "46.5308% 53.4692% 65.3842% 34.6158% / 55.9589% 38.3812% 61.6188% 44.0411%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.562932
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.599601
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Motion",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "57.5144% 42.4856% 53.7903% 46.2097% / 41.3141% 55.4669% 44.5331% 58.6859%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 1.30399
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 1.281301
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Photo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "49.3721% 50.6279% 62.385% 37.615% / 52.1706% 42.801% 57.199% 47.8294%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Photo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.1327% 37.8673% 48.9155% 51.0845% / 35.1564% 62.6509% 37.3491% 64.8436%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Topo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.854% 43.146% 54.4874% 45.5126% / 42.1946% 54.4396% 45.5604% 57.8054%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Topo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.5554% 37.4446% 48.4693% 51.5307% / 34.5928% 63.3085% 36.6915% 65.4072%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "developer/1440/Light: saved Chroma source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.7199% 43.2801% 54.629% 45.371% / 42.3735% 54.2309% 45.7691% 57.6265%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Chroma",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.581% 37.419% 48.4423% 51.5577% / 34.5587% 63.3482% 36.6518% 65.4413%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Motion source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "46.8161% 53.1839% 65.083% 34.917% / 55.5785% 38.8251% 61.1749% 44.4215%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.346102
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.44592
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Motion",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.9653% 38.0347% 49.0922% 50.9078% / 35.3796% 62.3905% 37.6095% 64.6204%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.504927
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.624082
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Photo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "55.6244% 44.3756% 55.7854% 44.2146% / 43.8342% 52.5268% 47.4732% 56.1658%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Photo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.8741% 38.1259% 49.1885% 50.8115% / 35.5012% 62.2486% 37.7514% 64.4988%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Topo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "55.6254% 44.3746% 55.7843% 44.2157% / 43.8328% 52.5285% 47.4715% 56.1672%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Topo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.4736% 37.5264% 48.5556% 51.4444% / 34.7018% 63.1812% 36.8188% 65.2982%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "teacher/1440/Light: saved Chroma source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "49.2988% 50.7012% 62.4623% 37.5377% / 52.2682% 42.6871% 57.3129% 47.7318%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Chroma",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.4733% 37.5267% 48.556% 51.444% / 34.7023% 63.1807% 36.8193% 65.2977%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Motion source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "47.6455% 52.3545% 64.2075% 35.7925% / 54.4726% 40.1153% 59.8847% 45.5274%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.092705
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.227121
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Motion",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.2826% 37.7174% 48.7573% 51.2427% / 34.9566% 62.884% 37.116% 65.0434%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.573721
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.597104
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Photo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.5888% 43.4112% 54.7674% 45.2326% / 42.5482% 54.027% 45.973% 57.4518%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Photo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.2819% 37.7181% 48.758% 51.242% / 34.9575% 62.8829% 37.1171% 65.0425%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Topo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.7212% 43.2788% 54.6276% 45.3724% / 42.3717% 54.233% 45.767% 57.6283%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Topo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.4727% 37.5273% 48.5566% 51.4434% / 34.7031% 63.1797% 36.8203% 65.2969%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentA/1440/Light: saved Chroma source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "56.7201% 43.2799% 54.6287% 45.3713% / 42.3731% 54.2313% 45.7687% 57.6269%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Chroma",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.4439% 37.5561% 48.587% 51.413% / 34.7414% 63.135% 36.865% 65.2586%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Motion source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "46.9321% 53.0679% 64.9606% 35.0394% / 55.4239% 39.0054% 60.9946% 44.5761%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.29282
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 3.413078
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Motion",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.1719% 37.8281% 48.8741% 51.1259% / 35.1041% 62.7119% 37.2881% 64.8959%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.623833
+            },
+            {
+              "paused": false,
+              "ready": 4,
+              "time": 0.604511
+            }
+          ],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "motion",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Photo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "49.8417% 50.1583% 61.8893% 38.1107% / 51.5444% 43.5315% 56.4685% 48.4556%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Photo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "none",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": {
+            "filter": "saturate(1.1076) contrast(1.0526)",
+            "loaded": true
+          },
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.9653% 38.0347% 49.0922% 50.9078% / 35.3796% 62.3905% 37.6095% 64.6204%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "photo",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Topo source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "55.9002% 44.0998% 55.4942% 44.5058% / 43.4664% 52.9559% 47.0441% 56.5336%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Topo",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "repeating-radial-gradient(at 68% 40%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 22px, rgba(241, 240, 230, 0.12) 23px, rgba(241, 240, 230, 0.12) 24px, rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0) 42px), radial-gradient(at 68% 40%, rgb(55, 126, 130), rgb(24, 35, 38) 37%, rgb(12, 15, 16) 70%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "61.728% 38.272% 49.3427% 50.6573% / 35.696% 62.0213% 37.9787% 64.304%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "topography",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    },
+    {
+      "name": "studentB/1440/Light: saved Chroma source survives reload",
+      "status": "passed",
+      "evidence": {
+        "before": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "52.9877% 47.0123% 58.5686% 41.4314% / 47.3498% 48.4253% 51.5747% 52.6502%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        },
+        "reloaded": {
+          "theme": "Light",
+          "source": "Chroma",
+          "material": "Clear",
+          "mode": "Full",
+          "motion": true,
+          "intensity": 78,
+          "frost": 4,
+          "osReduced": false,
+          "resolvedTheme": "light"
+        },
+        "after": {
+          "backdrop": "radial-gradient(at 72% 42%, rgba(255, 117, 84, 0.92), rgba(0, 0, 0, 0) 26%), radial-gradient(at 48% 62%, rgba(49, 179, 188, 0.86), rgba(0, 0, 0, 0) 32%), linear-gradient(135deg, rgb(32, 39, 43), rgb(9, 11, 12) 72%)",
+          "clear": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "inset(0px 50% 0px 0px)",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "comparison": {
+            "background": "color(srgb 1 1 1 / 0.732)",
+            "clip": "inset(0px 0px 0px 50%)",
+            "filter": "blur(9.1px) saturate(1.85) brightness(1.12)",
+            "rim": "conic-gradient(from -15deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 45deg, rgba(0, 0, 0, 0) 90deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 225deg, rgba(0, 0, 0, 0) 270deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) -6px 10.3923px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 16px 48px -8px"
+          },
+          "decorative": {
+            "pointer": "none",
+            "state": "running"
+          },
+          "header": {
+            "background": "color(srgb 1 1 1 / 0.671985)",
+            "clip": "none",
+            "filter": "blur(1.95px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.016) 0px 1px 2px 0px, rgba(20, 28, 40, 0.06) 0px 14px 42px -8px"
+          },
+          "image": null,
+          "lens": {
+            "animation": "landing-morph-b",
+            "pressed": "false",
+            "radius": "62.3497% 37.6503% 48.6865% 51.3135% / 34.8671% 62.9884% 37.0116% 65.1329%",
+            "state": "running",
+            "transform": "none"
+          },
+          "media": [],
+          "mode": "full",
+          "osReduced": false,
+          "pane": {
+            "background": "color(srgb 1 1 1 / 0.45)",
+            "clip": "none",
+            "filter": "blur(1.92px) saturate(1.9) brightness(1.25)",
+            "rim": "conic-gradient(from 285deg, rgba(0, 0, 0, 0) 0deg, rgb(255, 255, 255) 55deg, rgba(0, 0, 0, 0) 110deg, rgba(0, 0, 0, 0) 180deg, rgba(255, 255, 255, 0.75) 235deg, rgba(0, 0, 0, 0) 290deg), linear-gradient(rgba(24, 32, 44, 0.1), rgba(24, 32, 44, 0.1))",
+            "shadow": "rgba(255, 255, 255, 0.6) 4.10424px 11.2763px 20px -14px inset, rgba(255, 255, 255, 0.3) 0px 0px 16px 0px inset, rgba(20, 28, 40, 0.05) 0px 1px 2px 0px, rgba(20, 28, 40, 0.2) 0px 14px 42px -8px"
+          },
+          "scene": "chroma",
+          "sceneMotion": "on",
+          "width": 1440
+        }
+      }
+    }
+  ],
+  "originals": {
+    "admin": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 79,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "manager": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "developer": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "teacher": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "studentA": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    },
+    "studentB": {
+      "theme": "System",
+      "source": "Motion",
+      "material": "Clear",
+      "mode": "Full",
+      "motion": true,
+      "intensity": 78,
+      "frost": 4,
+      "osReduced": false,
+      "resolvedTheme": "light"
+    }
+  },
+  "scenarioFilter": null
+}

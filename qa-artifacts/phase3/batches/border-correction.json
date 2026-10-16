@@ -1,0 +1,12 @@
+{
+  "border3": {
+    "borderStyle": "solid",
+    "borderWidth": "0.833333px",
+    "outline": "none"
+  },
+  "focus3": {
+    "focusVisible": true,
+    "outline": "solid",
+    "outlineWidth": "1.66667px"
+  }
+}

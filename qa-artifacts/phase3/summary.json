@@ -1,0 +1,62 @@
+{
+  "layoutObservations": 360,
+  "layoutFailures": 0,
+  "documentOverflow": 0,
+  "responsive": [
+    {
+      "requested": "320",
+      "actual": [
+        320
+      ],
+      "observations": 60
+    },
+    {
+      "requested": "375",
+      "actual": [
+        375
+      ],
+      "observations": 60
+    },
+    {
+      "requested": "768",
+      "actual": [
+        769
+      ],
+      "observations": 60
+    },
+    {
+      "requested": "1024",
+      "actual": [
+        1024
+      ],
+      "observations": 60
+    },
+    {
+      "requested": "1440",
+      "actual": [
+        1440
+      ],
+      "observations": 60
+    },
+    {
+      "requested": "1920",
+      "actual": [
+        1920
+      ],
+      "observations": 60
+    }
+  ],
+  "stateChecksPassed": 86,
+  "stateChecksFailed": 0,
+  "browserOriginal": {
+    "passed": 165,
+    "failed": 2
+  },
+  "browserRecheck": {
+    "passed": 3,
+    "failed": 0
+  },
+  "browserLatestPassed": 167,
+  "browserLatestFailed": 0,
+  "approvedBaselinesUpdated": false
+}

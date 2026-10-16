@@ -1,0 +1,717 @@
+{
+  "rows": [
+    {
+      "role": "developer",
+      "route": "/developer",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "SIMULATED Sample reports only. Live monitoring and centres are not connected.",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample count",
+        "Sample reports · changes are not saved.",
+        "New · Teacher · /students",
+        "Investigating · Admin · /settings",
+        "Focus appears to leave the sample search control after the dialog opens.",
+        "Changes are not saved.",
+        "Error collection is not connected.",
+        "No errors are being collected.",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Not connected",
+        "Never capture credentials, payment secrets, student data or page contents.",
+        "Service status is unavailable.",
+        "Local changelog preview.",
+        "Interface preview · no deployment is connected.",
+        "Internal notes are not published to users.",
+        "No submissions connected.",
+        "No feedback available.",
+        "Moderation is not connected.",
+        "No moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.",
+        "Tenant metadata only.",
+        "Preferences preview only.",
+        "Notification service not connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Developer Console",
+          "top": 83.984375
+        },
+        {
+          "text": "Reports by severity",
+          "top": 335
+        },
+        {
+          "text": "Bug Reports",
+          "top": 697.0051879882812
+        },
+        {
+          "text": "Application Errors",
+          "top": 1973.046875
+        },
+        {
+          "text": "System Health",
+          "top": 2354.700439453125
+        },
+        {
+          "text": "Release Updates",
+          "top": 2717.825439453125
+        },
+        {
+          "text": "Feedback",
+          "top": 2904.55712890625
+        },
+        {
+          "text": "Chatroom Moderation",
+          "top": 3018.671875
+        },
+        {
+          "text": "Centre Overview",
+          "top": 3218.255126953125
+        },
+        {
+          "text": "Developer Settings",
+          "top": 3544.934814453125
+        }
+      ],
+      "theme": "light",
+      "title": "Developer Console",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1548.333251953125
+      },
+      "status": "passed",
+      "screenshot": "developer-320-Light--developer.jpg"
+    },
+    {
+      "role": "developer",
+      "route": "/chatrooms",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "DEMO ONLY Sample conversations only. Messages are not delivered or saved.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Room access requires verified membership.",
+        "Permission configuration preview; no centre messages are included.",
+        "Preview controls only. Changes are not saved and do not grant room access.",
+        "Platform Owner sees only technical moderation status and minimum metadata by default. Private message content requires explicit centre authorization and an auditable support-access event."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 257.6822814941406
+        },
+        {
+          "text": "New General",
+          "top": 344.6354064941406
+        },
+        {
+          "text": "Chat Permissions",
+          "top": 775.625
+        },
+        {
+          "text": "Developer support boundary",
+          "top": 3031.8359375
+        }
+      ],
+      "theme": "light",
+      "title": "Chatrooms",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 33.80208206176758,
+              "height": 17.99479103088379,
+              "left": 270.8854064941406,
+              "right": 288.8801975250244,
+              "top": 15.807291030883787,
+              "width": 17.99479103088379,
+              "x": 270.8854064941406,
+              "y": 15.807291030883787
+            },
+            "text": "Student message sending for Centre Admin"
+          },
+          {
+            "rect": {
+              "bottom": 33.80208206176758,
+              "height": 17.99479103088379,
+              "left": 378.7890625,
+              "right": 396.7838535308838,
+              "top": 15.807291030883787,
+              "width": 17.99479103088379,
+              "x": 378.7890625,
+              "y": 15.807291030883787
+            },
+            "text": "Student message sending for Manager"
+          },
+          {
+            "rect": {
+              "bottom": 33.80208206176758,
+              "height": 17.99479103088379,
+              "left": 464.9088439941406,
+              "right": 482.9036350250244,
+              "top": 15.807291030883787,
+              "width": 17.99479103088379,
+              "x": 464.9088439941406,
+              "y": 15.807291030883787
+            },
+            "text": "Student message sending for Teacher"
+          },
+          {
+            "rect": {
+              "bottom": 33.80208206176758,
+              "height": 17.99479103088379,
+              "left": 548.0989379882812,
+              "right": 566.093729019165,
+              "top": 15.807291030883787,
+              "width": 17.99479103088379,
+              "x": 548.0989379882812,
+              "y": 15.807291030883787
+            },
+            "text": "Student message sending for Student"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 1309.1666259765625
+      },
+      "status": "passed"
+    },
+    {
+      "role": "developer",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": "Light",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1033.2421875
+        }
+      ],
+      "theme": "light",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 320,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "developer-320-Light--settings.jpg"
+    },
+    {
+      "role": "teacher",
+      "route": "/teacher-dashboard",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "TEACHER PREVIEW Assignments and rosters are not connected.",
+        "No verified assignments",
+        "Roster unavailable",
+        "No register connected",
+        "No assignments connected",
+        "No assessments connected",
+        "No assigned-batch incidents"
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Teacher Dashboard",
+          "top": 83.984375
+        },
+        {
+          "text": "Assigned Batches",
+          "top": 242.1875
+        },
+        {
+          "text": "Students",
+          "top": 319.1796875
+        },
+        {
+          "text": "Attendance",
+          "top": 396.171875
+        },
+        {
+          "text": "Homework",
+          "top": 473.1640625
+        },
+        {
+          "text": "Tests & Results",
+          "top": 550.15625
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 627.1484375
+        }
+      ],
+      "theme": "dark",
+      "title": "Teacher Dashboard",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 22.0703125,
+              "height": 28.0859375,
+              "left": 15.989583015441896,
+              "right": 218.94530200958252,
+              "top": -6.015625,
+              "width": 202.95571899414065,
+              "x": 15.989583015441896,
+              "y": -6.015625
+            },
+            "text": "Teacher Dashboard"
+          },
+          {
+            "rect": {
+              "bottom": 111.19791412353516,
+              "height": 58.13801956176758,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": 53.05989456176758,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": 53.05989456176758
+            },
+            "text": "TEACHER PREVIEW Assignments and rosters are not connected."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 90
+      },
+      "status": "passed",
+      "screenshot": "teacher-320-Dark--teacher-dashboard.jpg"
+    },
+    {
+      "role": "teacher",
+      "route": "/attendance",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "TEACHER PREVIEW Teacher assignments and rosters are not connected.",
+        "Attendance requires a verified batch assignment."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Attendance",
+          "top": 83.984375
+        }
+      ],
+      "theme": "dark",
+      "title": "Attendance",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/tests-results",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO WORKSPACE Assessment forms and marks stay in this page session. Nothing is saved, published, or shown as an official result.",
+        "Unsaved assessment for the selected batch.",
+        "DEMO-001 · fictional",
+        "Only published results can appear in an official leaderboard.",
+        "No published results are connected. Proposed marks above do not enter this leaderboard.",
+        "Scoring rule: average percentage across the same complete set of published tests.",
+        "No published results are connected for this week. Absent students are excluded; tied averages share a rank. Rankings are unavailable until published results are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Tests & Results",
+          "top": 83.984375
+        },
+        {
+          "text": "Create test preview",
+          "top": 271.015625
+        },
+        {
+          "text": "Batch leaderboard",
+          "top": 975.9895629882812
+        },
+        {
+          "text": "Weekly leaderboard",
+          "top": 1429.0625
+        }
+      ],
+      "theme": "dark",
+      "title": "Tests & Results",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 5.1171875,
+              "height": 45.98958206176758,
+              "left": 30.8203125,
+              "right": 276.6796875,
+              "top": -40.87239456176758,
+              "width": 245.859375,
+              "x": 30.8203125,
+              "y": -40.87239456176758
+            },
+            "text": "INPUT"
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 683.3333129882812
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/homework",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Homework and submissions are unavailable until batch assignments are connected."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Homework",
+          "top": 83.984375
+        },
+        {
+          "text": "No homework connected",
+          "top": 166.8880157470703
+        }
+      ],
+      "theme": "dark",
+      "title": "Homework",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 0
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/chatrooms",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "DEMO ONLY Sample conversations only. Messages are not delivered or saved.",
+        "No rooms are enabled for this preview role.",
+        "Access is denied by the demo permission preview. · sender names are fictional profile references",
+        "Room access requires verified membership.",
+        "No verified batch assignments or incidents connected. Private messages are not shown."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Chatrooms",
+          "top": 83.984375
+        },
+        {
+          "text": "Rooms",
+          "top": 257.6822814941406
+        },
+        {
+          "text": "New General",
+          "top": 344.6354064941406
+        },
+        {
+          "text": "Chat Moderation",
+          "top": 778.6328125
+        }
+      ],
+      "theme": "dark",
+      "title": "Chatrooms",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [
+          {
+            "rect": {
+              "bottom": 61.86197662353515,
+              "height": 74.63541412353516,
+              "left": 15.989583015441896,
+              "right": 291.51039600372314,
+              "top": -12.7734375,
+              "width": 275.52081298828125,
+              "x": 15.989583015441896,
+              "y": -12.7734375
+            },
+            "text": "DEMO ONLY Sample conversations only. Messages are not delivered or saved."
+          }
+        ],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 155.8333282470703
+      },
+      "status": "passed"
+    },
+    {
+      "role": "teacher",
+      "route": "/settings",
+      "requestedWidth": 320,
+      "requestedTheme": "Dark",
+      "copy": [
+        "Full respects your device preference. Reduced limits transitions; Off disables decorative motion.",
+        "Comparison controls affect this preview only and are not saved.",
+        "Preview changes live; Apply saves for this demo user.",
+        "Live scene preview. Hold the lens to pause it.",
+        "Managed by the Centre Admin. Personal appearance does not change centre branding."
+      ],
+      "documentWidth": 307,
+      "header": {
+        "bottom": 57.99478912353515,
+        "height": 57.99478912353515,
+        "left": 0,
+        "right": 307.5,
+        "top": 0,
+        "width": 307.5,
+        "x": 0,
+        "y": 0
+      },
+      "headings": [
+        {
+          "text": "Settings",
+          "top": 89.58332824707031
+        },
+        {
+          "text": "Appearance",
+          "top": 135.9765625
+        },
+        {
+          "text": "Centre branding",
+          "top": 1033.2421875
+        }
+      ],
+      "theme": "dark",
+      "title": "Settings",
+      "width": 320,
+      "scrolled": {
+        "behindHeader": [],
+        "header": {
+          "bottom": 57.99478912353515,
+          "height": 57.99478912353515,
+          "left": 0,
+          "right": 307.5,
+          "top": 0,
+          "width": 307.5,
+          "x": 0,
+          "y": 0
+        },
+        "scrollY": 280.83331298828125,
+        "settings": {
+          "bottom": 105.98957824707033,
+          "height": 47.99478912353515,
+          "left": 15.989583015441896,
+          "right": 291.51039600372314,
+          "top": 57.99478912353515,
+          "width": 275.52081298828125,
+          "x": 15.989583015441896,
+          "y": 57.99478912353515
+        }
+      },
+      "status": "passed",
+      "screenshot": "teacher-320-Dark--settings.jpg"
+    }
+  ],
+  "themes": {
+    "developer": "System",
+    "teacher": "System"
+  }
+}

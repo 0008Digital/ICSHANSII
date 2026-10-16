@@ -1,0 +1,1432 @@
+[
+  {
+    "name": "teacher/1440/click Teacher Dashboard",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-batches",
+        "assigned-students",
+        "attendance",
+        "homework",
+        "tests",
+        "chat-moderation"
+      ],
+      "url": "/teacher-dashboard",
+      "text": "Teacher Dashboard\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nStudents\n\nRoster unavailable\n\nAttendance\n\nNo register connected\n\nHomework\n\nNo assignments connected\n\nTests & Results\n\nNo assessments connected\n\nChat Moderation\n\nNo assigned-batch incidents\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Assigned Students",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-students"
+      ],
+      "url": "/teacher-dashboard#assigned-students",
+      "text": "Students\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nStudents\n\nRoster unavailable\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Assigned Batches",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-batches"
+      ],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Rapid Attendance",
+    "evidence": {
+      "active": [
+        "/attendance"
+      ],
+      "moreActive": false,
+      "sections": [],
+      "url": "/attendance",
+      "text": "Attendance\n\nTEACHER PREVIEW\nTeacher assignments and rosters are not connected.\n\nAttendance requires a verified batch assignment."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Tests & Results",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#tests"
+      ],
+      "moreActive": true,
+      "sections": [
+        "tests"
+      ],
+      "url": "/teacher-dashboard#tests",
+      "text": "Tests & Results\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nTests & Results\n\nNo assessments connected\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Homework",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework"
+      ],
+      "moreActive": false,
+      "sections": [
+        "homework"
+      ],
+      "url": "/teacher-dashboard#homework",
+      "text": "Homework\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nHomework\n\nNo assignments connected\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/click Chatrooms",
+    "evidence": {
+      "active": [
+        "/chatrooms"
+      ],
+      "moreActive": true,
+      "sections": [],
+      "url": "/chatrooms",
+      "text": "Chatrooms\n\nDEMO ONLY\nSample conversations only. Messages are not delivered or saved.\n\nRooms\n\nNo rooms are enabled for this preview role.\n\nNew General\n\nAccess is denied by the demo permission preview. · sender names are fictional profile references\n\nSearch messages\nRoom unavailable\n\nRoom access requires verified membership.\n\nChat Moderation\nAssigned batches only\n\nNo verified batch assignments or incidents connected. Private messages are not shown."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/direct /teacher-dashboard#assigned-students",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-students"
+      ],
+      "url": "/teacher-dashboard#assigned-students",
+      "text": "Students\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nStudents\n\nRoster unavailable\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/direct /teacher-dashboard#assigned-batches",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-batches"
+      ],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/reload",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-batches"
+      ],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/back",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-students"
+      ],
+      "url": "/teacher-dashboard#assigned-students",
+      "text": "Students\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nStudents\n\nRoster unavailable\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/forward",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-batches"
+      ],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/1440/rapid and repeat",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-batches"
+      ],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Home",
+    "evidence": {
+      "active": [
+        "/student-portal"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch",
+        "attendance",
+        "results",
+        "fees",
+        "profile",
+        "homework",
+        "updates"
+      ],
+      "url": "/student-portal",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Classes / Batch",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Attendance",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Results",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "#results"
+      ],
+      "moreActive": false,
+      "sections": [
+        "results"
+      ],
+      "url": "/student-portal#results",
+      "text": "Tests & Results\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nTests & Results\nNot connected\n\nPublished results not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Fees",
+    "evidence": {
+      "active": [
+        "/student-portal#fees",
+        "#fees"
+      ],
+      "moreActive": true,
+      "sections": [
+        "fees"
+      ],
+      "url": "/student-portal#fees",
+      "text": "Fees\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Profile",
+    "evidence": {
+      "active": [
+        "/student-portal#profile",
+        "#profile"
+      ],
+      "moreActive": true,
+      "sections": [
+        "profile"
+      ],
+      "url": "/student-portal#profile",
+      "text": "Profile\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Homework",
+    "evidence": {
+      "active": [
+        "/student-portal#homework",
+        "#homework"
+      ],
+      "moreActive": true,
+      "sections": [
+        "homework"
+      ],
+      "url": "/student-portal#homework",
+      "text": "Homework\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nHomework\nNot connected\n\nAssignments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click ICS Updates",
+    "evidence": {
+      "active": [
+        "/student-portal#updates",
+        "#updates"
+      ],
+      "moreActive": true,
+      "sections": [
+        "updates"
+      ],
+      "url": "/student-portal#updates",
+      "text": "ICS Updates\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/click Chatrooms",
+    "evidence": {
+      "active": [
+        "/chatrooms"
+      ],
+      "moreActive": true,
+      "sections": [],
+      "url": "/chatrooms",
+      "text": "Chatrooms\n\nDEMO ONLY\nSample conversations only. Messages are not delivered or saved.\n\nRooms\n\nNo rooms are enabled for this preview role.\n\nNew General\n\nAccess is denied by the demo permission preview. · sender names are fictional profile references\n\nSearch messages\nRoom unavailable\n\nRoom access requires verified membership."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/direct /student-portal#batch",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/direct /student-portal#attendance",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/reload",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/back",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/forward",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/1440/rapid and repeat",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Home",
+    "evidence": {
+      "active": [
+        "/student-portal"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch",
+        "attendance",
+        "results",
+        "fees",
+        "profile",
+        "homework",
+        "updates"
+      ],
+      "url": "/student-portal",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Classes / Batch",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Attendance",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Results",
+    "evidence": {
+      "active": [
+        "/student-portal#results",
+        "#results"
+      ],
+      "moreActive": false,
+      "sections": [
+        "results"
+      ],
+      "url": "/student-portal#results",
+      "text": "Tests & Results\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nTests & Results\nNot connected\n\nPublished results not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Fees",
+    "evidence": {
+      "active": [
+        "/student-portal#fees",
+        "#fees"
+      ],
+      "moreActive": true,
+      "sections": [
+        "fees"
+      ],
+      "url": "/student-portal#fees",
+      "text": "Fees\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Profile",
+    "evidence": {
+      "active": [
+        "/student-portal#profile",
+        "#profile"
+      ],
+      "moreActive": true,
+      "sections": [
+        "profile"
+      ],
+      "url": "/student-portal#profile",
+      "text": "Profile\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Homework",
+    "evidence": {
+      "active": [
+        "/student-portal#homework",
+        "#homework"
+      ],
+      "moreActive": true,
+      "sections": [
+        "homework"
+      ],
+      "url": "/student-portal#homework",
+      "text": "Homework\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nHomework\nNot connected\n\nAssignments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click ICS Updates",
+    "evidence": {
+      "active": [
+        "/student-portal#updates",
+        "#updates"
+      ],
+      "moreActive": true,
+      "sections": [
+        "updates"
+      ],
+      "url": "/student-portal#updates",
+      "text": "ICS Updates\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/click Chatrooms",
+    "evidence": {
+      "active": [
+        "/chatrooms"
+      ],
+      "moreActive": true,
+      "sections": [],
+      "url": "/chatrooms",
+      "text": "Chatrooms\n\nDEMO ONLY\nSample conversations only. Messages are not delivered or saved.\n\nRooms\n\nNo rooms are enabled for this preview role.\n\nNew General\n\nAccess is denied by the demo permission preview. · sender names are fictional profile references\n\nSearch messages\nRoom unavailable\n\nRoom access requires verified membership."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/direct /student-portal#batch",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/direct /student-portal#attendance",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/reload",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/back",
+    "evidence": {
+      "active": [
+        "/student-portal#batch",
+        "#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/forward",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/1440/rapid and repeat",
+    "evidence": {
+      "active": [
+        "/student-portal#attendance",
+        "#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Teacher Dashboard",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-batches",
+        "assigned-students",
+        "attendance",
+        "homework",
+        "tests",
+        "chat-moderation"
+      ],
+      "url": "/teacher-dashboard",
+      "text": "Teacher Dashboard\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nStudents\n\nRoster unavailable\n\nAttendance\n\nNo register connected\n\nHomework\n\nNo assignments connected\n\nTests & Results\n\nNo assessments connected\n\nChat Moderation\n\nNo assigned-batch incidents\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Assigned Students",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-students"
+      ],
+      "url": "/teacher-dashboard#assigned-students",
+      "text": "Students\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nStudents\n\nRoster unavailable\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Assigned Batches",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Rapid Attendance",
+    "evidence": {
+      "active": [
+        "/attendance"
+      ],
+      "moreActive": false,
+      "sections": [],
+      "url": "/attendance",
+      "text": "Attendance\n\nTEACHER PREVIEW\nTeacher assignments and rosters are not connected.\n\nAttendance requires a verified batch assignment."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Tests & Results",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [
+        "tests"
+      ],
+      "url": "/teacher-dashboard#tests",
+      "text": "Tests & Results\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nTests & Results\n\nNo assessments connected\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Homework",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#homework"
+      ],
+      "moreActive": false,
+      "sections": [
+        "homework"
+      ],
+      "url": "/teacher-dashboard#homework",
+      "text": "Homework\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nHomework\n\nNo assignments connected\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/click Chatrooms",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [],
+      "url": "/chatrooms",
+      "text": "Chatrooms\n\nDEMO ONLY\nSample conversations only. Messages are not delivered or saved.\n\nRooms\n\nNo rooms are enabled for this preview role.\n\nNew General\n\nAccess is denied by the demo permission preview. · sender names are fictional profile references\n\nSearch messages\nRoom unavailable\n\nRoom access requires verified membership.\n\nChat Moderation\nAssigned batches only\n\nNo verified batch assignments or incidents connected. Private messages are not shown."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/direct /teacher-dashboard#assigned-students",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-students"
+      ],
+      "url": "/teacher-dashboard#assigned-students",
+      "text": "Students\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nStudents\n\nRoster unavailable\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/direct /teacher-dashboard#assigned-batches",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/reload",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/back",
+    "evidence": {
+      "active": [
+        "/teacher-dashboard#assigned-students"
+      ],
+      "moreActive": false,
+      "sections": [
+        "assigned-students"
+      ],
+      "url": "/teacher-dashboard#assigned-students",
+      "text": "Students\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nStudents\n\nRoster unavailable\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/forward",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "teacher/320/rapid and repeat",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [
+        "assigned-batches"
+      ],
+      "url": "/teacher-dashboard#assigned-batches",
+      "text": "Assigned Batches\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Home",
+    "evidence": {
+      "active": [
+        "/student-portal"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch",
+        "attendance",
+        "results",
+        "fees",
+        "profile",
+        "homework",
+        "updates"
+      ],
+      "url": "/student-portal",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Classes / Batch",
+    "evidence": {
+      "active": [
+        "#batch",
+        "/student-portal#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Attendance",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Results",
+    "evidence": {
+      "active": [
+        "#results",
+        "/student-portal#results"
+      ],
+      "moreActive": false,
+      "sections": [
+        "results"
+      ],
+      "url": "/student-portal#results",
+      "text": "Tests & Results\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nTests & Results\nNot connected\n\nPublished results not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Fees",
+    "evidence": {
+      "active": [
+        "#fees"
+      ],
+      "moreActive": true,
+      "sections": [
+        "fees"
+      ],
+      "url": "/student-portal#fees",
+      "text": "Fees\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Profile",
+    "evidence": {
+      "active": [
+        "#profile"
+      ],
+      "moreActive": true,
+      "sections": [
+        "profile"
+      ],
+      "url": "/student-portal#profile",
+      "text": "Profile\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Homework",
+    "evidence": {
+      "active": [
+        "#homework"
+      ],
+      "moreActive": true,
+      "sections": [
+        "homework"
+      ],
+      "url": "/student-portal#homework",
+      "text": "Homework\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nHomework\nNot connected\n\nAssignments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click ICS Updates",
+    "evidence": {
+      "active": [
+        "#updates"
+      ],
+      "moreActive": true,
+      "sections": [
+        "updates"
+      ],
+      "url": "/student-portal#updates",
+      "text": "ICS Updates\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/click Chatrooms",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [],
+      "url": "/chatrooms",
+      "text": "Chatrooms\n\nDEMO ONLY\nSample conversations only. Messages are not delivered or saved.\n\nRooms\n\nNo rooms are enabled for this preview role.\n\nNew General\n\nAccess is denied by the demo permission preview. · sender names are fictional profile references\n\nSearch messages\nRoom unavailable\n\nRoom access requires verified membership."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/direct /student-portal#batch",
+    "evidence": {
+      "active": [
+        "#batch",
+        "/student-portal#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/direct /student-portal#attendance",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/reload",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/back",
+    "evidence": {
+      "active": [
+        "#batch",
+        "/student-portal#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/forward",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentA/320/rapid and repeat",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Home",
+    "evidence": {
+      "active": [
+        "/student-portal"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch",
+        "attendance",
+        "results",
+        "fees",
+        "profile",
+        "homework",
+        "updates"
+      ],
+      "url": "/student-portal",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Classes / Batch",
+    "evidence": {
+      "active": [
+        "#batch",
+        "/student-portal#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Attendance",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Results",
+    "evidence": {
+      "active": [
+        "#results",
+        "/student-portal#results"
+      ],
+      "moreActive": false,
+      "sections": [
+        "results"
+      ],
+      "url": "/student-portal#results",
+      "text": "Tests & Results\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nTests & Results\nNot connected\n\nPublished results not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Fees",
+    "evidence": {
+      "active": [
+        "#fees"
+      ],
+      "moreActive": true,
+      "sections": [
+        "fees"
+      ],
+      "url": "/student-portal#fees",
+      "text": "Fees\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Profile",
+    "evidence": {
+      "active": [
+        "#profile"
+      ],
+      "moreActive": true,
+      "sections": [
+        "profile"
+      ],
+      "url": "/student-portal#profile",
+      "text": "Profile\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Homework",
+    "evidence": {
+      "active": [
+        "#homework"
+      ],
+      "moreActive": true,
+      "sections": [
+        "homework"
+      ],
+      "url": "/student-portal#homework",
+      "text": "Homework\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nHomework\nNot connected\n\nAssignments not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click ICS Updates",
+    "evidence": {
+      "active": [
+        "#updates"
+      ],
+      "moreActive": true,
+      "sections": [
+        "updates"
+      ],
+      "url": "/student-portal#updates",
+      "text": "ICS Updates\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/click Chatrooms",
+    "evidence": {
+      "active": [],
+      "moreActive": true,
+      "sections": [],
+      "url": "/chatrooms",
+      "text": "Chatrooms\n\nDEMO ONLY\nSample conversations only. Messages are not delivered or saved.\n\nRooms\n\nNo rooms are enabled for this preview role.\n\nNew General\n\nAccess is denied by the demo permission preview. · sender names are fictional profile references\n\nSearch messages\nRoom unavailable\n\nRoom access requires verified membership."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/direct /student-portal#batch",
+    "evidence": {
+      "active": [
+        "#batch",
+        "/student-portal#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/direct /student-portal#attendance",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/reload",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/back",
+    "evidence": {
+      "active": [
+        "#batch",
+        "/student-portal#batch"
+      ],
+      "moreActive": false,
+      "sections": [
+        "batch"
+      ],
+      "url": "/student-portal#batch",
+      "text": "Classes & Batch\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/forward",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "studentB/320/rapid and repeat",
+    "evidence": {
+      "active": [
+        "#attendance",
+        "/student-portal#attendance"
+      ],
+      "moreActive": false,
+      "sections": [
+        "attendance"
+      ],
+      "url": "/student-portal#attendance",
+      "text": "Attendance\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nAttendance\nNot connected\n\nSample attendance only.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/320/teacher",
+    "evidence": {
+      "identity": "demo-teacher",
+      "text": "Teacher Dashboard\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nStudents\n\nRoster unavailable\n\nAttendance\n\nNo register connected\n\nHomework\n\nNo assignments connected\n\nTests & Results\n\nNo assessments connected\n\nChat Moderation\n\nNo assigned-batch incidents\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/320/studentA",
+    "evidence": {
+      "identity": "demo-student-a",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/320/studentB",
+    "evidence": {
+      "identity": "demo-student-b",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/320/developer",
+    "evidence": {
+      "identity": "demo-platform-owner",
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.\n\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.\n\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.\n\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/320/admin",
+    "evidence": {
+      "identity": "demo-centre-admin",
+      "text": "Dashboard\nTotal Students\n—\nUnavailable\nToday's Attendance\n—\nUnavailable\nPending Fees\n—\nUnavailable\nUpcoming Tests\n—\nUnavailable\nEnrollment renewals\nDEMO FIXTURES · NOT LIVE\nStudents expiring soon\n2\nReview demo enrollments\nExpired enrollments\n1\nReview demo enrollments\nRenewals due\n3\nOpen Students\nRenewals completed\nNo demo history\nPending renewal payments\nNo demo payments\n\nSample enrollments only. Live totals, payments and renewal history are not connected.\n\nAdmissions trend\nSIMULATED\nAug\n12\nSep\n18\nOct\n16\n\nSample data · not live.\n\nAttendance trend\nSIMULATED\nAug\n88%\nSep\n91%\nOct\n86%\n\nSample data · not live.\n\nFinancial overview\nSIMULATED\nCollections\nExpenses\nOutstanding fees\nAug\nCollections ₹65000; expenses ₹28000; outstanding fees ₹25000\nSep\nCollections ₹75000; expenses ₹31000; outstanding fees ₹20000\nOct\nCollections ₹80000; expenses ₹35000; outstanding fees ₹18000\n\nSample figures only; collections and expenses are not verified financial records.\n\nRecent Activity\n\nNo activity available yet."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/320/manager",
+    "evidence": {
+      "identity": "demo-manager",
+      "text": "Dashboard\nTotal Students\n—\nUnavailable\nToday's Attendance\n—\nUnavailable\nFee Follow-ups\n—\nUnavailable\nUpcoming Tests\n—\nUnavailable\nEnrollment renewals\nDEMO FIXTURES · NOT LIVE\nStudents expiring soon\n2\nReview demo enrollments\nExpired enrollments\n1\nReview demo enrollments\nRenewals due\n3\nOpen Students\nRenewals completed\nNo demo history\nPending renewal payments\nNo demo payments\n\nSample enrollments only. Live totals, payments and renewal history are not connected.\n\nDaily admissions\nSIMULATED\nMon\n2\nTue\n4\nWed\n3\nThu\n5\n\nSample data · not live.\n\nRenewal queue preview\nSIMULATED\nDue soon\n3\nExpired\n1\nCompleted\n2\n\nSample data · not live.\n\nRecent Activity\n\nNo activity available yet."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/1440/teacher",
+    "evidence": {
+      "identity": "demo-teacher",
+      "text": "Teacher Dashboard\n\nTEACHER PREVIEW\nAssignments and rosters are not connected.\n\nAssigned Batches\n\nNo verified assignments\n\nStudents\n\nRoster unavailable\n\nAttendance\n\nNo register connected\n\nHomework\n\nNo assignments connected\n\nTests & Results\n\nNo assessments connected\n\nChat Moderation\n\nNo assigned-batch incidents\n\nRapid Attendance\nHomework\nTests & Results\nChatrooms"
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/1440/studentA",
+    "evidence": {
+      "identity": "demo-student-a",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student A\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/1440/studentB",
+    "evidence": {
+      "identity": "demo-student-b",
+      "text": "Student Home\n\nFICTIONAL PREVIEW\nSample data only. Your private records are not connected.\n\nClasses & Batch\nAttendance\nTests & Results\nFees\nProfile\nHomework\nICS Updates\nChatrooms\nHelp & Settings\nSTUDENT WORKSPACE · DEMO\nGood morning, Student B\n\nSample student · New General · Enrollment not connected.\n\nFees\nDEMO DATA\n70%\nPaid\nTotal ₹10,000; paid ₹7,000; remaining ₹3,000. Paid 70%, Pending 30%.\nPaid 70%\nPending 30%\nTotal\n₹10,000\nPaid\n₹7,000\nRemaining\n₹3,000\n\nNo payment or receipt is recorded.\n\nAttendance\nDEMO DATA\n84%\nPresent\n42 present, 5 absent, 3 leave. Present 84%, Absent 10%, Leave 6%.\nPresent 84%\nAbsent 10%\nLeave 6%\nPresent\n42\nAbsent\n5\nLeave\n3\n\nSample attendance totals, not a real register.\n\nHomework\nDEMO DATA\nCompletion\n80%\n\n8 of 10 fictional tasks complete.\n\nView homework\nRecent tests\nDEMO DATA\nMathematics\n82%\nScience\n76%\nEnglish\n88%\n\nSample scores · assessments not connected.\n\nClasses & Batch\nNot connected\n\nNew General · timetable not connected.\n\nAttendance\nNot connected\n\nSample attendance only.\n\nTests & Results\nNot connected\n\nPublished results not connected.\n\nFees\nNot connected\n\nPersonal fees and payments not connected.\n\nProfile\nNot connected\n\nVerified profile details require secure sign-in.\n\nHomework\nNot connected\n\nAssignments not connected.\n\nICS Updates\nNot connected\n\nNo notices or timetables published.\n\nPrivate student records require secure sign-in. Figures shown here are sample data."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/1440/developer",
+    "evidence": {
+      "identity": "demo-platform-owner",
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.\n\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.\n\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.\n\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/1440/admin",
+    "evidence": {
+      "identity": "demo-centre-admin",
+      "text": "Dashboard\nTotal Students\n—\nUnavailable\nToday's Attendance\n—\nUnavailable\nPending Fees\n—\nUnavailable\nUpcoming Tests\n—\nUnavailable\nEnrollment renewals\nDEMO FIXTURES · NOT LIVE\nStudents expiring soon\n2\nReview demo enrollments\nExpired enrollments\n1\nReview demo enrollments\nRenewals due\n3\nOpen Students\nRenewals completed\nNo demo history\nPending renewal payments\nNo demo payments\n\nSample enrollments only. Live totals, payments and renewal history are not connected.\n\nAdmissions trend\nSIMULATED\nAug\n12\nSep\n18\nOct\n16\n\nSample data · not live.\n\nAttendance trend\nSIMULATED\nAug\n88%\nSep\n91%\nOct\n86%\n\nSample data · not live.\n\nFinancial overview\nSIMULATED\nCollections\nExpenses\nOutstanding fees\nAug\nCollections ₹65000; expenses ₹28000; outstanding fees ₹25000\nSep\nCollections ₹75000; expenses ₹31000; outstanding fees ₹20000\nOct\nCollections ₹80000; expenses ₹35000; outstanding fees ₹18000\n\nSample figures only; collections and expenses are not verified financial records.\n\nRecent Activity\n\nNo activity available yet."
+    },
+    "status": "passed"
+  },
+  {
+    "name": "switch/1440/manager",
+    "evidence": {
+      "identity": "demo-manager",
+      "text": "Dashboard\nTotal Students\n—\nUnavailable\nToday's Attendance\n—\nUnavailable\nFee Follow-ups\n—\nUnavailable\nUpcoming Tests\n—\nUnavailable\nEnrollment renewals\nDEMO FIXTURES · NOT LIVE\nStudents expiring soon\n2\nReview demo enrollments\nExpired enrollments\n1\nReview demo enrollments\nRenewals due\n3\nOpen Students\nRenewals completed\nNo demo history\nPending renewal payments\nNo demo payments\n\nSample enrollments only. Live totals, payments and renewal history are not connected.\n\nDaily admissions\nSIMULATED\nMon\n2\nTue\n4\nWed\n3\nThu\n5\n\nSample data · not live.\n\nRenewal queue preview\nSIMULATED\nDue soon\n3\nExpired\n1\nCompleted\n2\n\nSample data · not live.\n\nRecent Activity\n\nNo activity available yet."
+    },
+    "status": "passed"
+  }
+]

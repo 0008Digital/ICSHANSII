@@ -1,0 +1,86 @@
+[
+  {
+    "w": 320,
+    "identity": "demo-centre-admin",
+    "expected": "Centre Dashboard",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer#developer-settings"
+  },
+  {
+    "w": 320,
+    "identity": "demo-manager",
+    "expected": "Manager Dashboard",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer#developer-settings"
+  },
+  {
+    "w": 320,
+    "identity": "demo-teacher",
+    "expected": "Teacher Dashboard",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer#developer-settings"
+  },
+  {
+    "w": 320,
+    "identity": "demo-student-a",
+    "expected": "Student Home",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer#developer-settings"
+  },
+  {
+    "w": 320,
+    "identity": "demo-student-b",
+    "expected": "Student Home",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer#developer-settings"
+  },
+  {
+    "w": 320,
+    "identity": "demo-platform-owner",
+    "expected": "Developer Console",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  },
+  {
+    "w": 1440,
+    "identity": "demo-centre-admin",
+    "expected": "Centre Dashboard",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  },
+  {
+    "w": 1440,
+    "identity": "demo-manager",
+    "expected": "Manager Dashboard",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  },
+  {
+    "w": 1440,
+    "identity": "demo-teacher",
+    "expected": "Teacher Dashboard",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  },
+  {
+    "w": 1440,
+    "identity": "demo-student-a",
+    "expected": "Student Home",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  },
+  {
+    "w": 1440,
+    "identity": "demo-student-b",
+    "expected": "Student Home",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  },
+  {
+    "w": 1440,
+    "identity": "demo-platform-owner",
+    "expected": "Developer Console",
+    "actual": "Developer Console",
+    "url": "http://localhost:3000/developer"
+  }
+]

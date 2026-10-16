@@ -1,0 +1,53 @@
+[
+  {
+    "grandparent": "directory student-directory",
+    "grandparentOverflow": "hidden",
+    "parent": "student-view-tabs",
+    "parentOverflow": "auto",
+    "rect": {
+      "bottom": 1133.4114570617676,
+      "height": 35.98958206176758,
+      "left": 297.578125,
+      "right": 403.671875,
+      "top": 1097.421875,
+      "width": 106.09375,
+      "x": 297.578125,
+      "y": 1097.421875
+    },
+    "text": "Fee Follow-ups"
+  },
+  {
+    "grandparent": "directory student-directory",
+    "grandparentOverflow": "hidden",
+    "parent": "student-view-tabs",
+    "parentOverflow": "auto",
+    "rect": {
+      "bottom": 1133.4114570617676,
+      "height": 35.98958206176758,
+      "left": 408.671875,
+      "right": 502.6041641235352,
+      "top": 1097.421875,
+      "width": 93.93228912353516,
+      "x": 408.671875,
+      "y": 1097.421875
+    },
+    "text": "Renewal Due"
+  },
+  {
+    "grandparent": "directory student-directory",
+    "grandparentOverflow": "hidden",
+    "parent": "student-view-tabs",
+    "parentOverflow": "auto",
+    "rect": {
+      "bottom": 1133.4114570617676,
+      "height": 35.98958206176758,
+      "left": 507.6041564941406,
+      "right": 573.1900939941406,
+      "top": 1097.421875,
+      "width": 65.5859375,
+      "x": 507.6041564941406,
+      "y": 1097.421875
+    },
+    "text": "Archive"
+  }
+]

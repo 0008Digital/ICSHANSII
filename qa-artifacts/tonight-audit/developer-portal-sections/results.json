@@ -1,0 +1,980 @@
+[
+  {
+    "name": "1440/click/console",
+    "status": "passed",
+    "evidence": {
+      "chart": true,
+      "height": 900,
+      "sections": [
+        "overview"
+      ],
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count",
+      "title": "Developer Console",
+      "url": "/developer",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/console",
+    "status": "passed",
+    "evidence": {
+      "chart": true,
+      "height": 900,
+      "sections": [
+        "overview"
+      ],
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count",
+      "title": "Developer Console",
+      "url": "/developer",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/console",
+    "status": "passed",
+    "evidence": {
+      "chart": true,
+      "height": 900,
+      "sections": [
+        "overview"
+      ],
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count",
+      "title": "Developer Console",
+      "url": "/developer",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/bug-reports",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "bug-reports"
+      ],
+      "text": "Bug Reports\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+      "title": "Bug Reports",
+      "url": "/developer#bug-reports",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/bug-reports",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "bug-reports"
+      ],
+      "text": "Bug Reports\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+      "title": "Bug Reports",
+      "url": "/developer#bug-reports",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/bug-reports",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "bug-reports"
+      ],
+      "text": "Bug Reports\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+      "title": "Bug Reports",
+      "url": "/developer#bug-reports",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/application-errors",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "application-errors"
+      ],
+      "text": "Application Errors\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+      "title": "Application Errors",
+      "url": "/developer#application-errors",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/application-errors",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "application-errors"
+      ],
+      "text": "Application Errors\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+      "title": "Application Errors",
+      "url": "/developer#application-errors",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/application-errors",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "application-errors"
+      ],
+      "text": "Application Errors\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+      "title": "Application Errors",
+      "url": "/developer#application-errors",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/system-health",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "system-health"
+      ],
+      "text": "System Health\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+      "title": "System Health",
+      "url": "/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/system-health",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "system-health"
+      ],
+      "text": "System Health\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+      "title": "System Health",
+      "url": "/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/system-health",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "system-health"
+      ],
+      "text": "System Health\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+      "title": "System Health",
+      "url": "/developer#system-health",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/release-updates",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "release-updates"
+      ],
+      "text": "Release Updates\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+      "title": "Release Updates",
+      "url": "/developer#release-updates",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/release-updates",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "release-updates"
+      ],
+      "text": "Release Updates\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+      "title": "Release Updates",
+      "url": "/developer#release-updates",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/release-updates",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "release-updates"
+      ],
+      "text": "Release Updates\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+      "title": "Release Updates",
+      "url": "/developer#release-updates",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/feedback",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/feedback",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/feedback",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/chat-moderation",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "chat-moderation"
+      ],
+      "text": "Chatroom Moderation\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+      "title": "Chatroom Moderation",
+      "url": "/developer#chat-moderation",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/chat-moderation",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "chat-moderation"
+      ],
+      "text": "Chatroom Moderation\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+      "title": "Chatroom Moderation",
+      "url": "/developer#chat-moderation",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/chat-moderation",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "chat-moderation"
+      ],
+      "text": "Chatroom Moderation\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+      "title": "Chatroom Moderation",
+      "url": "/developer#chat-moderation",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/centres",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/centres",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/centres",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/developer-settings",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/developer-settings",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/developer-settings",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/click/appearance",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [],
+      "text": "Settings\nAppearance\nAppearance\nTheme\nAppearance\nLight\nDark\nSystem\nBackground source\nMotion\nPhoto\nTopo\nChroma\nCustom\nGlass material\nGlass material\nClear\nRegular\nFrosted\nAccent\nCustom accent\n#7896FF\nScene Motion\nEnable background animations\nInterface animation\nReset to Default\nApply appearance\nDiscard preview\nApplied on this device for this demo user. FULL motion.\nAdvanced Glass Settings\nCentre branding\n\nManaged by the Centre Admin. Personal appearance does not change centre branding.",
+      "title": "Settings",
+      "url": "/settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/direct/appearance",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [],
+      "text": "Settings\nAppearance\nAppearance\nTheme\nAppearance\nLight\nDark\nSystem\nBackground source\nMotion\nPhoto\nTopo\nChroma\nCustom\nGlass material\nGlass material\nClear\nRegular\nFrosted\nAccent\nCustom accent\n#7896FF\nScene Motion\nEnable background animations\nInterface animation\nReset to Default\nApply appearance\nDiscard preview\nApplied on this device for this demo user. FULL motion.\nAdvanced Glass Settings\nCentre branding\n\nManaged by the Centre Admin. Personal appearance does not change centre branding.",
+      "title": "Settings",
+      "url": "/settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/reload/appearance",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [],
+      "text": "Settings\nAppearance\nAppearance\nTheme\nAppearance\nLight\nDark\nSystem\nBackground source\nMotion\nPhoto\nTopo\nChroma\nCustom\nGlass material\nGlass material\nClear\nRegular\nFrosted\nAccent\nCustom accent\n#7896FF\nScene Motion\nEnable background animations\nInterface animation\nReset to Default\nApply appearance\nDiscard preview\nApplied on this device for this demo user. FULL motion.\nAdvanced Glass Settings\nCentre branding\n\nManaged by the Centre Admin. Personal appearance does not change centre branding.",
+      "title": "Settings",
+      "url": "/settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/back",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/forward",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 1440
+    }
+  },
+  {
+    "name": "1440/rapid-repeat",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 1440
+    }
+  },
+  {
+    "name": "320/click/console",
+    "status": "passed",
+    "evidence": {
+      "chart": true,
+      "height": 900,
+      "sections": [
+        "overview"
+      ],
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count",
+      "title": "Developer Console",
+      "url": "/developer",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/console",
+    "status": "passed",
+    "evidence": {
+      "chart": true,
+      "height": 900,
+      "sections": [
+        "overview"
+      ],
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count",
+      "title": "Developer Console",
+      "url": "/developer",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/console",
+    "status": "passed",
+    "evidence": {
+      "chart": true,
+      "height": 900,
+      "sections": [
+        "overview"
+      ],
+      "text": "Developer Console\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nReports by severity\nCritical\n0\nHigh\n0\nMedium\n1\nLow\n1\nTotal reports\n2\nSample count\nOpen reports\n2\nSample count\nCritical reports\n0\nSample count\nResolved reports\n0\nSample count",
+      "title": "Developer Console",
+      "url": "/developer",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/bug-reports",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "bug-reports"
+      ],
+      "text": "Bug Reports\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+      "title": "Bug Reports",
+      "url": "/developer#bug-reports",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/bug-reports",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "bug-reports"
+      ],
+      "text": "Bug Reports\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+      "title": "Bug Reports",
+      "url": "/developer#bug-reports",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/bug-reports",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "bug-reports"
+      ],
+      "text": "Bug Reports\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nBug Reports\n\nSample reports · changes are not saved.\n\nDEMO DATA\nSearch\nStatus\nAll statuses\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\nSeverity\nAll severities\nLow\nMedium\nHigh\nCritical\nRole\nAll roles\nAdmin\nManager\nTeacher\nStudent\nCentre\nAll centres\nDemo centre\nDate\nSearch focus is unclear after opening\nDEMO-BUG-001 · Medium\nNew · Teacher · /students\nSample calendar boundary state\nDEMO-BUG-002 · Low\nInvestigating · Admin · /settings\nSearch focus is unclear after opening\nDEMO-BUG-001 · Accessibility · Fictional · 09:15\nNew\nInvestigating\nIn Progress\nFixed\nClosed\nDuplicate\n\nFocus appears to leave the sample search control after the dialog opens.\n\nReporting role\nTeacher\nReporter reference\nDEMO-REPORTER-01\nCentre\nDemo centre metadata only\nAffected route\n/students\nDate\n2026-10-13\nDevice\nDesktop browser preview\nAttachment metadata\nNone\nReproduction\nOpen the directory and use keyboard search.\nDeveloper notes\n\nChanges are not saved.",
+      "title": "Bug Reports",
+      "url": "/developer#bug-reports",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/application-errors",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "application-errors"
+      ],
+      "text": "Application Errors\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+      "title": "Application Errors",
+      "url": "/developer#application-errors",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/application-errors",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "application-errors"
+      ],
+      "text": "Application Errors\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+      "title": "Application Errors",
+      "url": "/developer#application-errors",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/application-errors",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "application-errors"
+      ],
+      "text": "Application Errors\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nApplication Errors\n\nError collection is not connected.\n\nNO INGESTION\n\nNo errors are being collected.\n\nFrontend runtime\nNot connected\nFailed API request\nNot connected\nAuthentication\nNot connected\nDatabase\nNot connected\nPayments\nNot connected\nBackground job\nNot connected\nChat delivery\nNot connected\n\nNever capture credentials, payment secrets, student data or page contents.",
+      "title": "Application Errors",
+      "url": "/developer#application-errors",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/system-health",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "system-health"
+      ],
+      "text": "System Health\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+      "title": "System Health",
+      "url": "/developer#system-health",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/system-health",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "system-health"
+      ],
+      "text": "System Health\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+      "title": "System Health",
+      "url": "/developer#system-health",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/system-health",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "system-health"
+      ],
+      "text": "System Health\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nSystem Health\n\nService status is unavailable.\n\nUNKNOWN\nWebsite availability\nNot configured\nAPI\nNot configured\nDatabase\nNot configured\nAuthentication\nNot configured\nPayments\nNot configured\nMessaging\nNot configured\nBackground jobs\nNot configured",
+      "title": "System Health",
+      "url": "/developer#system-health",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/release-updates",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "release-updates"
+      ],
+      "text": "Release Updates\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+      "title": "Release Updates",
+      "url": "/developer#release-updates",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/release-updates",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "release-updates"
+      ],
+      "text": "Release Updates\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+      "title": "Release Updates",
+      "url": "/developer#release-updates",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/release-updates",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "release-updates"
+      ],
+      "text": "Release Updates\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nRelease Updates\n\nLocal changelog preview.\n\nDEMO\n0.1.0 · UI foundation\nPreview · deployment status unknown\n\nInterface preview · no deployment is connected.\n\nInternal notes are not published to users.",
+      "title": "Release Updates",
+      "url": "/developer#release-updates",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/feedback",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/feedback",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/feedback",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/chat-moderation",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "chat-moderation"
+      ],
+      "text": "Chatroom Moderation\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+      "title": "Chatroom Moderation",
+      "url": "/developer#chat-moderation",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/chat-moderation",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "chat-moderation"
+      ],
+      "text": "Chatroom Moderation\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+      "title": "Chatroom Moderation",
+      "url": "/developer#chat-moderation",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/chat-moderation",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "chat-moderation"
+      ],
+      "text": "Chatroom Moderation\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nChatroom Moderation\n\nModeration is not connected.\n\nCONTENT ACCESS DENIED BY DEFAULT\n\nNo moderation service or incidents are connected. Developer access to private message content requires explicit, audited support authorization from the centre.\n\nOpen Chat Permissions preview",
+      "title": "Chatroom Moderation",
+      "url": "/developer#chat-moderation",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/centres",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/centres",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/centres",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/developer-settings",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/developer-settings",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/developer-settings",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/click/appearance",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [],
+      "text": "Settings\nAppearance\nAppearance\nTheme\nAppearance\nLight\nDark\nSystem\nBackground source\nMotion\nPhoto\nTopo\nChroma\nCustom\nGlass material\nGlass material\nClear\nRegular\nFrosted\nAccent\nCustom accent\n#7896FF\nScene Motion\nEnable background animations\nInterface animation\nReset to Default\nApply appearance\nDiscard preview\nApplied on this device for this demo user. FULL motion.\nAdvanced Glass Settings\nCentre branding\n\nManaged by the Centre Admin. Personal appearance does not change centre branding.",
+      "title": "Settings",
+      "url": "/settings",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/direct/appearance",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [],
+      "text": "Settings\nAppearance\nAppearance\nTheme\nAppearance\nLight\nDark\nSystem\nBackground source\nMotion\nPhoto\nTopo\nChroma\nCustom\nGlass material\nGlass material\nClear\nRegular\nFrosted\nAccent\nCustom accent\n#7896FF\nScene Motion\nEnable background animations\nInterface animation\nReset to Default\nApply appearance\nDiscard preview\nApplied on this device for this demo user. FULL motion.\nAdvanced Glass Settings\nCentre branding\n\nManaged by the Centre Admin. Personal appearance does not change centre branding.",
+      "title": "Settings",
+      "url": "/settings",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/reload/appearance",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [],
+      "text": "Settings\nAppearance\nAppearance\nTheme\nAppearance\nLight\nDark\nSystem\nBackground source\nMotion\nPhoto\nTopo\nChroma\nCustom\nGlass material\nGlass material\nClear\nRegular\nFrosted\nAccent\nCustom accent\n#7896FF\nScene Motion\nEnable background animations\nInterface animation\nReset to Default\nApply appearance\nDiscard preview\nApplied on this device for this demo user. FULL motion.\nAdvanced Glass Settings\nCentre branding\n\nManaged by the Centre Admin. Personal appearance does not change centre branding.",
+      "title": "Settings",
+      "url": "/settings",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/back",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "feedback"
+      ],
+      "text": "Feedback\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nFeedback\n\nNo submissions connected.\n\n0 REAL ITEMS\n\nNo feedback available.",
+      "title": "Feedback",
+      "url": "/developer#feedback",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/forward",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "centres"
+      ],
+      "text": "Centre Overview\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nCentre Overview\n\nTenant metadata only.\n\nNO STUDENT RECORDS\nDemo workspace\nICS Hansi preview\nBranch\nDemo branch\nProvisioning\nNot configured\nCentre administrators\nNot connected",
+      "title": "Centre Overview",
+      "url": "/developer#centres",
+      "width": 320
+    }
+  },
+  {
+    "name": "320/rapid-repeat",
+    "status": "passed",
+    "evidence": {
+      "chart": false,
+      "height": 900,
+      "sections": [
+        "developer-settings"
+      ],
+      "text": "Developer Settings\n\nSIMULATED\nSample reports only. Live monitoring and centres are not connected.\n\nOverview\nBug Reports\nApplication Errors\nSystem Health\nRelease Updates\nFeedback\nChatroom Moderation\nCentre Overview\nDeveloper Settings\nDeveloper Settings\n\nPreferences preview only.\n\nAutomatic notifications\nNotification service not connected.",
+      "title": "Developer Settings",
+      "url": "/developer#developer-settings",
+      "width": 320
+    }
+  }
+]
